@@ -16,18 +16,9 @@ const exec = require('child_process').exec;
 		 else if(error === null) { 
 
                   console.log('got the json of youtube get api');
- }
+                  var parsedJSON = require('./result.json');
 
-
-});
- 
-
-
-
-
-
-
-var list=[];
+		var list=[];
 
 //console.log(parsedJSON['items']);
 
@@ -93,6 +84,20 @@ var yourscript = exec('sh ./download.sh ' + list[item] + ' ' + item,
  
 
 }
+
+
+ }
+
+
+});
+ 
+
+
+
+
+
+
+
 
 
 
