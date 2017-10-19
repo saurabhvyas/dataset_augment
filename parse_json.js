@@ -6,6 +6,7 @@ var list=[];
 
 //console.log(parsedJSON['items']);
 
+//console.log(process.argv[2]);
 
 function run_cmd(cmd, args, callBack ) {
     var spawn = require('child_process').spawn;
@@ -54,7 +55,7 @@ var yourscript = exec('sh ./download.sh ' + list[item] + ' ' + item,
 
               if ( temp === list.length) {    // run code after loop terminates
 
-    exec('sh ./after_download.sh ',
+    exec('sh ./after_download.sh ' + process.argv[2]  ,
         (error, stdout, stderr) => { console.log(`${stdout}`);
             console.log(`${stderr}`); }  );
    }
