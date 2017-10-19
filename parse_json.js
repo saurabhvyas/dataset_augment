@@ -28,29 +28,47 @@ for (var item in parsedJSON['items'])
 
 
 
+const exec = require('child_process').exec;
 
-
+var temp=0;
 
 for ( item in list) {
  
  // console.log(list[item]);
  
   
+ 
 
 
-const exec = require('child_process').exec;
-var yourscript = exec('sh ./download.sh ' + list[item],
+var yourscript = exec('sh ./download.sh ' + list[item] + ' ' + item,
         (error, stdout, stderr) => {
             console.log(`${stdout}`);
             console.log(`${stderr}`);
+  
             if (error !== null) {
                 console.log(`exec error: ${error}`);
             }
+            
+            else if(error === null) {
+              temp=temp+1;  
+
+              if ( temp === list.length) {    // run code after loop terminates
+
+    exec('sh ./after_download.sh ',
+        (error, stdout, stderr) => { console.log(`${stdout}`);
+            console.log(`${stderr}`); }  );
+   }
+            
+                }
+
+            
         });
 
  
 
 }
+
+
 
 
 
