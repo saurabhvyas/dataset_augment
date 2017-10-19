@@ -1,6 +1,31 @@
 
 
-var parsedJSON = require('./result.json');
+const util = require('util');
+const exec = require('child_process').exec;
+
+ 
+   exec('sh api.sh ' + process.argv[2] ,(error, stdout, stderr) => {
+	
+   console.log(`${stdout}`);
+   console.log(`${stderr}`);
+  
+            if (error !== null) {
+                console.log(`exec error: ${error}`);
+            }
+
+		 else if(error === null) { 
+
+                  console.log('got the json of youtube get api');
+ }
+
+
+});
+ 
+
+
+
+
+
 
 var list=[];
 
@@ -29,7 +54,7 @@ for (var item in parsedJSON['items'])
 
 
 
-const exec = require('child_process').exec;
+//const exec = require('child_process').exec;
 
 var temp=0;
 
