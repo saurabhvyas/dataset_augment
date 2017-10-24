@@ -1,835 +1,835 @@
 {
  "kind": "youtube#searchListResponse",
- "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/PSUl6ezs_IGrqS--BQBe4MXDDiQ\"",
+ "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/R9FpdjaiFRJQ3ZwoM63z-Z9jziU\"",
  "nextPageToken": "CBkQAA",
  "regionCode": "IN",
  "pageInfo": {
-  "totalResults": 79141,
+  "totalResults": 26,
   "resultsPerPage": 25
  },
  "items": [
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/JD_UA3WQSzRc00DrBy5yHdnpp20\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/Azeh9Z6HHop85Ti6x_XH5PiETG4\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "MPV7JXTWPWI"
+    "videoId": "tWU1mGCT_34"
    },
    "snippet": {
-    "publishedAt": "2015-12-09T04:00:00.000Z",
-    "channelId": "UCTCvWvqjktIq0uvM3trAHCg",
-    "title": "How to use FFMPEG",
-    "description": "For more supplementary information about the PATH variable, the command line and where to go next, please refer to this blog post on the NERDfirst official ...",
+    "publishedAt": "2014-10-02T19:39:15.000Z",
+    "channelId": "UCFSiGJcC3QT9NvkPgy3l1lg",
+    "title": "The Absorption Law",
+    "description": "This video describes the absorption law used to simplify Boolean expressions.",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/MPV7JXTWPWI/default.jpg",
+      "url": "https://i.ytimg.com/vi/tWU1mGCT_34/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/MPV7JXTWPWI/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/tWU1mGCT_34/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/MPV7JXTWPWI/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/tWU1mGCT_34/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "0612 TV w/ NERDfirst",
+    "channelTitle": "AS Computing @ Aquinas College",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/Pxe3DRZk6GDk2cKmIiDGClKaKr0\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/qa3Va2XdGRXIe1wTKXPB1m9tLRo\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "xcdTIDHm4KM"
+    "videoId": "BST5GRsAnPk"
    },
    "snippet": {
-    "publishedAt": "2013-05-15T19:58:41.000Z",
-    "channelId": "UCCmSCACs1A-X48MoUiRXleQ",
-    "title": "FFMPEG: Installing FFMPEG On Windows",
-    "description": "A video tutorial showing you how to install FFMPEG on Windows http://ffmpeg.zeranoe.com http://www.abell12.com ...",
+    "publishedAt": "2016-10-11T11:20:55.000Z",
+    "channelId": "UCUFjs1YL_rfNsMx90yAunxg",
+    "title": "Spectrophotometry | Beer-Lambert Law.",
+    "description": "This video is about Spectrophotometry, and discusses in details the Spectrophotometer and Beer-Lambert's law. In this video I discuss the relationship between ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/xcdTIDHm4KM/default.jpg",
+      "url": "https://i.ytimg.com/vi/BST5GRsAnPk/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/xcdTIDHm4KM/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/BST5GRsAnPk/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/xcdTIDHm4KM/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/BST5GRsAnPk/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "abell12",
+    "channelTitle": "Ali Hayek",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/UDE10pj2fjY5KPFl9EpDiohxUxA\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/fUOnjgG8LLn3bOWE3EGYtaCUAEo\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "BiMP_hN8f6s"
+    "videoId": "1NkNibqI61Q"
    },
    "snippet": {
-    "publishedAt": "2015-02-13T23:40:37.000Z",
-    "channelId": "UCon0OQExfI5VlnPppc1YzYA",
-    "title": "FFMPEG Introduction & Examples",
-    "description": "1 slide introduction to the FFMPEG project. ~10 command line examples. Presented to the Dayton Data Visualization meetup group. Thanks very much to AIS for ...",
+    "publishedAt": "2016-06-18T12:04:39.000Z",
+    "channelId": "UCRIWTSgd7hGtZhx4RYoASEg",
+    "title": "Laws of Boolean Algebra - Part 2 | Boolean Algebra & Logic Gates",
+    "description": "Learn the Fundamental Laws of Boolean Algebra. We have divided this topic in 2 parts. In this part we will learn the 4 Laws of Boolean Algebra: 1. Commutative ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/BiMP_hN8f6s/default.jpg",
+      "url": "https://i.ytimg.com/vi/1NkNibqI61Q/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/BiMP_hN8f6s/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/1NkNibqI61Q/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/BiMP_hN8f6s/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/1NkNibqI61Q/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "cbttjm",
+    "channelTitle": "Simple Snippets",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/bYuT8iKlmZNjRLarn1Rr43MS9MY\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/eb0HAMuUgwio7RFKbnM3yk0M3nY\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "wBy0vfExhJ8"
+    "videoId": "r5bDOgpVcQU"
    },
    "snippet": {
-    "publishedAt": "2014-09-16T20:33:53.000Z",
-    "channelId": "UC45KSayx_kwQAnhpaPAuVkw",
-    "title": "Video, Python and FFmpeg: What you can do! - Dean Silfen",
-    "description": "An introduction to the video processing libraries available in Python.",
+    "publishedAt": "2016-12-28T17:51:41.000Z",
+    "channelId": "UCQ91Bcf_W-wdx7vBH17_mpA",
+    "title": "Boolean Algebra- Proof of Absorption law",
+    "description": "Proof of Absorption law in Boolean Algebra.",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/wBy0vfExhJ8/default.jpg",
+      "url": "https://i.ytimg.com/vi/r5bDOgpVcQU/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/wBy0vfExhJ8/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/r5bDOgpVcQU/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/wBy0vfExhJ8/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/r5bDOgpVcQU/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "PyGotham 2014",
+    "channelTitle": "Ranjan Barman",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/vqjuIohwlmm8AadkcRBc7vrGnOA\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/fITUe53DdGiD4oPaeU14JHFaiic\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "IeAMsyyGja8"
+    "videoId": "Wyd-PLf2mc0"
    },
    "snippet": {
-    "publishedAt": "2017-01-18T21:35:22.000Z",
-    "channelId": "UCNw4LP_NXVpJIAR0eSMW2uw",
-    "title": "Live Streaming with Nginx and FFmpeg",
-    "description": "Episode 4 - Live Streaming with Nginx and FFmpeg http://livestreamninja.com/live-streaming-with-nginx-and-ffmpeg/ Nginx Conf: ...",
+    "publishedAt": "2015-02-09T02:23:00.000Z",
+    "channelId": "UCaV_0qp2NZd319K4_K8Z5SQ",
+    "title": "Prove Logical Equivalence Using Laws",
+    "description": "Prove the following logical equivalence using laws of logical equivalence, and without using a truth table. More videos on Logical Equivalence: (0) Logical ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/IeAMsyyGja8/default.jpg",
+      "url": "https://i.ytimg.com/vi/Wyd-PLf2mc0/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/IeAMsyyGja8/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/Wyd-PLf2mc0/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/IeAMsyyGja8/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/Wyd-PLf2mc0/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "livestreamninja",
+    "channelTitle": "randerson112358",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/ou_5gF64jT6lCwhmWYdM4cFHIWM\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/IGaE2kPh0DVChbryOH79Q4mXOYY\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "M58rc7cxl_s"
+    "videoId": "VISA2SjrCi4"
    },
    "snippet": {
-    "publishedAt": "2016-09-28T04:00:01.000Z",
-    "channelId": "UCTCvWvqjktIq0uvM3trAHCg",
-    "title": "FFMPEG Advanced Techniques Pt1 - Advanced Filters",
-    "description": "In the past, we've worked with FFMPEG as a conversion tool, but in fact, this little command line utility is so much more! We kick off this two-part series by first ...",
+    "publishedAt": "2013-01-31T23:11:44.000Z",
+    "channelId": "UC9-pjCplwHKmbxrxn_Nh9mg",
+    "title": "2.1.3 - Laws of Logic",
+    "description": "The laws of logic See all Ant On Math videos at www.antonmath.com.",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/M58rc7cxl_s/default.jpg",
+      "url": "https://i.ytimg.com/vi/VISA2SjrCi4/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/M58rc7cxl_s/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/VISA2SjrCi4/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/M58rc7cxl_s/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/VISA2SjrCi4/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "0612 TV w/ NERDfirst",
+    "channelTitle": "Ant0nMath",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/aZpz2ugPaWhr1vYKmAdZHzLyo-w\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/Z1DL0rJ6Cgll5hiWnJM6XaFP4gU\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "s7XCA3rnmDE"
+    "videoId": "FTg3qB_z-sw"
    },
    "snippet": {
-    "publishedAt": "2017-01-14T20:06:16.000Z",
-    "channelId": "UCM7TAHDRFZDZGYyNzQeAsZA",
-    "title": "Video codec in Java, FFmpeg and C language",
-    "description": "My example application written in Java language uses FFmpeg library package (which is in C language) to open video file. After opening video file it reads the ...",
+    "publishedAt": "2016-10-13T03:56:36.000Z",
+    "channelId": "UCMJp2GSCykhshcUu2kZ5j9g",
+    "title": "Demorgan's, Distributive & Absorption Boolean Laws 10/3/16.mov",
+    "description": "This video was produced with a Swivl!",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/s7XCA3rnmDE/default.jpg",
+      "url": "https://i.ytimg.com/vi/FTg3qB_z-sw/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/s7XCA3rnmDE/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/FTg3qB_z-sw/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/s7XCA3rnmDE/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/FTg3qB_z-sw/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Marcin Miotk",
+    "channelTitle": "FVCC Instructional Design & Technology",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/0jsDUAXa24UNzu9zSFrAiHWdzLk\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/QTQ6ZfgGnGqnjdJUKDVUCZ-tj9A\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "3lSb-jLEJJM"
+    "videoId": "xCRSJy1WyMc"
    },
    "snippet": {
-    "publishedAt": "2013-05-03T15:24:52.000Z",
-    "channelId": "UCVTlmFfclZsEj_Wo5P_3YRQ",
-    "title": "How to Convert Videos With FFmpeg. ( THE EASY WAY )   :)",
-    "description": "http://winff.org/html_new/",
+    "publishedAt": "2015-05-08T19:30:14.000Z",
+    "channelId": "UCFRSDgPfvf-aRLW-IHwUoRA",
+    "title": "GATE - Maths - Propositional Logic - Connectives - 3",
+    "description": "Precedence of NOT, AND, OR, Implication and double implication Domination laws, Identity laws, Idempotent laws, Negation laws, Double Negation laws ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/3lSb-jLEJJM/default.jpg",
+      "url": "https://i.ytimg.com/vi/xCRSJy1WyMc/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/3lSb-jLEJJM/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/xCRSJy1WyMc/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/3lSb-jLEJJM/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/xCRSJy1WyMc/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Matthew Moore",
+    "channelTitle": "GATE CSE Video Lectures By Ashish Mithole",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/H72EHEcBBrgWznWKCh53MgD9KIY\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/-urFdnPOI9w5f2s_slzX5qBOn3A\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "LMHqa1TGF84"
+    "videoId": "kGGN32yFMUc"
    },
    "snippet": {
-    "publishedAt": "2017-09-18T16:58:52.000Z",
-    "channelId": "UCYbIw1lzhvtiYG4m-fhozoA",
-    "title": "Easy Way Install FFMPEG in Windows 10 (100% Work)",
-    "description": "Easy Way How to Install FFMPEG in Windows 10 (100% Work) ============================================= Download ...",
+    "publishedAt": "2011-09-12T09:42:19.000Z",
+    "channelId": "UCOLD_u56tyQ0qylzyXPJlbw",
+    "title": "Algebra Proofs Laws of Set operations Idempotent Laws",
+    "description": "Algebra Proofs Laws of Set operations Idempotent Laws AUA=A AnA=A.",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/LMHqa1TGF84/default.jpg",
+      "url": "https://i.ytimg.com/vi/kGGN32yFMUc/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/LMHqa1TGF84/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/kGGN32yFMUc/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/LMHqa1TGF84/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/kGGN32yFMUc/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Androlite",
+    "channelTitle": "Learn Basket",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/vMksWM5n--k34PjIG56hdXLGqIw\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/Pw_0sFAi0Au1fcGjdczWxDxQXN4\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "MADW3Tqe9cY"
+    "videoId": "oTxh44Ooyd0"
    },
    "snippet": {
-    "publishedAt": "2015-12-01T05:02:07.000Z",
-    "channelId": "UCyBesiUjaC2saRaWcr21AhQ",
-    "title": "Como baixar e instalar o ffmpeg no windows",
-    "description": "Site do FFMPEG: https://www.ffmpeg.org/ -Script para instalação do FFMPEG: @echo off move /y ffmpeg c:\\ setx path \"c:\\ffmpeg\\bin\"",
+    "publishedAt": "2015-03-11T07:19:34.000Z",
+    "channelId": "UCEPMCywJ6FPZpQ_aPEZt5JA",
+    "title": "Beer Lambert law calculations and derivation explained 1 | for NET GATE exam",
+    "description": "This csir ugc net gate exam lecture series explains Beer Lambert law calculations. Beer Lambert law is an important formula to calculate light absorption in ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/MADW3Tqe9cY/default.jpg",
+      "url": "https://i.ytimg.com/vi/oTxh44Ooyd0/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/MADW3Tqe9cY/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/oTxh44Ooyd0/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/MADW3Tqe9cY/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/oTxh44Ooyd0/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Jose Alcantara",
+    "channelTitle": "Shomu's Biology",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/MVoZ0R_n3vCaxGtiG7G_laO6muw\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/YC_pOKLx-vIhHuZHwqy7K0bVxQo\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "856hopbsQw4"
+    "videoId": "h8_tzaEI3wo"
    },
    "snippet": {
-    "publishedAt": "2017-07-21T07:16:16.000Z",
-    "channelId": "UCNncg8D7cRjMkfJ1x6pcL0g",
-    "title": "Hướng dẫn live stream youtube bằng code ffmpeg",
-    "description": "Ở video này chúng ta sẽ cùng nhau tìm hiểu cách live streaming youtobe bằng code ffmpeg. Công cụ cần thiết: Code: http://destyy.com/qVJ5w1 FFMPEG mới ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/856hopbsQw4/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/856hopbsQw4/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/856hopbsQw4/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Online Trick",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/HCRj-_qGhXGNilSr4iI6pqQH85Y\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "pHR3ttH5t-w"
-   },
-   "snippet": {
-    "publishedAt": "2016-11-30T17:55:19.000Z",
-    "channelId": "UC9mJsi28V0BkNPJZS-ywCQg",
-    "title": "How to install FFmpeg on Windows 10",
-    "description": "How to install FFmpeg on Windows 10, download FFmpeg application for Windows at https://ffmpeg.zeranoe.com/builds/ FFmpeg is a command-line tool to ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/pHR3ttH5t-w/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/pHR3ttH5t-w/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/pHR3ttH5t-w/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Masim Man",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/ADhWXISooQdvs-JoSQc61U4rmm4\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "1D5j3jMMqqA"
-   },
-   "snippet": {
-    "publishedAt": "2010-09-16T19:07:32.000Z",
-    "channelId": "UCf93fPKwotph47H3_KDcRyg",
-    "title": "FFMPEG basics",
-    "description": "http://FilmsByKris.com Got Questions? visit http://FilmsByKris.com/forum Chat with us a learn more http://FilmsByKris.com/irc.",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/1D5j3jMMqqA/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/1D5j3jMMqqA/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/1D5j3jMMqqA/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Kris Occhipinti",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/rQOmqti-qz_1a_XFC7lSjNBNcgk\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "iIalNEW-LQ8"
-   },
-   "snippet": {
-    "publishedAt": "2009-05-19T03:27:34.000Z",
-    "channelId": "UCMyAVYPgP_179gj9OIJZd4A",
-    "title": "Converting Videos Howto - FFMPEG",
-    "description": "Check out my new Linux channel: http://bit.ly/linux-nixie This video tutorial will explain how to losslessly convert any video file format, including quicktime .mov, ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/iIalNEW-LQ8/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/iIalNEW-LQ8/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/iIalNEW-LQ8/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Nixie Vlogs",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/g0tLxGdUBtZXUv26RGBB74NbV6c\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "sVhxicwKiUw"
-   },
-   "snippet": {
-    "publishedAt": "2015-08-19T19:00:43.000Z",
-    "channelId": "UCwr9l7O_X2r3BOm2zma3TwA",
-    "title": "[Tutoriel] [FR] Installer FFmpeg avec le Replay Mod",
-    "description": "Salut à toutes et à tous, on se retrouve pour un tutoriel qui va vous apprendre comment installer FFmpeg et le rendre compatible avec le Replay Mod.",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/sVhxicwKiUw/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/sVhxicwKiUw/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/sVhxicwKiUw/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Episkay",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/2LtiUuoXPTli3OR7Ang3H2uYlds\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "YlF8kg5U2kc"
-   },
-   "snippet": {
-    "publishedAt": "2014-04-03T12:54:21.000Z",
-    "channelId": "UCjDU0OGTyfAd9Fkn6ETr8wg",
-    "title": "How to install/setup ffmpeg on windows 7",
-    "description": "A simple tutorial about ffmpeg installation in windows 7 only because several of my upcoming tutorials will be based on ffmpeg.",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/YlF8kg5U2kc/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/YlF8kg5U2kc/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/YlF8kg5U2kc/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "howtotutorialsin",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/SWFJHdYjDLMW5FoWK2ReeHHaxNo\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "WDV15nm-KJE"
-   },
-   "snippet": {
-    "publishedAt": "2015-04-24T15:39:40.000Z",
-    "channelId": "UCtVj_rDAawi5fLJgk9ulQlA",
-    "title": "FFmpeg Timelapse: Image sequence to a movie.",
-    "description": "Possibly the fastest method to take a list of images and make them into a video. FFmpeg is cross-platform, free, open source and very powerful. It is a command ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/WDV15nm-KJE/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/WDV15nm-KJE/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/WDV15nm-KJE/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Marc Griffith",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/--gpXpBgWZHtQEcSf14HdsgsGo8\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "hElDsyuAQDA"
-   },
-   "snippet": {
-    "publishedAt": "2016-10-05T04:00:01.000Z",
-    "channelId": "UCTCvWvqjktIq0uvM3trAHCg",
-    "title": "FFMPEG Advanced Techniques Pt2 - Filtergraphs & Timeline",
-    "description": "In the second installment of this mini series, we look at some very useful features in FFMPEG - Filtergraphs, and timeline editing! = 0612 TV = 0612 TV is your ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/hElDsyuAQDA/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/hElDsyuAQDA/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/hElDsyuAQDA/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "0612 TV w/ NERDfirst",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/CZBlx3bgi-FBgbO2Wwtvdsn6obg\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "mJEYgd5iJfQ"
-   },
-   "snippet": {
-    "publishedAt": "2014-12-31T13:56:07.000Z",
-    "channelId": "UC9Y6r9Cpiqpq0GkmYSuRgMw",
-    "title": "Как установить программу ffmpeg windows 7.Ffmpeg Installing ffmpeg",
-    "description": "Как установить программу ffmpeg windows 7 ffmpeg — это кроссплатформенная open-source библиотека для обработки видео-...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/mJEYgd5iJfQ/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/mJEYgd5iJfQ/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/mJEYgd5iJfQ/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Юти Тетрадь",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/1si1PxpKb6oG1K94N-kAAWdylB8\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "vjX7MgXE4hA"
-   },
-   "snippet": {
-    "publishedAt": "2017-07-07T12:50:29.000Z",
-    "channelId": "UCjogz9Ktr2tGA7rVsfZHzAQ",
-    "title": "Hướng dẫn lách bản quyền hình ảnh âm thanh bằng code ffmpeg nhanh nhất 2017",
-    "description": "Hướng dẫn lách bản quyền hình ảnh âm thanh bằng code ffmpeg nhanh nhất 2017. Đăng kí kênh: http://goo.gl/bQKFHU Link code: ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/vjX7MgXE4hA/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/vjX7MgXE4hA/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/vjX7MgXE4hA/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Tube You",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/1oNoyUIiDKd8X96H9ASx6TRPQ2U\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "kW0GVgqIUog"
-   },
-   "snippet": {
-    "publishedAt": "2017-06-10T01:29:50.000Z",
-    "channelId": "UCb5W429I8yM0Niy3U_F4L1g",
-    "title": "Streaming via ffmpeg",
+    "publishedAt": "2010-12-28T11:45:39.000Z",
+    "channelId": "UCm-bSigc31L7S2ESAMPl_lA",
+    "title": "A U (A intersection B)= A  and  A intersection(A U B)= A",
     "description": "",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/kW0GVgqIUog/default.jpg",
+      "url": "https://i.ytimg.com/vi/h8_tzaEI3wo/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/kW0GVgqIUog/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/h8_tzaEI3wo/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/kW0GVgqIUog/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/h8_tzaEI3wo/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Eclipse Ballooning",
+    "channelTitle": "learnittcom",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/voCoFl5d-_xzzm3ZavG6tajVdek\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/BrvKyXS4xIgbSSFKZw_HOYo1yOI\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "VJ04DOtEknM"
+    "videoId": "C5CFAKKS9Ag"
    },
    "snippet": {
-    "publishedAt": "2016-10-28T17:20:23.000Z",
-    "channelId": "UC3__X02J97AzmxqgyVQaATw",
-    "title": "動画変換フリーソフトFFmpegの使い方、一括変換",
-    "description": "動画ファイルを変換するフリーソフトFFmpeg( http://ffmpeg.org/ )の使い方、一括変換の方法も紹介するよ。",
+    "publishedAt": "2012-07-23T10:16:33.000Z",
+    "channelId": "UC640y4UvDAlya_WOj5U4pfA",
+    "title": "Mod-01 Lec-09 Lecture-09-Normal forms",
+    "description": "Mathematical Logic by Prof.Arindama Singh, Department of Mathematics ,IIT Madras. For more details on NPTEL visit http://nptel.iitm.ac.in.",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/VJ04DOtEknM/default.jpg",
+      "url": "https://i.ytimg.com/vi/C5CFAKKS9Ag/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/VJ04DOtEknM/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/C5CFAKKS9Ag/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/VJ04DOtEknM/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/C5CFAKKS9Ag/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "しとこあ",
+    "channelTitle": "nptelhrd",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/8NU2TmX9iYc5bFNQmEFROHejYYs\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/DJDRSq0z5CQ9nyQONmMndqZBBdY\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "jTopjhFf7Ls"
+    "videoId": "_xjz99xHH8Q"
    },
    "snippet": {
-    "publishedAt": "2013-12-08T17:23:13.000Z",
-    "channelId": "UCBQVYMr6n_uTRiVdfqnuN4g",
-    "title": "Wie installiert man ffmpeg unter Windows?",
-    "description": "ffmpeg ist ein ziemlich mächtiges Tool, welches es z.B. ermöglicht Videos und Musik in einem anderen Format zu speichern. Es gibt eine Möglichkeit, den ...",
+    "publishedAt": "2014-12-04T01:00:03.000Z",
+    "channelId": "UCGYSfZbPp3BiAFs531PBY7g",
+    "title": "[Discrete Math 1] (OLD) Logic Laws",
+    "description": "Visit my website: http://bit.ly/1zBPlvm Subscribe on YouTube: http://bit.ly/1vWiRxW Hello, welcome to TheTrevTutor. I'm here to help you learn your college ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/jTopjhFf7Ls/default.jpg",
+      "url": "https://i.ytimg.com/vi/_xjz99xHH8Q/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/jTopjhFf7Ls/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/_xjz99xHH8Q/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/jTopjhFf7Ls/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/_xjz99xHH8Q/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "FragenPortal.eu",
+    "channelTitle": "TheTrevTutor",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/0FiUAvDB0cn_FsAlVH_xOvutTls\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/MFHpgqD1mgyLFqYspsHSPFtrric\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "1ymYwSQFodU"
+    "videoId": "cr39ibRXIos"
    },
    "snippet": {
-    "publishedAt": "2015-11-13T18:51:17.000Z",
-    "channelId": "UCijjo5gfAscWgNCKFHWm1EA",
-    "title": "How to Get Started Using FFmpeg for Transcoding",
-    "description": "How to encode and decode video assets with FFMPEG. FFmpeg installation instructions, building from source: https://trac.ffmpeg.org/wiki/CompilationGuide ...",
+    "publishedAt": "2011-08-31T07:41:55.000Z",
+    "channelId": "UCOLD_u56tyQ0qylzyXPJlbw",
+    "title": "Algebra Proofs Laws of  Set operations Complement Laws part1",
+    "description": "Algebra Proofs Laws of Set operations Complement Laws part1 for other part please click the following link part2.",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/1ymYwSQFodU/default.jpg",
+      "url": "https://i.ytimg.com/vi/cr39ibRXIos/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/1ymYwSQFodU/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/cr39ibRXIos/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/1ymYwSQFodU/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/cr39ibRXIos/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Mozilla Hacks",
+    "channelTitle": "Learn Basket",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/q-D-6U0rrgSyTXUEhBVo8uPn3X8\"",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/_4Z7gbcSQdUqtjMnwnHs4zIVZJg\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "9U29pLrCfms"
+    "videoId": "sCcZ6SAFtsw"
    },
    "snippet": {
-    "publishedAt": "2017-03-31T01:48:18.000Z",
-    "channelId": "UC2eYFnH61tmytImy1mTYvhA",
-    "title": "ffmpeg: Making a Picture Slideshow without a Video Editor!",
-    "description": "See the finished product: https://youtu.be/qmz3Cxq8n8I Make a picture slideshow with a single terminal command. The command below will take all .jpg pics in ...",
+    "publishedAt": "2011-08-31T08:52:06.000Z",
+    "channelId": "UCOLD_u56tyQ0qylzyXPJlbw",
+    "title": "Algebra Proofs Laws of Set operations Identity Laws",
+    "description": "Algebra Proofs Laws of Set operations Identity Laws.",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/9U29pLrCfms/default.jpg",
+      "url": "https://i.ytimg.com/vi/sCcZ6SAFtsw/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/9U29pLrCfms/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/sCcZ6SAFtsw/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/9U29pLrCfms/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/sCcZ6SAFtsw/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Luke Smith",
+    "channelTitle": "Learn Basket",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/NNy9WFsnU0Fk26nR5Hfzy4IbL54\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Yzan11nP6Ls"
+   },
+   "snippet": {
+    "publishedAt": "2014-01-16T23:09:06.000Z",
+    "channelId": "UCueGH-vcOGvGoLK6lXaAzsw",
+    "title": "Atomic Absorption Spectroscopy Quantitative Analysis",
+    "description": "See more videos at: http://talkboard.com.au/ In this video, we will look at how data obtained from AAS can be utilised, along with standard solutions, to find the ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Yzan11nP6Ls/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Yzan11nP6Ls/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Yzan11nP6Ls/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "talkboard.com.au",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/cN0gaoeL1FaRnBwvOTDfC-Q4SeY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "IbhVbm1zIJY"
+   },
+   "snippet": {
+    "publishedAt": "2016-09-02T11:58:16.000Z",
+    "channelId": "UCXvKiwWVq5mvrfICSfzmyug",
+    "title": "Types of Absorption Spectrum - Continuous, Line and Band Absorption Spectrum",
+    "description": "When the light emitted from a source is made to pass through an absorbing material and then examined with a spectrometer, the obtained spectrum is called ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/IbhVbm1zIJY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/IbhVbm1zIJY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/IbhVbm1zIJY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Physics4students",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/DSmp8hKtqLraEtckPXXjKFMtF8Y\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "JbWp-cKYin4"
+   },
+   "snippet": {
+    "publishedAt": "2015-03-11T07:19:30.000Z",
+    "channelId": "UCEPMCywJ6FPZpQ_aPEZt5JA",
+    "title": "Beer Lambert law calculations and derivation explained 2 | for NET GATE exam",
+    "description": "This csir ugc net gate exam lecture series explains Beer Lambert law calculations. Beer Lambert law is a very important formula to calculate light absorption in ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/JbWp-cKYin4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/JbWp-cKYin4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/JbWp-cKYin4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Shomu's Biology",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/7CuHM_h_193gZUr3rYQHnIYr4DU\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "rP_pwKCKqbQ"
+   },
+   "snippet": {
+    "publishedAt": "2017-10-08T18:17:27.000Z",
+    "channelId": "UC7bJHOoU8x-GPU-rnfNV4CQ",
+    "title": "Properties or Laws of Sets",
+    "description": "1) Commutative Law of Union & Intersection 2) Associative Law of Union & Intersection 3) Distributive Law of union over intersection 4) De Morgan's laws 5) ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/rP_pwKCKqbQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/rP_pwKCKqbQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/rP_pwKCKqbQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Math Solution210",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/2NNDoPPU2HjgYWuUJ_JNOGyhOZ8\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "WRgfp_-MhJI"
+   },
+   "snippet": {
+    "publishedAt": "2016-02-20T22:36:12.000Z",
+    "channelId": "UCF7s_lPi7SmrAFLDsS6J7NA",
+    "title": "20. Logical Equivalence Laws P3",
+    "description": "Examining the Absorption Laws in Discrete Math. -- Dino Cajic http://dinocajic.com http://twitter.com/dinocajic.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/WRgfp_-MhJI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/WRgfp_-MhJI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/WRgfp_-MhJI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Dino Cajic",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/hEKk2dwPpaGLVpchiNbFZAg4EXM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "wdf6pQX8PrY"
+   },
+   "snippet": {
+    "publishedAt": "2013-03-03T17:27:33.000Z",
+    "channelId": "UCbQo30npLeVDoT9DRL1Tryw",
+    "title": "Discrete Math 1 - Tutorial 22 -  Laws of Logic and Dual",
+    "description": "Laws of Logic Dual of S Please comment, rate and subscribe. :) Follow us on twitter : https://twitter.com/#!/coursehack Become a fan on facebook ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/wdf6pQX8PrY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/wdf6pQX8PrY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/wdf6pQX8PrY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "CourseHack",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/4uJzaSRe-1pH1oUhUFGKW2iXD_I\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "OoptDcz5qlk"
+   },
+   "snippet": {
+    "publishedAt": "2016-06-01T14:39:43.000Z",
+    "channelId": "UCi4fVCyouLuUnO0uHObsktA",
+    "title": "DISCRETE MATHEMATICS Lecture 21",
+    "description": "Don't hesitate to comment below if you have any questions or additional phrases DISCRETE MATHEMATICSLecture 21 Dr. Kemal Akkaya Department of ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/OoptDcz5qlk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/OoptDcz5qlk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/OoptDcz5qlk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "castors2007",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/FyK5KLP2SwhVsITMHy9aWyB9pKk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "JJbt34kM-XE"
+   },
+   "snippet": {
+    "publishedAt": "2007-07-01T03:01:47.000Z",
+    "channelId": "UCpSLoWil0LM0kNF_FkSGYmA",
+    "title": "Boolean Algebra: Laws and Theorems 1",
+    "description": "In this video I discuss three properties: Idempotent laws, Involution law, Laws of complementarity. I hope you enjoy. Please let me know what you think. Thanks!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/JJbt34kM-XE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/JJbt34kM-XE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/JJbt34kM-XE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Russoft",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/4ajpQXg5njJ13UXTuQ_EEwZ6dRg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "jTKwcPtI5Jg"
+   },
+   "snippet": {
+    "publishedAt": "2015-07-19T07:34:59.000Z",
+    "channelId": "UCzv6sc21aaZwluRvThEYgww",
+    "title": "GCH implies AC, a Metamath Formalization (CICM 2015)",
+    "description": "Mario Carneiro describes a formalization of \"the Generalized Continuum Hypothesis implies the Axiom of Choice\" in Metamath, at the Conference on Intelligent ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/jTKwcPtI5Jg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/jTKwcPtI5Jg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/jTKwcPtI5Jg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Mario Carneiro",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/dpVQ02uleSVYEVcotjkOGJLc_u8\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "cHlITDk2Cvc"
+   },
+   "snippet": {
+    "publishedAt": "2012-04-26T14:12:11.000Z",
+    "channelId": "UCl151Dp27bMLmu_EPXfx6tA",
+    "title": "Spectrophotometry and Beer-Lambert Law",
+    "description": "This video provides worked examples on the use of Beer's law in spectrophotometry. Further extensive interactive video and self-assessment tutorials can be ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/cHlITDk2Cvc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/cHlITDk2Cvc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/cHlITDk2Cvc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "GrahamCurrell",
     "liveBroadcastContent": "none"
    }
   }
