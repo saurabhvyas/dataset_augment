@@ -3,6 +3,8 @@
 const util = require('util');
 const exec = require('child_process').exec;
 
+var hyphen_flag =false;
+
  
    exec('sh api.sh ' + process.argv[2] ,(error, stdout, stderr) => {
 	
@@ -22,7 +24,17 @@ const exec = require('child_process').exec;
 
 //console.log(parsedJSON['items']);
 
-//console.log(process.argv[2]);
+console.log(process.argv[2]);
+
+
+
+if (process.argv[2].indexOf('-') > -1) {
+
+hyphen_flag=true;
+console.log('concept has -');
+
+
+}
 
 function run_cmd(cmd, args, callBack ) {
     var spawn = require('child_process').spawn;
@@ -71,7 +83,7 @@ var yourscript = exec('sh ./download.sh ' + list[item] + ' ' + item,
 
               if ( temp === list.length) {    // run code after loop terminates
 
-    exec('sh ./after_download.sh ' + process.argv[2]  ,
+    exec('sh ./after_download.sh ' + process.argv[2] + ' ' + hyphen_flag  ,
         (error, stdout, stderr) => { console.log(`${stdout}`);
             console.log(`${stderr}`); }  );
    }
