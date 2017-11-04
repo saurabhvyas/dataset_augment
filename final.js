@@ -5,9 +5,12 @@ var lineReader = require('readline').createInterface({
 });
 
 lineReader.on('line', function (line) {
-
+         
+console.log(line);
+ 
 	 exec('node index.js ' + line , function(err, stdout) {
         console.log(stdout); 
+         
 
       if(err) { console.log(err) }
   

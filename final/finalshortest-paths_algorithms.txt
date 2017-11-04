@@ -1750,6 +1750,138 @@ equal 13 and the last one will be
 included wishes I noticed the
 destination and from this we have the
 path like this and the cost is 13
+hi guys today we are going to learn
+about Dijkstra's algorithm so believe it
+or not this is the way it is actually
+pronounced so we will get a question
+like this and we'll be asked to find the
+shortest path so what do you mean by
+finding the shortest path in computer
+networks we have a sender and we have a
+receiver the sender sends some frames or
+information to the receiver but between
+the sender and receiver there many paths
+which the message can take so basically
+that is the job of this algorithm it
+finds the shortest path for the map of
+the message for the send from the sender
+to the receiver
+if any one of you has seen the TV show
+numbers then a mathematics professor
+uses this algorithm to actually find the
+most possible escape route that a hijack
+I reckon truck takes so yeah that's what
+this does so what does the algorithm
+basically state this is 1 node 1 2 3 4 &amp;
+5 these are the nodes we have in a
+computer network so what do we actually
+do in this algorithm we visit a
+unvisited node and we see its shortest
+distance from the root node once you
+visit that node to go to the next node
+we always see the distance from the
+basic root node ok so now I'm going to
+explain this with the help of an example
+so I'm going to start now
+so I'm going to write all the nodes your
+first
+so the beginning you consider you are at
+one node which is not in any of this it
+is not present in the network so your
+distance from that node to any of the
+nodes is infinity right so initially all
+the distances are infinity now suppose
+you want to start from the root node so
+if I start from the root node initially
+I will start from one which means I am
+present at one so if I am at one then my
+distance from one will be zero from two
+since one and two are connected the
+distance from two will be four since one
+and three are not connected they are not
+directly connected so distance between
+there is no distance between one and
+three so we are going to name it
+infinity for now one is directly
+connected to four so the distance
+between one and four will be eight five
+is one connected to Phi No
+so again distance will be infinity now
+what we do we have this row we see which
+is the minimum distance your zero for
+infinity eight infinity the minimum
+distance you are is for right since you
+have already visited one so next you are
+going to visit node 2 since this has a
+minimum distance of 4 so this is my
+visited column so the next node I'm
+going to visit is 2 so this will remain
+0 this will remain for now I am at 2 so
+from two I have 1 &amp; 3 since we have
+already visited one we are going to only
+look at node 3 so what is the distance
+of the node 3 but since we started from
+our root node we have to check from one
+so what is the distance of 3 from 1 4
+plus 3 7 right
+so this infinity will change to 7 now
+for to see for we will have to check
+this path right so what will be the
+distance for plus 3 plus 4
+that is what 11 but earlier the distance
+from 1 to 8 was already 8 1 2 4 the
+distance was 8 and from here this path
+if we take the distance is coming to be
+11 so we have to choose a shortest path
+so even though it is coming 11 this way
+we let it be 8 and for Phi this distance
+will be what 4 plus 3 7 plus 4 11 plus 7
+18 since it is infinity 18 is lesser
+I'll put down 18 okay so now I've
+visited 1/2 now which is the smallest
+among 7 8 and 18 7 right so the next
+node we visit will be 3 3 3 is connected
+to 2 &amp; 4 we've already visited 2 so that
+leaves us with 4 so I'll write this down
+as it is okay so now what is the
+distance if we same way if we go if you
+travel all the way here to reach for the
+distance again will be 11 but from 1 to
+4 the distance is already ate so we
+cannot change that distance so this has
+to be 8 + 4 5 again to travel through 3
+we have to take this path so the
+distance remains the same 18 now between
+8 and 18 8 is smaller so next you're
+going to visit node 4
+okay
+so now we're on node 4 so for node 4
+node 4 is connected to 1 and 3 so first
+I'm going to write down these distances
+as it is so node 4 is connected to 1 3 &amp;
+5 but 1 &amp; 3 already visited so we look
+at the distance from 5 so initially the
+distance was 18 but now if we go from
+the root node towards here the distance
+will be what 8 plus 7 15 right so
+initially it was 18 now the distance is
+coming to be 15 so we have to choose the
+minimum distance right so this distance
+is 15 so now we go to the fifth one our
+distances are going to remain the same
+so basically using this algorithm we
+have found the minimum shortest distance
+of root node one with every other node
+so basically shortest distance of 1 from
+1 is 0 the shortest distance from 1 to 2
+is 4 from 1 to 3 is 7 from 1 to 4 is 8
+and from 1 to 5 is 15 so if this is the
+root node this is the sender and it
+wants to send the message to the
+receiver router for example say at node
+5 then it will know that the shortest
+path is 15 so this is basically
+Dijkstra's algorithm thank you guys
 so my talk is on finding case simple
 parts and cycles in a graph directed
 edge weighted graph and this is joint

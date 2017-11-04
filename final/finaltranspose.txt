@@ -191,6 +191,50 @@ it's a CSE formula CSE function and
 there you've seen how you can turn your
 excel data on its side and I'll look for
 you in the next lesson
+Let's say we have a matrix A (matrix called block letters - bold)
+... so we have matrix A.
+It's a 3x2 matrix type.
+Say, 1, -2, 3, 0, 7, 5, ... is a 3x2 matrix
+And my question is, how will the transposed matrix of a matrix?
+So, we write A transposition such as "A" to "T" superscript
+and this is what we are talking about transposition
+A. A matrix of your natural question should be, what it means to make a matrix transposition, which sounds complicated.
+Well, it's not that hard. All this means that the lines are converted into columns. And the columns become rows.
+What i mean?
+Okay, let's do it here.
+So, if we have three rows and two columns
+... or 3x2 matrix ... when all rows become the columns and rows of columns, the transposition of a matrix of 2x3.
+It will be two lines - two columns become two lines - a line of three become three columns.
+And it will look like this ... will draw blue ...
+... we now have two lines and three columns.
+So as I said, of all the lines become columns
+and rows of columns, and here we can see clearly.
+We are the first line, consisting of 1 and -2
+and can now transform him in the first column.
+1 -2.
+Second row: 3 0th
+This is now my second column.
+3 and 0th
+And we have a third line 7 and the fifth
+This will now be my third column.
+7 and the fifth
+You may see even simpler method:
+Let's see: I have two columns, my first column is 1, 3, 7
+so my first line will also be 1, 3, 7th
+A second column is -2, 0, 5th
+So my second line will be -2, 0, 5th
+Let's have another example, just for clarification:
+Consider the matrix B, a very simple matrix type 2x2.
+So, -1, 5, pi, third
+What will be the transposed matrix of the matrix B?
+So again, we have two columns and two rows
+and because the line is changed to columns and columns to rows
+so we still have a 2x2 matrix.
+Look, my first line -1, 5 will now be my first column, -1, 5th
+The second line here, pi and 3, will now be my second column, when a third
+And so we created a transposed matrix.
+All lines were converted to column
+All columns are converted into lines.
 hello everyone welcome to tech TOCOM
 this lecture will understand transpose
 of matrix I hope you already know this
@@ -277,450 +321,6 @@ here by sharing this will be a good
 platform if you share your all rich
 materials which you have so hope to see
 you next lecture thanks for watching
-this is a video on transposing or
-rearranging formulae okay there's four
-questions that we're going to look at
-the first one Peaks to bracket L plus W
-and it says to solve for W so the first
-thing we do put a box around the W
-because that's what we want to leave so
-we're going to get rid of everything but
-that W now looking at the front you've
-got this two so we'll get rid of that
-first because the L plus W is grouped by
-the brackets so we'll get rid of the two
-first the brackets being multiplied by
-two so we will divide by two okay
-doing the opposite just like with
-solving equations so now P over 2 equals
-L plus W now from there we still want W
-to be on its own so now I need to get
-rid of that L there's nothing at the
-front so that means that L is positive
-so I take L from both sides so now I
-have P over to take L equals W and we're
-now right because we have W on its own
-okay in the next one that I have V
-equals 1/3 pi RH and H is what I want to
-get on its own now again look at the
-front this whole thing is being
-multiplied by 1/3 now multiplying by 1/3
-is exactly the same as dividing by 3 so
-Det to get rid of that third we multiply
-by 3 whatever we do to that side we also
-have to do to the other side so what I
-now have is 3 v equals 1/3 times 3 is 1
-so I'm left with the PI R H now I still
-need H on its own so I need to get rid
-of that pi r h is being multiplied by PI
-R so I can get rid of it in one go by
-simply dividing both sides by PI R so
-now I have 3 V over PI R equals H and
-that's
-done the next one M equals a plus B and
-over K oops that should be solving for
-little n okay so if we look at that
-that's what we need to get on its own
-now this is one big group because it's
-all being divided by K so the first
-thing I need to get rid of is that K so
-I'm going to multiply both sides by okay
-so now I have M K equals a plus B n now
-that n is still together with the B we
-leave the group to last so we need to
-get rid of that a so I take a from both
-sides
-I now have M K take a equals B and need
-to get out on its own and it's being
-multiplied by B so I divide both sides
-by B so I have M K take a and that's all
-being divided by B equals and okay last
-one we're going to do s equals 1/2 and
-times a plus L we're solving for that a
-now this is a group so we leave it and
-then we've got the x by 1/2 n so let's
-get rid of this half first just like the
-one up here I said times in both third
-was like dividing by three ties in by
-half is like dividing by two so to do
-the opposite we can multiply both sides
-by 2 because 1/2 times 2 is 1 so that's
-why they go away so I now have 2 s
-equals n bracket a plus L now I need to
-get rid of that in that brackets being
-multiplied by n so I divide by n so I
-now have 2's take n equals a plus
-sorry I now have two s over N equals a
-plus L I want to get the a on its own
-still so I need to get rid of that plus
-L so I take L from both sides so I have
-2 s over N take L equals a which is now
-complete
-Let's say we have a matrix A (matrix called block letters - bold)
-... so we have matrix A.
-It's a 3x2 matrix type.
-Say, 1, -2, 3, 0, 7, 5, ... is a 3x2 matrix
-And my question is, how will the transposed matrix of a matrix?
-So, we write A transposition such as "A" to "T" superscript
-and this is what we are talking about transposition
-A. A matrix of your natural question should be, what it means to make a matrix transposition, which sounds complicated.
-Well, it's not that hard. All this means that the lines are converted into columns. And the columns become rows.
-What i mean?
-Okay, let's do it here.
-So, if we have three rows and two columns
-... or 3x2 matrix ... when all rows become the columns and rows of columns, the transposition of a matrix of 2x3.
-It will be two lines - two columns become two lines - a line of three become three columns.
-And it will look like this ... will draw blue ...
-... we now have two lines and three columns.
-So as I said, of all the lines become columns
-and rows of columns, and here we can see clearly.
-We are the first line, consisting of 1 and -2
-and can now transform him in the first column.
-1 -2.
-Second row: 3 0th
-This is now my second column.
-3 and 0th
-And we have a third line 7 and the fifth
-This will now be my third column.
-7 and the fifth
-You may see even simpler method:
-Let's see: I have two columns, my first column is 1, 3, 7
-so my first line will also be 1, 3, 7th
-A second column is -2, 0, 5th
-So my second line will be -2, 0, 5th
-Let's have another example, just for clarification:
-Consider the matrix B, a very simple matrix type 2x2.
-So, -1, 5, pi, third
-What will be the transposed matrix of the matrix B?
-So again, we have two columns and two rows
-and because the line is changed to columns and columns to rows
-so we still have a 2x2 matrix.
-Look, my first line -1, 5 will now be my first column, -1, 5th
-The second line here, pi and 3, will now be my second column, when a third
-And so we created a transposed matrix.
-All lines were converted to column
-All columns are converted into lines.
-good trans function put down in general for
-it serves to change the tone
-no keyboard you need to change your
-hand
-so let's assume something more
-It happens especially the personal touches
-church I played many years also in
-leandro church also happens
-whatever begins to rehearse a song
-C major with the whole band and
-Suddenly comes the singer and talk like okay
-low that tone then you spent
-month preparing that song you already
-decorated as it comes to that music
-in C major all parts and such
-and then the blessed singer singer is
-undertone him decide to change the tone of
-good music for those who play down the guys
-are in heaven just get out and
-walk a house for example two houses
-for us from touching doi aft flat
-is a disgrace is because changes
-completely typing and everything
-then you could for example that
-if I want to sound in D flat I
-ing stump and puts the transposition
-I'll do one more
-I am rising 1 cm pitch then the number
-Shipping is always more or less
-semitones or I'm playing in 2
-was another country where music in reverse
-the flat is that it is actually a form
-Lazy means you learn is
-I really only use for emergencies
-for example once I was not playing
-even know if people know this but has
-instruments that are transpositions
-the saxophone in B flat when he
-is reading a dollar on the score he
-He is playing actually a sibemol had
-once I went to play with friends
-just we had all
-scores only sorry that I played and sweated
-sibemol logical that we are musicians
-professionals already know what to do
-I did I got my keyboard
-put there - second played all equal legend
-I was in the score and the gang itself
-flat then all was quiet he
-He managed to make the whole event without
-no problem ok then that's it
-hello welcome to teach me math my name
-is jonathan hicks and we're doing
-transposition now i've already done an
-intro to transposition video so if
-you're not sure what transposition is
-sometimes it's called rearranging
-equations go and watch that video first
-and I'll explain what it is and why we
-do it you also need to know how to solve
-equations transfer position at the end
-of the day is solving equations it's
-just that a lot of the numbers have been
-replaced by letters you're not really
-doing anything different from what you
-would do when you solve an equation it
-just looks very different and that can
-put people off sometimes but make sure
-your confidence offering equations
-before you come on to this now we're
-going to be following exactly the same
-method that I did in the solving
-equations videos so just quickly to
-remind you what that method is step one
-when solving equations is always to
-remove fractions step two is to remove
-brackets step threes move added and
-subtracted terms and then finally we
-always divide by the number next to the
-letter
-now I split the solving equations videos
-into four to follow those four steps so
-we started with the easy ones where
-you're just doing the last step and then
-we had steps three and four together
-and then we did brackets as well as
-steps three and four and then we did all
-four steps together with the fractions
-I'm going to do the same thing for
-transposition so in this first video I'm
-just going to transpose equations that
-involve the last step then we'll
-gradually make it harder over the next
-few videos until we can do the whole lot
-of ones all right so as I say in this
-video the step we care about is divided
-by the number next to the letter now let
-run let me remind you how you do that
-for a normal equation first and then
-we'll come on to the transposition
-so perhaps put that over here because
-I'm going to refer back to it a few
-times so if we have 2x equals 6 so in
-theory we would check the four steps
-here fractions no fractions brackets no
-brackets added or subtracted terms no
-added or subtracted terms so the only
-thing we have to do is the final step
-which is divided by the number next to
-the letter the number next letter is two
-so we divide both sides by two a little
-divided by 2 on both sides the reason we
-do that is because these 2's will cancel
-which will leave you with the X by
-itself and 6 divided by 2 is obviously 3
-so that was easy that
-how you solve equations where you're
-only using the last step you're only
-dividing by the number next to the
-letter in this case - all right let me
-give you an equivalent example for
-transposition so if we have a y equals x
-and imagine in the question it tells you
-that you want to get the Y by itself now
-I'm going to put that over here in a
-circle so I don't forget often the
-question will say transpose and then it
-gives you the equation four and then it
-gives you a letter so it might say
-transpose a y equals X for Y and that
-means you want to get the Y by itself
-the Y is the letter we care about you
-want to put everything else on the other
-side and leave the Y by itself on one
-side of the equation just going back to
-this that's the equivalent of getting
-the X by itself when we solve equations
-we're always trying to get the letter by
-itself on one side with everything else
-on the other side because if all the
-numbers on the other side you can work
-out what that number is and you've
-solved your equation we did this same
-thing here but because we've got all
-letters here there are no numbers we
-need to know which letter is the
-important letter the letter we want to
-get by itself now I say there are no
-numbers here actually they're all
-numbers remember that everything in
-algebra is a number every letter you see
-just reference an unknown number but as
-I explained in the intro video sometimes
-we want to rearrange these equations
-before we put the numbers in so the
-important thing to note at the start is
-which letter do you want to get by
-itself that's the letter we care about
-so when we come on to our final step
-well let's quickly check through the
-other steps first fractions no fractions
-brackets no brackets added or subtract
-terms nope so the last thing is we
-divide by the number next to the letter
-now which is the letter there are three
-letters it's that one it's the letter we
-care about they'll always tell you what
-that is in the question so we divide by
-the number next to the Y we have the
-number next to the letter number next to
-the Y and the number next to the Y is a
-remember that a is a number so we're
-going to divide everything by a just
-like here when we have 2x equals 6 we
-divided everything by 2 because that was
-the number next to the letter over here
-because we care about the Y we're going
-/ the number next to it we're going to
-divide by the a so on both sides you
-divide by a so divided by a divided by a
-just like we did here the reason we do
-that is because the a is here will
-cancel and I'll leave you with the Y by
-itself just like the twos canceled and
-left you with the X by itself and then
-here you got X divided by a now if we
-knew what those numbers were if we had
-six and two for example we could work
-out what it gives you in this case it
-gives you three but we don't yet know
-what the numbers are remember we're
-going to be repeating our experiments
-and putting different numbers in here
-each time so we don't worry about what
-that's going to give us we know that
-it's going to be x divided by a and
-that's what we care about we'll put the
-numbers in later we've managed to get
-the Y by itself though that's what
-matters that's what they've asked to do
-is asked us to do in the question so you
-stop there that will be our answer if
-you rearrange the original equation a y
-equals x you get y equals x over a so
-actually although it looks very strange
-it's easier than solving equations
-because you never actually have to work
-anything out if you're dividing you just
-write it as a fraction you don't have to
-work out what six divided by two is
-because you're going to put the numbers
-in at a later date right let me do
-another one
-once you've seen a couple of these you
-should get the hang of it so imagine the
-question says transpose P equals Q R for
-R so they're telling you they want you
-to get the R by itself and everything
-else on the other side so there are no
-fractions no brackets no added or
-subtracted term so the only step we need
-to worry about is divided by the number
-next to the letter which letter do we
-care about it's R so we're going to
-divide by the number next to the R and
-looking at this the number next to the R
-is the Q remember that Q is a number
-everything here is a number so we're
-going to divide both sides by Q just
-like we do here yeah we were dividing by
-2 because that was the number next
-letter here they were going to divide by
-Q because that's the number next to the
-letter we care about so divided by Q
-/ queue those queues will cancel which
-will leave you with the are by itself
-and there's nothing else to do here we
-don't need to work it out you just write
-P divided by Q and that's your answer
-some people like to put the letter that
-we're trying to get by itself on the
-left so some people might flip it round
-at the end and that's fine you can do
-that if you want to so BR equals P
-divided by Q like that either way around
-is fine
-remember the equal sign means that the
-things on either side are the same it
-doesn't mean and the answer is so either
-way around this fine okay now this can
-get slightly more difficult when you've
-got other things involved although
-actually it's not any more difficult you
-do exactly the same thing it just looks
-a bit different so next one we'll have C
-x equals a plus two finally I'm
-including this to show that you can have
-numbers as well sometimes you get
-equations that do involve numbers as
-well as letters so imagine the question
-says that we want the X by itself I
-always put this here in a little circle
-so that I don't forget when there's a
-lot of letters swimming around it's very
-easy to forget which letter we care
-about which letter would try to get by
-itself so if you put it here in a little
-circuit you'll never forget that's the
-one I need by itself
-alright so fractions no brackets no add
-in the subtracted terms well yes
-technically we've got an added term here
-but our letters are all on one side and
-all the added and subtracted terms are
-on the other side so we don't need to
-worry about that
-the last step we divide by the number
-next to the letter that's the lesser we
-care about the number next to this
-letter is the C so we're going to divide
-everything by C so the thing that
-confuses people is often this but it's
-honestly very easy to deal with you
-divide by C on the left and then you
-divide by an in algebra when you write
-divided by you just do a big fraction
-you divide by C on the right that's how
-you do it the C's or cancel which leaves
-you with the X by itself and then you
-can't work out what this is
-you don't know what a and C are so you
-can't do any kind of simplifying or
-working out don't mess with it just
-write it down exactly as it is so it's
-going to be a plus to oversee one big
-fraction and that's your answer the X
-the number you care about is by itself
-everything else is on the other side so
-you've rearranged the equation now this
-can feel pointless it can feel like what
-are we doing we're just moving the
-letters around as I say go and watch the
-transposition intro video if you haven't
-done yet and that'll explain why this is
-so useful in practice this is really
-useful but if you don't know why you
-just have to sort of take my word for it
-unless you as I say watch the intro
-video that I'll explain why we do this
-but that's it for the last step it
-really is that simple you divide by the
-number next letter usually that kid just
-gives you a big fraction and you just
-write out the answer like that so go
-watch transposition too to know how to
-deal with added and subtracted terms
-when they get involved but that's all
-you really need to know for this one my
-name is Jonathan Hicks and you're
-watching teach me maths
-you
 hello my name is Jeffrey Olga I want to
 thank you for checking at my video this
 is a quick tip video so I'm going to be
@@ -920,6 +520,382 @@ know your major scales cool so that's a
 very powerful trick I hope it helps you
 don't forget to rate comment and
 subscribe and I'll see you next time
+welcome to Excel magic trick number 460
+hey if you want to download this
+workbook and follow along click on my
+YouTube channel and click on my college
+website link and you can download the
+workbook excel metric for 58 to 465 in
+this video here we want to see how to
+transpose a data set and have our
+datasets listed vertically we want a
+horizontal but we want it linked now I
+have used shown the transpose function a
+few different times you highlight the
+whole range and transpose and then
+highlight whatever range it is and this
+is an array function so you control
+shift enter now that's fine people do
+that all the time in fact I do that
+quite often but if for some reason you
+don't want an array formula for example
+if you needed to insert which might be
+pretty rare here because that's actually
+an advantage here right you don't want
+to have someone mess it up and by
+inserting a column arrays won't let you
+do that for whatever reason you don't
+want that array here's an alternative
+you could just use the index function
+now the array will have it the whole
+entire array here and f4 comma now row
+number as we go across here we need to
+successively get different rows right so
+we'll put the columns with an S function
+in here we're sitting in cell e 11 so
+I'll say dollar sign 11 colon 11 right
+that is an ink run umber incrementer
+right now it'll say how many columns e 2
+e 1 as we move across here to go 1 2 3 4
+5 which is exactly what we want for
+extracting rows now the call the column
+number we only have one two columns here
+so we really need to only somehow get a
+number one and two will use the rows
+function because we will copy down right
+as we go down here we need it to go from
+1 to 2 and here I'm sitting in 11 so e
+11 and I'm going to hit the f4 key
+because we'll lock it in both directions
+and then comma dollar sign e 11 that's
+it and that will right now as we go
+across this way it'll remain locked on
+the number one so it give us a 1 1 1 1
+but when we move down I'll give us 2
+which is exactly what 1 because what do
+we have we have 1 2 columns
+control-enter no control shift enter and
+drag it down and drag it over now I
+don't think I've ever done this one I
+always use this one but if for some
+reason it didn't want to use that
+transpose that is a clever way to do it
+and even if you never use it
+understanding how the columns and rows
+work as incrementer x' and being able to
+reverse it in your you're ahead
+given that the columns is delivering a
+row number understanding that gives you
+some good information how excel is set
+up really only in two directions all
+right we'll see a next trick
+welcome to exhale array formula series
+number two hey if you want to download
+this workbook and follow along click on
+my youtube channel then click on my
+college website link and download the
+workbook excel or excel or a formulas
+one to fourteen hey this trick number
+two we're going to see that there are
+array functions of course functions or
+formulas because there's an equal sign
+but this is a built-in function there's
+a bunch of them and as we saw in the
+first array formula we have to use the
+keyboard shortcut ctrl shift enter to
+tell Excel that this is an array formula
+or in this case we're using an array
+function we want to use the transpose
+function here we have units sold and
+price listed vertically like this we
+want to list it horizontally here's how
+you do it you got to count the rows 1 2
+3 4 5 and that's how many columns R has
+to be and then you have to count the
+columns 1 2 and that's how many rows are
+have to be you highlight it and in the
+cell up in the corner the light-colored
+cell equals transpose equals transpose
+and you simply highlight let's see if I
+can move that you simply highlight the
+range close parentheses and instead of
+enter if you hit enter it gives you an
+error it says what hey what so I'm going
+to highlight it all there f2 oh the
+magic keyboard shortcut to tell Excel
+that this is an array formula in this
+case an array function you hold ctrl and
+shift and then enter there you go that's
+how to use the transpose now many of us
+know how to do paste special transpose
+but the advantage to using a array
+function like transposes I can change
+this price right here to 14 and sure
+enough it changes there I change this to
+16 and it changes there I change this to
+dollar and sure enough it changes there
+so those are linked a way to transpose
+link and that isn't our first example of
+an array function alright seeing
+X trick
+hey there it's Nicola Milan from singer
+secret and in this episode I am going to
+show you a super easy way to transpose
+your songs down into a key that suits
+your vocal range transposing is a
+fantastic tool for every singer to learn
+because there are so many times when you
+you want to sing a song that has notes
+that are either too high for you or too
+low for you and so instead of trying to
+strain to get those notes all you need
+to do is transpose the song down a few
+tones or up a few times into a key that
+is more suitable for your voice
+similarly if you want to sing a song
+that's been written and sung by a male
+artist originally and you're a female
+singer then those notes are going to be
+too low for you so you want to transpose
+it up and vice versa for guys so I've
+got a super easy trick for you that you
+can use right now so say that our song
+is in the key of C you just go cdefg
+base B so these are the notes in the C
+major scale c d e f G a B you know think
+on a piano you've got those notes and
+let's just say that in this key there
+are a couple of notes that are too high
+for us so we want to transpose it down
+just a little bit to make it a little
+bit lower so let's just have us think
+about our keyboard we've got middle C
+the next note below is B then we've got
+B flat then we've got a so we're going
+to transpose down to a so easiest thing
+to do is we know we're going to be using
+a so underneath our C I'm doing this
+totally old-school style you just go a
+you start with a city c d e f g okay um
+and then this is where a little bit of
+theory comes in because you need to know
+your key signatures a little bit but you
+can just grab a chart or from the
+internet if you don't know what you're
+kissing each other so I know that in the
+key of a we've got three sharps so
+you've got c-sharp we've got F sharp and
+we've got G sharp and that is pretty
+much it so now when I go through my soul
+I know that every time there's a C I
+will write an A instead and this is for
+if you've got you know the the lyrics
+written out with chords across the top
+you just go through and you find all of
+the C's and you change them to A's
+that's it and then your guitarist or
+your piano player or yourself or
+whatever whoever's playing the music for
+you will play the new key and it will
+sound lower um yeah
+so easy and this works for any key you
+can move it up or down you just work out
+what your start node is and then you
+write you know the ABCDE if we wanted to
+change it to history F you just start on
+F and then you just go up from there no
+f g a b c d e and then in the key of F
+there's a b-flat ring done so easy so
+even though there are some backing
+tracks that you can get now that will
+just transpose for you some programs
+that will do this for you or if you use
+notation software like Sibelius which is
+awesome by the way
+this will do it for you but it's nice to
+know this stuff because quite often
+you're out on the gig and you don't have
+access to a computer or you know you
+don't have time to sort of get your
+phone out and go to like this special
+transposing app um it's nice to know how
+to just do it manually really really
+quickly so there you go and it's super
+easy way to transpose your songs I hope
+you've enjoyed this video if you have
+please like and subscribe and if you
+would like more free singing tips on how
+to improve your singing and make it as a
+singer head on over to my website singer
+secret com make sure you hop on to my
+email list because I do put extra
+singing tips and secrets into my emails
+that I do
+chair anywhere else and you don't want
+to miss out thanks again for watching
+I'm Nicola Milan and I'll talk to you
+again soon
+in electrical science we're going to
+have to learn how to rearrange certain
+mathematical formulas in order to find
+the value that we're looking for so
+let's just look at a simple formula a
+plus B equals C that's called an
+equation why is it called an equation
+because we have an equals sign
+lots of electrical formula are going to
+be with an equal sign they're going to
+be equations and all that means is if we
+can imagine that the equals sign is like
+a set of scales it's a balance that side
+has to equal this side and the rules for
+transposition transposing the formulas
+to rearrange it to find a different
+value the value that you're trying to
+find is called the subject so in this
+formula a plus B equals C C is the
+subject of the formula and if we want to
+rearrange this formula to try and find B
+then the rules are whatever we do to one
+side of the equal sign we must do to the
+other side to keep the balance so if we
+were to add something on this side we
+have to add something on this side to
+keep the balance if we subtract
+something on this side then we subtract
+the same on that side to keep it
+balanced it's always be balanced we'll
+look at multiplication and division in a
+few moments if I want to make be the
+subject of this formula I need to get
+rid of a I won't be on its own so how
+can we get rid of a well let's just take
+it away a - a whatever I do to one side
+of the formula I must do to the other
+to keep the balance so I have to minus a
+off this side as
+well see lines a now a - a just cancels
+out and I'm left with B equals C - a B
+equals C - a let me just go back to that
+now I just want to run it through with
+some numbers a plus B equals C let's
+make a 1 and B 2 1 plus 2 equals 3 what
+I just did in that previous example was
+we will look for B on its own B was the
+subject so it's like making to the
+subject 1 plus 2 equals 3
+now you know just by looking at the
+numbers it's a lot easier than 2 equals
+3 minus 1 how do I get that - on its own
+in transposition we do the same if I
+minus the 1 there I have 2 minus 1 there
+what I do to one side of the equation I
+do to the other side to keep the balance
+1 minus 1 is nothing to equals 3 minus 1
+let's look at a different formula let's
+look at Ohm's law I equals V over our
+current equals volts divided by
+resistance we have a faction now the
+last formula was a plus B equals C this
+one we've now got a division here V
+divided by R so what do we do here
+what's a let's say we want to make V the
+subject we want to get V on its own from
+the rules of transposition whatever we
+do to one side of the formula we must do
+to the other if I want to get V on its
+own I need to get rid of that are how
+can I do that if I multiply this side by
+r I have to multiply the other side by
+are these ours
+now cancel out I'm left with V by its
+own five times R equals V we like to
+express formula with the subject on the
+left hand side so when we've worked it
+through to get the value we're looking
+for we just change that around so that
+the subject is on the left so V equals I
+times R now we tend to express Ohm's law
+V equals I R we lose the x sine we lose
+the multiplication sign so we can assume
+in formula that when we see values like
+this without a sign in between them you
+can assume that it's a multiplication
+it's a x we can assume that there is a
+little x in there which is quite
+important when it comes to transposing
+let's go a little bit more complicated
+now the formula for inductive reactance
+if you all remember is X L equals 2 pi F
+L bit more of a complicated formula but
+still quite easy to transpose if we just
+stick to the rules of transposition if I
+say said to you let's make L the subject
+of the formula what do we have to do
+we've got to get rid of the 2 pi F in
+order to get L on its own we have to get
+rid of that so how can we do that we
+need to be to cancel that out so let's
+divide this side by 2 pi F whatever we
+do to one side we must do to the other
+to keep the balance X L therefore has to
+be divided by 2 pi F 2 pi F divided by 2
+pi F is 1 so we end up with L on its own
+express it with the subject on the left
+and you get help
+equals XL
+over 2pi f my final formula just for
+this short video is going to be the
+transformer formula V P over V s equals
+and P over N yes this is a formula that
+people find a little bit tricky to
+rearrange to try and find the value so
+let's just have a brief look at this now
+if we wanted to find let's say NP on its
+own whatever we do to one side of the
+formula was - to the other side to keep
+the balance how can I eliminate ns I
+need to get NP on its own
+this is a division here so let's do a
+multiplication let's multiply that side
+by n s what we do to one side we must do
+the same to the other you multiplied
+that side by n s NS now cancels out and
+we're left with MP on its own put it on
+the Left NP equals V P times n s over V
+s
+put the formula and again let's work out
+a different value VP over V s equals NP
+over and yes let's find a value that's
+on the bottom because this takes a
+little bit more working out let's say
+that we want to find V s on its own I
+need to get V s to the top line of the
+formula otherwise it remains as a
+fraction and we don't want that we need
+to get this onto the top line so let's
+start by getting rid of the V P so if we
+divide this side by V P and this side by
+V P then they'll cancel out VP divided
+by VP is just 1 so we end up with 1 over
+V s equals NP / NS x vp looking quite
+complicated PS that we're trying to find
+is still on the bottom of the formula we
+want it on the top at this stage I think
+it's better to take the rule that
+whatever you do to one side you do to
+the other so the easiest way to get that
+to the top is just to invert it to turn
+it upside down so if we turn that upside
+down V s over 1 which is just V s then
+we just need to turn this upside down so
+put the NS and the VP on the top the MP
+on the bottom so then V s equals L s
+times VP divided by MP now I know
+there's a lot to take in there but if
+you replay the video a few times
+hopefully you will begin to understand
+how it works thank you
 what's up see brushers welcome back to z
 fever my name is freaky and today we're
 going to be talking about transpose
@@ -1464,335 +1440,1021 @@ matrix B are equal to each other and
 this will always be true okay I hope you
 found this helpful thank you for
 watching
-welcome to Excel magic trick number 460
-hey if you want to download this
-workbook and follow along click on my
-YouTube channel and click on my college
-website link and you can download the
-workbook excel metric for 58 to 465 in
-this video here we want to see how to
-transpose a data set and have our
-datasets listed vertically we want a
-horizontal but we want it linked now I
-have used shown the transpose function a
-few different times you highlight the
-whole range and transpose and then
-highlight whatever range it is and this
-is an array function so you control
-shift enter now that's fine people do
-that all the time in fact I do that
-quite often but if for some reason you
-don't want an array formula for example
-if you needed to insert which might be
-pretty rare here because that's actually
-an advantage here right you don't want
-to have someone mess it up and by
-inserting a column arrays won't let you
-do that for whatever reason you don't
-want that array here's an alternative
-you could just use the index function
-now the array will have it the whole
-entire array here and f4 comma now row
-number as we go across here we need to
-successively get different rows right so
-we'll put the columns with an S function
-in here we're sitting in cell e 11 so
-I'll say dollar sign 11 colon 11 right
-that is an ink run umber incrementer
-right now it'll say how many columns e 2
-e 1 as we move across here to go 1 2 3 4
-5 which is exactly what we want for
-extracting rows now the call the column
-number we only have one two columns here
-so we really need to only somehow get a
-number one and two will use the rows
-function because we will copy down right
-as we go down here we need it to go from
-1 to 2 and here I'm sitting in 11 so e
-11 and I'm going to hit the f4 key
-because we'll lock it in both directions
-and then comma dollar sign e 11 that's
-it and that will right now as we go
-across this way it'll remain locked on
-the number one so it give us a 1 1 1 1
-but when we move down I'll give us 2
-which is exactly what 1 because what do
-we have we have 1 2 columns
-control-enter no control shift enter and
-drag it down and drag it over now I
-don't think I've ever done this one I
-always use this one but if for some
-reason it didn't want to use that
-transpose that is a clever way to do it
-and even if you never use it
-understanding how the columns and rows
-work as incrementer x' and being able to
-reverse it in your you're ahead
-given that the columns is delivering a
-row number understanding that gives you
-some good information how excel is set
-up really only in two directions all
-right we'll see a next trick
-hey there it's Nicola Milan from singer
-secret and in this episode I am going to
-show you a super easy way to transpose
-your songs down into a key that suits
-your vocal range transposing is a
-fantastic tool for every singer to learn
-because there are so many times when you
-you want to sing a song that has notes
-that are either too high for you or too
-low for you and so instead of trying to
-strain to get those notes all you need
-to do is transpose the song down a few
-tones or up a few times into a key that
-is more suitable for your voice
-similarly if you want to sing a song
-that's been written and sung by a male
-artist originally and you're a female
-singer then those notes are going to be
-too low for you so you want to transpose
-it up and vice versa for guys so I've
-got a super easy trick for you that you
-can use right now so say that our song
-is in the key of C you just go cdefg
-base B so these are the notes in the C
-major scale c d e f G a B you know think
-on a piano you've got those notes and
-let's just say that in this key there
-are a couple of notes that are too high
-for us so we want to transpose it down
-just a little bit to make it a little
-bit lower so let's just have us think
-about our keyboard we've got middle C
-the next note below is B then we've got
-B flat then we've got a so we're going
-to transpose down to a so easiest thing
-to do is we know we're going to be using
-a so underneath our C I'm doing this
-totally old-school style you just go a
-you start with a city c d e f g okay um
-and then this is where a little bit of
-theory comes in because you need to know
-your key signatures a little bit but you
-can just grab a chart or from the
-internet if you don't know what you're
-kissing each other so I know that in the
-key of a we've got three sharps so
-you've got c-sharp we've got F sharp and
-we've got G sharp and that is pretty
-much it so now when I go through my soul
-I know that every time there's a C I
-will write an A instead and this is for
-if you've got you know the the lyrics
-written out with chords across the top
-you just go through and you find all of
-the C's and you change them to A's
-that's it and then your guitarist or
-your piano player or yourself or
-whatever whoever's playing the music for
-you will play the new key and it will
-sound lower um yeah
-so easy and this works for any key you
-can move it up or down you just work out
-what your start node is and then you
-write you know the ABCDE if we wanted to
-change it to history F you just start on
-F and then you just go up from there no
-f g a b c d e and then in the key of F
-there's a b-flat ring done so easy so
-even though there are some backing
-tracks that you can get now that will
-just transpose for you some programs
-that will do this for you or if you use
-notation software like Sibelius which is
-awesome by the way
-this will do it for you but it's nice to
-know this stuff because quite often
-you're out on the gig and you don't have
-access to a computer or you know you
-don't have time to sort of get your
-phone out and go to like this special
-transposing app um it's nice to know how
-to just do it manually really really
-quickly so there you go and it's super
-easy way to transpose your songs I hope
-you've enjoyed this video if you have
-please like and subscribe and if you
-would like more free singing tips on how
-to improve your singing and make it as a
-singer head on over to my website singer
-secret com make sure you hop on to my
-email list because I do put extra
-singing tips and secrets into my emails
-that I do
-chair anywhere else and you don't want
-to miss out thanks again for watching
-I'm Nicola Milan and I'll talk to you
-again soon
-in this video I'm going to teach you how
-to transpose a melody like a
-professional musician not like a
-technician let's take a closer look
-so let's talk about the absolutely
-logical but wrong painfully horribly
-wrong way to transpose this little piece
-of melody so the standard practice is
-people will say oh let's see your first
-note is this right what we have to do is
-if we want to play this melody now in
-another place we just have to pick our
-starting point let's say we wanted to
-play instead of starting on C we want to
-start playing on flat so what do they do
-they say well all you have to do is
-count up one two three half steps I
-don't even know what a half step is
-except some artificial invention of
-people who knew nothing about music but
-let's continue right so you take this
-note and you count up ah it's one two
-three half steps higher so all you have
-to do quite logically is add three half
-steps to all the song sorry all the
-notes and your original song and you're
-there right so let's do that right let's
-see so instead of so let's we remind
-ourselves of the notes right c d e f and
-g so if i add three half steps to see i
-get this guy if I had three half steps
-to D I get this guy
-if I had three half steps to e I get
-this guy and if I add three half steps
-to F I get ah this guy and if I add
-three half steps to G again this guy
-again sounds reasonable
-but while you're doing this you know
-that the train has left the station it's
-already three miles down the track who
-wants to play music like this this is
-how a computer would play music this is
-not how human beings human beings who
-are true artists who enjoy patterns
-would play music right let's talk about
-the right way to transpose
-the right way to transpose is this
-let's take a look at our original melody
-I'm just going to play with one finger
-right now
-the key insight to have here to
-transposing a melody like a musician is
-to understand what you're playing in
-profoundly musical terms so let's take a
-closer look right let's put the pebbles
-down here on those five notes and a
-little piece of melody we're playing and
-ask ourselves what is this let's play it
-and just listen now as you listen to
-this something should really register
-your ears right and that's this that
-this this note here is the key Center in
-other words C is the key we are in in
-other words C is dough so without you
-know belaboring this and going into
-infinite detail what we are playing here
-and this melody is just the first five
-notes in a major scale in this case it's
-C major right so our first pass through
-this in order to transpose to revise
-look this melody is just the first five
-notes in a major scale so if we want to
-transpose this to another key all we
-have to do is know the first five notes
-in that new key simple right so let's go
-back to our our transpose kiwis before E
-flat so what are the first five notes in
-the key of E flat
-now if you know this already great
-you're already a big part of the way
-there if you don't know this already you
-have work to do in fact this is the work
-you need to be doing to prepare yourself
-for the ability to transpose you have to
-know your keys so in this case here's
-the first five notes in the key of E
-flat major let's play them sounds right
-doesn't it fall so we can understand
-this intellectually we understand it by
-pattern recognition at the keyboard and
-we understand it by ear so we understand
-it in three different ways
-sonically intellectually and physically
-at the piano so now let's go back to
-furrow what was it what was the pattern
-within this five first five notes of a
-major scale
-it went dah dah dah dah
-it's just the first three notes going
-one two three and then back to the
-beginning then repeated what was the
-rest of the pattern it was the top three
-notes played in a very similar way right
-it's that simple but you have to do your
-homework you have to know your scales
-you have to study the original melody
-like a musician you need to know what
-key it's in you need to know what scales
-or other patterns are being used if and
-if you put all this together you don't
-have to transpose like a computer you
-can transpose like a musician with
-profound musical understanding
-so now what we're going to do is let's
-play Frere Jacques and all 12 keys it's
-not as hard as it sounds let's start out
-again in C major right and remember the
-pattern right use your ears use any
-sense of the shapes and time and space
-right
-now we're the first five notes in the
-key of G play the same pattern first
-five notes in the key of D absolutely no
-calculations required none key of a
-first five notes play the same pattern
-keep e so again and again you're going
-to see if you don't know your major
-scales you're in trouble all you have
-left are calculations right so you got
-to learn your scales stick lickety
-be and by and by the way as you're doing
-these right you're doing your training
-in the past if you only knew that I'm
-just playing random notes you're not
-doing your training but when you
-understand the pattern of the music and
-you're listening and associating that
-with your intellectual understanding of
-it you're doing ear training right be
-major don't break me fossil let me sleep
-Oh ready for Seoul hey do you hear how
-that's the key Center let's play
-no you see I changed my fingering there
-but I didn't have to I could have done
-G flour
-d flair
-a flat do the first five notes in a flat
-major right if you don't know it you
-need to get busy studying your scales
-e-flat our old buddy e-flat b-flat if
-you don't know your b-flat scale you're
-not going to be able to transpose and to
-b-flat except the hard way so get busy
-learning your scales
-and then back to see so now you get the
-idea right
-so again study your scales know them
-like you know the back of your hand
-and when you look at music make sure
-you're not just playing random isolated
-notes make sure you understand the big
-musical ideas
+good trans function put down in general for
+it serves to change the tone
+no keyboard you need to change your
+hand
+so let's assume something more
+It happens especially the personal touches
+church I played many years also in
+leandro church also happens
+whatever begins to rehearse a song
+C major with the whole band and
+Suddenly comes the singer and talk like okay
+low that tone then you spent
+month preparing that song you already
+decorated as it comes to that music
+in C major all parts and such
+and then the blessed singer singer is
+undertone him decide to change the tone of
+good music for those who play down the guys
+are in heaven just get out and
+walk a house for example two houses
+for us from touching doi aft flat
+is a disgrace is because changes
+completely typing and everything
+then you could for example that
+if I want to sound in D flat I
+ing stump and puts the transposition
+I'll do one more
+I am rising 1 cm pitch then the number
+Shipping is always more or less
+semitones or I'm playing in 2
+was another country where music in reverse
+the flat is that it is actually a form
+Lazy means you learn is
+I really only use for emergencies
+for example once I was not playing
+even know if people know this but has
+instruments that are transpositions
+the saxophone in B flat when he
+is reading a dollar on the score he
+He is playing actually a sibemol had
+once I went to play with friends
+just we had all
+scores only sorry that I played and sweated
+sibemol logical that we are musicians
+professionals already know what to do
+I did I got my keyboard
+put there - second played all equal legend
+I was in the score and the gang itself
+flat then all was quiet he
+He managed to make the whole event without
+no problem ok then that's it
+hey what's going on guys this is Casey I
+wish that someone had taken the time to
+teach me how to play in the key of a all
+I had to do was play preacher chords in
+a-flat and preacher chords in the key of
+D flat and now would sound absolutely
+amazing in the key of a I just wish
+someone had kind of sat down with me
+because what you're about to see this
+one-minute clip actually took place it's
+a true story I'm embarrassed to say but
+hey you know what we learn from our
+mistakes I'm not too big or too popular
+to where I can't reveal my
+vulnerabilities I was very inadequate
+and playing in the key of a but all it
+needed all I need it really was a
+10-minute lesson has someone just sat
+down with me with for 10 minutes to show
+me what I'm getting ready to show you
+guys I'm going to show you the secrets
+to sound amazing in the key of A so
+watch this clip and then I'll be right
+back
+this guy is nice on the keys
+nice nice touch nice westcoast way the
+only problem is they get rid of mine
+delayed over half step and I don't know
+if he's ready
+this is embarrassed embarrassed we have
+to transpose but net there is too
+should I push the UP button make sure
+nobody's looking yeah man yeah you need
+to go on and push that plus one button
+because you think you embarrassing us
+I'm going to look at him and this guy I
+got the book bag on got the westcoast
+click try going nice MKS rolling Blin
+you know I mean but look at this it's
+not ready not ready hey what's going on
+guys I am back from that video that was
+very embarrassing it was very true it
+did happen but I learned from my
+mistakes basically I learned the song in
+one key and never imagined the choir
+director would tell me to go up to the
+next key and so when they did to go what
+but the truth came out I could not
+really play fluid fluent you know in the
+key of a but I've learned that there
+aren't really any keys that you can't
+play in I think what happens is you keep
+saying oh I can't play an AI can't plan
+D well if you keep saying it then you
+won't be able to but believe it or not
+you are already playing a you just don't
+know it I'm going to show you some
+preacher chords in a flat and some
+preacher chords and D flat I know I have
+some international followers who don't
+even know what preacher chords are
+because they're so used to me doing jazz
+and you know different things like that
+but I'm going to take you to church and
+you church gospel musicians you're going
+to be playing in a within five minutes I
+promise you that or your money back
+oh this is a free lesson so it's really
+no money back but check this out in five
+minutes I'm going to prove to you you
+can play in the key of a you can delays
+and do some amazing things
+again I'm just kind of playing through
+the course
+so you can get a feel of what I'm doing
+here
 you
+and then what he did hear us
+and again I'm just trying to phrase
+through the song in the key of a and in
+if you were to just listen to this you'd
+think that I am very very fluent in the
+key of a but I'm really not I'm just
+playing preacher chords and a flat and
+preacher chords in D flat and I'm just
+kind of moving in between keys and just
+using different variations so again this
+this first part is for advanced
+musicians but the second part is going
+to be for the or the I slow it down for
+the beginners those who don't even know
+what preacher chords are so um so here
+we go um what he did he started off and
+I'm gonna start off in the key of e 1 2
+3 4 or 5
+that's a skilled stick scale degree and
+then left hand I'm just gonna go down
+half steps bah bah bah bah and then skip
+alright so you put it together
+and then
+again this is for the advance I'll slow
+it down for those of you who don't know
+what I'm talking about okay so uh
+that's to God
+watch this be the wall
+now let me break that down right this
+little lick here
+is nothing but preacher causing a flat
+watch this hallelujah now I'm not a
+preacher but I'm at like I'm when I'm at
+like I'm backing up the preacher
+hallelujah come on put your hands
+together
+and the word said in John 3:16 for God
+so loved the world man let me keep this
+thing moving so we know where those are
+preacher chords that you can use an
+a-flat but believe it or not that's be
+the glory all right now slow down for
+you now these West Coast musicians they
+do a lot of slurs Jason white and some
+of the other artists they do a lot of
+slurs and that's not really the way I
+play believe it or not I'm just playing
+like this for the sake of teaching the
+video so let me show you how that goes
+it's like this is the first chord so you
+just roll into it be watch this next
+chord watch this
+that's another slur there right our
+right hand is you can see the notes
+there on the screen
+we
+to God now I'm in the key of E I'm
+playing shout shout cores or preach of
+course to be are so so - ah and then
+this little lick here
+all right that's a little move you can
+doing me and again I'll slow this down
+all right I'm just moving fast because
+the the advance musicians they are kind
+of ATD date night they're not gonna sit
+here and watch me just spell out
+everything so I'll spell it out a little
+later so so to God
+watch this FIFA hey what I did was I
+went to the kids F and I just did five
+one four seven three six I mean you can
+do any kind of combination in any of
+those little movements because I know
+you're advanced you kind of know where
+I'm going with that again for the
+beginning students I'll break that down
+but what I did was be though five one
+four seven three six and then to the
+three in the key of E and I'm do that
+same little walk down boom boom boom
+watch it boom
+to God so
+now believe it or not I'm playing in a
+key of D flat I'm doing my preacher
+chords in D flat now hallelujah come on
+put your hands together hallelujah any
+worthy
+all right so that little move there
+hallelujah oh yeah he's good yeah that's
+all that is I'm just playing I'm just
+using preacher chords there so um
+to God Pisa and then glory all right so
+let me slow this down for the beginning
+musicians who don't know what in the
+world is going on but basically what I'm
+playing is I'm playing the song to God
+and I'm gonna go even slower
+we bump bump again that's pretty boys
+and a flat - now I'm going to the key of
+B - a little move you can use there
+Beefalo
+three or you can do simple be the glow
+Green that was just 736 beaver in the
+key of F and then flat six six all right
+now because you're a beginner I'm going
+to go even slower so I'm gradually
+moving from the advanced people because
+they've already kind of learned the
+licks and now I'm going slower them I'm
+gonna break it down note by note so here
+we go to God here's the break down to
+God I went to the key of a they're just
+a chord and then I'm gonna do this
+little worship move again west coast
+musicians they love doing Osler so my
+right hand is doing this left hand is
+doing this so
+so and then here's B the glory be
+now let me break that down because I
+know you're a beginner and not always
+just looking at the notes on the screen
+really help you out I'm going to kind of
+spell it out so here's B and I'm a
+slurring to the B B this is the preacher
+chord that the advanced musicians they
+already kind of know that part but I'm
+gonna slow down for you so here's bee
+bee bee right hand left hand is here
+right hand is here though and then watch
+this glow so I slowed into glory oh and
+this is right hand left hand this is
+still a part of that preacher just
+preacher chords that we use on a flat
+and then close out Reed and then work
+your way out of it like this in this
+left hand right hand and then we're
+gonna work our way out of this re boom
+boom it's just a nice little feel so
+here's Reed boom boom
+to God now I'm gonna give be hallelujah
+to God and that right hand is a slur to
+God left hand watch this move boom boom
+boom boom boom boom so my right hand
+started here and it ended here so to God
+boom boom join them together and then
+boom boom boom I'll do it again to God
+and then watch this be the now I'm going
+to go to the key of F be the the
+simplified way will be like this
+blow I'm sorry
+reading now of course Jason wine did not
+do that move that's just me my ATD you
+know kicking in and I just I can just do
+all kind of weird crazy stuff in the
+middle of a song so I'm going to show
+you why I did what I did here so be tha
+here's a 736 movement I'll do it again
+be the mean and do a slower be the right
+hand along with the left hand
+diminish
+last chord
+so be the green watch this close it out
+on that's an E chord I'm sorry REE so
+it's real clean and then you close it
+out bone bone bone that's the same way
+we open it up boom boom boom washes
+to God all right so five six seven then
+you do this left hand put a bone bone
+all right so is
+to come
+be the low B alright let me break that
+down go down down that's that first one
+boom boom
+right hand
+boom next court and that court right
+there where the right hand is this again
+West Coast musicians they have really
+made this a staple the slurs so
+so left hand is put a boom bam bam
+ba-bam bam bam
+all right right hand this court again
+these are preacher chords in the key of
+D flat hallelujah
+I don't have a bass player women
+Alleluia and then watch this
+me though I know a lot of cars doing us
+that weird move
+clovie or just clean flowy and then
+let's left hand so let's put it together
+you can do that's real plane.b though
+and again I'm just it seems like I'm
+kind of creating as we go along because
+I really am because I'm not playing in
+the key of a and my brain I'm planning
+like d-flat right now I'm just I don't
+have time to think of a like that
+because I'm not well-versed in a like I
+am and like a flat and B flat but now
+I'm doing moves in a that I can't even
+do in a flat I sound better now and a
+because I'm doing tricks these preacher
+courses I've been planning on my life so
+let's move that chord again that's that
+last chord or you can do this
+to be the
+alright that move there is
+to God and then what I did here is
+right hand with the left hand next chord
+next chord
+and I've kind of I taught this in
+another series but I was just breaking
+here
+we won't be and again I don't have a lot
+of time to really spend on breaking this
+song down because I don't want to
+reteach Jason white song and another key
+but really the purpose of this video is
+to show you that you can play an A you
+can play in D you just got to know what
+to use and when to use it so if I get
+enough support if I get enough thumbs up
+on this video and that just tells me
+that people are watching the video and
+that they can actually benefit from it
+because I don't want to waste time
+teaching things that people can't
+benefit from and using real-life
+situations so if I get enough thumbs up
+share this on your Facebook post I'm not
+looking for popularity I'm just looking
+to be used I believe in dying empty
+that's been my slogan from day one some
+people are called to be professional
+musicians to go on tour into perform and
+I thought that that's really what I
+wanted to do but I really don't care
+about performing
+I really don't really play play live I
+don't really care to play live like the
+way I'm doing right now really I really
+feel like my calling in life is to teach
+is to reveal the secrets that's that's
+it I believe that a lot of musicians
+want to hold on to their secrets and
+things like that or it make fun of
+people who can't play in certain keys so
+they put you know Facebook posts and
+things like that how about you can't
+play in certain keys really anybody can
+play in every key it's just knowing what
+to use and when to use it so that's
+really the purpose of this video that's
+really it it's not about pressing the
+transpose button because there are times
+where I have to use it to be perfectly
+honest there have been times where I've
+been playing or I learned a certain song
+and a certain key and then all of a
+sudden the choir director feels the
+spirit and they're led by the Lord who
+key up a half-step and the Lord and
+running by me that they were going to do
+that so the Lord told me to push the
+transpose up button because the devil
+will be busy in that church service
+because I'd be looking like I did in
+that one minute video so anyway I'm not
+going to waste time talking and waste
+your time I hope that you enjoyed some
+of the licks and things that you can use
+in the key of a to sound absolutely
+amazing so again I appreciate all the
+support all the love on Facebook you
+know I respond to all men
+I have about a 95% rating on Facebook
+about people send me messages I will
+respond most times and a lot of times I
+don't look at me and my wife we're on
+the page together so you know how it is
+when you got a joint account your wife
+scrolling through she clicking on
+messages and honey I do love you
+huh but when she clicks on the message I
+don't show it didn't show a new alert on
+my phone or my my computer so a lot of
+times I can miss it but what I've done
+every day I make it my point to go
+through the messages and see what it's
+come through so if you want to reach me
+directly that's a good way to do it also
+email but I get a lot of emails
+throughout the day I mean at least 10 15
+20 emails a day from musicians who have
+questions about different things but I
+can't always get back to those but
+Facebook I got you covered
+so that's Kevin and Danielle Connolly
+and that's that's our Facebook page so
+again thank you so much for the love
+thank you for the support and if I get
+enough likes hey man I might do a series
+of videos on tricks that you can do to
+expand in these weird kind of keys
+thanks again
+hello welcome to teach me math my name
+is jonathan hicks and we're doing
+transposition now i've already done an
+intro to transposition video so if
+you're not sure what transposition is
+sometimes it's called rearranging
+equations go and watch that video first
+and I'll explain what it is and why we
+do it you also need to know how to solve
+equations transfer position at the end
+of the day is solving equations it's
+just that a lot of the numbers have been
+replaced by letters you're not really
+doing anything different from what you
+would do when you solve an equation it
+just looks very different and that can
+put people off sometimes but make sure
+your confidence offering equations
+before you come on to this now we're
+going to be following exactly the same
+method that I did in the solving
+equations videos so just quickly to
+remind you what that method is step one
+when solving equations is always to
+remove fractions step two is to remove
+brackets step threes move added and
+subtracted terms and then finally we
+always divide by the number next to the
+letter
+now I split the solving equations videos
+into four to follow those four steps so
+we started with the easy ones where
+you're just doing the last step and then
+we had steps three and four together
+and then we did brackets as well as
+steps three and four and then we did all
+four steps together with the fractions
+I'm going to do the same thing for
+transposition so in this first video I'm
+just going to transpose equations that
+involve the last step then we'll
+gradually make it harder over the next
+few videos until we can do the whole lot
+of ones all right so as I say in this
+video the step we care about is divided
+by the number next to the letter now let
+run let me remind you how you do that
+for a normal equation first and then
+we'll come on to the transposition
+so perhaps put that over here because
+I'm going to refer back to it a few
+times so if we have 2x equals 6 so in
+theory we would check the four steps
+here fractions no fractions brackets no
+brackets added or subtracted terms no
+added or subtracted terms so the only
+thing we have to do is the final step
+which is divided by the number next to
+the letter the number next letter is two
+so we divide both sides by two a little
+divided by 2 on both sides the reason we
+do that is because these 2's will cancel
+which will leave you with the X by
+itself and 6 divided by 2 is obviously 3
+so that was easy that
+how you solve equations where you're
+only using the last step you're only
+dividing by the number next to the
+letter in this case - all right let me
+give you an equivalent example for
+transposition so if we have a y equals x
+and imagine in the question it tells you
+that you want to get the Y by itself now
+I'm going to put that over here in a
+circle so I don't forget often the
+question will say transpose and then it
+gives you the equation four and then it
+gives you a letter so it might say
+transpose a y equals X for Y and that
+means you want to get the Y by itself
+the Y is the letter we care about you
+want to put everything else on the other
+side and leave the Y by itself on one
+side of the equation just going back to
+this that's the equivalent of getting
+the X by itself when we solve equations
+we're always trying to get the letter by
+itself on one side with everything else
+on the other side because if all the
+numbers on the other side you can work
+out what that number is and you've
+solved your equation we did this same
+thing here but because we've got all
+letters here there are no numbers we
+need to know which letter is the
+important letter the letter we want to
+get by itself now I say there are no
+numbers here actually they're all
+numbers remember that everything in
+algebra is a number every letter you see
+just reference an unknown number but as
+I explained in the intro video sometimes
+we want to rearrange these equations
+before we put the numbers in so the
+important thing to note at the start is
+which letter do you want to get by
+itself that's the letter we care about
+so when we come on to our final step
+well let's quickly check through the
+other steps first fractions no fractions
+brackets no brackets added or subtract
+terms nope so the last thing is we
+divide by the number next to the letter
+now which is the letter there are three
+letters it's that one it's the letter we
+care about they'll always tell you what
+that is in the question so we divide by
+the number next to the Y we have the
+number next to the letter number next to
+the Y and the number next to the Y is a
+remember that a is a number so we're
+going to divide everything by a just
+like here when we have 2x equals 6 we
+divided everything by 2 because that was
+the number next to the letter over here
+because we care about the Y we're going
+/ the number next to it we're going to
+divide by the a so on both sides you
+divide by a so divided by a divided by a
+just like we did here the reason we do
+that is because the a is here will
+cancel and I'll leave you with the Y by
+itself just like the twos canceled and
+left you with the X by itself and then
+here you got X divided by a now if we
+knew what those numbers were if we had
+six and two for example we could work
+out what it gives you in this case it
+gives you three but we don't yet know
+what the numbers are remember we're
+going to be repeating our experiments
+and putting different numbers in here
+each time so we don't worry about what
+that's going to give us we know that
+it's going to be x divided by a and
+that's what we care about we'll put the
+numbers in later we've managed to get
+the Y by itself though that's what
+matters that's what they've asked to do
+is asked us to do in the question so you
+stop there that will be our answer if
+you rearrange the original equation a y
+equals x you get y equals x over a so
+actually although it looks very strange
+it's easier than solving equations
+because you never actually have to work
+anything out if you're dividing you just
+write it as a fraction you don't have to
+work out what six divided by two is
+because you're going to put the numbers
+in at a later date right let me do
+another one
+once you've seen a couple of these you
+should get the hang of it so imagine the
+question says transpose P equals Q R for
+R so they're telling you they want you
+to get the R by itself and everything
+else on the other side so there are no
+fractions no brackets no added or
+subtracted term so the only step we need
+to worry about is divided by the number
+next to the letter which letter do we
+care about it's R so we're going to
+divide by the number next to the R and
+looking at this the number next to the R
+is the Q remember that Q is a number
+everything here is a number so we're
+going to divide both sides by Q just
+like we do here yeah we were dividing by
+2 because that was the number next
+letter here they were going to divide by
+Q because that's the number next to the
+letter we care about so divided by Q
+/ queue those queues will cancel which
+will leave you with the are by itself
+and there's nothing else to do here we
+don't need to work it out you just write
+P divided by Q and that's your answer
+some people like to put the letter that
+we're trying to get by itself on the
+left so some people might flip it round
+at the end and that's fine you can do
+that if you want to so BR equals P
+divided by Q like that either way around
+is fine
+remember the equal sign means that the
+things on either side are the same it
+doesn't mean and the answer is so either
+way around this fine okay now this can
+get slightly more difficult when you've
+got other things involved although
+actually it's not any more difficult you
+do exactly the same thing it just looks
+a bit different so next one we'll have C
+x equals a plus two finally I'm
+including this to show that you can have
+numbers as well sometimes you get
+equations that do involve numbers as
+well as letters so imagine the question
+says that we want the X by itself I
+always put this here in a little circle
+so that I don't forget when there's a
+lot of letters swimming around it's very
+easy to forget which letter we care
+about which letter would try to get by
+itself so if you put it here in a little
+circuit you'll never forget that's the
+one I need by itself
+alright so fractions no brackets no add
+in the subtracted terms well yes
+technically we've got an added term here
+but our letters are all on one side and
+all the added and subtracted terms are
+on the other side so we don't need to
+worry about that
+the last step we divide by the number
+next to the letter that's the lesser we
+care about the number next to this
+letter is the C so we're going to divide
+everything by C so the thing that
+confuses people is often this but it's
+honestly very easy to deal with you
+divide by C on the left and then you
+divide by an in algebra when you write
+divided by you just do a big fraction
+you divide by C on the right that's how
+you do it the C's or cancel which leaves
+you with the X by itself and then you
+can't work out what this is
+you don't know what a and C are so you
+can't do any kind of simplifying or
+working out don't mess with it just
+write it down exactly as it is so it's
+going to be a plus to oversee one big
+fraction and that's your answer the X
+the number you care about is by itself
+everything else is on the other side so
+you've rearranged the equation now this
+can feel pointless it can feel like what
+are we doing we're just moving the
+letters around as I say go and watch the
+transposition intro video if you haven't
+done yet and that'll explain why this is
+so useful in practice this is really
+useful but if you don't know why you
+just have to sort of take my word for it
+unless you as I say watch the intro
+video that I'll explain why we do this
+but that's it for the last step it
+really is that simple you divide by the
+number next letter usually that kid just
+gives you a big fraction and you just
+write out the answer like that so go
+watch transposition too to know how to
+deal with added and subtracted terms
+when they get involved but that's all
+you really need to know for this one my
+name is Jonathan Hicks and you're
+watching teach me maths
+you
+hi today we'll be talking about
+transposing or restructuring the data so
+we'll be talking about croc transpose
+and what exactly we are trying to do
+here is we are trying to turn the
+variables into observations or turn the
+observations into variable what do I
+mean by that
+now let's have a look at this example in
+this example we have two variables
+student and Marx and this is the data
+lines for those variables so we have a
+student a and the marks for the student
+eight so we have three marks for the
+student a and all three marks are
+entered this way while for student B
+again we have three marks and they are
+enter vertically so we don't want it
+that way we want in something like this
+we have a student a and we want the data
+to be arranged in columns for so
+probably one marks one box two and marks
+three for student B again we want the
+data to be arranged something like this
+how do we do that now doing this is very
+simple with proc transpose so let's have
+a look at it so so let's first see how
+our data looks so this is how our data
+looks we have the student and we have
+the moxx and let's just arrange this
+data so we have proc and suppose and the
+data that we are using the data set that
+we are using is data that's simple and
+we will be getting the result in another
+data set and we call it simpler ok and
+that's it for now and we want to arrange
+the data set by student so we use a bi
+statement we call it by and then we see
+student and the variable that we have to
+distribute in the columns is our marks
+so we call it war marks and then we run
+it and then we give a prop
+prynt 2cr riddles
+okay so here we go exactly as we wanted
+so we wanted to have a student a and the
+marks of the student a arranged here and
+we wanted to have a student B and the
+marks of the student be arranged here
+and we got that but what did we get here
+this is an extra variable an automatic
+variable that was created and it just
+tells us the variable that we used to
+distribute or to transpose so this is
+the variable that we transposed marks
+let an ask column heading we got the
+default column headings that is called
+one call to and call three now we don't
+want this really able to show we know
+that these are marks and we want these
+column heading all one call to all three
+to be called as mark one marks to mark
+three so let's do one thing at a time so
+let's start with changing the name for
+this column heading so we'll do that by
+adding one simple option here we call it
+prefix equal see much right so let's see
+what do we get with this yes exactly as
+we wanted so what the option prefix does
+is it replaces this call with whatever
+prefix we have given and one two one
+three remains the same next we want to
+drop this variable so we want to drop
+this variable out of the new data set
+that we got so how do we do that since
+this variable is present in the new data
+set so we just put an option in front of
+the new data set simpler we say drop is
+equal to underscore name so that was a
+new variable so hopefully that should do
+the job
+yes and here we get a
+transposed data set okay now okay let's
+go to the next example and in this next
+example we will try to understand all
+these options a little bit more so in
+this example I have data marks
+underscore here and I have three
+variables to ID here and marks now what
+I have again is student ID as 1 1 1 and
+we have the marks for every year we have
+marks for 1996 1997 1998 and similarly
+for student 2 we have marks for 96 and
+we don't have marks of 1998 for student
+2 and student 3 we have 96 97 98 student
+4 is you know it's not there we have
+student 5 wherein we have only one max
+so again we have to arrange the data
+something like this you know we want to
+have student 1 and then we have to have
+1996 1997 and 1998 and then we have to
+have student 1 over here and arrange
+marks like this 630 564 76 now we wanted
+to put these here as you know the
+criteria to decide the column name and
+column number for example if we had 4
+years we would like we would have like a
+4th column here as 1999 we don't have
+that so we want it to be 3 columns so we
+want that to be decided automatically so
+visually we want the student ID to
+decide the observation so we have it
+here as second student as here and then
+the student ID 3 and then we want it to
+be 5 we don't have 4 right so that's how
+we want the arrangement so let's see how
+we can do it again we go ahead with proc
+transpose and here this time we have
+used the data marks underscore here and
+our output data is arranged underscore
+marks now we have u student ID similar
+to what we have used in previous example
+but this time we have
+used one more option that is ID is here
+what this ID does is it gives the column
+heading you can say it decides the
+heading for the column right then we
+have variable marks which we are
+distributing okay are transposing so the
+variable are the ones which we are
+transposing and now let's run the
+program I'm running the whole you know
+preliminary data on the second data so
+that we can compare here we go so this
+was our original data set wherein we
+have student ID and now let's see how it
+is array we have exactly the way we want
+it so on a 1996 next what we do is we
+will drop that extra variable which you
+don't want that variable was in our our
+data set so this time you should be
+knowing it what I will do is draw equal
+underscore name okay now what this does
+is it will drop that data set okay so
+here we got it now there's one more
+thing we can do instead of dropping it
+probably we can give it another heading
+and you know probably it may help us
+identify which variable with you be used
+to yeah so this is a variable transposed
+okay let's see what it does so we have
+given an option name is equal to
+variable underscore transposed and so
+that heading of underscore name
+underscore is now it gives us variable
+transposed and here we get the list of
+the variables that has been transposed
+so every time since we have used only
+one variable for transposing we get
+marks in each column in future examples
+we will see when we use two variables
+for transposing so hopefully that makes
+it clear till now and
+now this time I'll bring about one more
+point when we are using a buy statement
+so till now we have been using a buy
+statement over here now let's change a
+data set a little bit so let's just put
+this value cut it out from here and put
+this value at the end now what's changed
+in this data set is the arrangement
+let's do that with one more value okay
+okay now let's run this so we have a
+data set which is not sorted because we
+call it a new observation arrange marks
+one and we'll print that arraign works
+one and do that or get once again so
+this is here I run it and I don't get an
+output I get an error
+what error do I get I get an error that
+says data set work dot marks and the
+score is not sorted in ascending
+sequence so what does that mean that
+simply means that for using a buy
+statement our original paid and data set
+should be sorted with that by variable
+so that's one preliminary requirement to
+use by statement since our data was
+already sorted you know when we use this
+buy statement before in our previous
+examples we do not have any problem but
+now when our data is not sorted we get a
+problem so to fix that it's simple we
+just run a proc sort procedure procs or
+data equal two marks here so we turn up
+rock salt on that by its to ID and here
+and once we run a proc sort and then we
+do this proc transpose our problem is
+solved so what did we see till now to
+summarize we saw that we can use a proc
+transpose for restructuring our data
+wherein we can convert variable into
+observations so what
+used was a command prompt transpose we
+used it by variable that determines you
+know the variable that will make the ID
+and then we use a variable that we want
+to transpose and then in next we also
+learnt about an ID variable so we
+learned about by then we used ID ID here
+here which makes which identifies the
+column and variable marks which were the
+way which was variable that we
+distribute we also learnt about how we
+can give an option of draw equal to
+underscore name or how we could change
+the name of the variable this automatic
+variable here okay so so I'll stop here
+and I'll continue with more of the
+transpose in the next part
+thank you
+you
+you
+fold faith is to give as change
+fast pitch and start thinking
+in degrees instead of chords
+today I will give a cool tip for
+you start thinking in terms of
+degree and not in chord when you are
+touched world
+this will help you to transpose with
+much easier
+so I wrote on the board basically
+Dollar pride field between then
+I have here the degrees up here all right
+degrees here and here I have a chord
+then the first harmonic field
+chord or
+second rehn lower third is smaller
+there will only spend less e mail
+tiny that here is the harmonic field
+most of the dollars I want to show
+for you see you think had
+thing when you see you a simple
+see these chords and once you think
+them you have to be thinking about
+what is the degree related to this agreement
+because if you start playing for
+degree you will be able to play in 12
+communities without any problems'll
+give an example imagine that you have a
+music dies
+this church was in the band you run
+I do not know but you have a sequence
+that a easy sequence
+A minor come and taste the
+concept of playing both following you
+already memorized my recommendation is
+you do not memorize sequence but
+memorize 1 6 4 here one part
+and 15 which it is a dominant thing in 1st
+Fourth and fifth 6
+so instead of belonging to write
+fascinates me your head you should think
+this plant is good that would be
+result strings progression because
+the hand I've been playing this way and if
+not only by the cutting it is not
+that suppose if you are a
+unthinkable way to have as its
+musical future because this will help
+you
+suppose you want to turn
+this song to harry never a
+harmonic have their real
+chords on the guitar solo or C minor
+sharp very minute
+so if I have to memorize 12
+shades with their degrees
+I can play this sequence
+any shade without problems
+then the first degree here would reverse
+federal being the less prominent in rs
+smaller hall which came sun and insert
+a home
+if I want to play this who I am as
+which is the first is the first agreement
+in sun is sun is the sixth smallest which is the
+fourth hurts is the fifth mec just looks
+It is as easy and as if this would
+crossed a tonality and the largest
+rugged going is so easy feared
+first grade would be easy tenido sixth
+having lower degree remains is why is
+the sixth
+chord is penina s fourth and fifth
+confectioner's C - sharp look
+lack put his hand on without keyboard
+need to spend hours practicing I have
+I know with any degree touch
+personality with any degree function
+that there is not too difficult
+talk fast way over
+contention
+once you get to practice
+think of degree to be all much more
+easy if you liked to study a
+curtain down here in any doubt
+leave a comment you have no doubt
+but like the video leaves a
+comment I am very happy
+I read all the reviews we get
+see in the next video
+[Music]
 with the transpose function in Excel you
 can take data that's arranged
 horizontally and display it vertically
@@ -1982,176 +2644,6 @@ times s is equal to s Q minus s squared
 okay this cancels out this kind of only
 have T is equal to s Q minus s squared
 all right hope that helps the night
-okay I just want to do a few more
-examples of transposition we're looking
-for this first equation T equals to PI
-root 1 over G which is the swing of a
-pendulum and we transpose this for G now
-remember in Reverse big mass we go 1
-divided by G square root and then 2 pi
-times by 2 pi so we do it in reverse
-order remove the 2 pi first T divided by
-2 pi we do that on both sides that
-eliminates it from this side and the
-next thing to get rid of is the square
-root so to get rid of the square root
-this side we need to square so what we
-do would to one side we must do to the
-other
-now once you get to this system we've
-found one over G we actually want G and
-if you've got this situation where
-you've got a fraction here even though
-it's in a square bracket we can simply
-invert the fraction so it becomes 2 PI
-over 2
-squared equals G so that's a neat little
-feature sometimes you just have to
-invert fractions
-okay let's try number one then
-so we've got this one now which is you
-might recognize this from mechanics this
-distance equals initial speed times the
-time plus half the acceleration times
-the x squared and we're transistors pose
-this for the acceleration egg so I think
-you can see first thing we do is we move
-UT so UT is add in so we take it away
-from both sides
-now usually what I do is I show that is
-80 squared over two but I'm just show it
-works if we look at it is a half
-multiplied in this so if it's
-multiplying we divide both sides by half
-so let's do that
-and if you remember your rules from
-fractions then 2 divided by 1/2 you turn
-it upside down and multiply so that's
-why that becomes 2's minus u T equals a
-T squared and finally we get rid of the
-T squared it's multiplied an a so we
-divide both sides by that so a becomes
-2's minus u T over T squared and I think
-if we leave it like that we could
-actually break that up into two
-fractions piece here and a piece there
-and then cancel that T oh that's good
-enough we'll leave it like that
-oK we've got this example now and can't
-really use reverse speed math on this
-because we've got an X there an X there
-so what are we going to say you can't
-say X plus 1 because of X plus 1 there
-the idea is get all the X's on one side
-of the equation so that's the first
-thing we try and do and all the rule you
-really need to follow is that what you
-do to one side you must do to the other
-so let's expand this bracket first of
-all so that gives us 2y X plus y equals
-x plus 1
-now we want to get all the X's on one
-side so will it move this Y to this side
-and we'll bring the X this side see what
-we get so got to Y X and we'll bring in
-the x over all the x's that's positive x
-so going to this side it's minus X
-remembering we're really taking X away
-from both sides but sometimes you can
-get to think of it as going to the other
-side and doing the opposite and that Y
-it's adding this side till we take the
-other side call it minus y plus one
-we've got a common factor of X so we
-take the common factor out
-and I'll turn that put that rang this
-way just look a bit neater and then
-finally this 2y minus 1 is multiplied an
-X so all we need to do is divide both
-sides by 2y minus 1
-and that's that window we found we've
-transposed it for X so this happens
-sometimes you've got a sort of expand
-things out and move them around the key
-thing is what you do to one side you
-must do to the other
-okay let's transpose this one for X so
-you got X minus C on the bottom so let's
-get rid of that first we need to
-multiply both sides by X minus C that
-gives us Y X minus C equals X minus D
-expand this out so keep it in alphabetic
-order XY minus C y equals X minus D
-bring all the X is one side so that's a
-positive x so if we take X from both
-sides that gives us X Y minus C y minus
-x equals minus D and now we've got this
-minus CY
-we'd get rid of that by adding C Y to
-both sides so that leaves us XY minus x
-equals C y minus D
-we've got a common factor here in X so
-take the X out y minus 1 equals C y
-minus D and finally we divide by this
-bracket here because it's multiplying X
-divided by Y minus 1 both sides and that
-will give us
-x equals
-see why - D
-over 1 minus 1 and that's that one does
-we just do a couple more
-suppose we've got this formula and we
-need to transpose it for V so we end up
-with V or something well let's get rid
-of 1 over u from both sides so it's
-adding to this so we take it away from
-both sides that leaves us 1 over F minus
-1 over u I think this is a sort of lens
-formula it's 1 over V and now we make
-this a common denominator so if we
-multiply these together f you
-and if you look at it we've multiplied
-the F by you so we need to put EU there
-and we multiply the U by F there so it's
-minus here equals 1 over V and just like
-we did an early example we can just
-invert this fraction so V equals f you
-over you - yeah
-and that's that one does
-our final one is y equals x over X plus
-y
-plus two and we transpose this for X
-course will X top and bottom so you
-can't do reverse bit maths we just have
-to play around with the equation try and
-get X on it so I think the first thing
-we do is multiply both sides by X plus y
-so that gives us Y X plus y equals x
-because we got rid of it from there but
-we must multiply this by X plus y
-because we've multiplied the whole
-equation by X plus y will expand this
-and expand that and see what we get and
-put them in alphabetical order so XY
-plus y squared equals x plus 2 X plus 2y
-and what we do now is bring all the X's
-one side and all the Y's the other so
-we'll take 2y from both sides and we'll
-take X Y from both sides so that gives
-us Y squared minus 2y
-and I can have this together X plus 2x
-is going to be 3x
-- XY
-oK we've got some common factors here
-there's come a factor of X so let's take
-that out so we've got y squared minus 2y
-equals x
-three - why
-and then finally
-we can divide both sides by three minus
-y so we'll end up with y squared minus
-2y
-over three minus y equals x done
 what do we mean by the transpose of a
 matrix to find the transpose of a matrix
 we simply interchange its rows and

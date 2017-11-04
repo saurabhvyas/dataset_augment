@@ -2,8 +2,18 @@
 
 const util = require('util');
 const exec = require('child_process').exec;
+var fs = require('fs');
 
 var hyphen_flag =false;
+
+if (  fs.existsSync('final/final' + process.argv[2] + '.txt' ) ) {
+
+	console.log(process.argv[2] + 'already exists');
+        process.exit();
+
+
+
+}
 
  
    exec('sh api.sh ' + process.argv[2] ,(error, stdout, stderr) => {

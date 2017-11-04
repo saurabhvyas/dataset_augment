@@ -381,110 +381,215 @@ representation and we will talk about it
 in our next lesson.
 This is it for this lesson. 
 Thanks for watching
-Hello and Welcome to Unit 7.2!
-In this unit we want to import and prepare
-the crystallographic information
-of HKUST-1 into TOPOS.
-Download the ZIP file,
-that we provide as an additional material to this unit.
-Extract it - to a location of your choice.
-In this case I choose my Desktop.
-Now, I have another folder in which there is a CIF file.
-Please keep this CIF file inside this folder.
-Because it is easier to work with TOPOS that way.
-Now open TOPOS. We will now import the CIF file.
-Go to Database. Click Import.
-Go to the location where you have placed
-the folder of HKUST-1 and choose
-the CIF file and open it.
-TOPOS will then ask you to 
-create a TOPOS database file.
-You can just click OK.
-It asks you to confirm to 
-create this database and you click Yes.
-Now you have to enter a user code.
-And I always enter 1 and hit OK.
-But you can enter any value except 0.
-We have converted one compound.
-Now, HKUST-1 shows up in your TOPOS database.
-Before we can determine the underlying net of HKUST-1,
-we must first create an adjacency matrix.
-What is an adjacency matrix?
-Computer programs like TOPOS
-use an adjacency matrix
-to keep track of all the connections between atoms.
-Let me show you how this works in principle
-with this hypothetical five-atomic molecule.
-A very simple adjacency matrix for
-this molecule looks like this.
-If any two atoms are connected,
-the corresponding cell of this entry has the value 1.
-If there is no connection the value is zero.
-A simple adjacency matrix like this
-can easily be prepared by hand.
-But in the case of our example
-HKUST-1, we use an algorithm
-within TOPOS to build an adjacency matrix,
-which is then a little more complex, than this one here.
-Because the adjacency matrix
-in TOPOS also documents
-the type of connection between atoms.
-For example, if two atoms are connected to each other
-via a covalent or a hydrogen bond.
-Now, let’s build the adjacency matrix in TOPOS.
-Select HKUST-1. And then click on this
-button to run the AutoCN routine.
-Another window opens.
-There are plenty of options available,
-but we can ignore all these
-because the default settings of
-TOPOS work just fine for us.
-So, we just hit "Run"
-and this window produces a little text
-with details on the adjacency matrix.
-The adjacency matrix itself is stored
-within the TOPOS database of HKUST-1.
-We can close this window.
-And usually a warning like this pops up.
-This is harmless. We can just click
-OK, because all the information
-we need is stored inside the adjacency matrix.
-To view the adjacency matrix right-click
-on the HKUST-1 entry and click Edit.
-Now move to Adjacency Matrix tab.
-There you see a list of all the
-atoms inside the crystal structure.
-You can unfold each entry to
-view the bonding partners
-of the respective atoms in the crystal structure.
-TOPOS also offers the possibility to
-display the imported crystal structure.
-Click on the Pencil symbol and a new window opens.
-And if you click on this pencil
-again, a single unit cell is drawn.
-You can also rotate the structure
-by using the rotate tool.
-Of course, there are also different
-styles of representation available.
-Click Display, Model and choose for
-instance the sphere and wire mode.
-What I like about this viewer in
-particular is the growth function.
-Simply click on this leaf and your
-structure will grow bond by bond.
-Give it a try. If the extended
-network now exceeds your screen
-hit space for an automatic fit to screen.
-You can also change the color of the
-atoms by using the magic wand tool.
-Select the magic wand from the
-toolbar and then click on
-the respective element in the legend
-to change the color of this element.
-OK. That’s it for this unit.
-Now, I suggest that you try
-out the viewer a little bit
-and get to know its functions.
+hi everyone
+matrix powers and walks how are they
+related that's what we're gonna discuss
+today and I have a graph here it is
+connected and a definition the length of
+a walk is defined by the number of edges
+that over there in that walk so we're
+talking about length length
+- how many walks of link - are there in
+this graph from v1 to v3 so you got to
+get there in two edges if I go v1 to v3
+- by edge one go v1 to v2 v2 by x3 - v3
+so if I go edge one that's three that's
+one walk if I go edge one and then edge
+two that's another walk if I go edge
+four there's no other option there if I
+go edge four and then edge five I get
+the v3 but then take that loop I still
+end up there so that counts - so I have
+I'm counting three and I don't see any
+others well what I want to do is show
+you how to use a matrix to do that and
+I've already put the matrix in if I look
+in wrong place second and then matrix I
+put it in matrix a you can let me show
+you the edited part of that if you edit
+a and what I did was take the should
+have talked about that the adjacency
+matrix
+a the adjacency matrix and basically let
+us tell you how many lengths one walks
+are there from one vertex to another v1
+to v2 v1 to itself there's no loop v1 to
+v2
+there is one v1 to v3
+there is one now let's go to v2 v2 to v1
+there's one walk there's one v2 to v3 I
+see one way I see - wait that's V 2 to V
+2 that's 0 v2 to v3 is to edge 2 and
+edge 3 there's two edges that connect
+those now v3 to v1 there's one edge edge
+for that connects it v3 to v2 there are
+two edges on that one that connected MV
+3 to v3 since there is that loop there
+is one and that's the matrix I have here
+so what I'm gonna do is let's quit out
+of this go into matrix again I want to
+take this matrix a that I made right
+here the adjacency matrix and I want to
+raise it to the second power and what I
+see there 2 2 3 2 5 3 3 3 6 now the
+question I had up here
+how many walks of length 2 are there
+from v1 to v3 and if you'll look at this
+entry that that cell has 3 and that's
+what we came up with when we counted by
+hand and what I'd like to do let's look
+at a let's look at v1
+itself a length of length to the 1/2
+itself I can go efore an e for e 1 e 1 I
+can't get any other but that is length 2
+back and forth back and forth I'm
+interested maybe let's look at V 2 2
+itself back and forth edge 1 edge 1 X 3
+X 3 H 2 H 2 so I've gotten three so far
+X 2 X 3 X 3 X 2 that was 5 I counted 5
+as I was doing that so I find this very
+interesting
+well the next thing we could do is look
+at walks of three length 3 and the
+adjacency matrix a to the third power
+would absolutely give us that now let's
+do the matrix multiplication I'm going
+to raise that to the third power and I'm
+looking at 5 8 9 8 8 15 9 15 15 so how
+many lengths three walks
+from let's go v2 to v3 here's V 1 V 2 V
+3 V 1 V 2 V 3 V 2 2 V 3
+there are 15 different walks of length 3
+that can get you from V to start at b2
+and end of v3 I'm going to stop there
+and we will work on that some more in
+class and I look forward to seeing you
+on Monday
+so what is the matrix a matrix is a
+rectangular array of numbers like this
+we put square brackets around them for
+notational purposes matrices are a very
+useful tool to store information in
+organized way let me give you some
+examples for example you can use
+matrices to represent your Facebook
+connections I'll show you how you
+probably see one of these Facebook Fred
+wheels each node in this picture stand
+for a Facebook friend of this person
+named Tama and each line shows a
+Facebook connection between his friends
+you can turn this into a matrix by
+listing Tomas friends in the horizontal
+ray I have space to list all of them
+here so our only list some of them and
+then listing them on again in a vertical
+array and then put a number that's
+either 0 or 1 at the intersection of
+these arrays for example david is
+connected with will so we'll write down
+a 1 here will is not connected with le
+so we write down a 0 here let's assume
+that each person is not Facebook friends
+with themselves so we put zeros and
+David with david ally with le and drew
+with Andrew will with will Faisal with
+Faisal and gene with Jim these numbers
+are called entries or elements of a
+matrix and if we keep filling up with
+this matrix david is connected with le
+he's also connected with Andrew
+as well as will Faisal and Jing Ali is
+connected with David Andrew and Jing but
+she's not connected with will or Faisal
+in the end we end up with this matrix
+for part of Tomas social network on
+Facebook now let me ask you how many
+connections does David have in this
+network five you say how did you get
+that number
+that's right one way to figure that out
+is to look at horizontal ray that
+describes who's connected with David
+this horizontal ray is called a row of a
+matrix each row of this matrix tells us
+about the connections of one specific
+person for example the third row is
+about Andrews connections in the force
+rail is about Wales connections if you
+add up the entries of the third row the
+result is called a row sum and in this
+example the row sum of the third row
+tells you about how many connections
+Andrew has in this network equivalently
+in this is the M pole you can also look
+at the vertical arrays of this matrix
+each vertical array is called a column
+of a matrix if you add up the entries of
+a column you get a column sum in this
+example the rows and columns happen to
+store the same kind of information
+because you might have noticed there's a
+symmetry in this matrix this symmetry
+comes from the fact that you can be a
+facebook friend with someone without him
+or her being a facebook friend with you
+but don't worry it will see examples
+later with rows and columns store
+different information now let me ask you
+how many people are there in this social
+network and if everybody's connected
+with everybody including themselves how
+many connections were there be these are
+information about the size of the
+network and how can you get that
+information from the matrix that's right
+there are six rows and six columns in
+this matrix so there are six people and
+if everybody is connected with everybody
+include
+themselves then there are six times six
+equals 36 connections as you can see the
+number of rows and the number of columns
+in the matrix tell us about the size or
+the dimension of the matrix in general a
+matrix with M rows and n columns is
+called an M by n matrix so this matrix
+for example is a six by six matrix
+friends welcome back in this tutorial we
+will study about adjacency matrix of a
+graph the adjacency matrix of a graph
+having n vertices is a n cross n matrix
+whose non diagonal entry add I have true
+and giant column is the number of edges
+joining vertex I and vertex g and
+diagonals Aintree at i true and I'd
+column is twice the number of loops at
+what X I it would be more clear after
+this example and the sensi matrix of
+this graph is this matrix since there
+are four vertices in this graph
+therefore the adjacency matrix of this
+graph is a 4 cross 4 matrix there is an
+edge joining vertex 1 and vertex 2
+therefore the entry at first row and
+second column is 1 and entry add second
+row and first column is also 1
+there are two edges joining vertex 2 and
+vertex 3 therefore the entry at second
+row and third column is 2 similarly the
+entry act third row at second column is
+also 2 same way entry at first row and
+fourth column is 1 and entry at 4th row
+and first column is also 1 because there
+is an edge joining vertex 1 and 4 decks
+full and we add third row and fourth
+column is 1 and anti add fourth row and
+third column is also 1 because there is
+an edge joining vertex 3 and vertex for
+the diagonals and tree at second row and
+second column is 2 because there is a
+loop at vertex - thank you very much
 recall that two graphs G and H are
 isomorphic and this is the notation if
 and only if there exists a by Jackson
@@ -676,257 +781,52 @@ any graph theory questions let us know
 in the comments below click here for
 related videos and keep having fun with
 graph theory I'll see you next time
-This video is on graph representations.  It is the second video in a basic
-graph algorithm playlist, after the introduction to graphs.  This one goes
-over the two most common ways to implement graphs, adjacency matrices
-and lists.  After a few simple representation related algorithms, I'll
-compare their strengths and weaknesses. 
-So you have this abstract
-graph out there, with vertices and edges, and maybe each of those has
-information that goes with it.  The graph representation we choose
-is just some implementation which captures that abstract graph
-information, but you can come up with different implementations to
-capture the same graph.  The two most common models
-are the adjacency matrix, and the adjacency list.  
-Starting with
-an adjacency matrix for a directed graph, we use a two dimensional
-matrix.  We assume that vertices are numbered, and an edge from vertex i
-to j goes in row i, column j.  What do we store for the edge?
-In the simplest case, just a single bit, true or false, if the edge exists.
-In the most complex case, you can store an edge object, or maybe a
-reference to an edge, where that edge can store whatever information you want:
-weight, name, hobbies, whatever you need for your problem.
-A common case between those two extremes is when you just need an
-edge weight.  So great, just store the edge weight in the matrix.
-But what do we store if there is no edge?  Some languages might allow
-you to store nil, or a null reference, but even then, each time you need an
-edge weight, you first need to see if the edge exists, and then use it.
-That slows your code down a bit, and also makes it clunky.
-Instead, depending on what the weights represent, it's common to store a dummy
-weight for missing edges.  If the weights represent something you are trying to minimize,
-like a cost, you store a huge value, like infinity.
-If you are minimizing costs, you should never take an infinite
-weight edge, unless you can't solve the problem without one.  Again,
-depending on what the weights represent, other dummy weights for non-existent edges
-might make sense.  Hugely negative, 0, or hugely positive
-are the most common values, where negative infinity might be used if
-edge weights are profits that you are trying to maximize.  Finally,
-for undirected graphs, the matrix is symmetric over the diagonal,
-so you could try to halve your space by just keeping one side.
-The Cormen book mentions keeping the top part, but I think the indices come
-out cleaner with the bottom part.
-Next comes the
-adjacency list representation.  Here, we have an array of vertices,
-and for each, you have a list of it's edges.  In the simplest case,
-if your current vertex i has an edge to j, maybe you only need
-to store that index j in i's list to mark
-that the edge exists.  You can't get away with just a single true/
-false bit here, you have to identify the other vertex.
-For a weighted graph, you can't just store weights, you also need an
-index or reference.
-What do you use for lists?
-You can use any list, and if the graphs don't change, you can even just
-use static arrays.  If the graph never changes AND
-you frequently have to look up whether or not edges exist, you
-could even use sorted arrays, and then use binary search if you are looking for a
-particular vertex in a list.  If you care about quick
-lookup and also want to let edges be added or removed,
-you could even use a balanced binary tree structure.  But, for lots
-of algorithms, you only look at all edges incident on a vertex
-in arbitrary order.  There, pretty much anything you use is fine.
-I'll just show comma separated text in my slides.
-For undirected graphs in the adjacency list model,
-you store each edge twice, once in the list for each vertex,
-unless you don't care how long it takes you to look anything up.
-For directed graphs, you have a choice:  for each vertex,
-you can store all of the vertices that it has an edge to, or
-all of the vertices that it has an edge from.  Those are two different ways of storing
-the same graph, and you pick one depending on how you are going to need
-to access your data.  Storing outgoing edges is more common.
-For some problems, you might want both lists.
-What if you are given the data as an outgoing adjacency list, but you want the incoming
-list?  You can go from one format to the other in time linear
-in the size of the graph:  given an outgoing representation,
-you create a new incoming representation with the same vertices,
-and then for each vertex i in the graph, for each vertex
-j in i's outgoing list, append $i$ to $j$'s incoming
-list.   Let's quickly run through an example.
-If vertex 1 has a link to 3, append 1 to 3's incoming list.
-If 1 has a link to 5, append 1 to 5's list, and if 2 has a link
-to 4, append 2 to 4's list.  Do that over all edges, it takes
-constant time per edge plus constant time per vertex, done.
-Going from the incoming list to the outgoing list is the same algorithm.
-Going from an adjacency list to a matrix is
-very similar.  Make an empty matrix, or for a weighted graph, a
-matrix filled with dummy values.  Then, for each vertex, for
-each outgoing edge, add that edge to the matrix.  It takes
-time no more than the size of the matrix, the number of vertices squared.
-To go from the matrix to the outgoing list format,
-create an empty list, step through every location in the matrix, and when
-there is an edge, add it to the appropriate list.  It takes time proportional to the number
-of vertices squared to look through the matrix.
-One final
-basic graph manipulation algorithm: flipping the direction
-of each edge in a graph is called taking the graph's transpose,
-because if you are using the adjacency matrix format,
-you just take the transpose of the matrix.  If you are using the outgoing
-adjacency list format, just find the incoming adjacency
-list for the same graph, and interpret that incoming list as the
-outgoing list, that's the transpose.
-So great, we have
-multiple representations for the same graph, and can transform
-one to another as needed.  Assume you have whichever representation
-suits your needs most.  Let's compare the outgoing list
-to the matrix to get an idea of when to use each.
-First let's look at the space, or memory usage.  The adjacency list
-has one list for each vertex, and each edge shows up in one
-of the lists, or two for undirected graphs.  That's space linear
-in the size of the graph.  The adjacency matrix takes up
-size quadratic in number of vertices.  Is that bad?  It depends
-on how dense the graph is.  If the graph has enough edges, the matrix
-could actually use somewhat less space than the adjacency list,
-but for sparse graphs, the adjacency list is asymptotically
-better.  If we think about Facebook, each user has
-on average a couple hundred friends.  It's a lot easier to store a hundred
-links per user than to store a billion by billion matrix
-for the graph as a whole.
-What tasks does
-each representation do well?  The most common basic graph
-operations are to ask what vertices are adjacent to a vertex,
-and to ask if an edge between two vertices exists.
-Iterating through a list of vertices adjacent to a vertex is easy with an
-outgoing adjacency list.  It takes time linear in the size
-of the list, which is the vertex's outdegree.  The matrix
-format takes time linear in the total number of vertices in the graph.
-Again, not bad if the graph is dense and the vertex has an edge to
-most other vertices, but it gets worse and worse the more sparse
-the graph is.  Again, for Facebook, imagine how wasteful it would be if they
-had to run through over a billion users just to see what they
-should stick on your freakin' feed.  No one is that popular.
-The matrix can find out if some edge exists in constant time,
-while the list might take time linear in the degree of one of the edge
-vertices to run a linear search.  If you expect to do lots
-of those lookups, and decide to have the lists sorted in arrays or trees,
-each lookup will only take time logarithmic in the degree of
-the vertex, which might be small compared to the number of vertices.
-That might be worth doing sometimes, but for lots of nice algorithms,
-we don't look up whether or not an edge exists, we only want to
-list vertices by adjacency.  Even though we will occasionally use
-the adjacency matrix, the adjacency list is our default,
-including for the videos up next on this playlist,
-breadth first search, and depth first search.  For now,
-I've got to go practice my miming skills.
-[Sound of a mime screaming]
-the graph data structure is not the same
-as a graph you may have learned about a
-math class graphs are collections of
-things and the relationships or
-connections between them the data in a
-graph are called nodes or vertices the
-connections between the nodes are called
-edges one example of graphs is a social
-network where the nodes are you and
-other people and the edges are whether
-two people are friend with each other
-there are two major types of graphs
-directed and undirected undirected
-graphs are graphs without any direction
-on the edges between nodes directed
-graphs are graphs with a direction and
-its edges an example of an undirected
-graph could be a social network the
-nodes are people and the edges are
-friendships an example of a directed
-graph could be the internet and web page
-links the nodes are web pages and the
-directed edges are links to other pages
-which might not necessarily point the
-other way I'm going to show you three
-ways to represent a graph the first way
-is called an adjacency list this
-representation for a graph associates
-each vertex in the graph with the
-collection of its neighboring vertices
-or edges in this image a is connected to
-B B is connected to a and C and C is
-connected to B this is how you could
-show a relationship with texts and here
-is how you could show this adjacency
-list with JavaScript this is an
-undirected graph because it does not
-show the direction of the edges this can
-also be more simply represented as an
-array where the nodes just have numbers
-rather than string labels another way to
-represent a graph is to put it in an
-adjacency matrix an adjacency matrix is
-a two-dimensional array where each
-nested array has the same number of
-elements as the outer array so it's
-basically a matrix of numbers where the
-numbers represent the edges zeroes means
-there is no edge or relationship and one
-means there is a relationship this table
-shows an adjacency matrix to represent
-the image you can see that the labels
-for the nodes are on the top and left
-now here's a JavaScript representation
-of the same thing unlike an adjacency
-list each row of the matrix has to have
-the same number of elements as nodes in
-the graph here we have a 3 by 3 matrix
-which means we have 3 nodes our graph
-and adjacency matrix can be used to
-represent a directed graph here's a
-graph where the second node has an edge
-pointing toward the first node and then
-the third node has an edge pointing to
-the first node notice how the numbers in
-the array change there are only ones
-where a node is pointing toward another
-node and since there are only two points
-there are only two nodes the final way I
-will show to represent a graph is an
-incidence matrix like the adjacency
-matrix and incidence matrix is a
-two-dimensional array however the rows
-and columns means something else here
-the adjacency matrix use both rows and
-columns to represent nodes and incidence
-matrix uses roads rose to represent
-nodes and the columns to represent edges
-this means that we can have an uneven
-number of rows and columns each column
-will represent a unique edge also each
-edge connects two nodes to show that
-there is edge between two nodes you will
-put a 1 in the two rows of a particular
-column as you can see in the diagram
-edge 1 is connected to nodes a and B now
-look at the column for edge 1 in the
-incidence matrix table you will see a 1
-in both the a row and the B row this
-shows the edge 1 connects the nodes a
-and B here is a directed graph for a
-directed graph use negative 1 for an
-edge leaving a particular node and 1 for
-an edge entering a node and here is a
-JavaScript implementation of the
-incidence matrix graphs can also have
-weights on their edges so far we have
-unweighted edges where just the presence
-and lack
-of edges binary zero one you can have
-different weights depending on your
-application a different way is
-represented as a number greater than one
-well now you know about different types
-of graphs and how to represent them in
-JavaScript in my next video about graphs
-I will cover graph traversal algorithms
-thanks for watching my name is Bo Carnes
-don't forget to subscribe and remember
-use your code for good
+hi guys is video mohandro Janek a
+decency matrix representation guevara
+when the adjacent vertices of a graph is
+represented in the form of matrix then
+such type of representation is called
+adjacency matrix representation of a
+graph is named number of rows equal
+within number of columns the number of
+physically gravelly things example me
+crappity kept his calm logo bow it is in
+c matrix representation nikola autumn
+locus in occulta belly-to-belly vodka
+number of rows Disney okay number of
+columns on get the number of cross or
+number of forms my basket has six in
+take a is hot I'm putting one two three
+four five six to use 69 okay
+how is cool represent gets a cut ends of
+zip LFO diagonally up to one say two
+mega octane or one six six nine take it
+to once you do or one six six two
+thousand eight one four one field that
+night or baggage it may be a submit zero
+which there is a tuba dect led not to up
+they can to say up three me a sec there
+to say up one mega set then take it to
+one but three may up one finger thing or
+baggy samba zero is whether three school
+is called a attended three say to us at
+the three step four we have seven three
+seven is equal to 2 for 5 negative 2 for
+5 May 1 1 1 he cut thing her back is sum
+is 0
+she dropped for say up three me for say
+out 5 me as a head to force a three
+sorry 43 over say 5 to 3 or 5 3 4 5 yeah
+1 or e ah 1 dollar 1 1000 a pullback is
+something 0 was you throw 5 me pipes is
+6 5 0 5 C 3 a nigga 3 4 6 May 1 1
+Pickering or bakasana 0 6 7 more 6fi
+method 105 yen you keep one code 5 BM 1
+min 1 / 5 new one
+tell me one one filter in your bucket
+sum is 0 0 0 the key here is graph
+a decency matrix representation thanks
+for watching
 welcome to our 27th video with data
 structures and algorithms we're going to
 continue with graphs probably should
@@ -1130,674 +1030,480 @@ and that's it so there's our depth-first
 search or breadth-first search and our
 adjacency matrix in our adjacency list
 so there you have it
-so what is the matrix a matrix is a
-rectangular array of numbers like this
-we put square brackets around them for
-notational purposes matrices are a very
-useful tool to store information in an
-organized way let me give you some
-examples for example you can use
-matrices to represent your Facebook
-connections I'll show you how you
-probably see one of these facebook
-thread wheels each node in this picture
-stand for a facebook friend of this
-person named Toma and each line shows a
-facebook connection between his friends
-you can turn this into a matrix by
-listing Tomas friends in the horizontal
-ray i dont have space to list all of
-them here so i'll only list some of them
-and then listing them and again in a
-vertical array and then put a number
-that's either 0 or 1 at the intersection
-of these arrays for example David is
-connected with will so we'll write down
-a one here will is not connected with
-Ellie so we write down a 0 here let's
-assume that each person is not Facebook
-friends with themselves so we put zeros
-and David with David ally with Ellie and
-drew with Andrew wil with will faisal
-with faisal and Jing with Jim these
-numbers are called entries or elements
-of a matrix and if we keep filling up
-with this matrix David is connected with
-Ellie
-he's also connected with Andrew
-as well as will faisal and gene Ali is
-connected with david andrew and gene but
-she's not connected with will or faisal
-in the end we end up with this matrix
-for part of Tomas social network on
-facebook now let me ask you how many
-connections does David have in this
-network five you say how did you get a
-number that's right one way to figure
-that out is to look at horizontal ray
-that describes who is connected with
-David this horizontal ray is called a
-row of a matrix each row of this matrix
-tells us about the connections of one
-specific person for example the third
-rail is about Andrews connections in the
-force rail is about Wales connections if
-you add up the entries of the third row
-the result is called a row sum and in
-this example the row sum of the third
-row tells you about how many connections
-andrew has in this network equivalently
-in this is the info you can also look at
-the vertical arrays of this matrix each
-vertical array is called a column of a
-matrix if you add up the entries of a
-column you get a column sum in this
-example the rows and columns happen to
-store the same kind of information
-because you might have noticed there's a
-symmetry in this matrix this symmetry
-comes from the fact that you can be a
-facebook friend with someone without him
-or her being a facebook friend with you
-but don't worry we'll see examples later
-were rows and columns store different
-information now let me ask you how many
-people are there in this social network
-and if everybody's connected with
-everybody including themselves how many
-connections were there be these are
-information about the size of the
-network and how can you get that
-information from the matrix that's right
-there are six rows and six columns in
-this matrix so there are six people and
-if everybody is connected with everybody
-include
-themselves then there are six times six
-equals 36 connections as you can see the
-number of rows and the number of columns
-in the matrix tell us about the size or
-the dimension of the matrix in general a
-matrix with M rows and n columns is
-called an m-by-n matrix so this matrix
-for example is a 6 by 6 matrix
-you
-you
-welcome to module 5 of chapter eight in
-this module we are going to discuss
-various properties of photography's own
-group of a graph if G is an automorphism
-then we will associate a permutation
-matrix pz to it will show that a
-permutation g of an automorphism is a is
-an automorphism if and only if its
-permutation matrix commutes with its in
-C matrix of the graphics automorphism
-group acts on the vertex attend as well
-as it is it automorphism will go into
-classify the graphs based on the action
-of its automorphism groups on subsets of
-what exit for example a graph is said to
-be vertex turns to graph if it acts on
-the vertex a transitively means that for
-any two vertices there exists an
-automorphism which takes one vertex to
-another vertex in module 5 of chapter
-eight we are going to discuss
-automorphism bruise and its relation
-with tennessee matrix objectives of this
-module our relationship between
-automorphisms of a graph and each agency
-matrix what takes and edgy turns two
-graphs distance trans two graphs recall
-two graphs x 1 equal to v 1 e 1 and x 2
-equal to v 2 e 2 are said to be
-isomorphic written X 1 is isomorphic to
-X 2 if there is a one-to-one
-correspondence between v1 to v2 vertex
-set of x 12 artic set of x 2 that is
-there is a mapping sigh v1 to v2 such
-that u 1 V 1 belongs to even if and only
-if say a few 1 comma sy of V 1 belongs
-to e 2 we discussed isomorphisms of
-graphs in module 5 of chapter 1 as well
-so now here we are going to discuss the
-results of all these in terms of aids in
-cymatics of a graph
-the maps I is called isomorphism of x1
-and x2 an isomorphism of X unto itself
-is Karl an automorphism the collection
-of all automorphisms of a graphics
-denoted Artifex forms a group under
-composition of two maps if X is a graph
-on n vertices then automorphism of X is
-a subgroup of s in the symmetric group
-on n symbols under this correspondence
-the maps in automorphism of x consists
-of n cross in permutation matrices also
-for each G in automorphism of X
-corresponds a permutation matrix denoted
-by P G now we state to results one of
-which gives a method to check whether a
-given permutation matrix is an element
-of automorphism effects are not and
-other gives information about few I ghen
-values of x that means when the graph is
-going to have few eigenvalues under it
-effects our tamar facin group of x r if
-the automorphism group have a nice
-structure then the graph is going to
-have few eigenvalues this is one of the
-important result G belongs to our tamar
-FISMA of ex-offender only if its
-permutation matrix PG commutes with
-agency matrix of the graphics so lemma
-statement is let a be the adjacency
-matrix of a graph X then G belongs to
-automorphism of X if and only if PG into
-a equal to a into PG the proof let G be
-a permutation of vertex set V 1 V 2 and
-so on VK and the GF VI is equal to V H
-and G of EJ equal to V k
-that means G takes vertex V a to vertex
-V H and vertex V J to vertex V k each
-row of PG has exactly one nonzero entry
-namely one this because peace is a
-permutation matrix so it is a each row
-and each column has to contain only one
-so now one has PG into a high-k that is
-I ik 10-3 of PG into a is equal to
-summation t equal to one to n PG I t
-into a TK so which is equal to since the
-8th row of our teeth column of PG
-contains exactly 11 so we are going to
-have it is big yes it becomes one only
-when in the H element that means PG IH
-is one remaining all other are 0 that is
-why this is equal to PGH into a HK so
-which is equal to a HK similarly if you
-take a into PG its ik thin tree then it
-is equal to t is equal to one to n AIT
-into p g TK so in this case in the teeth
-row of PG contains only 11 that is
-exactly when PG of JK as gmaps VJ to VK
-that is why we have PG JK thin trees one
-so we are going to get AJ so
-consequently what we proved is a HK and
-a IJ they are equally fun down leaf pga
-equal to a PG if and only if vh and VK
-is an edge of fee if and only if v + VJ
-is in a jiffy that is if and only if g
-is an automorphism of X now we are going
-to you prove some applications of the
-previous result
-the first one is we are going to show
-that automorphism of X equal to
-automorphism of X compliment corollary
-let X be a graph then automorphism of X
-equal to automorphism of X compliment
-first note that a matrix B commutes with
-the J decal jay is a matrix with every
-entry is one so be commutes with j means
-j be equal to bj that means that
-actually if you multiply jb what will
-happens the first entry is going to be
-the sum of interest in the first row so
-in that way j be equal to bj means every
-rossum in b is equal to every column sum
-so consequently every permutation matrix
-commutes with j so it is because the
-Rossum our column sum of every
-permutation matrix is 1 so every
-permutation matrix commutes with j with
-this no proof becomes easy PG into a
-equal to a PG if and only if PG into j
-minus i minus EI j minus i minus a is
-the identity matrix of X compliment so
-which is equal to j minus i minus a into
-PG it is because PG matrix now PG
-permutation matrix commutes with J as
-well as I always so we have this result
-now we are going to show that
-automorphism group of complete graph or
-automorphism group of null graph is the
-symmetric group s in this proof is easy
-the proof is obvious as every
-permutation matrix comes commutes with
-zero matrix 0 matrix is the adjacency
-matrix of the null graph and further we
-know that cane is equal to n n
-compliment so because of the previous
-theorem automorphism group of KN is
-equal to automatism group of NN
-compliment
-it is equal to n n so we have this part
-now we are going to put an important
-result let lambda gamma a be an eigen
-pair of X if lambda is a simple eigen
-value then G belongs to our Tamar fisma
-fix then PG of PG into a is equal to
-plus or minus a that means the
-eigenvector a of X is also behaves like
-an eigenvector of PG so pga the plus AR
-minus a that means that PG a is and i
-also an eigenvector of PG as a into PG
-of a is equal to PG into a it is because
-g is an automorphism so PG commutes with
-a so we have PG into lambda a we see
-that PG a comma lambda is also noggin
-pair it is because we have capital a
-into PG of a equal to PG into lambda l
-lambda into PG of a soapy GFE is also an
-eigen vector of a corresponding to eigen
-value lambda so PG of a comma lambda is
-an eigen pair but lambda is a simple
-eigen value of a hence we have PG of a
-is equal to MU into a foursome you
-belongs to R a real number as lambda is
-a real eigen value of x this because the
-identity matrix of a graph is a real
-symmetric matrix the eigenvalues of real
-symmetric matrix are all real that we
-prove it earlier so PG power s is equal
-to identity for some s belongs to n as
-PG is a permutation matrix so it is an
-element of the group SN so there exists
-in SS that PG power s equal to 1 so we
-have you power s equal to 1 r since u is
-real so u equal to plus or minus 1 if
-all eigenvalues of a graphics are simple
-then its automorphism group is an
-elementary billion group so
-there is a restriction of the
-automorphism group if whenever if our
-eigen values are simple okay so
-statement of the theorem is if all
-eigenvalues of a graphics are simple
-then automorphism group of x is an
-elementary a billion to group if G is an
-automorphism effects then using previous
-result PG of a equal to plus or minus a
-for all eigenvectors a of X a of a it is
-because every eigenvalue is a simple
-eigenvalue so some previous result we
-have this as all eigenvectors of a forms
-a basis for R power n so p.p.g of be
-equal to plus or minus B for all B
-belongs to R power n thus PG square
-equal to identity for all g belongs to
-our tamar FISMA fix that means for every
-automorphism g of x we have g square
-equal to identity so that is why
-automorphism of x is an elementary
-billion to group now we are going to
-define a class of graphs called vertex
-trans two graphs a graph X equal to V
-comma e is said to be worth extends to
-graph if art of Murphy some of X ax
-transitively on V that is for any two
-vertices X comma Y in V X not equal to y
-there exists a automorphism G such that
-G of X equal to a so for every distinct
-vertices X and Y there is an autumn are
-fields which takes one to the other so
-because of this what happens all
-vertices will behave in the same way so
-automatically consequently what x-trans
-two graphs are regular graphs not only
-that it has more property that we cannot
-distinguish one vertex to another vertex
-we proved in the previous module that is
-module 5 of chapter one that there
-exists X regular graphs which are
-asymmetric so it is not only what
-x-trans degrees now
-regular but it is more than that for
-example automorphism group of KN is
-equal to SN automorphism group of cyclic
-graph CN is d hydral group hence the
-graphs KN and CNR over text hands to
-johnson graphs and k cube graphs defined
-in the module 1 of chapter 6 are also
-what takes turns to let x equal to V
-comma IE bak regular what takes turns to
-graph if lambda is a simple eigen value
-of x then lambda equals k if mod v is
-odd and is contained in minus K comma K
-minus k plus 2 and so on k minus 2 comma
-k so for a curricular what takes turns
-to graph already for text trans to
-midget is regular but we are assuming we
-are specifying it is K regular so if
-lambda is an eigen value of lambda a
-simple eigen value of a then we are
-specifying what is its value is it is
-going to be one of these only so but
-this is possible only if mod V is even
-that means if mod V is our then k equal
-to exactly equal to K if mod V is even
-then the lambda is one of these values
-minus k minus k plus 2 and so on k minus
-2 comma k now we will prove an important
-result curl if every cali graph is
-vertex turns to be call cali graphs we
-defined in chapter 6 of module 1 let x
-equal to a cali graph on the group g
-with the connection set s then for every
-g belongs to G X comma Y is an edge of X
-if and only if X Y inverse belongs to
-use that is a definition of the cali
-graph so this is if and only if GX into
-GX means here XG rgx means that G acting
-on X G of X G take X to some other
-vertex so g of x RX g into y gr GFI
-whole inverse which belongs to s so that
-means that g of x RX g comma y g is an
-edge of x hence what we prove is g
-itself is a subset of automorphism
-effects hence if a comma B belongs to
-vertex 8v that in this case the caligra
-vertex at is the group G then the group
-element a inverse B takes a to be we are
-not only proved it is vertex tends to be
-showed which element is taking vertex a
-to vertex B now recall a circulant graph
-diagraph a circus a tulane diagraph
-means that it said since the matrix is a
-circulant matrix let Jaden be Jaden
-denote the cyclic group of order n then
-every Callie diagraph CA by j dennis is
-a circulant diagraph Callie graph j
-dennis is a circulant graph conversely
-every circulant diagraph cali j dennis
-for some nonempty subset s of jaden so
-every Callie diagraph is a actually it
-will circulant diagraph is a Carrie
-graph hence every circulant graph is
-what extends to every vertex trans to
-graph is not a cali graph but every
-vertex turns to graph of primary
-circulant graph now we will give an
-example of a what vertex turns to grow
-but not a cali growth pettersen graph is
-that example so that Peterson graph is
-what takes turns to but not a cali graph
-the proof of vortex x 2 is left hand
-exercise
-in fact one can use the construction of
-paterson graph given in these roads it
-is known that up to isomorphism there
-are only two groups of order 10 namely
-cyclic group under dihedral group it is
-easy to verify that none of the cubic
-cali graphs obtained from these groups
-is isomorphic to peterson graph we
-showed that every cali graph is vertex
-turns to graph but converse is not true
-peterson graph is an example now we are
-going to study few results on edge it
-turns to graphs and distance strands two
-graphs now we will discuss another class
-of graphs called a trans two graphs a
-graphics is set to be g trans to if for
-any pair of edges there exists an
-automorphism which maps 182 another that
-is if a comma B and C comedy are edges
-of graphics then there exists an
-automorphism G belongs to art of X such
-that G takes edge a b2 hdcd the prism
-graph given below is a vertex turns to
-but not edgy turns to graph one can see
-that the sum of the J's cannot map to
-another it is complete bipartite graph
-km in for m not equal to n are examples
-of edgy trans two graphs that that are
-not vertex transitive if X is a xB a
-connected graph if ax is AG turns to
-graph which is not vertex x 2 then x is
-bipartite so this theorem is
-characterizing which the grass which are
-in g trans to but not over text x 2 that
-automatically bipartite graphs there are
-only bipartite graphs so we let X comma
-Y be an edge of a graphics WB any vertex
-of X
-we define a is equal to t of x that is a
-very t is an automorphism t of x is our
-is a vertex of x and b is equal to t FY
-again t is an automorphism here as x is
-not over text as to the sets a and B
-that corresponds to equivalence classes
-of the vertices X and Y respectively
-they already joined also since X is edgy
-trans too so edgy edgy set of X is
-contained in a cross B as the as the
-sets a and B gives a by partition of V
-of X as that is X is a bipartite graph
-it is difficult to find an example of a
-regular connected graph which is edgy
-turns to but not what takes turns to one
-of the example is given below so but one
-has to check carefully this graph is
-edgy turns to but not vertex turns to
-and further it is a regular graph a
-graph X is said to be distance trans to
-if all the vertices U V X Y of X with
-distance of U comma V is equal to
-distance of X comma Y there is an
-automorphism SAT is satisfying GFU equal
-to X and G of V equal to Y that means a
-graph is a distance trans to graph if I
-if you take a pair of vertices such that
-their distance distance between them are
-equal that means d UV is one pair and XY
-is another pair distance between them is
-equal then automatically there exists an
-automorphism which takes you to X and V
-2 y so that is why it is called a
-distance trans two graphs it is
-is Irving the distances the distance
-trans two graphs are clearly both over
-text has two and edge it has two
-complete graphs KN cycle graph CN and
-complete bipartite graphs k MN when m
-equal to n are few examples of distance
-trans two graphs there are few class of
-graphs which attained the lower bound in
-the inequality d plus 1 is less than or
-equal to dimension of addition see
-algebra of X less than or equal to n the
-class of distance trans two graphs are
-one armed one among them that means if
-ax is a distance trans to graph then the
-dimension of it since the algebra of X
-is equal to exactly deep listen so that
-is what the theorem state if x is a
-distance trans to graph with diameter D
-then dimension of a of X equal to D plus
-1 in fact in case of distance trans two
-graphs something more is true and to
-state it we need the following
-definition let G be a group acting on a
-non-empty set V then G also acts on V
-cross v by g f x y is equal to G of X
-comma GF I for a fixed element u comma V
-of V cross V the set that is our beta of
-you v is equal to set of all ordered
-pairs which takes UV v by g that means G
-is varying here UV is fixed so we are
-collecting all ordered pairs which are
-mapped by the automorphism zuv g 2 u
-comma V so this is called arbatov UV
-under the action of G the distinct
-orbits of UV under the action of G are
-called orbitals so in the context of a
-graph that is X equal to V comma IE the
-orbitals of X are distinct orbits of
-the ID set B Class V under the action of
-automorphisms of the automorphism of X
-that these orbitals are our bits of arcs
-are non arcs of the graphics arc means
-here just an edge means here we are
-looking a direction as well the number
-of orbitals is called rank of the
-graphics note that for each fixed seed
-UV belongs to V cross V we can associate
-a 0 1 matrix M mij such that we're Maj
-equal to one if I JS belongs to orbit of
-UV and zero otherwise the matrices
-obtained the by the above method are
-called orbital matrices also note that
-for any orbital matrix all it's nonzero
-increase either appear on the main
-diagonal are they appear on the off
-diagonal as GF VV is always equal to G
-of V comma gfv for all V belongs to V
-and G belongs to automorphism of X the
-orbitals containing once on the diagonal
-will be called diagonal orbits if X is a
-distance trans to graph then the
-arbitral matrices and the distance
-matrices defined in module 2 of chapter
-eight will coincide moreover they form a
-basis for agency algebra of x so now we
-are going to prove an important result
-that is decomposition of the complete
-graph and prime number of vertices as
-isomorphic copies of circling diagraphs
-let P be a prime number let K be any
-factor of P minus 1 then edgy set of KP
-that is a jet p comma e the complete
-graph on p vertices can be partitioned
-into K subsets even a 2 and so on EK
-such that the diagraphs xie equal to V
-comma EA for one less than or equal to i
-less than or equal to K are our regular
-circling diagraphs
-where r is equal to P minus 1 by K
-moreover the diagraphs xixj for one less
-than or equal to i less than it I lie
-less than j less than or equal to K are
-isomorphic so this contains two parts
-will prove one by one proof of the first
-part let alpha be a generator of jet p
-star jerk p star means deleting 0 from p
-jetp then h equal to alpha power k 1
-that is 1 alpha power k and so on alpha
-power k into r minus 1 is a subgroup of
-jet p star having our elements and let h
-j is equal to alpha power j into h for j
-equal to 0 1 2 3 and so on k minus one
-with the cosets of h in jet p star with
-h naught equal to H it is important to
-note that HJ as a subset of JP generates
-jetp for each j equal to 0 1 2 3 and so
-on k minus 1 because of that the this is
-going to be useful we will see how it is
-useful now we will define a matrix a j
-is equal to h belongs to capital h j WP
-power hitch recall WP is is the
-adjacency matrix of a directed cycle on
-p vertices so WP is a circulant matrix
-and any polynomial a circulant matrix so
-AJ is a circulant matrix further it is a
-0 1 matrix so AJ is 0-1 circulant matrix
-let us now define a diagraph HJ by
-taking jetp as its vertex it and for any
-X comma Y belongs to jet p XY x comma y
-is an edge of XJ if and only if y minus
-X belongs to H J then it is easy to
-verify that XJ is Carrie diagraph so
-that is a colleague of jet p comma
-Jay since the cosets HJ for 0 less than
-or equal to j less than or equal to k
-minus one already d joint one has
-obtained KD joint diagraphs that are our
-regular and this completes the proof of
-the first part now we will prove the
-second part we now need to show that all
-these k diagraphs xj40 less than or
-equal to j less than or equal to k minus
-1 are mutually isomorphic we will do so
-by proving that the diagraphs x 0 and x
-j are isomorphic for one less than or
-equal to j less than or equal to k minus
-1 here we are changing j but we are
-proving that XJ is isomorphic to x0
-where j is arbitrary so let us define
-the map sigh from vertex set of x0 to
-vertex set of XJ by sy off so FS is
-equal to alpha power J into s for each s
-belongs to what it set of X naught then
-it can be easily verified that size 11
-and on to the Sui just need to show that
-sy of X is an edge of XJ if and only if
-XY is an edge of X 0 or equivalently we
-need to show that sy of X minus ify
-belongs to HJ if and only if X minus y
-belongs to H and this holds true as X
-minus y belongs to H if and only if
-alpha power J into X minus y belongs to
-HJ that is if and only if alpha power J
-into X minus alpha power J into y
-belongs to HJ this is same as sigh of X
-minus IFI belongs to H J so this
-completes the proof of
-distance trans to graph have lot of
-symmetry distance trans two graphs are
-vertex times 2 as well as AG trans two
-graphs the orbital matrices and distance
-matrices are coincide for distance trans
-two graphs further they form a basis for
-its NC algebra of these graphs with this
-we end this module as well as this
-chapter
-hi guys is video mohandro Janek a
-decency matrix representation guevara
-when the adjacent vertices of a graph is
-represented in the form of matrix then
-such type of representation is called
-adjacency matrix representation of a
-graph is named number of rows equal
-within number of columns the number of
-physically gravelly things example me
-crappity kept his calm logo bow it is in
-c matrix representation nikola autumn
-locus in occulta belly-to-belly vodka
-number of rows Disney okay number of
-columns on get the number of cross or
-number of forms my basket has six in
-take a is hot I'm putting one two three
-four five six to use 69 okay
-how is cool represent gets a cut ends of
-zip LFO diagonally up to one say two
-mega octane or one six six nine take it
-to once you do or one six six two
-thousand eight one four one field that
-night or baggage it may be a submit zero
-which there is a tuba dect led not to up
-they can to say up three me a sec there
-to say up one mega set then take it to
-one but three may up one finger thing or
-baggy samba zero is whether three school
-is called a attended three say to us at
-the three step four we have seven three
-seven is equal to 2 for 5 negative 2 for
-5 May 1 1 1 he cut thing her back is sum
-is 0
-she dropped for say up three me for say
-out 5 me as a head to force a three
-sorry 43 over say 5 to 3 or 5 3 4 5 yeah
-1 or e ah 1 dollar 1 1000 a pullback is
-something 0 was you throw 5 me pipes is
-6 5 0 5 C 3 a nigga 3 4 6 May 1 1
-Pickering or bakasana 0 6 7 more 6fi
-method 105 yen you keep one code 5 BM 1
-min 1 / 5 new one
-tell me one one filter in your bucket
-sum is 0 0 0 the key here is graph
-a decency matrix representation thanks
-for watching
+hi I'm Jonah in this video I'm going to
+explain two different ways to implement
+a graph and then I'm going to explain
+some of the pros and cons of each and
+I'll show you how to implement both of
+these methods in Python so the first way
+to implement a graph is using an
+adjacency list so let's look at this
+undirected graph it has five vertices
+and some edges connecting them an
+adjacency list actually is a set of
+adjacency lists because each list is
+stored in its own vertex so a keeps its
+own list of directly connected neighbors
+other vertices that it has an edge to so
+a has neighbors B C and E node B has
+neighbors a and C as we can see here
+this is going to be stored within each
+node or each vertex is going to store
+its own adjacency list now the other way
+is using an adjacency matrix and the
+adjacency matrix is a two dimensional
+array and it basically stores a zero
+where there is no edge or a one where
+there is an edge from A to B we can see
+there is an edge there or from A to C
+there is an edge as you'd expect since
+this is an undirected graph this is
+going to be symmetrical across this
+diagonal so from A to B is a 1 from B to
+a is also going to be a 1 then the
+adjacency matrix like I said it's a 2d
+array and is stored in the graph object
+so there's one adjacency matrix
+centrally located in the graph object
+how about if you have weighted edges on
+an undirected graph well it's much
+easier to implement weighted edges with
+an adjacency matrix instead of putting a
+one for edges where there is a
+connection you just put the weight of
+that edge so it's very easy to do that
+you already have the cell you can put
+instead of a 1 you can just put the
+number of the cost or the distance or
+weight of that edge in the cell so
+extremely easy to implement using
+adjacency matrix you can also implement
+weighted edges in an adjacency list but
+it's a little bit trickier so if you
+have a directed graph again very easy to
+do this using an adjacency list so here
+we would have
+a has one outbound edge to see so we
+list under a only C as a neighbor that's
+the only neighbor we can get to from a
+so we're going to list all the outbound
+edges for that vertex so C has edges to
+B D and E and we list all the outbound
+edges from C here in C's a Jason C list
+you know Jason C matrix the same thing
+we're basically going to put ones where
+we have an edge outbound from that
+vertex so we have the from on the left
+and the two is div columns so which is
+better well before we can answer that
+question let's look at some other
+characteristics of graphs a dense graph
+is a graph where this is not absolute
+value this is the number or count of
+edges and the count of vertices so a
+dense graph is a graph where you have
+the number of edges is about equal to 2
+the number vertices squared in other
+words almost every vertex is connected
+to every other vertex in the graph so
+you get a really large number of edges
+relative to the number of vertices a
+sparse graph is a graph where E is about
+equal to V which is what we have here in
+this picture so there are a lot of
+possible edges that are not actually
+there another thing we're going to look
+at before we answer the question which
+is better adjacency matrix takes up V
+squared space right this is a big factor
+the amount of space required for this
+adjacency matrix is going to be V
+squared or number of vertices squared
+regardless of how dense the graph is so
+very very sparse graph you still are
+going to take up the same amount of
+space so for our little 5x5 you know we
+only have 5 vertices in this example who
+cares right but if you can picture a
+graph that has ten thousand or a hundred
+thousand vertices that's going to take a
+project gigantic amount of storage space
+so with those things in mind an
+adjacency list is better in cases where
+you have a sparse graph because it's
+going to be faster and it uses less
+space but the disadvantage of an
+adjacency list this is slower for very
+dense graphs large dense graphs is going
+to be slower and the adjacency matrix is
+going to be better for dense graphs
+it's going to be faster and the space
+complexity is the same as it would be
+thrown on dense graph and another
+advantage is that is simpler to
+implement for weighted edges but the
+disadvantage of this adjacency matrix is
+that it uses more space and especially
+for large sparse graphs or perhaps to
+have a lot of vertices but relatively
+few edges the adjacency matrix is not a
+good choice so depending on the nature
+of your graph you have to decide which
+one of these is a better implementation
+to go with so I'll give a quick
+explanation of the adjacency list
+version of the graph implementation
+first we have our vertex class which
+basically has two variables as a name
+and it has a neighbors list and as we
+add neighbors we see we have an add
+neighbor function that basically is just
+appending that vertex to the list and
+then sorting it in the graph itself we
+only have one graph variable which is a
+dictionary of vertices so that we can
+find any vertex by its name so when we
+add a vertex we basically just check
+that that object that you passed in
+actually is a vertex object and then it
+doesn't exist in the vertices dictionary
+yet and if those two conditions are met
+then it goes in as the vertex to the
+vertices dictionary and when you try to
+add an edge with vertices U and V then
+it's first going to check if u and V are
+both actually in this vertices
+dictionary before adds it so if there's
+an invalid vertex and it's not going to
+be able to add that edge then we iterate
+through the vertices and we locate
+vertex U and vertex V and we add the
+other to its neighbors and that's pretty
+much it then I have a print graph
+function down here at the bottom so this
+is a pretty straightforward
+implementation of graph I think it's a
+little bit simpler so I usually favor
+this over the matrix version although
+the matrix version is not too hard and
+then down below I have some test code
+that we can test our our code up here so
+implementing a graph using an adjacency
+matrix this version is actually going to
+support both weighted and unweighted
+edges for undirected graphs and you have
+to do slight modifications to support
+directed graphs
+so our vertex class you'll notice only
+has one variable and that's just the
+name of the vertex we don't need
+adjacency this stored locally in the
+vertex that doesn't happen here they're
+stored centrally under the graph so we
+have the same vertices dictionary so
+that we can locate any vertex given its
+name we also have this edges list which
+is going to be our two-dimensional array
+of edges that's the matrix and then we
+have edge indices so that we can quickly
+locate the index of any edge given its
+name so when we add a vertex first we're
+gonna check if it's actually vertex and
+it is not in the vertices list already
+and if not we add to the dictionary and
+then our for loop here and the statement
+right after that basically we need to
+add another row and column of all zeros
+to our edges matrix so we're going to do
+that here we're add another row of zeros
+and in another column of zeros on to
+that edges matrix because we have mapped
+any edges to this new vertex yet but we
+need to add it to this matrix with all
+zeros and lastly we add the index for
+this vertex name into our edge indices
+dictionary so to add an edge we're first
+going to verify that both vertices U and
+V are in our vertices dictionary and if
+they both are then recall that this
+edges matrix is symmetrical along the
+diagonal so we want to add this edge we
+want to enter the weight in the matrix
+in both the top right bar in the bottom
+left part so we're going to add the edge
+to both u comma V and to V comma u we'll
+set the edge weight and that's it for
+add edge if we achieve that and we'll
+return true and if not the return false
+then lastly I have a pretty pretty
+simple print graph function that prints
+a pretty crudely formatted edges matrix
+for us so you can see what that looks
+like and our interface is exactly the
+same as for the adjacency list version I
+have exactly the same test code down
+here below where we we set up a graph we
+add some vertices and some edges to it
+and we print it out I posted all of my
+Python code here in my github site and
+you can download that pin you also have
+access to the PowerPoint file posted
+here Omega up site so I hope this video
+was helpful for you if you liked it
+please click like and subscribe to my
+channel I'm Joe James thanks for
+watching
+the graph data structure is not the same
+as a graph you may have learned about a
+math class graphs are collections of
+things and the relationships or
+connections between them the data in a
+graph are called nodes or vertices the
+connections between the nodes are called
+edges one example of graphs is a social
+network where the nodes are you and
+other people and the edges are whether
+two people are friend with each other
+there are two major types of graphs
+directed and undirected undirected
+graphs are graphs without any direction
+on the edges between nodes directed
+graphs are graphs with a direction and
+its edges an example of an undirected
+graph could be a social network the
+nodes are people and the edges are
+friendships an example of a directed
+graph could be the internet and web page
+links the nodes are web pages and the
+directed edges are links to other pages
+which might not necessarily point the
+other way I'm going to show you three
+ways to represent a graph the first way
+is called an adjacency list this
+representation for a graph associates
+each vertex in the graph with the
+collection of its neighboring vertices
+or edges in this image a is connected to
+B B is connected to a and C and C is
+connected to B this is how you could
+show a relationship with texts and here
+is how you could show this adjacency
+list with JavaScript this is an
+undirected graph because it does not
+show the direction of the edges this can
+also be more simply represented as an
+array where the nodes just have numbers
+rather than string labels another way to
+represent a graph is to put it in an
+adjacency matrix an adjacency matrix is
+a two-dimensional array where each
+nested array has the same number of
+elements as the outer array so it's
+basically a matrix of numbers where the
+numbers represent the edges zeroes means
+there is no edge or relationship and one
+means there is a relationship this table
+shows an adjacency matrix to represent
+the image you can see that the labels
+for the nodes are on the top and left
+now here's a JavaScript representation
+of the same thing unlike an adjacency
+list each row of the matrix has to have
+the same number of elements as nodes in
+the graph here we have a 3 by 3 matrix
+which means we have 3 nodes our graph
+and adjacency matrix can be used to
+represent a directed graph here's a
+graph where the second node has an edge
+pointing toward the first node and then
+the third node has an edge pointing to
+the first node notice how the numbers in
+the array change there are only ones
+where a node is pointing toward another
+node and since there are only two points
+there are only two nodes the final way I
+will show to represent a graph is an
+incidence matrix like the adjacency
+matrix and incidence matrix is a
+two-dimensional array however the rows
+and columns means something else here
+the adjacency matrix use both rows and
+columns to represent nodes and incidence
+matrix uses roads rose to represent
+nodes and the columns to represent edges
+this means that we can have an uneven
+number of rows and columns each column
+will represent a unique edge also each
+edge connects two nodes to show that
+there is edge between two nodes you will
+put a 1 in the two rows of a particular
+column as you can see in the diagram
+edge 1 is connected to nodes a and B now
+look at the column for edge 1 in the
+incidence matrix table you will see a 1
+in both the a row and the B row this
+shows the edge 1 connects the nodes a
+and B here is a directed graph for a
+directed graph use negative 1 for an
+edge leaving a particular node and 1 for
+an edge entering a node and here is a
+JavaScript implementation of the
+incidence matrix graphs can also have
+weights on their edges so far we have
+unweighted edges where just the presence
+and lack
+of edges binary zero one you can have
+different weights depending on your
+application a different way is
+represented as a number greater than one
+well now you know about different types
+of graphs and how to represent them in
+JavaScript in my next video about graphs
+I will cover graph traversal algorithms
+thanks for watching my name is Bo Carnes
+don't forget to subscribe and remember
+use your code for good
+This video is on graph representations.  It is the second video in a basic
+graph algorithm playlist, after the introduction to graphs.  This one goes
+over the two most common ways to implement graphs, adjacency matrices
+and lists.  After a few simple representation related algorithms, I'll
+compare their strengths and weaknesses. 
+So you have this abstract
+graph out there, with vertices and edges, and maybe each of those has
+information that goes with it.  The graph representation we choose
+is just some implementation which captures that abstract graph
+information, but you can come up with different implementations to
+capture the same graph.  The two most common models
+are the adjacency matrix, and the adjacency list.  
+Starting with
+an adjacency matrix for a directed graph, we use a two dimensional
+matrix.  We assume that vertices are numbered, and an edge from vertex i
+to j goes in row i, column j.  What do we store for the edge?
+In the simplest case, just a single bit, true or false, if the edge exists.
+In the most complex case, you can store an edge object, or maybe a
+reference to an edge, where that edge can store whatever information you want:
+weight, name, hobbies, whatever you need for your problem.
+A common case between those two extremes is when you just need an
+edge weight.  So great, just store the edge weight in the matrix.
+But what do we store if there is no edge?  Some languages might allow
+you to store nil, or a null reference, but even then, each time you need an
+edge weight, you first need to see if the edge exists, and then use it.
+That slows your code down a bit, and also makes it clunky.
+Instead, depending on what the weights represent, it's common to store a dummy
+weight for missing edges.  If the weights represent something you are trying to minimize,
+like a cost, you store a huge value, like infinity.
+If you are minimizing costs, you should never take an infinite
+weight edge, unless you can't solve the problem without one.  Again,
+depending on what the weights represent, other dummy weights for non-existent edges
+might make sense.  Hugely negative, 0, or hugely positive
+are the most common values, where negative infinity might be used if
+edge weights are profits that you are trying to maximize.  Finally,
+for undirected graphs, the matrix is symmetric over the diagonal,
+so you could try to halve your space by just keeping one side.
+The Cormen book mentions keeping the top part, but I think the indices come
+out cleaner with the bottom part.
+Next comes the
+adjacency list representation.  Here, we have an array of vertices,
+and for each, you have a list of it's edges.  In the simplest case,
+if your current vertex i has an edge to j, maybe you only need
+to store that index j in i's list to mark
+that the edge exists.  You can't get away with just a single true/
+false bit here, you have to identify the other vertex.
+For a weighted graph, you can't just store weights, you also need an
+index or reference.
+What do you use for lists?
+You can use any list, and if the graphs don't change, you can even just
+use static arrays.  If the graph never changes AND
+you frequently have to look up whether or not edges exist, you
+could even use sorted arrays, and then use binary search if you are looking for a
+particular vertex in a list.  If you care about quick
+lookup and also want to let edges be added or removed,
+you could even use a balanced binary tree structure.  But, for lots
+of algorithms, you only look at all edges incident on a vertex
+in arbitrary order.  There, pretty much anything you use is fine.
+I'll just show comma separated text in my slides.
+For undirected graphs in the adjacency list model,
+you store each edge twice, once in the list for each vertex,
+unless you don't care how long it takes you to look anything up.
+For directed graphs, you have a choice:  for each vertex,
+you can store all of the vertices that it has an edge to, or
+all of the vertices that it has an edge from.  Those are two different ways of storing
+the same graph, and you pick one depending on how you are going to need
+to access your data.  Storing outgoing edges is more common.
+For some problems, you might want both lists.
+What if you are given the data as an outgoing adjacency list, but you want the incoming
+list?  You can go from one format to the other in time linear
+in the size of the graph:  given an outgoing representation,
+you create a new incoming representation with the same vertices,
+and then for each vertex i in the graph, for each vertex
+j in i's outgoing list, append $i$ to $j$'s incoming
+list.   Let's quickly run through an example.
+If vertex 1 has a link to 3, append 1 to 3's incoming list.
+If 1 has a link to 5, append 1 to 5's list, and if 2 has a link
+to 4, append 2 to 4's list.  Do that over all edges, it takes
+constant time per edge plus constant time per vertex, done.
+Going from the incoming list to the outgoing list is the same algorithm.
+Going from an adjacency list to a matrix is
+very similar.  Make an empty matrix, or for a weighted graph, a
+matrix filled with dummy values.  Then, for each vertex, for
+each outgoing edge, add that edge to the matrix.  It takes
+time no more than the size of the matrix, the number of vertices squared.
+To go from the matrix to the outgoing list format,
+create an empty list, step through every location in the matrix, and when
+there is an edge, add it to the appropriate list.  It takes time proportional to the number
+of vertices squared to look through the matrix.
+One final
+basic graph manipulation algorithm: flipping the direction
+of each edge in a graph is called taking the graph's transpose,
+because if you are using the adjacency matrix format,
+you just take the transpose of the matrix.  If you are using the outgoing
+adjacency list format, just find the incoming adjacency
+list for the same graph, and interpret that incoming list as the
+outgoing list, that's the transpose.
+So great, we have
+multiple representations for the same graph, and can transform
+one to another as needed.  Assume you have whichever representation
+suits your needs most.  Let's compare the outgoing list
+to the matrix to get an idea of when to use each.
+First let's look at the space, or memory usage.  The adjacency list
+has one list for each vertex, and each edge shows up in one
+of the lists, or two for undirected graphs.  That's space linear
+in the size of the graph.  The adjacency matrix takes up
+size quadratic in number of vertices.  Is that bad?  It depends
+on how dense the graph is.  If the graph has enough edges, the matrix
+could actually use somewhat less space than the adjacency list,
+but for sparse graphs, the adjacency list is asymptotically
+better.  If we think about Facebook, each user has
+on average a couple hundred friends.  It's a lot easier to store a hundred
+links per user than to store a billion by billion matrix
+for the graph as a whole.
+What tasks does
+each representation do well?  The most common basic graph
+operations are to ask what vertices are adjacent to a vertex,
+and to ask if an edge between two vertices exists.
+Iterating through a list of vertices adjacent to a vertex is easy with an
+outgoing adjacency list.  It takes time linear in the size
+of the list, which is the vertex's outdegree.  The matrix
+format takes time linear in the total number of vertices in the graph.
+Again, not bad if the graph is dense and the vertex has an edge to
+most other vertices, but it gets worse and worse the more sparse
+the graph is.  Again, for Facebook, imagine how wasteful it would be if they
+had to run through over a billion users just to see what they
+should stick on your freakin' feed.  No one is that popular.
+The matrix can find out if some edge exists in constant time,
+while the list might take time linear in the degree of one of the edge
+vertices to run a linear search.  If you expect to do lots
+of those lookups, and decide to have the lists sorted in arrays or trees,
+each lookup will only take time logarithmic in the degree of
+the vertex, which might be small compared to the number of vertices.
+That might be worth doing sometimes, but for lots of nice algorithms,
+we don't look up whether or not an edge exists, we only want to
+list vertices by adjacency.  Even though we will occasionally use
+the adjacency matrix, the adjacency list is our default,
+including for the videos up next on this playlist,
+breadth first search, and depth first search.  For now,
+I've got to go practice my miming skills.
+[Sound of a mime screaming]
 you
 welcome to module 2 of chapter eight in
 this module we are going to study
@@ -2341,38 +2047,6 @@ edison see algebra of the graphics that
 is every distance matrix is a polynomial
 in the identity matrix of that graphics
 with this we end this module
-hello friends welcome back in this
-tutorial we will study about the
-adjacency matrix of a digraph the
-adjacency matrix of a digraph having n
-vertices is up and cross and binary
-matrix in which entry at at row and jth
-column is 1 if and only if there is an
-arc from vertex a to vertex G each
-diagonal entry in the adjacency matrix
-of a digraph is 0 for example see this
-diagraph this is the adjacency matrix of
-this diagraph order of this matrix is 4
-cross 4 because there are 4 vertices in
-diagraph ndaya graph there is an arc
-from vertex 1 to vertex 2 therefore in
-adjacency matrix of this diagraph entry
-at first row and second column is 1
-similarly there is an arc from vertex 1
-to vertex 4 therefore in adjacency
-matrix the entry at first row and fourth
-column is 1 there is an arc from vertex
-2 to vertex 3 therefore in adjacency
-matrix the entry at second row and third
-column is 1 there is an arc from vertex
-3 to what X 1 they
-for in adjacent C matrix the ant react
-third row and first column is one there
-is an arc from vertex four to vertex 3
-therefore in adjacency matrix the ant
-react
-fourth row and third column is one thank
-you very much
 the soldier andré do santos launched in
 Saturday morning in southern Argentina
 silver goal
@@ -2517,6 +2191,226 @@ bean ufpe
 robby ray bab al Zawahiri neighborhood
 avalone love only have 10 and less of
 street and attracted
+good day everyone
+by popular demand I'm going to record
+this little lecture about graphs
+adjacency matrices and the walks on
+graphs basically what I want to explain
+is that if we have a graph with
+adjacency matrix a and then if we take
+the nth power of the adjacency matrix
+and then we look at the element in the I
+throw and J column and this is going to
+be the number of walks of length and n
+is the same as the power from vertex a
+to vertex J now I'm just going to
+explain this to tell you what it means
+but I'm I'm not going to prove it so if
+you want to prove it then either try to
+do it yourselves which is doable it's
+not really that tricky you just need to
+do it by mathematical induction or you
+can read the proof on online just google
+it anyway so first let's review the
+concept the concept of adjacency matrix
+and so what is adjacent C matrix um
+adjacency matrix is the matrix whose
+entries as zeros and ones and if the
+vertex I is connected to vertex J by an
+edge like for example here 2 is
+connected by an edge 2 2 5
+then the element in row I column J in
+this case second row fifth column is
+going to do one all of course vice versa
+you know in fifth row second column also
+on and so on the other hand if two
+vertices say three and one are not
+connected by an edge and there's going
+to be zero in the first row third column
+or sorry
+[Music]
+third row first column okay so now the
+matrix a square Collins walks of length
+two so what does it mean let's look at
+some vertices in it say 6 &amp; 1 then the
+rapper that there is precisely 1 walk of
+length 2 from 6 to 1 so we have to go to
+7 and then to 1 so then the element in a
+6 row first column of a square is going
+to be 1 now let me explain you some
+other number here let's say from 2 to 6
+and so if I take 2 &amp; 6
+how many walks of length 2 are there
+from 2 to 6 so we can go to 5 and the 6
+that's one all we can go from 2 to 3 and
+then to 6
+that's 2 or to conform them to 6 that
+that is 3 is there anything else well
+what else could we do we could go from 2
+to 2 1 but from 1 there is no edge to 2
+6 so this is not working which is why
+there are exactly three works of length
+2 from 2 to 6 and the corresponding end
+entry of the matrix a square is 3 all
+right
+let me explain let's say walks of length
+to from vertex to 236 2 so suppose that
+we are at vertex 2 and we want to count
+walks of length 2 from vertex to vector
+- so how many other so we can go to 1
+but then if you want to reach vertex 2
+imprecise the 2 steps then we have to go
+back to one step two steps that's 1 or
+we can go to 5 third step vector 2
+second step or we can go to 3 first step
+second step all we can go to for first
+step second step this is how we can
+explain this number four so there are
+four walks of length two from vertex to
+map to itself but then of course
+generally speaking it is clear that if
+you want to to make a walk of length 2
+from a virtue expect to itself then you
+have to go to enable vertex and then go
+back to itself which means that the
+number of walks from each vertex to
+itself of length 2 is exactly the number
+of vertices that are connected to it by
+an edge or the degree of the vertex
+alright so here the degree of vertex 1
+is 2 there are two ages adjacent to it
+or to vertex it to 2 which is connected
+to it so the degree of vertex 2 is 4 the
+degree of vertex 3 is 2 degree vertex 4
+is again 2 so there are two edges
+adjacent to it 5 2 6 4 7
+- that's how I get 2 4 2 here all right
+hopeless clear
+ah
+now let's um explain entries of a cube
+right so a cube counts walks of length
+three so for example if we want to look
+at walks of length three from say vertex
+one to vertex three how many of them are
+there
+well from lytx one in order to reach
+vertex three we can go to seven and then
+there is no choice we have to go to six
+and then again there is no choice we
+have to go to three that's one is there
+another one so if we don't go to seven
+then we have to go to two well but then
+if you go to two straight to three
+that's going to be a walk of length two
+so it doesn't count right so we have to
+either to go to five but then from 5
+we'll have to go to three but there is
+no edge so five doesn't work all we can
+go from two to four but again there is
+no edge from four to three
+so it doesn't work so which means there
+is only one walk of length 3 from 1 to 3
+and which is why we observe one here ok
+so how how do we explain number three
+here so walks of length 3 from vertex 1
+to 36 seven one vertex one to vertex 7
+how many walks of length three are there
+all right let's try um well if we want
+to go from one to seven in three steps
+the first step that we can take is
+straight to seven but then after doing
+this
+to account in walks of length three we
+have to take two more steps then how
+many ways are there to reach seven from
+seven in exactly two steps and of course
+we can continue through six and back
+that's one or we can go back to one and
+then think into seven right so if we
+begin if we start from one go to seven
+immediately and want to reach seven
+after a walk of left three then there's
+going to be two ways to do it okay so
+furthermore alternatively we can
+[Music]
+you
+and do the following
+and we can go to two
+all right but then if we go to two and
+then we still want to reach seven in
+three steps so how do we continue so
+notice that if we go to four three or
+five then none of these three vertices
+is connected to seven by an inch so
+which means that it's impossible to make
+three steps and reach seven so which
+means that after two we have to go back
+to one and then of course we'll go to
+seven so there is plus one step and
+we're each vertex seven this explains
+the distance so this may be explained
+zeroes on the diagonal so if I want to
+count the walks of length three from a
+vertex to itself then a walk of length
+three from a vertex to itself would be
+vertex then the go to another vertex
+then to third vertex and then back to
+this one so this would be a triangle in
+our graph but if you look at our graph
+there is no triangle so which means that
+the number of walks of length three from
+each vertex to its out here in this case
+is zero and then finally let's maybe
+count walks of length 103 say from 1 to
+2 and so how many ways are there to go
+from 1 to 2 in 3 steps
+so the first step
+I can be what can be so we can go to
+seven but then from seven we have to go
+back to one and then we go to two so
+that's one or we can go straight to two
+but then there are four more ways to
+finish it right so we can from two we
+can go to four and back from two we can
+go to 3 and back from two we can go to
+five and back and from two we can go to
+one and back so all together plus four
+more we'll get five walks of length 3
+from 1 to 2 and this explains this
+number all right I hope it's going to
+become clearer now thank you very much
+hello friends welcome back in this
+tutorial we will study about the
+adjacency matrix of a digraph the
+adjacency matrix of a digraph having n
+vertices is up and cross and binary
+matrix in which entry at at row and jth
+column is 1 if and only if there is an
+arc from vertex a to vertex G each
+diagonal entry in the adjacency matrix
+of a digraph is 0 for example see this
+diagraph this is the adjacency matrix of
+this diagraph order of this matrix is 4
+cross 4 because there are 4 vertices in
+diagraph ndaya graph there is an arc
+from vertex 1 to vertex 2 therefore in
+adjacency matrix of this diagraph entry
+at first row and second column is 1
+similarly there is an arc from vertex 1
+to vertex 4 therefore in adjacency
+matrix the entry at first row and fourth
+column is 1 there is an arc from vertex
+2 to vertex 3 therefore in adjacency
+matrix the entry at second row and third
+column is 1 there is an arc from vertex
+3 to what X 1 they
+for in adjacent C matrix the ant react
+third row and first column is one there
+is an arc from vertex four to vertex 3
+therefore in adjacency matrix the ant
+react
+fourth row and third column is one thank
+you very much
 now that we're feeling pretty familiar
 with graphs we're going to look at ways
 of represent
@@ -2933,124 +2827,6 @@ a we can see one plus one plus one is
 three so the degree of vertex a will be
 three okay and that's adjacency matrix
 and instant matrix or the graph
-welcome to the first in a series of
-demonstrations on the graph data
-structure what we're going to be
-starting out with is a look at a graph
-implementation specifically looking at a
-graph implemented as an adjacency matrix
-and trying to determine what kind of
-graph that adjacency matrix represents
-so we're going to draw out a graph
-corresponding to this adjacency matrix
-first thing that we're going to do is
-we're going to try to figure out what
-kind of graph we've got in the first
-place now if we take a look at the
-matrix the rows and columns are labeled
-ABCD and E which means we have five
-vertices which we're going to dry out
-and label them a B C D and E now the
-contents of the matrix itself are
-numeric which means that there's going
-to be some kind of weight associated
-with the edges between each vertex now
-if these have been boolean instead we
-would say that it was an unweighted
-graph but since we have numbers we're
-going to associate those with the edges
-the other thing that we can determine is
-that by taking a look at the main
-diagonal and the values on either side
-the values on either side of the main
-diagonal aren't identical so for example
-evaluate Row one column two is not the
-same as the value at Row two column one
-what this means is the matrix is not
-symmetric and therefore the graph is
-bi-directional so we're going to have to
-draw arrow heads as we go on each four
-edges so let's start out with the first
-row
-and take a look at the edges that
-originated a now there's two edges
-originating at a one divert X B was
-weight of three and another one to
-vertex E with a weight of one now again
-this is a directed graph so we're
-drawing arrow heads on each edge as we
-go there's only one edge originating a B
-and that's an edge to D with wait to see
-has three edges rigid a and they have
-different weights we have one from C to
-a with wait for one from C to B with
-weight 2 and 1 from C to e with weight 5
-there are two edges originating from d1
-that goes to C with weight six and one
-that goes to E with weight one
-and then finally in the last row of our
-matrix we have two edges originating at
-row e1 back to a with weight one now
-notice that we already have an edge from
-A to E with weight one and the edge
-going back will also have the same
-weight so instead of drawing it in
-another edge let's just draw in another
-arrowhead indicating that this edge
-happens to be bi-directional and the
-other one is an edge from e to D with
-weight three now although we already
-have an edge from D to e we can't just
-draw it in another arrowhead because
-this new edge has a different weight so
-I'll have to draw in another line with
-an arrow going in the opposite direction
-and label this one as having weight
-three and that's our complete graph
-based on that adjacency matrix for the
-second demonstration we're going to take
-a look at a different implementation of
-a graph in this case a graph implemented
-as an adjacency list there are six
-vertices labeled a through F this will
-start out by drawing our graph by
-drawing those six vertices now we don't
-know exactly where the best place to
-draw these vertices are so we'll just
-kind of take a guess and spread them
-apart nicely so that we have lots room
-to draw on edges the first item in our
-adjacency list shows us all of the edges
-originating at vertex a now a has an
-edge going to see a soldier on that one
-and in the absence of any evidence to
-the contrary we're going to make this a
-directed edge from A to C the second
-item shows us the B has two edges
-originating at B one to D and one to E
-see has three edges one returning back
-to a now in this case we don't have any
-kinds weights so we'll just draw in an
-arrow back to a 1/2 D and 1/2 e D has an
-edge going to be well we already have an
-edge from B to D so this is just now a
-bi-directional edge and one back to C
-again just another arrowhead on an
-existing edge e has three edges one
-returning back to be drawn another
-arrowhead one back to C and one to F and
-finally the last item in our Jason C
-list shows us that there is an edge from
-F returning back to e we take a careful
-look at our graph we can see that all of
-the edges that we've drawn in in fact
-have arrowheads on both ends in other
-words our graph is undirected now there
-was no way for us to tell that from
-actually looking at the original
-adjacency list it's just something that
-we had to discover as we went along
-but that's our complete graph
 all right in this video I just want to
 talk a little bit about some graph
 theory and just some basic terminology
@@ -3323,260 +3099,306 @@ on doing some more you know detailed
 stuff but again hopefully this is a good
 little warm-up and just a good little
 intro to some of the ideas
-friends welcome back in this tutorial we
-will study about adjacency matrix of a
-graph the adjacency matrix of a graph
-having n vertices is a n cross n matrix
-whose non diagonal entry add I have true
-and giant column is the number of edges
-joining vertex I and vertex g and
-diagonals Aintree at i true and I'd
-column is twice the number of loops at
-what X I it would be more clear after
-this example and the sensi matrix of
-this graph is this matrix since there
-are four vertices in this graph
-therefore the adjacency matrix of this
-graph is a 4 cross 4 matrix there is an
-edge joining vertex 1 and vertex 2
-therefore the entry at first row and
-second column is 1 and entry add second
-row and first column is also 1
-there are two edges joining vertex 2 and
-vertex 3 therefore the entry at second
-row and third column is 2 similarly the
-entry act third row at second column is
-also 2 same way entry at first row and
-fourth column is 1 and entry at 4th row
-and first column is also 1 because there
-is an edge joining vertex 1 and 4 decks
-full and we add third row and fourth
-column is 1 and anti add fourth row and
-third column is also 1 because there is
-an edge joining vertex 3 and vertex for
-the diagonals and tree at second row and
-second column is 2 because there is a
-loop at vertex - thank you very much
-hi I'm Jonah in this video I'm going to
-explain two different ways to implement
-a graph and then I'm going to explain
-some of the pros and cons of each and
-I'll show you how to implement both of
-these methods in Python so the first way
-to implement a graph is using an
-adjacency list so let's look at this
-undirected graph it has five vertices
-and some edges connecting them an
-adjacency list actually is a set of
-adjacency lists because each list is
-stored in its own vertex so a keeps its
-own list of directly connected neighbors
-other vertices that it has an edge to so
-a has neighbors B C and E node B has
-neighbors a and C as we can see here
-this is going to be stored within each
-node or each vertex is going to store
-its own adjacency list now the other way
-is using an adjacency matrix and the
-adjacency matrix is a two dimensional
-array and it basically stores a zero
-where there is no edge or a one where
-there is an edge from A to B we can see
-there is an edge there or from A to C
-there is an edge as you'd expect since
-this is an undirected graph this is
-going to be symmetrical across this
-diagonal so from A to B is a 1 from B to
-a is also going to be a 1 then the
-adjacency matrix like I said it's a 2d
-array and is stored in the graph object
-so there's one adjacency matrix
-centrally located in the graph object
-how about if you have weighted edges on
-an undirected graph well it's much
-easier to implement weighted edges with
-an adjacency matrix instead of putting a
-one for edges where there is a
-connection you just put the weight of
-that edge so it's very easy to do that
-you already have the cell you can put
-instead of a 1 you can just put the
-number of the cost or the distance or
-weight of that edge in the cell so
-extremely easy to implement using
-adjacency matrix you can also implement
-weighted edges in an adjacency list but
-it's a little bit trickier so if you
-have a directed graph again very easy to
-do this using an adjacency list so here
-we would have
-a has one outbound edge to see so we
-list under a only C as a neighbor that's
-the only neighbor we can get to from a
-so we're going to list all the outbound
-edges for that vertex so C has edges to
-B D and E and we list all the outbound
-edges from C here in C's a Jason C list
-you know Jason C matrix the same thing
-we're basically going to put ones where
-we have an edge outbound from that
-vertex so we have the from on the left
-and the two is div columns so which is
-better well before we can answer that
-question let's look at some other
-characteristics of graphs a dense graph
-is a graph where this is not absolute
-value this is the number or count of
-edges and the count of vertices so a
-dense graph is a graph where you have
-the number of edges is about equal to 2
-the number vertices squared in other
-words almost every vertex is connected
-to every other vertex in the graph so
-you get a really large number of edges
-relative to the number of vertices a
-sparse graph is a graph where E is about
-equal to V which is what we have here in
-this picture so there are a lot of
-possible edges that are not actually
-there another thing we're going to look
-at before we answer the question which
-is better adjacency matrix takes up V
-squared space right this is a big factor
-the amount of space required for this
-adjacency matrix is going to be V
-squared or number of vertices squared
-regardless of how dense the graph is so
-very very sparse graph you still are
-going to take up the same amount of
-space so for our little 5x5 you know we
-only have 5 vertices in this example who
-cares right but if you can picture a
-graph that has ten thousand or a hundred
-thousand vertices that's going to take a
-project gigantic amount of storage space
-so with those things in mind an
-adjacency list is better in cases where
-you have a sparse graph because it's
-going to be faster and it uses less
-space but the disadvantage of an
-adjacency list this is slower for very
-dense graphs large dense graphs is going
-to be slower and the adjacency matrix is
-going to be better for dense graphs
-it's going to be faster and the space
-complexity is the same as it would be
-thrown on dense graph and another
-advantage is that is simpler to
-implement for weighted edges but the
-disadvantage of this adjacency matrix is
-that it uses more space and especially
-for large sparse graphs or perhaps to
-have a lot of vertices but relatively
-few edges the adjacency matrix is not a
-good choice so depending on the nature
-of your graph you have to decide which
-one of these is a better implementation
-to go with so I'll give a quick
-explanation of the adjacency list
-version of the graph implementation
-first we have our vertex class which
-basically has two variables as a name
-and it has a neighbors list and as we
-add neighbors we see we have an add
-neighbor function that basically is just
-appending that vertex to the list and
-then sorting it in the graph itself we
-only have one graph variable which is a
-dictionary of vertices so that we can
-find any vertex by its name so when we
-add a vertex we basically just check
-that that object that you passed in
-actually is a vertex object and then it
-doesn't exist in the vertices dictionary
-yet and if those two conditions are met
-then it goes in as the vertex to the
-vertices dictionary and when you try to
-add an edge with vertices U and V then
-it's first going to check if u and V are
-both actually in this vertices
-dictionary before adds it so if there's
-an invalid vertex and it's not going to
-be able to add that edge then we iterate
-through the vertices and we locate
-vertex U and vertex V and we add the
-other to its neighbors and that's pretty
-much it then I have a print graph
-function down here at the bottom so this
-is a pretty straightforward
-implementation of graph I think it's a
-little bit simpler so I usually favor
-this over the matrix version although
-the matrix version is not too hard and
-then down below I have some test code
-that we can test our our code up here so
-implementing a graph using an adjacency
-matrix this version is actually going to
-support both weighted and unweighted
-edges for undirected graphs and you have
-to do slight modifications to support
-directed graphs
-so our vertex class you'll notice only
-has one variable and that's just the
-name of the vertex we don't need
-adjacency this stored locally in the
-vertex that doesn't happen here they're
-stored centrally under the graph so we
-have the same vertices dictionary so
-that we can locate any vertex given its
-name we also have this edges list which
-is going to be our two-dimensional array
-of edges that's the matrix and then we
-have edge indices so that we can quickly
-locate the index of any edge given its
-name so when we add a vertex first we're
-gonna check if it's actually vertex and
-it is not in the vertices list already
-and if not we add to the dictionary and
-then our for loop here and the statement
-right after that basically we need to
-add another row and column of all zeros
-to our edges matrix so we're going to do
-that here we're add another row of zeros
-and in another column of zeros on to
-that edges matrix because we have mapped
-any edges to this new vertex yet but we
-need to add it to this matrix with all
-zeros and lastly we add the index for
-this vertex name into our edge indices
-dictionary so to add an edge we're first
-going to verify that both vertices U and
-V are in our vertices dictionary and if
-they both are then recall that this
-edges matrix is symmetrical along the
-diagonal so we want to add this edge we
-want to enter the weight in the matrix
-in both the top right bar in the bottom
-left part so we're going to add the edge
-to both u comma V and to V comma u we'll
-set the edge weight and that's it for
-add edge if we achieve that and we'll
-return true and if not the return false
-then lastly I have a pretty pretty
-simple print graph function that prints
-a pretty crudely formatted edges matrix
-for us so you can see what that looks
-like and our interface is exactly the
-same as for the adjacency list version I
-have exactly the same test code down
-here below where we we set up a graph we
-add some vertices and some edges to it
-and we print it out I posted all of my
-Python code here in my github site and
-you can download that pin you also have
-access to the PowerPoint file posted
-here Omega up site so I hope this video
-was helpful for you if you liked it
-please click like and subscribe to my
-channel I'm Joe James thanks for
-watching
+okay so in this section we're going to
+start looking at bipartite graphs so
+these are special family of graphs and
+it's probably best if you can see it so
+here are a series of vertices on the
+left and here on the series of vertices
+on the light okay so this might be a b c
+and d and these could be numbered 1 2 3
+&amp; 4 for example and then i could connect
+these by edges
+like so for example okay so this is a
+bipartite graph the word bi meaning two
+and two parts okay so it's a graph that
+can be separated into a set of vertices
+on the left and a set of vertices on the
+right two sets to cut and partition two
+sets of vertices that are not actually
+individually connected to each other
+okay but two sets such that one set is
+connected to the other again it can be
+separated such so these this is a
+bipartite graph and the situations where
+bipartite graphs can be brought up or
+where they are used is in best
+allocating a set of workers to a set of
+jobs for example so a b c and d might be
+workers or skilled laborers for example
+and one two three and four might be for
+tasks that need to be completed and
+maybe it might be in redecorating a room
+or something like that and there are
+four jobs that need to be done and this
+could be laying carpet or painting or
+anything like that so you could say the
+labor a or whoever he or she is best at
+during task one and task two
+okay what they are skilled in doing
+those tasks whereas they are not a is
+not skilled in doing three or four and
+so will not be doing that either of
+those see for example is only skilled at
+doing task three and it is a situation
+where by you have a number of workers
+and up of jobs you need to allocate the
+best way of setting up the workers with
+the jobs okay so that's where the
+algorithm is going to
+I mean in the next video the next few
+videos where we are going to find a way
+that can allocate these workers to these
+tasks in the most appropriate way so
+this is a bipartite graph it can also be
+written down as in matrix form form
+known as an adjacency matrix you'll
+notice there are no weights on the edges
+they are nominally of length 1 and you
+can write this in a matrix so a the
+singh d and tasks 1 2 3 4 and then you
+can say well a is not a can go to 1 and
+it can go to 2 but not 2 3 or 4
+ok so ones representing links 0 is
+representing ones that there are no
+issues there okay I have drop something
+drop a lid B is connected to 1 2 and 4 1
+2 and 4 C is connected to 3 only and D
+is connected to 2 3 &amp; 4
+okay so it may be your job in the exam
+to go from the graph to an adjacency
+matrix or from an adjacency matrix to a
+graph okay and that would probably be a
+part a of a question so make sure you're
+going from one to the other with a bit
+of practice make sure you check as well
+do a double check because if you make a
+mistake in that part a for those couple
+of marks first you won't get both of the
+marks and secondly it may end up
+learning your Part B where you actually
+have to use your glove okay so be
+careful double check what you're doing
+here okay
+welcome to the first in a series of
+demonstrations on the graph data
+structure what we're going to be
+starting out with is a look at a graph
+implementation specifically looking at a
+graph implemented as an adjacency matrix
+and trying to determine what kind of
+graph that adjacency matrix represents
+so we're going to draw out a graph
+corresponding to this adjacency matrix
+first thing that we're going to do is
+we're going to try to figure out what
+kind of graph we've got in the first
+place now if we take a look at the
+matrix the rows and columns are labeled
+ABCD and E which means we have five
+vertices which we're going to dry out
+and label them a B C D and E now the
+contents of the matrix itself are
+numeric which means that there's going
+to be some kind of weight associated
+with the edges between each vertex now
+if these have been boolean instead we
+would say that it was an unweighted
+graph but since we have numbers we're
+going to associate those with the edges
+the other thing that we can determine is
+that by taking a look at the main
+diagonal and the values on either side
+the values on either side of the main
+diagonal aren't identical so for example
+evaluate Row one column two is not the
+same as the value at Row two column one
+what this means is the matrix is not
+symmetric and therefore the graph is
+bi-directional so we're going to have to
+draw arrow heads as we go on each four
+edges so let's start out with the first
+row
+and take a look at the edges that
+originated a now there's two edges
+originating at a one divert X B was
+weight of three and another one to
+vertex E with a weight of one now again
+this is a directed graph so we're
+drawing arrow heads on each edge as we
+go there's only one edge originating a B
+and that's an edge to D with wait to see
+has three edges rigid a and they have
+different weights we have one from C to
+a with wait for one from C to B with
+weight 2 and 1 from C to e with weight 5
+there are two edges originating from d1
+that goes to C with weight six and one
+that goes to E with weight one
+and then finally in the last row of our
+matrix we have two edges originating at
+row e1 back to a with weight one now
+notice that we already have an edge from
+A to E with weight one and the edge
+going back will also have the same
+weight so instead of drawing it in
+another edge let's just draw in another
+arrowhead indicating that this edge
+happens to be bi-directional and the
+other one is an edge from e to D with
+weight three now although we already
+have an edge from D to e we can't just
+draw it in another arrowhead because
+this new edge has a different weight so
+I'll have to draw in another line with
+an arrow going in the opposite direction
+and label this one as having weight
+three and that's our complete graph
+based on that adjacency matrix for the
+second demonstration we're going to take
+a look at a different implementation of
+a graph in this case a graph implemented
+as an adjacency list there are six
+vertices labeled a through F this will
+start out by drawing our graph by
+drawing those six vertices now we don't
+know exactly where the best place to
+draw these vertices are so we'll just
+kind of take a guess and spread them
+apart nicely so that we have lots room
+to draw on edges the first item in our
+adjacency list shows us all of the edges
+originating at vertex a now a has an
+edge going to see a soldier on that one
+and in the absence of any evidence to
+the contrary we're going to make this a
+directed edge from A to C the second
+item shows us the B has two edges
+originating at B one to D and one to E
+see has three edges one returning back
+to a now in this case we don't have any
+kinds weights so we'll just draw in an
+arrow back to a 1/2 D and 1/2 e D has an
+edge going to be well we already have an
+edge from B to D so this is just now a
+bi-directional edge and one back to C
+again just another arrowhead on an
+existing edge e has three edges one
+returning back to be drawn another
+arrowhead one back to C and one to F and
+finally the last item in our Jason C
+list shows us that there is an edge from
+F returning back to e we take a careful
+look at our graph we can see that all of
+the edges that we've drawn in in fact
+have arrowheads on both ends in other
+words our graph is undirected now there
+was no way for us to tell that from
+actually looking at the original
+adjacency list it's just something that
+we had to discover as we went along
+but that's our complete graph
+Hello and Welcome to Unit 7.2!
+In this unit we want to import and prepare
+the crystallographic information
+of HKUST-1 into TOPOS.
+Download the ZIP file,
+that we provide as an additional material to this unit.
+Extract it - to a location of your choice.
+In this case I choose my Desktop.
+Now, I have another folder in which there is a CIF file.
+Please keep this CIF file inside this folder.
+Because it is easier to work with TOPOS that way.
+Now open TOPOS. We will now import the CIF file.
+Go to Database. Click Import.
+Go to the location where you have placed
+the folder of HKUST-1 and choose
+the CIF file and open it.
+TOPOS will then ask you to 
+create a TOPOS database file.
+You can just click OK.
+It asks you to confirm to 
+create this database and you click Yes.
+Now you have to enter a user code.
+And I always enter 1 and hit OK.
+But you can enter any value except 0.
+We have converted one compound.
+Now, HKUST-1 shows up in your TOPOS database.
+Before we can determine the underlying net of HKUST-1,
+we must first create an adjacency matrix.
+What is an adjacency matrix?
+Computer programs like TOPOS
+use an adjacency matrix
+to keep track of all the connections between atoms.
+Let me show you how this works in principle
+with this hypothetical five-atomic molecule.
+A very simple adjacency matrix for
+this molecule looks like this.
+If any two atoms are connected,
+the corresponding cell of this entry has the value 1.
+If there is no connection the value is zero.
+A simple adjacency matrix like this
+can easily be prepared by hand.
+But in the case of our example
+HKUST-1, we use an algorithm
+within TOPOS to build an adjacency matrix,
+which is then a little more complex, than this one here.
+Because the adjacency matrix
+in TOPOS also documents
+the type of connection between atoms.
+For example, if two atoms are connected to each other
+via a covalent or a hydrogen bond.
+Now, let’s build the adjacency matrix in TOPOS.
+Select HKUST-1. And then click on this
+button to run the AutoCN routine.
+Another window opens.
+There are plenty of options available,
+but we can ignore all these
+because the default settings of
+TOPOS work just fine for us.
+So, we just hit "Run"
+and this window produces a little text
+with details on the adjacency matrix.
+The adjacency matrix itself is stored
+within the TOPOS database of HKUST-1.
+We can close this window.
+And usually a warning like this pops up.
+This is harmless. We can just click
+OK, because all the information
+we need is stored inside the adjacency matrix.
+To view the adjacency matrix right-click
+on the HKUST-1 entry and click Edit.
+Now move to Adjacency Matrix tab.
+There you see a list of all the
+atoms inside the crystal structure.
+You can unfold each entry to
+view the bonding partners
+of the respective atoms in the crystal structure.
+TOPOS also offers the possibility to
+display the imported crystal structure.
+Click on the Pencil symbol and a new window opens.
+And if you click on this pencil
+again, a single unit cell is drawn.
+You can also rotate the structure
+by using the rotate tool.
+Of course, there are also different
+styles of representation available.
+Click Display, Model and choose for
+instance the sphere and wire mode.
+What I like about this viewer in
+particular is the growth function.
+Simply click on this leaf and your
+structure will grow bond by bond.
+Give it a try. If the extended
+network now exceeds your screen
+hit space for an automatic fit to screen.
+You can also change the color of the
+atoms by using the magic wand tool.
+Select the magic wand from the
+toolbar and then click on
+the respective element in the legend
+to change the color of this element.
+OK. That’s it for this unit.
+Now, I suggest that you try
+out the viewer a little bit
+and get to know its functions.

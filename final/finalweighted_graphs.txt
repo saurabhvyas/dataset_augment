@@ -123,353 +123,366 @@ column names and row names they were
 just had to help guide the I they're not
 actually really necessary okay that ends
 our presentation
-hi everyone today we'll be talking about
-the bellman-ford algorithm and it is a
-single source shortest path algorithm
-which can also work on negative edge
-negative edge graphs so according to the
-algorithm firstly we initialize all the
-vertices to infinity and we set the
-source to 0 and then we relax the edges
-according to accordingly so I'm showing
-you the simulation I'm sure you I'm
-certain you understand what I'm talking
-about so let's get on with it so all the
-vertex vertices are initialized to
-infinity and the source vertex is
-initialized to 0 and the pipe I array
-which is a which is the find predecessor
-array it is it is initialized to null
-but I guess I don't need to write that
-because initially it will be known
-anyway according to the algorithm ok so
-from the source we then go to the next
-vertex adjacent vertex which is a and C
-so we update the edges if I come to the
-algorithm if DV is greater than D u plus
-wuv see this that's the algorithm is D V
-is greater than D u plus wuv then we
-update the vertex so we write DV equals
-to this Plus this if it's greater that
-means we trying to find a shortest path
-so we just be trying to elect if if if
-there preserve the current value of the
-crime distance is greater than the one
-that then the added distance with this
-one and this one then of course we'll
-update the distance only if it's only if
-the added distance is greater is lesser
-than this one so the first is since it
-was infinity at the beginning so we then
-update it to 0
-S is 0 and this is 5 so 0 plus 5 is less
-than this one so of course we update it
-to 5 since we're trying to find the
-shortest path 5 ok so then for C as well
-we do the same so we update it to -2 and
-then we we write the predecessor as well
-don't forget to write this is very to
-keep track of what you're doing okay
-now s is s is like we are we done with s
-now we go select any one either one you
-can go from you can start from a or C
-we'll just go up you can alphabetically
-as it's done we just put a mark here to
-indicate that we're done with it then we
-go to a from a there's just one which is
-one our degree arrow arrow that which is
-B with points towards B so a is 5 5 plus
-1 is 6 so we updated to 6 and the
-predecessor is a yeah so 5 plus 1 6
-remember we have to add the current
-value with this wuv weight so that will
-that is the correct way anyway so then
-we go from now that a is done we go to B
-we select B or you could select C like
-your wish we're going serial wise so
-from B we have three outdegree arrows C
-D and T so B is value is 6 6 plus 2 is 8
-so go towards C oh sorry we don't update
-C because C from B to C the distance is
-6 plus 2 8 and 8 is greater than minus 2
-so we shouldn't update it because we
-want the shortest path number so minus 2
-will still remain the same and then from
-from D from B to D we updated because
-infinity is of course larger than 6 plus
-7 which is 6 to the 12 which is 13 and
-we write the predecessor which is and
-then from s to T is infinity we have
-obviously updated and then B is 6 plus 3
-is 9
-ok and then from so we are done with B
-now we go towards C we start we take C
-as the source now from C we go to wave
-or we start from go from minus 2 plus 2
-we go to a and
-since a is five and then minus two plus
-two C from here C minus two plus two
-will give us zero so we obviously update
-it because it's smaller so new parent is
-C and then from C you there is no other
-or there is another arrow which which
-goes towards D and C is minus 2 and D
-this weight is 3 so minus 2 plus 3 is 1
-so we obviously update this one as well
-so 1 and then C so we're done with C now
-we go to D and then from D we go towards
-T and D has the new the new weight of D
-a distance of D is 1 so from so 1 plus
-10 is 11 we don't need to update it
-because the current distance is smaller
-than 11 9 is less than 11 so we don't
-need to update this one okay so yeah so
-this is this is the first iteration from
-T there is nothing no out degree arrow
-so would need to go here okay so this is
-the first iteration now for bellman-ford
-they're like v minus 1 iteration as in
-if there are V vertices how many
-vertices are there 1 2 3 4 5 6 so if
-there's 6 vertices we go have 5
-iterations so we have to do this 5 more
-times until we get the shortest its
-distance okay so let's do it let's do it
-one more time
-let's take from start from s s is 0 8
-from 0 to 8 from s to a is 5 unit update
-because 0 is smaller and s to C is -2
-it's already there and then we take a
-and from A to B is a is 0 and from 0
-plus 1 is B so a 0 plus 1 is 1 so we
-just update this one because the
-previous it was 6 and the predecessor is
-again a but since we're writing it
-everything new again so this right we
-just might as well write this as well ok
-and then after that from now a is over
-and then we go to
-be from be the the new distance is 1 so
-1 so from B to C 1 plus 2 is 3 used to
-be still loan interpreted because minus
-2 is obviously lesser and then 1 plus 7
-is 8
-we don't need to update it because it's
-1 and 1 plus 3 is 4 so we do interpret
-this 1 so 4 and then it still be this is
-write it again and then B is over and
-then we go to C and then C the the scene
-in value is minus 2 minus 2 plus 2 is 0
-we don't need to update the same thing
-and minus 2 plus 3 is 1 we write update
-is still the same ok and then G D the
-value is 1 this time so 1 plus 10 is 11
-we don't need to update it because 4 is
-obviously lesser than 11 smaller than 11
-and then TT there is no degree arrow so
-we don't do it so I'm just showing you
-this one the last time this is the third
-iteration and then from s 0 and then s 2
-a is 5 greater up there because 0 is
-lesser and then s 2 C is -2 the same as
-before and then from a a the new
-distance is 0 so 0 plus 1 is 1 B we did
-it update it and then there's no more
-arrow and then from B there's 1 plus 7
-for D now we need to update 1 plus 2 3 4
-see later played updated and then 1 plus
-3 4 40
-we already have it from before and then
-from C well it seems like it's not going
-to change anymore so let me just like
-finish with this iteration and then I'll
-show you what happens if it doesn't
-change
-ok so third so from C there's it's not
-going to change anymore again anyway
-because it's been - - for a long long
-time ok and then from D it's been 1 so 1
-plus is 10 is 11 we don't update it and
-then from T also there's no outdegree
-arrow so no more updated anyway so till
-the fifth iteration it is still again
-the same since it's not changing in code
-raishin as well so we can say that this
-is the shortest path okay so that's
-about it for the iteration now for
-detecting the negative edge wait what we
-do is we just go to this we just we just
-go and check we just do the iteration
-one more time since like I said there
-are six vertices we do five iterations
-right and in the sixth iteration we go
-again do the sixth iteration and if that
-terminal so if the still relaxes means
-if the value the distance is still
-change that means there's a we can we
-can say that this is like the negative
-edge cycle has been detected so for this
-like the negative edge report there a
-negative edge way negative weight cycle
-exists only if in the sixth iteration it
-still changes sixth iteration as in the
-VF iteration the last vertex F iteration
-if it still changes if the value of the
-distance still changes if it still
-relaxes again and again then we consider
-the negative weight cycle exist now for
-the complexity of bellman-ford see this
-is order B because it's going from B the
-whole loop is going up to V and then
-this is order e this inner loop this is
-obviously order one because it's just
-one action that's doing it's an if
-function so the total analysis the total
-NASA shows that they hole at a whole
-complexity of government for is out of V
-into e because this is a nested loop so
-we just take order of V and like this is
-order B so last order V into E and since
-out of ghee into E is greater than order
-V we just take order being key as the
-greater one so that's the final time
-complexity so yeah that's about it about
-bellman-ford I hope you understood I
-hope you understood my explanation
-properly and well please subscribe if
-you want more tutorials and thank you
-for watching
-in this video we're going to be talking
-about weighted graphs and spanning trees
-and these are just two topics that will
-sort of be introductory for some things
-that are to come so first a weighted
-graph is a graph in which each edge is
-assigned a value or wait okay so let's
-just take a look at this graph so here
-we've got a regular graph for order five
-right v1 v2 v3 v4 v5 and there are
-various edges and so let's go ahead and
-put a weight on each of these edges so
-you can have integer weights like one or
-three you can have fractional weights
-maybe three force on this one or
-negative weights and they don't even
-have to be numbers I mean for this class
-we will just stick to numeric weights
-but they don't have to be numeric whites
-and they can be decimals and we'll just
-round this out with these okay so we had
-eight edges until we have one two three
-four five six seven oh this top edge is
-missing a wait how about four okay so
-this is an example of a weighted graph
-now for us at least every time we talk
-about a weighted graph every single edge
-will have a weight so you're never going
-to have a mixture of unweighted edges
-and weighted edges if one way it has an
-edge then the rest of them should have
-an edge as well so this is an example of
-a weighted graph and the way that you
-talk about these things you might say
-the weight of v1 v2 so remember v1 v2 is
-that's how we do no edges is to list the
-vertices so this edge is v1 v2 right so
-the weight is going to be 1 so we use
-this little W a lowercase W to represent
-the way similarly how about the way v3
-v4 what would that be well you find v3
-you find before the edge connecting them
-negative one-half and similarly
-so nothing fancy here this is just the
-definition of a weighted graph is every
-edge you get some sort of value and
-there are a lot of reasons where you
-might be interested in doing this maybe
-this represents the vertices our cities
-and the weights represent the distance
-between the cities now of course that
-wouldn't work here because we have
-negative distances but maybe the
-vertices our customers and the weights
-or how much profit you will get from
-shipping X units of your product to them
-so here you would lose money if you sit
-from this customer to this customer but
-you would get a lot of money from
-sending this customer to this customer
-so just like directed graphs having
-directions on edges and having weights
-on edges are just two ways that you can
-get extra information into a graph okay
-so that's weighted graphs the second
-topic is a spanning tree and a spanning
-tree so remember you should have read
-the section on trees already but a
-spanning tree is a connected graph or in
-a connected graph is a sub graph so
-remember what that means a sub graph of
-the graph that uses every vertex and is
-also a tree meaning it's connected and
-has no cycles okay so let's just take an
-example here in pink draw a three
-spanning trees of G so here's G so the
-first thing to remember is where I sub
-graph means that all the vertices of our
-spanning tree have to come have to match
-up exactly with these vertices right
-because it uses every vertex of G ok so
-I've gone ahead and drawn three copies
-of the vertex set one for each tree
-right because we know it has to use
-every vertex and then otherwise it has
-to be a tree which means that all these
-vertices need to be connected and that
-none there's not allowed to be any
-cycles in the edges that we choose ok so
-for example let me just draw one here
-this is a spanning tree right all of
-these edges exist in the regular graph
-right these for all the vertices exist
-in the regular graph so that makes it a
-sub graph
-and this graph also is a tree because
-it's connected with no cycles okay let's
-try another one how about this one right
-ok so again it's connected with no
-cycles and each one of these edges is
-present in the original graph which
-means it's a sub graph ok so here are
-two spanning trees so maybe you should
-pause for a second if you want and try
-and construct a third spanning tree
-that's different from these two and when
-I say different I mean non isomorphic ok
-we're ready how about this one and there
-are a lot of answers here but that would
-also work right this edge this edge this
-edge and this edge again it connects all
-the vertices all these edges are present
-in the original graph and if you wanted
-to check that all of these are non
-isomorphic you can just consider the
-degree sequences so for example the
-degree sequence of this is for 1111 the
-degree sequence of this is two to one
-long one right to 20 to 22 11 to two to
-11 right and what's the degree sequence
-of this 32 so three and then two and
-then 111 right and not isomorphic graphs
-right i mean if they've graphs don't
-have the same degree sequence there
-certainly no annoy some orphic so here's
-an example of three non isomorphic
-spanning trees all of which go with this
-graph and there are more examples in the
-textbook if you'd like to look at them
-but this is an introduction to weighted
-graphs and spanning trees
+this video introduces you to the basic
+concepts behind graph theory I will not
+focus on the formal definition of a
+graph that will come later instead I'll
+emphasize the various applications of
+the subject
+Alfred Whitehead a mathematician and
+philosopher once said the whole of
+mathematics consists in the organization
+of a series of age to the imagination in
+the process of reasoning for example a
+detective when solving a crime will post
+various facts and a board and visually
+connect the ideas concepts and people
+via string in this spirit if a difficult
+problem involves a discrete collection
+of objects it's natural to sketch these
+objects and draw lines between them to
+indicate a relationship a graph can help
+us represent relationships between
+discrete objects but we do not have
+enough mathematical knowledge to provide
+a solid definition for the word graph to
+emphasize this point please notice that
+the following terms are not in a blue
+box this is not the real definition that
+will come later for now think of a graph
+informally as a diagram of dots called
+vertices connected by lines or curves
+called edges the edges may have an arrow
+if so the graph is called directed
+otherwise it is called undirected here
+is an undirected graph here is a
+directed graph notice the arrows a few
+quick notes about graphs two drawings
+could represent the same graph an edge
+drawn between two vertices typically
+represents a relationship between
+between the vertices so the position of
+the vertices on the page doesn't matter
+by coloring the vertices you see that
+these diagrams could represent the same
+graph also the edges cannot intersect to
+make a new graph these edges are
+different from traditional lines in
+geometry in particular
+their length their curviness is
+immaterial the only thing that matters
+for edges is what vertices they connect
+here's an example of a graph the
+vertices correspond to subway stations
+and the edges describe which stations
+are connected by the trolleys some
+puzzles can be solved by graphs suppose
+there is a river on one side the river
+there are two foxes two chickens and a
+boat our goal is to get all animals
+across the river alive while following
+these rules first the boat must be
+propelled by an animal and can carry at
+most two animals should the Foxes ever
+outnumber the chickens on banks on
+either side of the river the Foxes
+immediately gobbled down the chickens
+that's bad an arrangement of symbols F F
+C CB and a line will represent the
+current state of the puzzle each of my
+vertices will represent a possible state
+of the puzzle each F represents a fox
+sees our pathetic ins the line
+represents the river and separates the
+left and right bank
+finally the B represents a boat for
+example if vertex contains FCB
+the line F C then that means the foxes
+and chickens are divided by the river
+and the boat is on the left bank my
+edges will connect to vertices if it is
+possible for the game to be in one state
+and then the animals move from one bank
+to the other via the boat and therefore
+reach a new state of the game when our
+puzzle begins all animals are on the
+left bank with the boat either one or
+two animals take the boat to the right
+bank if one chicken takes the dreadful
+journey he's safe but it leaves his
+buddy behind for lunch for the two foxes
+that's not a good result the four
+animals could agree to send one box to
+chickens
+Fox and a chicken or two foxes the cross
+to the right bank in any of these cases
+no chickens are chopped up and
+deep-fried this is definitely an
+improvement consider the case where two
+foxes took the boat to the right bank
+there are two animals still left behind
+in the left bank so either one or both
+foxes must take a boat back to get them
+but taking both foxes back will return
+us to the original state of the puzzle
+and as that does not progress the puzzle
+let's ignore that so the only other
+option is to send one Fox back with the
+boat to the left bank this results in a
+new state of the game and as a benefit
+no chickens meet their maker now
+consider the case where the river
+separates the chickens and the Foxes and
+a boat is on the right bank once again
+there are animals in the left bank
+waiting the rescue so someone must go
+back and take a boat as before both
+animals taking the boat back just
+returns us to a previous day of the
+puzzle let's ignore that choice if the
+chicken takes a solo voyage back the
+puzzle has reached a state already
+considered I'll draw an edge between the
+corresponding vertices to represent this
+relationship but if a fox goes back then
+the Fox will number the poor singleton
+chicken on the left bank and have at it
+while this is the new state of the
+puzzle is clearly a less than optimal
+result now consider if two brave
+chickens had crossed the river and are
+now on the right bank there's only two
+options either both chickens return to
+the left bank or a solo chicken paddles
+to his doom either way these choices
+return the game to a previous state I'll
+just connect the vertices to represent
+these choices there's only one
+possibility left among our original
+choices but it's a silly one the single
+Fox on the right bank has left behind
+all the other animals well he must
+travel back to get them and so the
+puzzle has returned to a previous state
+there is only one vertex whose state I
+haven't completely discussed here the
+foxes are separated by the river
+both chickens lie shivering on the left
+bank while staring at the boat now
+either a fox or our chicken could make
+the trip across the river but those
+options are a accounted for and a fox
+and a chicken could ride together on a
+fateful one-way trip to the far bank but
+a chicken would croak so that should be
+avoided so the only option left would be
+to send both chickens across this is a
+new state of the puzzle and I'll connect
+the corresponding vertices after that
+then we could then send both a fox and a
+chicken back but that would
+unfortunately lead to a dead chicken we
+could send a chicken across which would
+lead to a new state of the game we could
+send a fox across which would lead to a
+new state of the particular puzzle or
+once we have sent across the chicken we
+could if you like send back a fox but
+that will just lead to a dead chicken
+but in either these two remaining cases
+it seems pretty obvious what we should
+do is now the boats on the left-hand
+side let's just take both animals across
+and now all the animals on the
+right-hand side in order to discuss or
+pinpoint features of a problem we often
+define handy terms to grease the wheels
+of the discourse the next three slides
+introduces a number of these terms as
+these definitions won't change later
+I'll present them as a formal definition
+all edges begin and end at vertices
+called endpoints two distinct edges with
+the same endpoints are called parallel
+in the graph edge e3 and e4 are parallel
+an edge with just one endpoint is called
+a loop 'if I've is a loop an edge
+connects its endpoints and two vertices
+are connected if they are endpoints for
+some edge in the graph e6 connects
+vertices v5 of these
+six I could also say that v2 and v3 are
+connected without mentioning the edge
+connecting them let G be a graph with
+vertex V the degree of V written degree
+of V equals the times an edge is
+incident to the vertex loops counting
+twice for a directed graph the in degree
+of V equals the number of edges coming
+into V while the out degree equals the
+number of edges coming out the total
+degree of G is the sum of all degrees of
+all the vertices for example the degree
+of v3 it is three the in degree of v3 is
+to the out degree of v3 is 1 and the
+degree of V 2 is 5 notice the loop
+counts twice let G be a graph and let X
+and y be vertices in G let's discuss
+traversing the graph a path is an
+alternating sequence of vertices and
+edges so that each edge connects the
+corresponding vertices the path begins
+at the first vertex and ends at the last
+we can say then the path is from the
+first vertex to the last a circuit is a
+path that begins where it ends a graph
+is considered to be connected if there's
+a path between any two vertices on the
+graph a directed graph is connected if
+the corresponding underlying undirected
+graph is connected a graph is called
+simple if it does not contain any loops
+or parallel edges as in the graph you
+see to the right the complete graph on n
+vertices often denoted with a capital K
+and a lowercase n is a simple graph but
+where every single pair of vertices is
+connected by an edge I've drawn for you
+an example of K 5 my puzzle example may
+not have driven home the usefulness of
+graphs so now I'll show you a few
+examples which are much closer to a
+computer science majors heart
+a college wants to schedule the
+following courses in a few time slots as
+possible physics Kampai calculus biology
+psychology and chemistry the following
+classes though have students in common
+and cannot be placed in the same time
+slots so cat Hills and computer science
+calculus and biology calculus and
+physics biology and computer science
+biology and chemistry biology and
+psychology physics in Comp Sci physics
+and chemistry and psychology and
+chemistry so what is the fewest number
+of time slots needed to schedule all
+their courses without any conflicts at
+all make a graph where each vertex is a
+course and connect the vertices if the
+courses cannot be scheduled in the same
+time slot here is one model of such a
+graph now to assign a course to a time
+slot I'll just color its vertex
+different colors will mean different
+time slots connected vertices mean that
+they cannot be in the same time slot so
+those vertices must have different
+coloring if I can color the graph
+following these rules then the Cowlitz
+can schedule its courses the trick will
+be to minimize the number of colors this
+will correspond to the minimum number of
+time slots required to schedule all the
+courses let's start coloring I'll begin
+by assigning calculus to one timeslot by
+coloring its vertex blue that means bio
+comps I in physics must have a different
+time slot and therefore a different
+color than blue that does not mean bio
+comma and physics have to have different
+colors from each other just they can't
+be blue so all science physics would be
+red a new time slot that means kansai
+then must be a third color for our new
+time slot but then chemistry I can go
+back to blue because it's only adjacent
+to the red time slot that also means
+that biology then being adjacent only to
+blue and green
+I can assign thread that timeslot
+finally psychology can be labeled back
+at green thereby coloring the entire
+graph and I can now say that I can
+certainly go and assign these different
+courses to three different time slots
+and I can guarantee that the students
+who are involved with these courses
+won't ever have to worry about attending
+a class at the same time as another
+class this is a great example of what's
+called coloring in the graph it's a very
+common problem
+here's another modeling problem in my
+last example you saw it was useful to
+color the Versys but it's also handy
+they labeled the edges my puzzle problem
+was one example here's another the
+following table describes driving
+distances along selected routes between
+cities the cities are a through F I'd
+like to know looking at this table can I
+figure out what the shortest route is
+from C to F make a graph where each
+vertex is a city and connect vertices if
+there is a route between them as
+described in that table label the edges
+with the distance traveled when taking
+this route this is an example of a way
+to graph the diagram here provides a
+visual way to solve the problem clearly
+out of all the possible routes you could
+travel from C to F this one provides the
+shortest distance traveled one more
+example your spell checker keeps lists
+of words that you don't want flag for
+misspellings these words can be added
+one at a time and just in no particular
+order
+but the list must be organized so that
+searching the list is relatively easy to
+do let's suppose that your spell checker
+has the words Mapple pop a Peas AK zebra
+and no now while graphs don't have
+orientation let's think of this next one
+that way let's make a top-down graph
+each word will be a vertex each vertex
+is connected to at most two
+other verses below its these vertices
+are called the left and right children
+of the above parent vertex let's just
+start with the very first vertex in this
+case the very first word in our list
+Mapple now from here the next word was
+pop I place pop to the right of Mapple
+as the right child of Mapple because
+alphabetically it comes after Mapple now
+the next word was a peas or a please
+this word F Bentley comes before Mapple
+so then I fall to the left of Mapple
+realizing that there's no left child
+there it will then become the left child
+of Mapple the next word is AK well AK
+alphabetically is before Mapple so I go
+to the left and it's also alphabetically
+before a please so it will move to the
+left of a peas becoming then the left
+child of it please the next word was
+zebra and says I bruh is alphabetically
+after Mapple I would move down to the
+right since its alphabetically after pop
+I would move down to the right here then
+since there was no right child for pop
+cyber then becomes the right child
+the next word would have been no and
+since alphabetically no comes after map
+I would move down to the right from
+Apple but it comes before pop so then
+since pop didn't have a left child now
+it does it has no this graph is an
+example of what's called a binary tree
+and the topmost vertex maple is called
+its root
 whew we're going to have a series of
 lectures on shortest paths and one of
 the big differences between this module
@@ -1443,112 +1456,356 @@ this algorithm and turn it into
 essentially a linear time algorithm and
 we'll do that next time all right I'll
 stick around for questions
-writer graphs now here's where we place
-a number on the edges so now we've got a
-weight that's why it's called a way two
-great examples of weighted graphs arise
-from the breast vertices of graph our
-towns on a map and the edges are the
-rise between the towns so for example
-that 12 could represent kilometres
-that's right two towns whatever it is so
-that's what the way that's what the way
-is now a tree is a connected graph that
-contains no circuits here is an example
-of a tree there's no loops er no
-circuits we can't go from either G we
-have to go around the town's a tree with
-has no multiple edges simplest tree is a
-single vertex but is a tree yeah a tree
-with n vertices has n minus 1 edges
-another rule ok minimum spanning tree
-here's where we try and minimize the
-distance between these vertices quite
-easy to do and there is the rule we
-start with the smallest length on the
-vertex in this case it was number three
-and then we have to connect it so we
-have to connect to either C or D and we
-use again the smallest one that connects
-in this case it's 55 or 60 it doesn't
-matter choose one of the fives or chose
-this one here and then again another one
-that connects another verdict well we've
-got only got a to go and see easiest way
-to connect this one is through here
-because that's a small swam so we get
-this minimum spanning tree that's shown
-in Figure twenty three point two three
-ok a spanning tree is just a sub graph
-that contains all the vertices of the
-original graph into the tree so we have
-to use all the verses a minimum spanning
-tree for a weighted graph is a spanning
-tree for which the son of the weights of
-the edges is as small as possible that's
-why we choose the smallest numbers all
-the time all right here we have prims
-algorithm is its which is a set of rules
-to determine a minimum spanning tree
-forever so I guess some you know these
-are the three rules that you've got
-you to use it but I don't think we need
-to go through it you just be aware of
-that you've got this Nikki Bella the
-steps where you're just going to do it
-with you as an example I've already done
-will apply prims algorithm here to turn
-the minimum spanning tree for this craft
-so then it wants us to write down it's
-white and can compare the way to the
-original graph now the original graph if
-you add them all up it all adds up to 50
-okay so this adds up all 257 I see your
-regional great all right my cell will
-start at Point ay OH doesn't matter
-where we said well now we should start
-where there is a smallest number this is
-the 202 on the other edges it doesn't
-matter we'll start at either be ok so we
-start here and then we go right we've
-got to choose this one there we go we've
-chosen that one now we need to connect
-either I to something else or B do
-something else with the smallest number
-on it so I today it gives us five walk
-connect that one there up there it is
-and then the next smallest line mister
-donut is number three doesn't matter
-salgo d to see that connects each virtus
-see see now we have to connect either e
-or if there's no point going a to f
-because that seeks we've got a five from
-CD so we'll connect CD that's fine we
-have to connect if eat if is only two so
-we'll connect that one there and that is
-our minimum spanning tree they want us
-to write down its way in compared to the
-original the original was 50 and if you
-add all these are built that up to it I
-think it embodies 7 and 3 is 10 and 5 is
-15 and 2 is 17 so that's the minimum
-spanning tree 17 compete to fit so in a
-real-life situation we can just sort of
-say that ok so these are let's say road
-2 kilometers long we're going to like
-cables there we need 17 kilometers of
-cables that's right you know could be
-internet cables or phone lines or what
-about 187 m kays worth of cables for the
-50k roads that's right we could do the
-50 but that's going to put more cost us
-more so rather do the 17 now their
-recent note if you're ever asked to find
-the maximum spanning tree you start with
-a maximum weight and keep finding the
-maximum one adding to it ok not the
-minimum like we've just done 23 years
-your questions thank you
+in this video we're going to be talking
+about weighted graphs and spanning trees
+and these are just two topics that will
+sort of be introductory for some things
+that are to come so first a weighted
+graph is a graph in which each edge is
+assigned a value or weight okay so let's
+just take a look at this graph so here
+we've got a regular graph order five
+right v1 v2 v3 v4 v5 and there are
+various edges and so let's go ahead and
+put a weight on each of these edges so
+you can have integer weights like one or
+three you can have fractional weights
+maybe 3/4 on this one or negative
+weights and they don't even have to be
+numbers I mean for this class we will
+just stick to numeric weights but they
+don't have to be numeric weights and
+they can be decimals and we'll just
+round this out with these ok so we had
+eight edges and so we have one two three
+four five six seven
+oh this top edge is missing a weight how
+about four okay so this is an example of
+a weighted graph now for us at least
+every time we talk about a weighted
+graph every single edge will have a
+weight so you're never going to have a
+mixture of unweighted edges and weighted
+edges if one way it has an edge then the
+rest of them should have an edge as well
+so this is an example of a weighted
+graph and the way that you talk about
+these things you might say the weight of
+V 1 V 2 so remember V 1 V 2 is that's
+how we do know edges is to list the
+vertices so this edge is V 1 V 2 right
+so the weight is going to be 1 so we use
+this little W a lowercase W to represent
+the way similarly how about the way V 3
+V 4 what would that be well you find V 3
+you find before the edge connecting them
+negative 1/2 and similarly
+so nothing fancy here this is just the
+definition of a weighted graph is every
+edge you get some sort of value and
+there are a lot of reasons where you
+might be interested in doing this
+maybe this represents the vertices are
+cities and the weights represent the
+distance between the cities now of
+course that wouldn't work here because
+we have negative distances but maybe the
+vertices are customers and the weights
+are how much profit you will get from
+shipping X units of your product to them
+so here you would lose money if you sent
+from this customer to this customer but
+you would get a lot of money from
+sending this customer to this customer
+so just like directed graphs having
+directions on edges and having weights
+on edges are just two ways that you can
+get extra information into a graph okay
+so that's weighted graphs the second
+topic is a spanning tree and a spanning
+tree so remember you should have read
+the section on trees already but a
+spanning tree is a connected graph or in
+a connected graph is a sub graph so
+remember what that means a sub graph of
+the graph that uses every vertex and is
+also a tree meaning it's connected and
+has no cycles okay so let's just take an
+example here in pink draw a three
+spanning trees of G so here's G so the
+first thing to remember is right sub
+graph means that all the vertices of our
+spanning tree have to come have to match
+up exactly with these vertices right
+because it uses every vertex of G okay
+so I've gone ahead and drawn three
+copies of the vertex set one for each
+tree all right because we know it has to
+use every vertex and then otherwise it
+has to be a tree which means that all
+these vertices need to be connected and
+that none there's not allowed to be any
+cycles in the edges that we choose okay
+so for example let me just draw one here
+this is a spanning tree right all of
+these edges exist in the regular graph
+right these for all the vertices exist
+in the regular graph so that makes it a
+sub graph
+and this graph also is a tree because
+it's connected with no cycles okay let's
+try another one
+how about this one
+right okay so again it's connected with
+no cycles and each one of these edges is
+present in the original graph which
+means it's a sub graph okay so here are
+two spanning trees so maybe you should
+pause for a second if you want and try
+and construct a third spanning tree
+that's different from these two and when
+I say different I mean non isomorphic
+okay we're ready
+how about this one and there are a lot
+of answers here but that would also work
+right this edge this edge this edge and
+this edge again it connects all the
+vertices all these edges are present in
+the original graph and if you wanted to
+check that all of these are non
+isomorphic you could just consider the
+degree sequences so for example the
+degree sequence of this is 4 1 1 1 1 the
+degree sequence of this is 2 2 1 1 1
+right 2 2 2 2 2 1 1 2 2 2 1 1 right and
+what's the degree sequence of this 3 2
+so 3 and then 2 and then 1 1 1 right and
+non isomorphic graphs right I mean if
+they've graphs don't have the same
+degree sequence there certainly no noise
+amorphic so here's an example of 3 non
+isomorphic spanning trees all of which
+go with this graph and there are more
+examples in the textbook if you'd like
+to look at them but this is an
+introduction to weighted graphs and
+spanning trees
+hi everyone today we'll be talking about
+the bellman-ford algorithm and it is a
+single source shortest path algorithm
+which can also work on negative edge
+negative edge graphs so according to the
+algorithm firstly we initialize all the
+vertices to infinity and we set the
+source to 0 and then we relax the edges
+according to accordingly so I'm showing
+you the simulation I'm sure you I'm
+certain you understand what I'm talking
+about so let's get on with it so all the
+vertex vertices are initialized to
+infinity and the source vertex is
+initialized to 0 and the pipe I array
+which is a which is the find predecessor
+array it is it is initialized to null
+but I guess I don't need to write that
+because initially it will be known
+anyway according to the algorithm ok so
+from the source we then go to the next
+vertex adjacent vertex which is a and C
+so we update the edges if I come to the
+algorithm if DV is greater than D u plus
+wuv see this that's the algorithm is D V
+is greater than D u plus wuv then we
+update the vertex so we write DV equals
+to this Plus this if it's greater that
+means we trying to find a shortest path
+so we just be trying to elect if if if
+there preserve the current value of the
+crime distance is greater than the one
+that then the added distance with this
+one and this one then of course we'll
+update the distance only if it's only if
+the added distance is greater is lesser
+than this one so the first is since it
+was infinity at the beginning so we then
+update it to 0
+S is 0 and this is 5 so 0 plus 5 is less
+than this one so of course we update it
+to 5 since we're trying to find the
+shortest path 5 ok so then for C as well
+we do the same so we update it to -2 and
+then we we write the predecessor as well
+don't forget to write this is very to
+keep track of what you're doing okay
+now s is s is like we are we done with s
+now we go select any one either one you
+can go from you can start from a or C
+we'll just go up you can alphabetically
+as it's done we just put a mark here to
+indicate that we're done with it then we
+go to a from a there's just one which is
+one our degree arrow arrow that which is
+B with points towards B so a is 5 5 plus
+1 is 6 so we updated to 6 and the
+predecessor is a yeah so 5 plus 1 6
+remember we have to add the current
+value with this wuv weight so that will
+that is the correct way anyway so then
+we go from now that a is done we go to B
+we select B or you could select C like
+your wish we're going serial wise so
+from B we have three outdegree arrows C
+D and T so B is value is 6 6 plus 2 is 8
+so go towards C oh sorry we don't update
+C because C from B to C the distance is
+6 plus 2 8 and 8 is greater than minus 2
+so we shouldn't update it because we
+want the shortest path number so minus 2
+will still remain the same and then from
+from D from B to D we updated because
+infinity is of course larger than 6 plus
+7 which is 6 to the 12 which is 13 and
+we write the predecessor which is and
+then from s to T is infinity we have
+obviously updated and then B is 6 plus 3
+is 9
+ok and then from so we are done with B
+now we go towards C we start we take C
+as the source now from C we go to wave
+or we start from go from minus 2 plus 2
+we go to a and
+since a is five and then minus two plus
+two C from here C minus two plus two
+will give us zero so we obviously update
+it because it's smaller so new parent is
+C and then from C you there is no other
+or there is another arrow which which
+goes towards D and C is minus 2 and D
+this weight is 3 so minus 2 plus 3 is 1
+so we obviously update this one as well
+so 1 and then C so we're done with C now
+we go to D and then from D we go towards
+T and D has the new the new weight of D
+a distance of D is 1 so from so 1 plus
+10 is 11 we don't need to update it
+because the current distance is smaller
+than 11 9 is less than 11 so we don't
+need to update this one okay so yeah so
+this is this is the first iteration from
+T there is nothing no out degree arrow
+so would need to go here okay so this is
+the first iteration now for bellman-ford
+they're like v minus 1 iteration as in
+if there are V vertices how many
+vertices are there 1 2 3 4 5 6 so if
+there's 6 vertices we go have 5
+iterations so we have to do this 5 more
+times until we get the shortest its
+distance okay so let's do it let's do it
+one more time
+let's take from start from s s is 0 8
+from 0 to 8 from s to a is 5 unit update
+because 0 is smaller and s to C is -2
+it's already there and then we take a
+and from A to B is a is 0 and from 0
+plus 1 is B so a 0 plus 1 is 1 so we
+just update this one because the
+previous it was 6 and the predecessor is
+again a but since we're writing it
+everything new again so this right we
+just might as well write this as well ok
+and then after that from now a is over
+and then we go to
+be from be the the new distance is 1 so
+1 so from B to C 1 plus 2 is 3 used to
+be still loan interpreted because minus
+2 is obviously lesser and then 1 plus 7
+is 8
+we don't need to update it because it's
+1 and 1 plus 3 is 4 so we do interpret
+this 1 so 4 and then it still be this is
+write it again and then B is over and
+then we go to C and then C the the scene
+in value is minus 2 minus 2 plus 2 is 0
+we don't need to update the same thing
+and minus 2 plus 3 is 1 we write update
+is still the same ok and then G D the
+value is 1 this time so 1 plus 10 is 11
+we don't need to update it because 4 is
+obviously lesser than 11 smaller than 11
+and then TT there is no degree arrow so
+we don't do it so I'm just showing you
+this one the last time this is the third
+iteration and then from s 0 and then s 2
+a is 5 greater up there because 0 is
+lesser and then s 2 C is -2 the same as
+before and then from a a the new
+distance is 0 so 0 plus 1 is 1 B we did
+it update it and then there's no more
+arrow and then from B there's 1 plus 7
+for D now we need to update 1 plus 2 3 4
+see later played updated and then 1 plus
+3 4 40
+we already have it from before and then
+from C well it seems like it's not going
+to change anymore so let me just like
+finish with this iteration and then I'll
+show you what happens if it doesn't
+change
+ok so third so from C there's it's not
+going to change anymore again anyway
+because it's been - - for a long long
+time ok and then from D it's been 1 so 1
+plus is 10 is 11 we don't update it and
+then from T also there's no outdegree
+arrow so no more updated anyway so till
+the fifth iteration it is still again
+the same since it's not changing in code
+raishin as well so we can say that this
+is the shortest path okay so that's
+about it for the iteration now for
+detecting the negative edge wait what we
+do is we just go to this we just we just
+go and check we just do the iteration
+one more time since like I said there
+are six vertices we do five iterations
+right and in the sixth iteration we go
+again do the sixth iteration and if that
+terminal so if the still relaxes means
+if the value the distance is still
+change that means there's a we can we
+can say that this is like the negative
+edge cycle has been detected so for this
+like the negative edge report there a
+negative edge way negative weight cycle
+exists only if in the sixth iteration it
+still changes sixth iteration as in the
+VF iteration the last vertex F iteration
+if it still changes if the value of the
+distance still changes if it still
+relaxes again and again then we consider
+the negative weight cycle exist now for
+the complexity of bellman-ford see this
+is order B because it's going from B the
+whole loop is going up to V and then
+this is order e this inner loop this is
+obviously order one because it's just
+one action that's doing it's an if
+function so the total analysis the total
+NASA shows that they hole at a whole
+complexity of government for is out of V
+into e because this is a nested loop so
+we just take order of V and like this is
+order B so last order V into E and since
+out of ghee into E is greater than order
+V we just take order being key as the
+greater one so that's the final time
+complexity so yeah that's about it about
+bellman-ford I hope you understood I
+hope you understood my explanation
+properly and well please subscribe if
+you want more tutorials and thank you
+for watching
 our third presentation in this graphs
 unit is on weighted graphs and directed
 graphs let's go back to what we started
@@ -1661,6 +1918,112 @@ corresponds the sum of the weights of
 the arcs or edges that make up the path
 and that is the end of 3.3 directed and
 weighted graphs
+writer graphs now here's where we place
+a number on the edges so now we've got a
+weight that's why it's called a way two
+great examples of weighted graphs arise
+from the breast vertices of graph our
+towns on a map and the edges are the
+rise between the towns so for example
+that 12 could represent kilometres
+that's right two towns whatever it is so
+that's what the way that's what the way
+is now a tree is a connected graph that
+contains no circuits here is an example
+of a tree there's no loops er no
+circuits we can't go from either G we
+have to go around the town's a tree with
+has no multiple edges simplest tree is a
+single vertex but is a tree yeah a tree
+with n vertices has n minus 1 edges
+another rule ok minimum spanning tree
+here's where we try and minimize the
+distance between these vertices quite
+easy to do and there is the rule we
+start with the smallest length on the
+vertex in this case it was number three
+and then we have to connect it so we
+have to connect to either C or D and we
+use again the smallest one that connects
+in this case it's 55 or 60 it doesn't
+matter choose one of the fives or chose
+this one here and then again another one
+that connects another verdict well we've
+got only got a to go and see easiest way
+to connect this one is through here
+because that's a small swam so we get
+this minimum spanning tree that's shown
+in Figure twenty three point two three
+ok a spanning tree is just a sub graph
+that contains all the vertices of the
+original graph into the tree so we have
+to use all the verses a minimum spanning
+tree for a weighted graph is a spanning
+tree for which the son of the weights of
+the edges is as small as possible that's
+why we choose the smallest numbers all
+the time all right here we have prims
+algorithm is its which is a set of rules
+to determine a minimum spanning tree
+forever so I guess some you know these
+are the three rules that you've got
+you to use it but I don't think we need
+to go through it you just be aware of
+that you've got this Nikki Bella the
+steps where you're just going to do it
+with you as an example I've already done
+will apply prims algorithm here to turn
+the minimum spanning tree for this craft
+so then it wants us to write down it's
+white and can compare the way to the
+original graph now the original graph if
+you add them all up it all adds up to 50
+okay so this adds up all 257 I see your
+regional great all right my cell will
+start at Point ay OH doesn't matter
+where we said well now we should start
+where there is a smallest number this is
+the 202 on the other edges it doesn't
+matter we'll start at either be ok so we
+start here and then we go right we've
+got to choose this one there we go we've
+chosen that one now we need to connect
+either I to something else or B do
+something else with the smallest number
+on it so I today it gives us five walk
+connect that one there up there it is
+and then the next smallest line mister
+donut is number three doesn't matter
+salgo d to see that connects each virtus
+see see now we have to connect either e
+or if there's no point going a to f
+because that seeks we've got a five from
+CD so we'll connect CD that's fine we
+have to connect if eat if is only two so
+we'll connect that one there and that is
+our minimum spanning tree they want us
+to write down its way in compared to the
+original the original was 50 and if you
+add all these are built that up to it I
+think it embodies 7 and 3 is 10 and 5 is
+15 and 2 is 17 so that's the minimum
+spanning tree 17 compete to fit so in a
+real-life situation we can just sort of
+say that ok so these are let's say road
+2 kilometers long we're going to like
+cables there we need 17 kilometers of
+cables that's right you know could be
+internet cables or phone lines or what
+about 187 m kays worth of cables for the
+50k roads that's right we could do the
+50 but that's going to put more cost us
+more so rather do the 17 now their
+recent note if you're ever asked to find
+the maximum spanning tree you start with
+a maximum weight and keep finding the
+maximum one adding to it ok not the
+minimum like we've just done 23 years
+your questions thank you
 hello or learn the Solis from advanced
 quantitative reasoning and we're lonely
 taking a look at something called
@@ -1834,211 +2197,6 @@ into your notes make sure you have that
 and that's about it
 well thank you very much I'll talk to
 you guys later
-today we're going to create your own
-Euler circuit convert a given graph to
-an Euler circuit and solve weighted
-graphs remember an Euler circuit can be
-determined if all the vertices have an
-even degree degree of a vertex can be
-found by counting the number of edges
-that meet at that vertex for an example
-here we have this vertex with three
-edges that meet at that vertex so the
-degree of this vertex is three another
-example here there are four edges that
-meet at this vertex so the degree is 4
-so now we want to create our own Euler
-circuit with seven vertices and 20 edges
-now on exactly 7 vertices and at least
-20 edges you may need to use more than
-20 so we have some vertices here just
-want to make sure we have exactly seven
-one two three four five six seven and
-now we need to start drawing some edges
-so we'll take these edges or take these
-vertices and begin connecting them and
-typically you connect them in ways like
-this so we've gone ahead and connected
-all these vertices with at least 20
-edges and the second thing you need to
-do is make sure you have at least 20
-edges so you need to count the vertices
-the best way to do this is to put
-numbers on them or maybe to identify
-them with a mark as you're counting then
-that way you don't count one twice so
-there are 21 edges as identified by the
-number labels given and then the third
-thing you need to do to make sure that
-it's an Euler circuit is to make sure
-that each vertex has an even degree and
-the way that you do that is you just
-count the vertices or account the edges
-at each vertex so we have 1 2 3 4 5 6 so
-that's an even number 1 2 3 4 5
-one two three four five six
-so this is an Euler circuit and actually
-all the degrees are six that is kind of
-coincidental but if you do notice the
-number six is an even number so each
-vertex has an even degree which means
-that this is an Euler circuit next what
-we want to do is convert this given
-graph to an Euler circuit so the way
-that we do that is we figure out if each
-vertex is even or odd so we have four
-for your degree for that vertex 3 for
-that vertex so that means we're going to
-need to highlight that 13 again 2 3 4 5
-6 so that one's an even number 1 2 3
-that one's a 3 this one's a 3-2 and two
-if you notice each time there's one odd
-degree vertex there will be a second one
-and then we convert this to an Euler
-circuit simply by creating another edge
-that goes between the odd degree
-vertices and that converts each one of
-these degrees into the number 4 which is
-an even degree
-you can even be a little bit more
-creative if you really want to
-you want to connect these two and go a
-little bit further do a little bit more
-work this is less efficient but it is
-still correct you connect that one and
-then back down to the odd that changes
-this into a six which keeps it even and
-changes these into fours again and then
-again you can do the same thing as long
-as you keep all the vertices even these
-change to force and these change to
-force as well now since each vertex is
-even this is now an Euler circuit that's
-how you convert a given graph and make
-sure that it is an Euler circuit and
-then lastly we're going to be solving
-weighted graphs the steps to solving
-weighted graphs are number one add up
-all the weights in the graph number to
-identify all the vertices with an odd
-degree number three find the shortest
-route between each of these vertices
-number four make a second copy of each
-edge of that shortest route number five
-add the total of the weights from set
-number four to the total from step
-number one to find the most efficient
-total with that weighted graph so step
-number one we got to add up all these
-weights so when you add them all up
-again just like when you count the edges
-when you create your own graph it's
-better to highlight or identify that
-you've already used that number so when
-you add them up you of six plus five is
-11 plus 2 13 14 15 16 19 22 27 31 32 35
-so the weights in this graph is add up
-to 35 we need to identify all the
-vertices with an odd degree so here we
-have a degree of 5 because there's five
-edges another degree of 5
-another degree of five and because
-there's three there will be one more
-this one here has four which means it's
-got to be this vertex so there's all
-your vertices with an odd degree third
-we need to find the shortest route
-between each of those and because of
-their weighted we need to find the
-smallest numbers to allow us to get from
-one odd vertex to the other so here we
-can copy this number but we can also see
-that it's connected here with the number
-one so the number one is going to be the
-fastest between these two and then
-between the next two vertices with an AA
-degree our quickest route again is a
-weight of one number four we need to
-make a second copy of each edge of that
-shortest route so we already kind of
-have made that copy but to be really
-literal we want to make sure that we
-have the weights copied as well and once
-we do this we can add up the total of
-all the numbers that we have written
-down but since we've already added the
-total in step one before making a second
-copy we can then find the total of what
-we added and then add that to 35 so our
-solution to this graph is 35 + 2 and the
-solution to this weighted graph is 37 so
-the last thing we want to do is take
-this way to graph and find the solution
-for it I'm not going to put the steps up
-I'm just going to walk through it pretty
-quickly so we want to add up the total
-numbers the total weights in this graph
-we can get 182
-then we need to identify the odd degree
-vertices so there's one there's one
-there's one looks like most of the
-vertices in this picture are odd looks
-like every single one of them so each
-vertex has an odd degree and now we have
-to find the shortest route to connect
-each of these vertices we're going to
-connect them two at a time and we're
-going to start connecting them where we
-only have to duplicate the smallest
-numbers so if we duplicate this too
-that's one of the smallest numbers and
-then these two are now even and we can
-move on to two others the next smallest
-is this three so these two are now even
-and now we have a little bit more of an
-issue we can't connect this for because
-that would cause us to make this vertex
-odd again so we've got to skip the floor
-and we're going to go to the next
-smallest number which is five so we can
-connect these two
-and then we need to try to connect the
-remaining four vertices with the
-smallest possible total and here we have
-a decision to make we can connect these
-two and add 20 but we can also connect
-these two and that's shorter or less
-time or less weight then what we just
-did with the 20 because 9+10 is 19 or we
-can connect these 2 and 13 and of those
-three options that we have this is the
-shortest or the most efficient that we
-have and then we have to figure a way to
-connect the last two vertices the
-easiest way to do that is to basically
-take a look to see if there's any way to
-do it that's less than a weight of 19
-and anyway you go it looks like it's
-going to be somewhere in the ballpark of
-30 so 19 is going to be the shortest
-route between those two vertices now we
-have made every vertex even we have
-duplicated the shortest path between odd
-degree vertices and now we have to add
-up all those weights that we just added
-and I get 42 and when we add 42 to our
-original 182 the solution to this
-weighted graph is 224
-now there may be a possible solution
-with these weights that's slightly less
-than 2 24 if anybody finds that solution
-that's less than 2 24 and it's a
-legitimate solution i'll give you an
-extra 10 points on a homework assignment
-guys that's solving weighted graphs
-creating your own Euler circuit and
-converting a graph that's not an Euler
-circuit into one
 the shortest path problem is essentially
 the problem of finding the shortest path
 between a pair of vertices in a given
@@ -2200,6 +2358,245 @@ function alpha so this is the shortest
 path problem and in another video we
 will take a look at us out of way a
 method for solving this problem
+hello everyone I'm John Pressman and
+today we are going to talk about
+pathfinding algorithms because we all
+need to be able to get around so before
+we begin we need to ask ourselves three
+main questions what is pathfinding why
+use pathfinding and of course how does
+it work so what is Pat signing
+essentially it's the plotting by a
+computer program of a route between two
+points sometimes it's the shortest but
+not necessarily it depends on what
+you're looking for and it can be
+influenced by various factors within the
+algorithm that you use well more
+specifically pathfinding addresses the
+problem of finding a good path from the
+starting point to a goal avoiding
+obstacles enemies and minimizing costs
+such as fuel time distance equipment
+money etc so who is this guy he is Edgar
+Dykstra he's a Dutch theoretical or was
+a Dutch theoretical physicist and
+self-taught computer programmer who made
+essential contributions to the
+mathematical logic that underlies
+computer programs and operating systems
+his work includes being a code designer
+on the first version of Algol 60 which
+is a compiler as well as a solution to
+the dining quintuple problem which helps
+with computer networking and things like
+that but today we're talking about
+Dykstra because of his shortest path
+algorithm which is more or less form the
+basis of path finding of the pathfinding
+field a little fun fact about this
+shortest path algorithm he claimed to
+have designed the algorithm in about 20
+minutes while sitting at a sidewalk cafe
+with his fiancee after being too tired
+from shopping so why do we use
+pathfinding you probably actually all
+used to experience
+pathfinding without even realizing it
+pathfinding has applications and global
+positioning systems travel planning
+vehicle routing even arbitrage believe
+it or not but probably for most of you
+you've experienced it in video games not
+only does it help it us get from point A
+to B in the real world but it helps your
+enemies your artificial enemies try and
+kill you in the virtual one but how does
+it work like how does a computer
+actually know where to go like it's not
+like you can show it a map and it's like
+ah this makes sense because it doesn't
+know how to do that magic there's
+actually reason I chose this gift
+because this looks super fancy but
+really just had a late on as a arm the
+reason I use this is because when you
+first approached pathfinding you're like
+how do you tell a computer where to go
+but it's really not terrifically
+confusing once you understand understand
+the underlying mathematical principles
+but before we go any further we need to
+kind of set the context like what is a
+path finding algorithm like traversing
+kind of gave it away by saying Traverse
+typically we're traversing graphs or
+grids which grids can be thought of as a
+grift in and of themselves graphs are a
+collection of nodes or points that are
+connected to each other by edges or
+lines we saw this in our data structures
+lecturer earlier this week edges can
+have directionality and they can also
+have weights so directionality if you
+think about like is a one-way street
+which there are plenty of here in New
+York you're not going to be able to
+approach or go down that street to the
+other side or intersection from a
+certain direction
+Edge's can also have weights as I said
+which I like to kind of equate to
+traffic for example a weight of one
+would imply maybe that there's not much
+traffic on that road but six is like the
+van wyck at rush hour which is terrible
+if you've ever gone to JFK during rush
+hour so it's important to make a
+difference between the visual
+representation like what we might see in
+a video game and like the the
+representation that a computer
+understands which is the graph so here
+we kind of laid a graph over a map of
+some sort of game yeah so now we're
+going to go over some three key examples
+of path finding the first is a
+breadth-first search with breath first
+we use an expanding ring emanating from
+the start point called the frontier
+which is kind of a queue we expand the
+frontier through a few steps we pick and
+remove a location from the frontier now
+our starting point can be considered the
+first thing in our frontier so we pick
+the starting point and then kind of
+immediately remove it from this frontier
+we mark the location is visited to avoid
+revisiting and we expand the frontier by
+adding any unvisited neighbors to the
+current frontier spot that we're on to
+the frontier for each unvisited neighbor
+we add to the frontier we make sure to
+include a reference to the current node
+we are on this way we can retrace our
+path when should we reach the goal node
+so this loop will continue until we
+either reach the destination node or
+there's no possible way to get there so
+we're going to do a quick visual
+visualization here
+this is a neat little tool called Pat
+fawning j/s there are different
+pathfinding algorithms you can use here
+we're just going to look at how a
+breadth-first search works you can see
+how it kind of emanates out there and it
+found it eventually reached the
+destination node and retrace the path
+you can clear this and create like an
+obstacle start the search again kind of
+wraps around this obstacle and you can
+see that breadth first starting to reach
+its limit it's kind of like going into a
+room and assessing all of the possible
+options to get through a certain point
+so it's not very quick but yeah anyway
+moving on okay the next one is
+Dijkstra's algorithm our guide Dykstra
+also known as the uniform cost algorithm
+so what if like in a video game you're
+going up the hill that probably requires
+more effort and that effort may slow us
+down so you maybe don't want to go over
+the hill you want to go around it
+because you could perhaps run around the
+run around the hill and get there
+quickly so the most direct route may not
+necessarily be the fastest we need some
+way of taking this additional cost or
+effort into account and this is where
+weighted graphs in dexter's algorithm
+come into play Dijkstra's algorithm like
+breadth-first search will visit all
+neighbors from a given node initially
+the value of each of these neighbor
+nodes will be unknown and less
+previously visited from another source a
+value is then assigned to each neighbor
+that is equal to the cost to get to that
+node so you can see the edges have a
+number and when we visit a node we
+assign the number that
+the edge has to that node yeah so okay
+yeah it so it's a neighbor node with pre
+true move a value is assigned to each
+neighbor node that is equal to the cost
+to get to that node including prior
+edges the edge weight plus prior and
+cost gets the current mode if a neighbor
+node was previously assigned a value but
+the cost of getting there from the
+current node is less than its current
+value we reassign the value of that
+current node otherwise the value of the
+visited known stays the same once all of
+the neighbor nodes have been visited and
+assigned a value we navigate to the node
+with the lowest cost or assigned value
+which we can do through a priority to
+which we all know about we kind of
+repeat this process until we reach the
+goal node or can't reach school mode
+once again we make sure to maintain a
+reference to the node from which we came
+so we can retrace our pass once we reach
+the goal so this seems pretty good right
+we're getting to the goal on the path
+that we know has the least amount of
+cost associated with it but one thing
+about Dykstra is that it'll go to it'll
+always go to the shortest cost node
+which means that it might go in the
+wrong direction listen odo so in other
+words we're wasting time processing
+nodes that might not be in a promising
+direction a star fixes this it
+incorporates a heuristic to kind of take
+into account the the direction of our
+goal there are kind of different
+heuristics to do this but basically it
+kind of reassigns a value
+to each of the neighbor nodes and helps
+to restore the priority queue so that we
+find the shortest path faster you're not
+finding a shorter path the original cost
+that's associated with the vertex is
+still the cost of getting to the goal so
+instead of 2 point 0 1 plus 5 equals 7
+point 01 but the the cost to get to the
+goal is still 10 but we know that we can
+get there faster by going down the edge
+that's labeled 2 point 0 1 then going up
+and around so we'll do one more quick
+visualization of kind of a star versus
+at Dykstra and you can see how the
+direction the ability to provide that
+heuristic for Direction speeds things up
+so this is Dykstra we have an obstacle
+and we'll start it see it kind of takes
+it a while to get around there and it's
+going way way way off to the other side
+that there's no need for it to process
+those so if we look at a star with these
+are the different heuristics you can
+choose but we'll do Euclidean so look at
+this path and you'll see that a star is
+going to reach the same path but a lot
+faster all right so that is basically it
+that's half finding in a nutshell thank
+you for watching
+[Applause]
 welcome to the first in a series of
 demonstrations on the graph data
 structure what we're going to be
@@ -2318,97 +2715,6 @@ actually looking at the original
 adjacency list it's just something that
 we had to discover as we went along
 but that's our complete graph
-greetings this is a short video to show
-you how to create a weighted graph and
-sage using an adjacency matrix remember
-that we can create an unweighted graph
-using an adjacency matrix and sage by
-writing out the matrix and sage like
-this and then using the graph command
-with that matrix as the argument to
-create the graph in ordinary adjacency
-matrix the entry in the IJ position is
-one if node I is connected to node J and
-zero otherwise to make an adjacency
-matrix for a weighted graph if two nodes
-are connected with an edge that has a
-weight we're simply going to use the
-value of the weight instead of a one for
-example let's make a weighted graph on
-four vertices 0 1 2 and 3 I'd like 0 to
-be connected to one and two with edge
-weights 10 and 5 respectively also
-connect 0 to 3 with wait 6 and then
-finally I'd like to connect one to two
-with a weight of 12 so let's make the
-matrix that would represent this graph
-let's call it m we're going to type M
-equals then the word matrix then open up
-a set of parentheses and then inside
-that a set of square brackets for the
-first row we're going to put in another
-set of square brackets to represent the
-row in the brackets for the first row
-we're going to put the weights for the
-connections the first entry is 0 because
-node 0 is not connected to itself with a
-loop 0 is connected to one and
-ordinarily I would put a 1 here to
-indicate that connection but since this
-is a weighted graph I'm going to put a
-10 there because that is the weight or
-the cost of the edge that goes between 0
-and 1 likewise I'm going to put a 5 in
-this third position because 0 is
-connected to two with a weight of 5 and
-then finally a 6 in that last position
-because 0 is connected to three with a
-weight of six now in Row 2 which
-corresponds to node 1 because we start
-counting at zero I'll put a 10 in the
-first spot because 1 is connected to 0
-with a weight of 10 we have to put this
-here because if zero is connected to 1
-then 1 is connected to 0 since this is
-an undirected graph and so we have to
-have symmetry inside the matrix entries
-there's going to be a zero when
-second position because one is not
-connected to itself one is connected to
-two with wait 12 and so where I'll put
-12 here and then finally I'm going to
-put a zero in the last spot because one
-is not connected to 34 row 3 which
-corresponds to node number two similarly
-we're going to put in five 1200 and then
-finally in row 4 which corresponds to
-node number three we're going to have
-6000 now we'll use the usual graph
-command here with a capital G to
-construct a graph from the matrix just
-like we did for unweighted graphs but we
-have to tell sage that this is a
-weighted graph by giving it a new second
-argument which we have never used before
-weighted equals true this will tell sage
-what to do with the nonzero entries most
-of which are not one that are in this
-matrix so having done that we're going
-to hit shift enter or click the evaluate
-button and the graph is defined it
-doesn't show up automatically so to show
-this graph we're going to use the usual
-dot show method if I do that notice that
-the graph is shown but the weights are
-not if you want to see the weights then
-you pass the option edge labels equals
-true with an underscore there between
-the word edge and the word labels inside
-the show method and then when you
-re-evaluate the weights will show up
-super impose on top of the edges and
-that is how to make a weighted graph
-from an adjacency matrix using sage
 alright so we sold at Hamilton paths
 Hamilton circuits oh how to look for
 those in certain graphs and we saw that
@@ -2840,416 +3146,101 @@ weight of 226 and again let me know if
 you if you thought of a better way to do
 this if you came up with a weight that
 gives me less than 226
-Shh okay that's my crazy class I said
-all right we're going silence and
-they're all nuts
-we're live okay so here we go
-gonna do the next one boom alright so
-the reason I was gonna keep talking
-until everyone settles down
-of course I'll get that so I start with
-this little cutout from the book and
-thinking about not telling the story
-online but I guess I will I think I said
-the story to at least one if not all the
-classes about this chapter and a year
-ago to this day fully admit this is a
-brand new class for Truesdale and I last
-year struggle to teach could have very
-easily just given us a history class to
-teach don't even have a history degree
-and it would have been the same amount
-of work just trying to get ahead of the
-students trying to figure out what the
-heck is going on
-fully admitted that last year but then
-found it really interesting a year ago
-to this day or right around a year ago
-to this day right in this chapter of
-doing graphs and networking Trousdale
-goes to a Notre Dame game true story
-unless she's lying to me over the
-weekend she comes to me in Monday you
-were not gonna believe what happened to
-me I went to a Notre Dame game with my
-husband sitting down in the stands and
-of course you know people you're around
-you start talking to and the guy that I
-was talking to this is what he does for
-a living
-he's a networker he's you know he does
-this um this kind of thing where you get
-efficiency and well specifically what he
-did I refreshed my memory and talked to
-her yesterday what did this guy actually
-do and he was on a college campus and
-his current job was to get wireless
-internet that's accessible anywhere on
-campus inside and out and currently what
-he was trying to do is getting the
-outside routers which he was attaching
-to light posts outside and his job was
-to do with the most efficiently using
-the least amount of routers so that the
-network would still be good enough to
-come back to the tech office so that
-they could get that wireless internet
-out to everybody and that's was his job
-the efficiency less routers less costs
-and still the most strength in the
-signal to make that happen the guy flew
-in his own personal jet to that game so
-just take a minute to think about that
-this guy that does this for a living you
-know efficiency and networking big time
-money man so with that being said this
-paragraph out of the book really
-coincides with that business managers
-and administration administrators often
-carefully analyze the efficiency of a
-network as it can affect the bottom line
-that's what this guy's job was less
-costs but the most powerful network that
-still worked efficiently for example you
-might want to minimize the length of a
-wire using a computer network or the
-mileage that delivery vans must travel
-one thing I told you about this whole
-chapter as well UPS truck driver how can
-I most efficiently visit all of these
-points all these drop-off things alright
-so what we're gonna go into today is
-creating a graph of making it weighted
-and what the weight of that graph as I
-point to the sentences I'm in class
-those weights are cost from going from
-one point to another or the time it
-takes which time is money or the
-distance it takes for like the driver
-alright so from this information this is
-what you can first write of course he
-did not write any of you know what's in
-that sentence isn't this great animation
-alright so a weighted graph each edge
-has a number or a weight put on it
-or associated may represent time cost
-distance pulled right out of this
-paragraph okay
-so again I just wanted to give the book
-props I guess you know as far as uh you
-know where does this pertain to in the
-real world not that I'm saying you're
-gonna go out and do this but maybe you
-make a career change in you know you'll
-see that this is something that would
-happen of course the second one is a
-sign such as they are relevant to the
-problem of course this is important for
-you to understand that it's not what you
-have to do the length of the edge does
-not have to be proportional to the
-weights so the length of the edge does
-not have to be proportional to the
-weight and what I have is a drawing that
-I put ahead of time here alright this is
-what this means
-pretend from point A to point B is seven
-miles I think that's what I put there as
-I move around
-yep and then point B to Point C is six
-miles and I decide to put that graph as
-such then I read from point A to point C
-as three miles well I'll have to see the
-longest line here is for me to see
-doesn't matter in fact it would be
-really hard not saying impossible but
-really hard to make these lines
-proportional and have the drawing
-actually fit it's not your job your job
-is to put the weights on the lines and
-that's all that matters not the length
-okay and I'll give you a minute to write
-that down
-okay next all right so I'm gonna try to
-do this last hour I could not write on a
-powerpoint which is a very legal thing
-to do to be able to write my own writing
-that's what happened it just everything
-went haywire again I honestly feel
-there's someone in the tack office
-that's connected to my computer you know
-say about seven a good day let's start
-screwing around with a book look at my
-computer just starts going crazy control
-my desktop I feel that what do you think
-are you even listening anymore sick of
-my stories aren't you alright so it
-takes good old mr. Samuel
-had to put good old you could put ugly
-disgusting if you want 30 minutes to get
-to work from home 180 is it all screwed
-up I don't think you really need that
-for the problem 20 minutes to get to the
-kids to karate from home and 25 minutes
-to get the bowling from karate which is
-actually my life that's what I do
-alright so I'm gonna try this gonna try
-it pen ok so then this is real
-simplistic I got to be real careful how
-I write on the screen otherwise
-everything would get jacked up so let's
-call that home so I'm writing like my
-seven-year-old would write actually it's
-an insult to my seven-year-old she rides
-better than this but it's the slippery
-screen like I'm writing on ice where am
-I going
-Oh work go to work and then you put a 30
-on that now it's a weighted graph it's
-the only thing we've added this is
-Mickey Mouse and then 20 minutes kids
-the karate from home so home to karate
-notice I put those as the same length
-but I put a 20 on that and that's all
-that matters and then 25 minutes from
-bowling to karate so that's what I had I
-dropped the kids off at karate with the
-wife then I go off the bowl the wife
-takes the kids home 25 now that's a much
-different graph than I had a first hour
-doesn't matter you could put home over
-here you can put home with to the upper
-right you know it doesn't matter not all
-graphs have to look the same the
-connections must be the same no so there
-it is just a way to graph real Mickey
-Mouse example I know about it
-shocking no I think I'm still stuck in
-pen mode okay there we go boom
-don't worry about the highlighting I'll
-have that figured out so I give you a
-chance to write this down and hold off
-on a chart for a second Amtrak travels
-between six cities the distances between
-each are shown in the table below I'll
-hold off on that table before you write
-down if you want your notes to be nice
-draw a weighted graph to represent the
-system
-and then the reason for letter B find
-two different routes between Nashville
-and in the app Indianapolis which could
-be called subgraphs
-is because when I reveal the chart or
-when the computer lets me do it there is
-no denying from Indy to Nashville so
-understand how the chart is read I guess
-I will blabber as you're writing us down
-for those that take notes I see a lot of
-people not doing that can wait for an
-open note quiz I don't have any notes
-that's your fault why do I have the
-bottom-left highlighted because there's
-redundancies in this chart I know it's
-different to go from Detroit to Chicago
-than it is to go from Chicago to Detroit
-but isn't the distance the same it's the
-same track so when we do our graph which
-that chicken scratches on the bottom was
-part of my disaster of first hour I
-could look at the writing and then all
-of a sudden the computer started
-betraying me something an attack off is
-pressing buttons that's messing around
-with mr. Samuel as' anyway you're not
-there's not two connections there you
-don't draw a line from Detroit to
-Chicago and then you don't draw another
-line from Chicago back to Detroit so
-really when you're making your sub graph
-you only have to look at the bottom left
-or the top right because they're the
-same from Columbus to Detroit's 2:04
-from Detroit to Columbus it's 204 so
-when we do our graph we're only worrying
-about those so I'll give you a second to
-write that down if you want good notes
-look at this stuff
-is it going yes all right so we
-constructed this graph we think oh I
-forgot I can't do that pen this graph in
-class okay then and then you can look at
-the one it's coming I think working
-lightning fast is it showing up there
-okay so ours on the board looks better
-than this this is similar to what we did
-second hour so making the connections
-one
-at a time I did Chicago first direct
-line saw the cities and then I only
-worried about the bottom left because
-this there's a you know I don't care
-about the top half because we're not
-drawing two lines one from Chicago to
-Detroit and one from Detroit to Chicago
-so I'm worried about what I'm saying
-online okay so on the next thing you
-construct this graph not all the graphs
-have to look exactly the same now we're
-gonna look at from Nashville to Indy and
-the whole point is this and you should
-be listening to me it's hard to see in
-the chart but now it's easy to see on
-this graph a couple different ways I can
-get from Nashville to Indy and I do have
-this come up so I am gonna stay here I'm
-gonna risk it that I'm able to write on
-this and show highlighting and I'm gonna
-try to emulate what I did in the other
-class so here's from Nashville to Indy I
-think you could see that one direct way
-is Nashville to st. Louis and then st.
-Louis to Indy do you see that can you
-see that my highlighting right there
-correct okay and I could go up to the
-board up there and show it as well and
-that would be one way to do it but then
-you know seeing that on the graph is
-that as efficient as maybe a different
-way well we'll check because what we
-need to do is add up those distances so
-from Nashville to st. Louis is 580 for
-st. Louis to Indy is 350 for those two
-added together something like 930
-something right so 930 some miles 931
-938 or I could change my highlighting is
-there a different way and more efficient
-way maybe I can change my highlighting
-this is gonna be easy
-and the answer that is yes what if I
-went Nashville to Chicago
-shaky-shaky and then Chicago to Indy
-that would only be five fifteen plus one
-ten and you're getting the same thing
-done and now what I watch you understand
-is I have this appear up on the slide
-boom those to which you might not be
-able to see up there but maybe at home
-you can is that's only 625 miles then
-want you to think about the whole spirit
-of this this section it's about finding
-connections that are more efficient and
-of course this is a Mickey Mouse example
-the point of the graph is being able to
-see the connections maybe not so obvious
-in the chart but in a graph it is and
-then maximizing those options everyone
-ok get it fun
-no this may not be working out as well
-having cut outs from the other class but
-it's it's what I'm stuck with you know
-with what we have here is technology
-that's not working out so great
-sub graph sub graph is a set of vertices
-and edges chosen from the original graph
-and actually in this one I will do all
-the questions on the board and then just
-have it a you know show up for those at
-home and that reference it anymore but a
-redundant connection now this kind of
-leads into tomorrow another efficiency
-thing we could call it like the
-Trousdale guy that she saw at the Notre
-Dame game you know redundant connections
-not necessarily needed so I I could use
-less routers that's kind of the idea
-there if an edge can be removed but
-still maintain a connection between all
-vertices routers if there is a circuit
-then there has to be a redundant
-connection so I'm going to try this
-again as you writing this down so far
-the pen hasn't betrayed me like it did
-first hour if I have a to B to C this is
-actually a circuit correct right so
-there is a redundant connection meaning
-I can get rid of maybe this edge and all
-the vertices are still connected so I
-don't need that edge to keep the
-connection of all the critical points so
-this is what removing
-a redundant connection looks like in the
-most simplistic way I can show it I hope
-that makes sense for you if you wanted
-to write that down so this was here I
-could get rid of this one and I would
-still have the vertices connected of
-course I lost my vertex don't know why
-all right
-so that would be another way to remove a
-redundant connection in the most
-simplistic form I'm gonna race this and
-then actually the last of the notes are
-another chart okay and it's very similar
-to the one we just had but much smaller
-cities so I'm gonna go to my board ask
-for volunteer to when I'm on the board
-what what are those mileages make
-another graph and then what I'm gonna do
-is make two different sub graphs that
-removes the redundant connections that
-keeps the cities connected but we remove
-redundancies in it and we'll talk about
-that on the board and then I'll to
-reiterate it on the computer where the
-class doesn't really have to listen to
-that and you don't have to listen to
-second part but alright so we did this
-in class draw a weighted graph to
-represent the commute commuter airline
-network and we want to step at a time
-and came up with this drawing okay and
-it's very similar to what second hour
-had so boom there it is all right let's
-should look better when you look at this
-on a hard piece of paper now what we're
-gonna do is remove the redundant edges
-edges so what that means is no circuits
-should be in there anymore and all the
-cities are still connected so we're
-gonna do that in class and I'll be back
-to the V okay so we went ahead and did
-two sub graphs that removed redundant
-entity edges which means there are no
-circuits left so one of them was
-actually we didn't have this one I think
-nope that's not the one we did in class
-we did something a little different
-yep okay but that is one notice the
-cities are still connected but there are
-no circuits so I could hit all the the
-hubs
-without any problem and then here's just
-another one not a big deal we did two
-different ones
-here's another sub graph from the graph
-given that's not even one I have two
-different ones in the notes so you guys
-Period three have the you know you have
-four different sub graphs to look at
-that all did the same thing 1290 oh
-that's bad yeah this one's uh so we have
-one in class we had a sub graph that is
-weight of ten thirty so we'll talk about
-that more tomorrow trying to get the
-most efficient sub graph possible oh no
-I'm sorry
-one of those is so three whatever sorry
-blabber
+greetings this is a short video to show
+you how to create a weighted graph and
+sage using an adjacency matrix remember
+that we can create an unweighted graph
+using an adjacency matrix and sage by
+writing out the matrix and sage like
+this and then using the graph command
+with that matrix as the argument to
+create the graph in ordinary adjacency
+matrix the entry in the IJ position is
+one if node I is connected to node J and
+zero otherwise to make an adjacency
+matrix for a weighted graph if two nodes
+are connected with an edge that has a
+weight we're simply going to use the
+value of the weight instead of a one for
+example let's make a weighted graph on
+four vertices 0 1 2 and 3 I'd like 0 to
+be connected to one and two with edge
+weights 10 and 5 respectively also
+connect 0 to 3 with wait 6 and then
+finally I'd like to connect one to two
+with a weight of 12 so let's make the
+matrix that would represent this graph
+let's call it m we're going to type M
+equals then the word matrix then open up
+a set of parentheses and then inside
+that a set of square brackets for the
+first row we're going to put in another
+set of square brackets to represent the
+row in the brackets for the first row
+we're going to put the weights for the
+connections the first entry is 0 because
+node 0 is not connected to itself with a
+loop 0 is connected to one and
+ordinarily I would put a 1 here to
+indicate that connection but since this
+is a weighted graph I'm going to put a
+10 there because that is the weight or
+the cost of the edge that goes between 0
+and 1 likewise I'm going to put a 5 in
+this third position because 0 is
+connected to two with a weight of 5 and
+then finally a 6 in that last position
+because 0 is connected to three with a
+weight of six now in Row 2 which
+corresponds to node 1 because we start
+counting at zero I'll put a 10 in the
+first spot because 1 is connected to 0
+with a weight of 10 we have to put this
+here because if zero is connected to 1
+then 1 is connected to 0 since this is
+an undirected graph and so we have to
+have symmetry inside the matrix entries
+there's going to be a zero when
+second position because one is not
+connected to itself one is connected to
+two with wait 12 and so where I'll put
+12 here and then finally I'm going to
+put a zero in the last spot because one
+is not connected to 34 row 3 which
+corresponds to node number two similarly
+we're going to put in five 1200 and then
+finally in row 4 which corresponds to
+node number three we're going to have
+6000 now we'll use the usual graph
+command here with a capital G to
+construct a graph from the matrix just
+like we did for unweighted graphs but we
+have to tell sage that this is a
+weighted graph by giving it a new second
+argument which we have never used before
+weighted equals true this will tell sage
+what to do with the nonzero entries most
+of which are not one that are in this
+matrix so having done that we're going
+to hit shift enter or click the evaluate
+button and the graph is defined it
+doesn't show up automatically so to show
+this graph we're going to use the usual
+dot show method if I do that notice that
+the graph is shown but the weights are
+not if you want to see the weights then
+you pass the option edge labels equals
+true with an underscore there between
+the word edge and the word labels inside
+the show method and then when you
+re-evaluate the weights will show up
+super impose on top of the edges and
+that is how to make a weighted graph
+from an adjacency matrix using sage
 okay we've now seen graph search depth
-first search breadth-first search and
-we've seen in fact searches we're both
-depth-first search and breadth first
+first search breadth first search and
+we've seen in fact searches where both
+depth-first search and breadth-first
 search will find solutions find paths
 with the fewest edges that may be what
 we want but there are also times when we
@@ -3260,67 +3251,67 @@ could find the sequence of flights that
 involves the fewest stops that will be
 the minimum number of edges but we might
 be more interested in minimizing time or
-minimizing costs and that's information
+minimizing cost and that's information
 that's on the weight on an edge so if
 our edges are weighted we need to find
 other solutions solutions that minimize
-that total cost turns out that for depth
-first search the algorithm we've shown
-you is quite easy to modify rather than
-just counting the number of edges we
-simply sum up the weights and we keep
+that total cost turns out that for
+depth-first search the algorithm we've
+shown you is quite easy to modify rather
+than just counting the number of edges
+we simply sum up the weights and we keep
 searching to find the solution the path
 that minimizes that song structure the
 algorithm other than that change is
 basically the same for breadth-first
-search in fact the first found solution
-may not be the best because it's
-minimizing by the structure of the
-algorithm the number of steps the number
-of edges and so one needs more
-sophisticated methods to actually try
-and solve it just to give you a
-difference or a sense of the difference
-between them let's look at a couple of
-simple little examples here's that graph
-extraction we have a beginning of our
-lecture about different flights if we're
-just minimizing the number of edges for
-example going from here to there either
-algorithm will find it and in fact are
-in month a number of different solutions
-so here's one it's got four legs here's
-another it's got four legs and in fact
-there are a bunch of them with four legs
-here's another one with four legs we're
-minimizing the total number of edges
-along a path when we take weights into
-account for example the cost of the
+search
+in fact the first found solution may not
+be the best because it's minimizing why
+the structure of the algorithm the
+number of steps the number of edges and
+so one needs more sophisticated methods
+to actually try and solve it just to
+give you a difference or a sense of the
+difference between them let's look at a
+couple of simple little examples here's
+that graph extraction we have a
+beginning of our lecture about different
+flights if we're just minimizing the
+number of edges for example going from
+here to there either algorithm will find
+it and in fact our in month a number of
+different solutions so here's one it's
+got four legs
+here's another it's got four legs and in
+fact there are a bunch of them with four
+legs here's another one with four legs
+we're minimizing the total number of
+edges along a path when we take weights
+into account for example the cost of the
 flight then things are a little bit
 different and in fact in this graph one
 could actually run an algorithm to show
 that the best solution is this one which
-has a cost of 300 plus 200 plus one
-fifty plus 130
-just five six seven hundred and eighty
-dollars and you can explore this for
-yourself that discover that any other
-path through this graph in fact has a
-higher cost so sometimes we want to
-solve minimum minimal problems or
-optimization problems with weighted
-edges sometimes it's just the total
-number of edges alright with that in
-mind why are we doing graph optimization
-well as we said we have lots of problems
-that are naturally expressed as a set of
-transitions between a state of a system
-and those often can be easily solved as
-a graph search simple examples will be
-ones where the actual structure the
-problem is itself a graph travel through
-a physical network whether it's a flight
-network or whether it's actually
+has a cost of 300 plus 200 plus 150 plus
+130 which is five six seven
+and $80 and you can explore this for
+yourself to discover that any other path
+through this graph in fact has a higher
+cost so sometimes we want to solve
+minimum minimal problems or optimization
+problems with weighted edges sometimes
+it's just the total number of edges all
+right with that in mind why are we doing
+graph optimization well as we said we
+have lots of problems that are naturally
+expressed as a set of transitions
+between a state of a system and those
+often can be easily solved as a graph
+search simple examples will be ones
+where the actual structure the problem
+is itself a graph travel through a
+physical network whether it's a flight
+Network or whether it's actually
 something like using your GPS to find
 out driving routes from one location to
 another in those cases the nodes
@@ -3329,7 +3320,7 @@ locations like hubs or intersections and
 the edges naturally correspond to
 physical structures flight paths roads
 but there are other problems that are
-also well described as grass imagine
+also well described as graphs imagine
 you're trying to program a robot to
 accomplish some task here the nodes may
 be the state of the system the locations
@@ -3343,8 +3334,8 @@ problems those are problems where a
 physical system is being handled or
 manipulated and here the nodes are
 descriptions of the state of the system
-parameters that describe the positioner
-state of the system in the edges or
+parameters that describe the position or
+state of the system and the edges are
 actions that will move or transitions if
 you like that will move the physical
 system from one state to another and
@@ -3352,7 +3343,7 @@ again those are well solved by graph
 optimization problems and that says
 basically what we've shown you are two
 very handy tools for doing depth-first
-and breadth first search to find a
+and breadth-first search to find a
 sequence of transitions that transforms
 a system to a desired gold state these
 methods can find optimal solutions to a
@@ -3361,6 +3352,199 @@ described in this manner and they're
 going to be really valuable as you use
 these tools to solve problems of
 interest to you
+for the last of our craft demonstrations
+we're going to take a look at Dijkstra's
+algorithm and we're going to apply
+Dijkstra's algorithm to a directed
+weighted graph first step we're going to
+start out at a and we're going to figure
+out where we can get to from a that's
+better than what we've already got now
+again all of these are infinite to start
+out with so anything is going to be an
+improvement over that so we take a look
+at all the edges originating at a we
+have an edge from A to B it cost 20 well
+20 is better than infinity so we have a
+new lowest cost path from A to B and
+that's cost 20 and that's from vertex a
+we have another one from A to G that's
+cost 90 knots also from a and we have
+another one from a to D and that's 80
+and it also originates at vertex a and
+all of the remainder are going to be
+infinity because we have no path
+standing those vertices yet in the next
+step we're going to take a look at the
+lowest cost path of all the ones we have
+so far we have 80 90 a lot of infinities
+but we have a 20 so 20 is the best we've
+done so far so we're going to pick that
+as our lowest cost path and we're going
+to say that that one is now complete so
+in our next round we're going to start
+out the search at the place where that
+lowest cost path has taken us which is B
+now B we already know the lowest cost
+path is 20 but we're going to see where
+else we can get to from B that we
+haven't been to before
+well B only has one edge originating and
+that takes us to vertex F and we haven't
+been to F before so its cost is
+currently infinity so the cost to get to
+F via B is just 10 more than whatever
+the cost was to get to B so in other
+words 20 plus 10 is 30
+and that's a pacifier be everything else
+is unchanged so we're just going to copy
+it down
+in the next round we're going to take a
+look at all of the pads we have so far
+excluding the one that we've already
+picked and we're going to find the
+lowest-cost path well in this case it's
+the newest one that we've added which is
+32 F so f is going to be our starting
+point for the next round now we have two
+edges originating from f1 which takes us
+from F to C at a cost of 10 now that's
+10 plus the cost we have already of
+getting to F 30 so 30 plus 10 is 40 to
+get C 40 is better than infinity so we
+have a path to C cost of 40 and it comes
+from F we also have an edge from F to D
+now the cost of that edge is 40 now 40
+plus the cost of a 2 B 2 F is a total of
+30 plus 40 70 now our path currently 2 D
+is cost 80 70 is an improvement so we'll
+take 70 instead and that's via F and
+nothing else changes so 20 from a still
+no way to get to e 30 from b 90 from a
+and still no path to H either in the
+next round we're going to pick the
+lowest cost path of all the ones we
+haven't completed yet and that's this
+one over here so our path vertex C at
+cost of 40 so C is going to be our
+starting point for the next round
+now there's several edges originating at
+sea one takes us back to F it cost 50
+now that would give us a total cost of
+well 42 C plus 50 more is a total of 90
+now 90 is not better than 30 which is of
+course what we'd expect because we've
+already found the lowest cost half but
+we do have one from C to H and that's in
+addition to the cost of getting to see
+in the first place which was 40 so 40
+plus 20 is 60 60 is a big improvement
+over infinity so we'll take that one
+pass to H cost of 60 coming from C we
+also have an edge from C to D at a cost
+of 10 now 10 plus the cost to get to sea
+of 40 is a total of 50 which gives us a
+path from A to B - f - C - D of cost 50
+which is less than the cost of the path
+we have so far so we have another
+improvement 50 to get to D via C instead
+and that's the only change so everything
+else gets copied down
+and that's still the best path to be and
+that's still the best past path to see
+and that's still the best path to F but
+if we of what we've got left this path
+to D is now the lowest cost path the
+week so we finally settled on path to D
+that's going to be the best that we can
+get so that's at a cost of 50 so now
+let's take a look at where we can get to
+from vertex D from vertex D you get to
+vertex G at a cost of well 50 to get to
+D in the first place plus 20 from D to G
+grand total of 70 70 to get to G well
+that's an improvement over the direct
+route from A to G which was 90 so 70 is
+better than 90 so we pick 70 instead and
+that's via D but that's the only new
+path we have that's the only edge we
+have originating into D so everything
+else just gets copied down once again
+and we're already done with this one and
+this one and this one this one so now
+our next lowest cost path is this one
+2h at a cost of 60 so we're going to
+pick that for the next round and we're
+going to start exploring paths starting
+from vertex H now vertex H is very
+interesting because there is no edges
+originating there so there's nothing
+more we can do all we're going to do is
+say that everything stays the same as
+was before by copying everything down
+and all the finished paths are still
+finished kind of the remaining
+unfinished paths the lowest-cost one is
+this one over here it costs 70 so we're
+going to mark that one is finished and
+we're going to add that vertex G and
+we're going to take a look at all the
+edges starting from G now there's only
+one edge originating a G that takes us
+back to a at a cost to 20 grand total of
+90 to do a round-trip back to a but we
+weren't trying to do a round-trip in the
+first place so that adds no new
+information everything just gets copied
+down
+all of these are complete which leaves
+us with one last value which is e has a
+value of infinity now in this case value
+of infinity tells us that there's no
+path to he at all and in fact if we take
+a look at the vertex E we can see of
+course if there are no edges leading
+into E which means that there is not
+going to be any way of getting there and
+having the value infinity left over as
+our result shows us that there is in
+fact no path to e so we can mark it is
+done that's the best path we can get
+none at all
+and now our Dijkstra's algorithm finding
+the lowest cost paths from a to all the
+other vertices in a graph is complete
+in this video we're going to talk about
+multi graphs so this graph right here is
+not a multi graph because any vertex we
+start at a B C or D notice it's really
+only one edge that connects any two
+vertices so a and B are only connected
+by this edge and D are only kept it by
+this edge D and B only by this edge C
+and B only by this one edge and C and D
+only by this one edge I could add
+another curved edge on from C all the
+way to a but this is still not a multi
+graph because there's only one edge that
+connects two connects from A to C but a
+multi graph which has a lot of great
+applications which I think we'll talk
+about the future videos is the situation
+in which we have more than one edge
+connecting any two vertices so let's add
+those and in green maybe I have another
+edge going from A to D well now I could
+take the green edge or the red edge to
+get from A to D I've made a multi graph
+I can keep compounding this I can add
+other edge going from D to B in C to B
+and A to B and C to a so to identify a
+multi graph we look at the vertices is
+there more than one edge connecting a to
+voters vertices if the answer is yes
+then what you have is a multi graph
+alright hope it helps
 hello students it is already midnight on
 the night before you are calculus exam
 and I figure in that promised you that I
@@ -3474,37 +3658,6 @@ equal 13 and the last one will be
 included wishes I noticed the
 destination and from this we have the
 path like this and the cost is 13
-in this video we're going to talk about
-multi graphs so this graph right here is
-not a multi graph because any vertex we
-start at a B C or D notice it's really
-only one edge that connects any two
-vertices so a and B are only connected
-by this edge and D are only kept it by
-this edge D and B only by this edge C
-and B only by this one edge and C and D
-only by this one edge I could add
-another curved edge on from C all the
-way to a but this is still not a multi
-graph because there's only one edge that
-connects two connects from A to C but a
-multi graph which has a lot of great
-applications which I think we'll talk
-about the future videos is the situation
-in which we have more than one edge
-connecting any two vertices so let's add
-those and in green maybe I have another
-edge going from A to D well now I could
-take the green edge or the red edge to
-get from A to D I've made a multi graph
-I can keep compounding this I can add
-other edge going from D to B in C to B
-and A to B and C to a so to identify a
-multi graph we look at the vertices is
-there more than one edge connecting a to
-voters vertices if the answer is yes
-then what you have is a multi graph
-alright hope it helps
 hello everybody I'm rich
 Johnson and yes this talk today is
 about a hardware platform feature on
@@ -4732,525 +4885,3 @@ clearly the drivers working with the
 buzzer i modified it and fuck it up but
 thanks again all right thank you thank
 you very much reaching
-for the last of our craft demonstrations
-we're going to take a look at Dijkstra's
-algorithm and we're going to apply
-Dijkstra's algorithm to a directed
-weighted graph first step we're going to
-start out at a and we're going to figure
-out where we can get to from a that's
-better than what we've already got now
-again all of these are infinite to start
-out with so anything is going to be an
-improvement over that so we take a look
-at all the edges originating at a we
-have an edge from A to B it cost 20 well
-20 is better than infinity so we have a
-new lowest cost path from A to B and
-that's cost 20 and that's from vertex a
-we have another one from A to G that's
-cost 90 knots also from a and we have
-another one from a to D and that's 80
-and it also originates at vertex a and
-all of the remainder are going to be
-infinity because we have no path
-standing those vertices yet in the next
-step we're going to take a look at the
-lowest cost path of all the ones we have
-so far we have 80 90 a lot of infinities
-but we have a 20 so 20 is the best we've
-done so far so we're going to pick that
-as our lowest cost path and we're going
-to say that that one is now complete so
-in our next round we're going to start
-out the search at the place where that
-lowest cost path has taken us which is B
-now B we already know the lowest cost
-path is 20 but we're going to see where
-else we can get to from B that we
-haven't been to before
-well B only has one edge originating and
-that takes us to vertex F and we haven't
-been to F before so its cost is
-currently infinity so the cost to get to
-F via B is just 10 more than whatever
-the cost was to get to B so in other
-words 20 plus 10 is 30
-and that's a pacifier be everything else
-is unchanged so we're just going to copy
-it down
-in the next round we're going to take a
-look at all of the pads we have so far
-excluding the one that we've already
-picked and we're going to find the
-lowest-cost path well in this case it's
-the newest one that we've added which is
-32 F so f is going to be our starting
-point for the next round now we have two
-edges originating from f1 which takes us
-from F to C at a cost of 10 now that's
-10 plus the cost we have already of
-getting to F 30 so 30 plus 10 is 40 to
-get C 40 is better than infinity so we
-have a path to C cost of 40 and it comes
-from F we also have an edge from F to D
-now the cost of that edge is 40 now 40
-plus the cost of a 2 B 2 F is a total of
-30 plus 40 70 now our path currently 2 D
-is cost 80 70 is an improvement so we'll
-take 70 instead and that's via F and
-nothing else changes so 20 from a still
-no way to get to e 30 from b 90 from a
-and still no path to H either in the
-next round we're going to pick the
-lowest cost path of all the ones we
-haven't completed yet and that's this
-one over here so our path vertex C at
-cost of 40 so C is going to be our
-starting point for the next round
-now there's several edges originating at
-sea one takes us back to F it cost 50
-now that would give us a total cost of
-well 42 C plus 50 more is a total of 90
-now 90 is not better than 30 which is of
-course what we'd expect because we've
-already found the lowest cost half but
-we do have one from C to H and that's in
-addition to the cost of getting to see
-in the first place which was 40 so 40
-plus 20 is 60 60 is a big improvement
-over infinity so we'll take that one
-pass to H cost of 60 coming from C we
-also have an edge from C to D at a cost
-of 10 now 10 plus the cost to get to sea
-of 40 is a total of 50 which gives us a
-path from A to B - f - C - D of cost 50
-which is less than the cost of the path
-we have so far so we have another
-improvement 50 to get to D via C instead
-and that's the only change so everything
-else gets copied down
-and that's still the best path to be and
-that's still the best past path to see
-and that's still the best path to F but
-if we of what we've got left this path
-to D is now the lowest cost path the
-week so we finally settled on path to D
-that's going to be the best that we can
-get so that's at a cost of 50 so now
-let's take a look at where we can get to
-from vertex D from vertex D you get to
-vertex G at a cost of well 50 to get to
-D in the first place plus 20 from D to G
-grand total of 70 70 to get to G well
-that's an improvement over the direct
-route from A to G which was 90 so 70 is
-better than 90 so we pick 70 instead and
-that's via D but that's the only new
-path we have that's the only edge we
-have originating into D so everything
-else just gets copied down once again
-and we're already done with this one and
-this one and this one this one so now
-our next lowest cost path is this one
-2h at a cost of 60 so we're going to
-pick that for the next round and we're
-going to start exploring paths starting
-from vertex H now vertex H is very
-interesting because there is no edges
-originating there so there's nothing
-more we can do all we're going to do is
-say that everything stays the same as
-was before by copying everything down
-and all the finished paths are still
-finished kind of the remaining
-unfinished paths the lowest-cost one is
-this one over here it costs 70 so we're
-going to mark that one is finished and
-we're going to add that vertex G and
-we're going to take a look at all the
-edges starting from G now there's only
-one edge originating a G that takes us
-back to a at a cost to 20 grand total of
-90 to do a round-trip back to a but we
-weren't trying to do a round-trip in the
-first place so that adds no new
-information everything just gets copied
-down
-all of these are complete which leaves
-us with one last value which is e has a
-value of infinity now in this case value
-of infinity tells us that there's no
-path to he at all and in fact if we take
-a look at the vertex E we can see of
-course if there are no edges leading
-into E which means that there is not
-going to be any way of getting there and
-having the value infinity left over as
-our result shows us that there is in
-fact no path to e so we can mark it is
-done that's the best path we can get
-none at all
-and now our Dijkstra's algorithm finding
-the lowest cost paths from a to all the
-other vertices in a graph is complete
-this video introduces you to the basic
-concepts behind graph theory I will not
-focus on the formal definition of a
-graph that will come later instead I'll
-emphasize the various applications of
-the subject
-Alfred Whitehead a mathematician and
-philosopher once said the whole of
-mathematics consists in the organization
-of a series of age to the imagination in
-the process of reasoning for example a
-detective when solving a crime will post
-various facts and a board and visually
-connect the ideas concepts and people
-via string in this spirit if a difficult
-problem involves a discrete collection
-of objects it's natural to sketch these
-objects and draw lines between them to
-indicate a relationship a graph can help
-us represent relationships between
-discrete objects but we do not have
-enough mathematical knowledge to provide
-a solid definition for the word graph to
-emphasize this point please notice that
-the following terms are not in a blue
-box this is not the real definition that
-will come later for now think of a graph
-informally as a diagram of dots called
-vertices connected by lines or curves
-called edges the edges may have an arrow
-if so the graph is called directed
-otherwise it is called undirected here
-is an undirected graph here is a
-directed graph notice the arrows a few
-quick notes about graphs two drawings
-could represent the same graph an edge
-drawn between two vertices typically
-represents a relationship between
-between the vertices so the position of
-the vertices on the page doesn't matter
-by coloring the vertices you see that
-these diagrams could represent the same
-graph also the edges cannot intersect to
-make a new graph these edges are
-different from traditional lines in
-geometry in particular
-their length their curviness is
-immaterial the only thing that matters
-for edges is what vertices they connect
-here's an example of a graph the
-vertices correspond to subway stations
-and the edges describe which stations
-are connected by the trolleys some
-puzzles can be solved by graphs suppose
-there is a river on one side the river
-there are two foxes two chickens and a
-boat our goal is to get all animals
-across the river alive while following
-these rules first the boat must be
-propelled by an animal and can carry at
-most two animals should the Foxes ever
-outnumber the chickens on banks on
-either side of the river the Foxes
-immediately gobbled down the chickens
-that's bad an arrangement of symbols F F
-C CB and a line will represent the
-current state of the puzzle each of my
-vertices will represent a possible state
-of the puzzle each F represents a fox
-sees our pathetic ins the line
-represents the river and separates the
-left and right bank
-finally the B represents a boat for
-example if vertex contains FCB
-the line F C then that means the foxes
-and chickens are divided by the river
-and the boat is on the left bank my
-edges will connect to vertices if it is
-possible for the game to be in one state
-and then the animals move from one bank
-to the other via the boat and therefore
-reach a new state of the game when our
-puzzle begins all animals are on the
-left bank with the boat either one or
-two animals take the boat to the right
-bank if one chicken takes the dreadful
-journey he's safe but it leaves his
-buddy behind for lunch for the two foxes
-that's not a good result the four
-animals could agree to send one box to
-chickens
-Fox and a chicken or two foxes the cross
-to the right bank in any of these cases
-no chickens are chopped up and
-deep-fried this is definitely an
-improvement consider the case where two
-foxes took the boat to the right bank
-there are two animals still left behind
-in the left bank so either one or both
-foxes must take a boat back to get them
-but taking both foxes back will return
-us to the original state of the puzzle
-and as that does not progress the puzzle
-let's ignore that so the only other
-option is to send one Fox back with the
-boat to the left bank this results in a
-new state of the game and as a benefit
-no chickens meet their maker now
-consider the case where the river
-separates the chickens and the Foxes and
-a boat is on the right bank once again
-there are animals in the left bank
-waiting the rescue so someone must go
-back and take a boat as before both
-animals taking the boat back just
-returns us to a previous day of the
-puzzle let's ignore that choice if the
-chicken takes a solo voyage back the
-puzzle has reached a state already
-considered I'll draw an edge between the
-corresponding vertices to represent this
-relationship but if a fox goes back then
-the Fox will number the poor singleton
-chicken on the left bank and have at it
-while this is the new state of the
-puzzle is clearly a less than optimal
-result now consider if two brave
-chickens had crossed the river and are
-now on the right bank there's only two
-options either both chickens return to
-the left bank or a solo chicken paddles
-to his doom either way these choices
-return the game to a previous state I'll
-just connect the vertices to represent
-these choices there's only one
-possibility left among our original
-choices but it's a silly one the single
-Fox on the right bank has left behind
-all the other animals well he must
-travel back to get them and so the
-puzzle has returned to a previous state
-there is only one vertex whose state I
-haven't completely discussed here the
-foxes are separated by the river
-both chickens lie shivering on the left
-bank while staring at the boat now
-either a fox or our chicken could make
-the trip across the river but those
-options are a accounted for and a fox
-and a chicken could ride together on a
-fateful one-way trip to the far bank but
-a chicken would croak so that should be
-avoided so the only option left would be
-to send both chickens across this is a
-new state of the puzzle and I'll connect
-the corresponding vertices after that
-then we could then send both a fox and a
-chicken back but that would
-unfortunately lead to a dead chicken we
-could send a chicken across which would
-lead to a new state of the game we could
-send a fox across which would lead to a
-new state of the particular puzzle or
-once we have sent across the chicken we
-could if you like send back a fox but
-that will just lead to a dead chicken
-but in either these two remaining cases
-it seems pretty obvious what we should
-do is now the boats on the left-hand
-side let's just take both animals across
-and now all the animals on the
-right-hand side in order to discuss or
-pinpoint features of a problem we often
-define handy terms to grease the wheels
-of the discourse the next three slides
-introduces a number of these terms as
-these definitions won't change later
-I'll present them as a formal definition
-all edges begin and end at vertices
-called endpoints two distinct edges with
-the same endpoints are called parallel
-in the graph edge e3 and e4 are parallel
-an edge with just one endpoint is called
-a loop 'if I've is a loop an edge
-connects its endpoints and two vertices
-are connected if they are endpoints for
-some edge in the graph e6 connects
-vertices v5 of these
-six I could also say that v2 and v3 are
-connected without mentioning the edge
-connecting them let G be a graph with
-vertex V the degree of V written degree
-of V equals the times an edge is
-incident to the vertex loops counting
-twice for a directed graph the in degree
-of V equals the number of edges coming
-into V while the out degree equals the
-number of edges coming out the total
-degree of G is the sum of all degrees of
-all the vertices for example the degree
-of v3 it is three the in degree of v3 is
-to the out degree of v3 is 1 and the
-degree of V 2 is 5 notice the loop
-counts twice let G be a graph and let X
-and y be vertices in G let's discuss
-traversing the graph a path is an
-alternating sequence of vertices and
-edges so that each edge connects the
-corresponding vertices the path begins
-at the first vertex and ends at the last
-we can say then the path is from the
-first vertex to the last a circuit is a
-path that begins where it ends a graph
-is considered to be connected if there's
-a path between any two vertices on the
-graph a directed graph is connected if
-the corresponding underlying undirected
-graph is connected a graph is called
-simple if it does not contain any loops
-or parallel edges as in the graph you
-see to the right the complete graph on n
-vertices often denoted with a capital K
-and a lowercase n is a simple graph but
-where every single pair of vertices is
-connected by an edge I've drawn for you
-an example of K 5 my puzzle example may
-not have driven home the usefulness of
-graphs so now I'll show you a few
-examples which are much closer to a
-computer science majors heart
-a college wants to schedule the
-following courses in a few time slots as
-possible physics Kampai calculus biology
-psychology and chemistry the following
-classes though have students in common
-and cannot be placed in the same time
-slots so cat Hills and computer science
-calculus and biology calculus and
-physics biology and computer science
-biology and chemistry biology and
-psychology physics in Comp Sci physics
-and chemistry and psychology and
-chemistry so what is the fewest number
-of time slots needed to schedule all
-their courses without any conflicts at
-all make a graph where each vertex is a
-course and connect the vertices if the
-courses cannot be scheduled in the same
-time slot here is one model of such a
-graph now to assign a course to a time
-slot I'll just color its vertex
-different colors will mean different
-time slots connected vertices mean that
-they cannot be in the same time slot so
-those vertices must have different
-coloring if I can color the graph
-following these rules then the Cowlitz
-can schedule its courses the trick will
-be to minimize the number of colors this
-will correspond to the minimum number of
-time slots required to schedule all the
-courses let's start coloring I'll begin
-by assigning calculus to one timeslot by
-coloring its vertex blue that means bio
-comps I in physics must have a different
-time slot and therefore a different
-color than blue that does not mean bio
-comma and physics have to have different
-colors from each other just they can't
-be blue so all science physics would be
-red a new time slot that means kansai
-then must be a third color for our new
-time slot but then chemistry I can go
-back to blue because it's only adjacent
-to the red time slot that also means
-that biology then being adjacent only to
-blue and green
-I can assign thread that timeslot
-finally psychology can be labeled back
-at green thereby coloring the entire
-graph and I can now say that I can
-certainly go and assign these different
-courses to three different time slots
-and I can guarantee that the students
-who are involved with these courses
-won't ever have to worry about attending
-a class at the same time as another
-class this is a great example of what's
-called coloring in the graph it's a very
-common problem
-here's another modeling problem in my
-last example you saw it was useful to
-color the Versys but it's also handy
-they labeled the edges my puzzle problem
-was one example here's another the
-following table describes driving
-distances along selected routes between
-cities the cities are a through F I'd
-like to know looking at this table can I
-figure out what the shortest route is
-from C to F make a graph where each
-vertex is a city and connect vertices if
-there is a route between them as
-described in that table label the edges
-with the distance traveled when taking
-this route this is an example of a way
-to graph the diagram here provides a
-visual way to solve the problem clearly
-out of all the possible routes you could
-travel from C to F this one provides the
-shortest distance traveled one more
-example your spell checker keeps lists
-of words that you don't want flag for
-misspellings these words can be added
-one at a time and just in no particular
-order
-but the list must be organized so that
-searching the list is relatively easy to
-do let's suppose that your spell checker
-has the words Mapple pop a Peas AK zebra
-and no now while graphs don't have
-orientation let's think of this next one
-that way let's make a top-down graph
-each word will be a vertex each vertex
-is connected to at most two
-other verses below its these vertices
-are called the left and right children
-of the above parent vertex let's just
-start with the very first vertex in this
-case the very first word in our list
-Mapple now from here the next word was
-pop I place pop to the right of Mapple
-as the right child of Mapple because
-alphabetically it comes after Mapple now
-the next word was a peas or a please
-this word F Bentley comes before Mapple
-so then I fall to the left of Mapple
-realizing that there's no left child
-there it will then become the left child
-of Mapple the next word is AK well AK
-alphabetically is before Mapple so I go
-to the left and it's also alphabetically
-before a please so it will move to the
-left of a peas becoming then the left
-child of it please the next word was
-zebra and says I bruh is alphabetically
-after Mapple I would move down to the
-right since its alphabetically after pop
-I would move down to the right here then
-since there was no right child for pop
-cyber then becomes the right child
-the next word would have been no and
-since alphabetically no comes after map
-I would move down to the right from
-Apple but it comes before pop so then
-since pop didn't have a left child now
-it does it has no this graph is an
-example of what's called a binary tree
-and the topmost vertex maple is called
-its root

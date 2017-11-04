@@ -342,694 +342,6 @@ now in our next lesson we will discuss
 ways of creating and storing graph in
 computer's memory this is it for this
 lesson thanks for watching
-hi welcome to the video on graph theory
-my name is Hera Shani and today I am
-going to continue the topic I had
-started in the lecture 1 of graph theory
-and then in the first lecture I had
-given you some introduction about graph
-and I told you the definition of grass
-whatever vertices and edges and I had
-discussed what is self loop multi edges
-and one theorem that says that sum of
-degrees of all the vertices is twice the
-number of edges okay I had given you an
-example also improved that it is true in
-the end today's video I will discuss
-simple graph quality graphs we will
-graph what are these and after that
-we'll see some theorems okay so so what
-is simple graph y de Graaff and sugar
-simple graph is one which does not have
-which does not have self loop and multi
-edges okay simple graph
-gnarrk have self loop and
-it does not have self loop and mighty
-edges and the graph which contains multi
-edges but not self loop is known as
-multi claw
-okay the graph which contains mighty
-edges and does not contain self loop is
-known as multi graph and the graph which
-contains self loop as well as multi
-edges is known as pseudo graph okay I
-had told you in the last video that what
-is a self loop and multi edges self loop
-is that the edge which comes from the
-same node and goes in the same node
-which comes out and comes in in the same
-node that edge which starts from the
-same node and goes to the same node is
-known as self loop and multi edges when
-they are more than one what is one edges
-in between two nodes then that type of
-edges is known as mighty edges so simple
-graph does not contain self loop as well
-as multi edges party graph contains
-multi edges and pseudo graph does not
-contain self loop I'm sorry
-pseudo graph contains self loop as well
-as multi edges so by diagram if you want
-to see
-this circle is inside this circle and
-this circle is inside the bigger circuit
-and this one is simple graph and this
-one is multigraph and the outer one is
-pseudo graph so what I mean to say that
-every simple graph is multi graph as
-well as Hilda graph every simple graph
-is multi graph as well a pseudo graph
-and every mighty graph is pseudo graph
-might reverse is not true how is it
-possible when in the simple graph you
-have my my changes and that job has
-become bartylla
-then simple zap it has multi graph as
-well as my self loop then that will that
-graph will become pseudo Graham but
-reverse is not true okay every simple
-graph is multi graph as well as pseudo
-graph marty graph is multi graph is
-pseudo rap but reverse is not true so
-let me read this and you and we will
-proceed further
-now let's take an example this graph is
-given which are having five vertices no
-a vertex one vertex to vertex three four
-five and let's find out what are the
-degrees of each node so degree of vertex
-one degree of vertex two degree of
-vertex three degree of vertex four
-degree of vertex
-five what is the degree of vertex one it
-is one two three four you all know very
-well that what is degree how we find
-degree the number of edges incident on
-that vertex is known as its degree so
-what is the degree of vertex one if it
-is one two and three four because of
-self-loop we will always count this
-degree 2 so it is 2 here one is coming
-and one it is going this is going what's
-coming because since it action is not
-given so we count it always twice in
-case of degree but when we count for the
-number of edges will count it as one so
-the degree of vertex one is for degree
-of vertex two is five degree of vertex
-three is five degree of vertex four is
-three degree of vertex v is one two
-three again here it is a self-loop so
-what we will count it as a two and one
-is this so number which is incident on
-that point x 5 is 3 now we'll count will
-add it sum of all the degrees what will
-be 16 + 4 xx and now find out number of
-edges here total number of inches
-Rodell number of edges 1 + 3 4 4 plus 2
-6 plus 1 7 8 and the self-loop this one
-is Vonage 9 and this one is 1 8 10
-self-loop in case of edges self-loop is
-counted once ok please make a point of
-it that self-loop is counted as a one
-edge in case of self-loop but in km when
-we have to find the degree of that
-vertex then you have to count it as a
-twice okay
-twice over 2 also what is the total
-number of edges 10 and somehow degrees
-of all the vertices are 20 so in that
-theorem I had told you that
-what is some our degrees of all the
-vertices it will it will always be twice
-the number of edges see here it is 10
-and it is 20 I had shown you one one
-example earlier also in the last video
-ok so let's move on to other examples
-another important property of graph
-theory is that the number of vertices of
-odd degree number of vertices of odd
-degree will always be even what it means
-that the vertices which are having odd
-degree the number of vertices which are
-having odd degree will always be will
-means how many number of vertices will
-have can have or degree either it can be
-to either it can be for idle it can be
-six either it can be a means it is we
-are not talking about the deal vertices
-which are having even degree we are
-talking just about that those vertex
-which are having odd degree those who
-are the total number of are Texas whose
-degrees is or should always be even
-should always be even in number means
-you can have any vertex any edges any
-number of edges but what it is telling
-that the vertex which are having all
-degrees should always be even in number
-in the last diagram also you have seen
-now you have if you have where you have
-written in your notes see in that page
-that dog vertex is whose degrees are odd
-are four and five four five two three
-only the vertex number one was having
-degree poor but the vertex two three
-four five has even daily sorry
-only the vertex one has even degree but
-the two three four five four vertexes
-have big odd degree what was the degree
-three
-degree of vertex one degree of vertex
-two degree of vertex three degree of
-vertex for it me a vertex v what it was
-it was I think for this last fine isn't
-it so whatever which are the vertex
-which has having odd degree this one
-this one this one this one how many are
-there for this is having even degree but
-it is only one vertex whose degree is
-even but the vertex is whose degree is
-or a four so how we can prove it also it
-is like that the sum of degrees of
-vertex which are are having even degree
-and the sum of degrees of wanted which
-are having odd degree total number of
-sum of total sum any sum of all the
-vertical degrees of all the vertices is
-what twice the number of edges twice
-means it is even now the degree sum of
-the degrees of the vertex which are
-having event degree I am separating it
-as a this and these are the sum of the
-degrees of all the vertices which are
-having odd degree oh let me subtract
-this this from this
-Oh what will be the sum of degrees of
-particles which are having odd degree it
-will be even a minus event
-so
-some of these are worth texas which are
-having or degree should we even okay I
-am subtracting this from this this is
-the event number this will be also be
-event number because it s degrees are
-even and the sum of all the even number
-will be always even and here it is
-slicer number of Ages it is event so if
-n minus even will always give event even
-number so sum of degrees of all the
-vertices should be even and the degrees
-of all the vertices which are odd should
-be even for this the number of vortexes
-should be even because if you add many
-even numbers and one odd number the
-number will make it odd suppose three
-this is odd number and these are all
-even number what will be the result
-result will be odd
-I'm not I'm just finding whether it will
-be odd or even and suppose I am writing
-three three to two to four what will be
-the result even so the degrees which are
-having odd degree the vertexes which are
-having odd degree should be even in
-number two odd numbers we can make it
-number even but one odd number can never
-make the sum even this so many even
-numbers but one odd number will make
-them number some odd but we want the sum
-to be even therefore the number of
-vertices whose degrees are art should be
-always in if any number the number of
-what this is of odd degree will always
-be even okay okay
-now another important thing is that we
-have to know what is degree sequence
-degree sequence apparently arranged the
-arrangement of sequence of degrees in
-non ascending order or non descending
-order is known as degree sequence okay
-the arrangement of degree sequence of
-degrees in non ascending order or non
-descending order is known as degree
-sequence suppose both these two graphs
-are given this one and this one now you
-know right down the degrees of each
-vertex the degree of this one exists to
-degree of this vertex is 2 if you have
-this vertex is 3 in degree of this
-vertex is 1 degree of this vertex is 3
-in degree of this vertex is 1 so what
-are the degree is 2 2 3 3 1 1 let let us
-write it in a non ascending order then
-what will be that first we write 3 then
-3 then 2 then 2 after that one this is
-known as degree sequence
-now let's light this degree sequence of
-this graph its degree is 1 if Sigma is 2
-it's degree is 3 as degree is 2 degrees
-when its degree is 1 ok so what will be
-the degree sequence of this graph
-now in turn ascending order 3 2 2 1 1 1
-okay so we'll use this degree sequence
-in finding whether the simple graph
-exists or not there is a theorem known
-as heaven hikami theorem I will discuss
-it just now I realizing you just pause
-the video and note it down I'm
-addressing it
-now the procedure I was telling have a
-heck of a procedure it says that I told
-you that if this procedure is used to
-find that with a simple graph exists or
-not given a DNA sequence up you are
-given degree sequence and you have to
-find that the simple graph exists or not
-with these degree signals here I have
-written this I am getting out and you
-what you're going to do you you just
-write it down in your notes and we will
-proceed I explain you this thing's for
-and we will see lot of examples based on
-this I hope you understand hell hikami
-procedure it is used to fight whether a
-given simple graph is valid or not for
-that given degree sequence it is used to
-find whether a simple graph is valid or
-not for the given degree signal for this
-you have half you are given degree
-signals and you have to find that
-whether a simple graph exists or valid
-or not
-so what there are some steps first step
-is put the degree sequence in non
-ascending order in first step what you
-have to do put the degree sequence in an
-ascending order and remove the highest
-degree from that sequence in that
-sequence what you have to choose the
-highest degree and let it is okay we
-name it as K subtract one from next K
-increase and we have what we have to do
-in the next step in first step you have
-to send arrange it in a darkness in
-order then second step remove the
-highest degree and error let it rest K
-third step you have to subtract one from
-next K increase next K entries after
-removing first the highest rate entry
-you have to subtract one from all the
-next game please K is what the highest
-degree and then what am going to have to
-fire undo we have to repeat this step
-one two three and stop even
-then we stop only when we find any of
-these conditions we'll fill in the first
-fourth first part says that if we get
-all zero entries then we can say that
-that simple graph exists if we get all
-zero entries then we have to do what we
-can say that simple graph exists first
-point next one will say that if we get
-at least one negative entry if we get
-any any one entry also negative then we
-can say that simple graph does not exist
-and the Third Point says that if not
-enough degrees or entries simple graph
-does not exist in 2nd and 3rd both case
-cases this says that if not enough
-degrees are there not enough means if K
-entries are not there after removing
-highest degree which is K there are
-there should be at least K entries and
-you have to subtract one from each of
-this K entries but you are not enough
-you are not having nm degree or increase
-then simple graph does not exist in both
-the cases if you get any negative entry
-then also simple graph does not exist if
-you get large enough you are not getting
-enough degrees and have degree Smith not
-care degrees then the also simple graph
-does not exist and if you get all the 0
-entries then the simple graph exists and
-if any of these conditions null does not
-satisfy what you have to do you have to
-repeat the steps 1 2 3 ok let's see some
-examples
-I will you just what you do just posit a
-pause the video and note it down and we
-will proceed further to the examples
-but no
-now let us take some example of degree
-sequence and let's check it whether the
-simple graph exists or not
-okay so these are degree sequences are
-given first of all check that the degree
-sequence should be in on ascending order
-first step and on ascending order if it
-is given in your Mon Cindy what it is
-okay if it is not given on ascending
-order make it not ascending okay so this
-is already not ascending order now the
-second step is you have to see that how
-many how many degrees are odd or degrees
-are base and this two two two two two
-degrees are odd this one in this one so
-since it is two which is even so it is
-of K now you'll see which is highest
-degree this one we move this highest
-degree and let it it is as K okay in the
-next step what we have to do we have to
-subtract one from the next K increase is
-what three next K in this this one this
-one this one we have to subtract one
-from each of them so what will be that
-we have removed this one okay so we have
-removed this one and let it escape so
-now we have to subtract one from
-remaining three increase the many K
-increases three increased so the when we
-will subtract 2y from two it will become
-while when you subtract one from one it
-will become 0 when we subtract one
-problems from zero it will become minus
-one and what it is zero okay so now in
-the last step we have to check if all
-the degrees have become zero then simple
-graph is reached but it will all the
-degrees had not become zero in the next
-step if any one of the entry has become
-negative then simple graph does not
-exist since it is negative so simple
-graph does not exist here okay here see
-what we have to do remove it is in non
-ascending order six five four three
-three one okay then find out how many
-degrees are odd this is art this is art
-this is art this is art how many degrees
-one two three four four degrees are odd
-for this even so it is okay what do you
-have know that the degrees which are
-having odd should be even in number so
-here it is if any number so it's okay
-now we move the highest our degree and
-that it is K we have removed it okay now
-what we have to do subtract one from
-that remaining six increase how many
-injuries are left here one two three
-four five
-only five entries are there but we'll
-have what we have to do you had to do
-subtract one from the C remaining six
-entries so there are not enough degrees
-and one of the condition it is says that
-if you are not having nm degrees then
-also the simple graph does not exist
-here negative entry
-simple trap does not exist
-here
-not enough degrees
-so safer graph does not exist
-let's see the third one it is it in
-ascend on ascending order
-No so first of all put it in now arrange
-it in a non ascending order so it will
-become fine three two one zero five
-three two one zero
-now remove the highest degree highest
-degrees highest degree is five let it be
-five K will be five and one more thing
-you have to check whether the degrees
-which are having odd degree number of
-vertices number of devotees liver
-disease degrees which are having odd
-degree and how many so here this one is
-odd this one is odd this one is odd one
-two three
-odd degrees
-number of all degrees party says
-whatever what it is three which is odd
-in number but you know from the theorem
-that the number or degrees vertices
-should be even then also simple graph
-does not exist
-okay from here also you can check if K
-is five we have to subtract one from the
-next five increase next K increase K is
-worth five and but here only four
-degrees are remaining so there are also
-not enough degrees and also number of
-odd number of odd degree vertices are
-odd which should be even so both way you
-can say that simple graph does not exist
-okay let us see some more examples
-so now let's see some more examples here
-degree sequences are given and again we
-have to find whether the simple graph
-exists or not okay so question number
-one is the degree sequences are 7 6 5 4
-4 3 2 1
-first of all it is in non ascending
-order it is ok let's check how many
-degrees are or this one this one this
-one this one 1 2 3 4 which is if any
-number that is also okay next point
-remove the highest degree
-this one is highest degree and let as
-you say that it is K here is 7 what we
-have to do in the next step we have to
-subtract 1 from the next 7 increase 1 2
-3 4 5 6 7 1 2 3 4 5 6 7 so what will be
-the after subtraction what will be the
-increase we will subtract 1 from each of
-them it will become 5 4 3 3 2 1 0 now
-again see it is in non ascending order
-and the odd degree is non ascending
-order again now
-highest degree is 5 so we have to do in
-the next step what we have do we have to
-repeat the all the steps there are what
-the procedure says that if all the zeros
-has come or any one of the entries has
-become negative or there are not enough
-deal is there all entries are not become
-0 any one of them are not negative and
-are not enough indeed there are in our
-degree we have subtracted so we have to
-repeat the steps again so for repetition
-what we have to do we have to remove one
-highest degree 8 highest degree and now
-K has become 5 and what do you have to
-do in the next step we have to subtract
-one from the remaining five remaining
-five entries what will be the value now
-3 2 2 1 0 and this is already 0 we have
-to subtract 1 from the 5 entries
-remaining five entries only from here
-next 5 entries not any next 5 entry so
-we have subtracted 1 from the next 500
-and 0 will be same now in the next step
-what you have to do we have to find now
-all other entries has not become 0 and
-not any any of them is not also negative
-and enough degrees are there so what you
-have to do we have to repeat the
-procedure for now K will become excuse
-me 3 am now now what we have to do
-subtract 1 from the remain x3 entries
-next 3 in phase are 2 2 1 so when we
-subtract 1 from these entries it will
-become 1 it will become 1 it will become
-0 and 0 0 will remain as it is after
-subtracting 1 from these degrees 3
-degree 3 entries remaining and next 3
-entries the so we are getting 1 1 0 0 0
-so it is not a 0 and not any entry is
-not negative and enough degrees are
-there so we can say that we have to
-repeat the say stay all steps again so
-in the next step what we have to do we
-have to remove the highest degree from
-this entries and which is 1 and what we
-have to do in the next step we have to
-subtract 1 from the next one entry 1
-from the next one entry so what we are
-getting 0 and this 0 will be copied else
-as it is so all that it is have become
-now 0 when we are when we get all the
-degree is 0 it means the simple graph
-exists so for the first case you note it
-down and by pausing the video you note
-it down ok note it down and then after
-that I am erasing this and solve the
-next problem
-in this second one what I am to do
-so--here simple graph exist in this one
-this is in non ascending water already
-non descending order and also find out
-how many degrees are odd
-so the degree that from this one and
-this one means how many degrees are
-there one and two so two degrees are odd
-which is a very number therefore it is
-okay and now if follow the procedure
-what we have to do it is in non
-ascending order then in the main the
-next step remove the highest degree and
-let it is here now in the next step what
-we have to do we have to subtract one
-from the next six increase next six
-increase is what this one from here till
-here so it will become 5 5 5 2 2 1 &amp; 2
-will be as it is now what we see it is
-not our 0 no degrees no entries negative
-and there are enough degrees so we have
-to do repeat the step again so it is in
-non descending order
-in the next step what we have to do we
-have to remove the highest degree and
-ever say it is okay now our case 5 and
-what you have to do now subtract 1 from
-the remaining five remaining 5 means
-next 5 I am up air if it am saying by
-mistake I have said remaining it is next
-5 so we have to do 1 2 3 4 5 we have to
-subtract one from here
-four four one one zero and this is to
-hear not all entries are zero knowing in
-two is negative and LF degrees are there
-so we have to do repeat the steps we
-cannot find we cannot say at this point
-that the simple graph exists or not
-so we'll repeat the same procedure first
-of all identity non ascending order
-since it is not in a non ascending order
-so we have to arrange it for for this is
-not - this little bit this is not 1 this
-will be 2 1 1 0 now it is it not a
-sending order now remove the highest
-degree and assume it is that ok now case
-for what we have to do we have to
-subtract one from the next for entry so
-it will become 3 1 it will resemble
-because the 0 + 0 is already here not
-all that not not all the ingredients
-become 0
-no entry is negative so and enough
-degrees out there what we have to do we
-have to repeat the process procedure
-again so it is in non ascending water
-already
-the word note don't need to arrange it
-and the next step what we have to do we
-have to remove the highest degree and
-let it is K so working in the next step
-what do you have to do you have to
-subtract one from the next three
-increase so it will become zero it will
-become minus one it will
-what we see here there are negative
-interest so in the simple gap does not
-exist okay simple graph does not exist
-now you see this question part here you
-have to find whether the simple graph
-exists or not first of all see it is a
-non ascending order it's okay how many
-degrees are on this one this one so
-there are two degrees which are all so
-it is okay because the number of degrees
-which are odd is even now what we have
-to do
-remove the highest degree and as you say
-it is K now in the in the next step what
-we have to do subtract one from the
-remaining next seven degrees seven
-increase one two three four five six
-seven four five six seven seven in
-breeze are there so we have to subtract
-one from the index seven increase so it
-will become 5 5 3 3 2 1 1 not all the
-increase has become 0 any other entries
-has not become negative and there are
-enough degrees so in that we have to
-repeat the all the steps it is in non
-ascending order it's okay we have to
-remove the highest degree highest entry
-and let's say it is K now next 5 entries
-we have to subtract one from the next 5
-entries so we have to subtract one here
-it will become 4 2 2 1 0 and H 1 now
-this increases all the edges are not
-become 0 not any am going to you has
-become negative nothing against any of
-the entries so in the next step and I
-have degrees so we have to repeat the
-steps
-again so what is the next step we have
-to arrange it acknowledged sending order
-for 2 2 1 1 0 in the next step what we
-have to do
-remove the highest degree let us say it
-is K and next and what we have to do
-subtract 1 from the next 4 entries it is
-1 1 0 0 0 all the entries have not
-become 0 and any of the degrees is not
-negative and adapting these are there so
-we have to what we have to do we have to
-repeat the steps so we have to arrange
-it in an ascending order it is already
-non ascending order you have to
-understand we have to you remove the
-highest degree and say it is K now in
-the next step what we have to do we have
-to subtract one from the next one entry
-it will become 0 and use 0 0 is already
-here we have to subtract 1 from the next
-one entry early because here K is 1 so
-it has become 0 and the all that remain
-all entries it is already 0 and so it
-has become all 0 when the entries has
-become all 0 then we can say that simple
-graph exists okay
-you haven't had cami theorem says that
-is all the entries becomes 0 then simple
-graph exist okay so I am realizing it
-you just pause the video and not it done
-okay
-so here simple glass exist here simple
-graph exists here does not exist you
-exist and in this one who is let's check
-it it is given it is already non
-ascending order and so first step is we
-have to remove the highest degree and
-say it is K now in the next step what
-you have to do we have to subtract one
-from the next K in peace next K entries
-next cared entries but we are only
-having 7 entry is here 1 2 3 4 5 6 7 and
-what we have to do in the procedure says
-that we have to subtract 1 from the next
-8 it increase because since here highest
-degree is 8 but you are having only 7
-degrees are not enough degree so we can
-say that it is in the simple graph does
-not exist also let's check some modern
-points that the how many degrees are or
-1 2 3 4 yes ok but we are not having
-enough degree so we catch not enough
-degrees so we can say that simple graph
-does not exist
-okay so that's all for today if you like
-my video don't forget to hit the like
-button and subscribe to my channel if
-you have any query write it in the
-comments section and you can ask me any
-related problems also all the topics you
-are not getting and not understanding
-and if you have a dad that also just
-write it down okay thank you
 so for this example we'll be looking at
 a directed graph so the directed graph
 is a little more complicated or a little
@@ -1538,6 +850,56 @@ of connections to be able to show the
 work of that graph
 another example here shows you again so
 look for the smallest values
+for this example we'll be looking at the
+undirected graph so we have rows and
+columns which are going to be label
+labeled with ordered vertices and we
+want to be able to fill in our given
+table by writing one if there is one
+edge between the row vertex and the
+column vertex and we're gonna write in 0
+if no if there's no air if nobody exists
+between them so for example between V
+and W there is an edge so that would be
+one and let's say for example between V
+and X there is no edge there's no direct
+line between them so that will be 0 so
+that's at plugging in our example so for
+our table between V and V there's no
+edge so we can write in I can write in 0
+so that's perfect let's say between V
+and W well there is an edge so we put in
+1 between V and X 2 is no edge so we can
+put in 0 and let's say between V and why
+there is an edge so we put in 1 and then
+we continue one so between W there is a
+bit of overlap overlap between these but
+I will just iterate the whole way down
+through the table
+so between W and V yes there is we've
+already dealt with that so that goes in
+here as 1 for the next one between W and
+W there is no edge so we have 0 between
+W and X you can see here that there is
+an edge so we put in 1 and then between
+W and Y W and Y there is it as you can
+see this line here so we put in 1 so
+down to the next line between X and V
+there is no edge we put in 0 between X
+and W there is this is edge here so we
+put in 1 between X and X which is here
+there is no edge so we put in 0 between
+x and y there is an edge this one here
+but in one now for the next one it's
+between Y and V yep so that edge is here
+as we can see one between y and W there
+is an edge so it's one between y and X
+er is an edge so there's one between y
+and y so this little line or this loop
+line that we have here indicates that
+there is an edge between Y so that goes
+in as one so that is the basis for our
+undirected graph
 next we're going to look at a slightly
 different graph processing application
 but it's a graph processing algorithm
@@ -1909,56 +1271,6 @@ it's based on computing connected
 components using depth-first search so
 that's our third example of a graph
 processing algorithm
-for this example we'll be looking at the
-undirected graph so we have rows and
-columns which are going to be label
-labeled with ordered vertices and we
-want to be able to fill in our given
-table by writing one if there is one
-edge between the row vertex and the
-column vertex and we're gonna write in 0
-if no if there's no air if nobody exists
-between them so for example between V
-and W there is an edge so that would be
-one and let's say for example between V
-and X there is no edge there's no direct
-line between them so that will be 0 so
-that's at plugging in our example so for
-our table between V and V there's no
-edge so we can write in I can write in 0
-so that's perfect let's say between V
-and W well there is an edge so we put in
-1 between V and X 2 is no edge so we can
-put in 0 and let's say between V and why
-there is an edge so we put in 1 and then
-we continue one so between W there is a
-bit of overlap overlap between these but
-I will just iterate the whole way down
-through the table
-so between W and V yes there is we've
-already dealt with that so that goes in
-here as 1 for the next one between W and
-W there is no edge so we have 0 between
-W and X you can see here that there is
-an edge so we put in 1 and then between
-W and Y W and Y there is it as you can
-see this line here so we put in 1 so
-down to the next line between X and V
-there is no edge we put in 0 between X
-and W there is this is edge here so we
-put in 1 between X and X which is here
-there is no edge so we put in 0 between
-x and y there is an edge this one here
-but in one now for the next one it's
-between Y and V yep so that edge is here
-as we can see one between y and W there
-is an edge so it's one between y and X
-er is an edge so there's one between y
-and y so this little line or this loop
-line that we have here indicates that
-there is an edge between Y so that goes
-in as one so that is the basis for our
-undirected graph
 in this video we're going to have a look
 at some of the applications of
 undirected graphs so this is following
@@ -3092,1449 +2404,114 @@ that I everyday so that's our first
 non-trivial graph processing algorithm
 depth-first search
 you
-I'm very happy today Julia times get us
-off Julie Elsa professor just got tenure
-fleet at ok what Billy I got tenure at
-the joys of homogeneous attune in
-Chicago toi tu ti is on the ocean campus
-but two separate academic institutions
-Julia got her PhD at economic technion
-under subpoena or um and then she did
-post Docs Mike if you order right or
-even a name strides and rotating bokra
-incident is okay hello she lived in
-austin for some of that time and then
-she can t TI yep and I wat by beaters
-right I'm sorry and this is going to be
-one of her stock paper she's in by
-single author session Julia blames me no
-it's not like that's what they did your
-fault yes I know different it is
-anyone's going to talk about routing and
-undirected graphs with concentration and
-then I had this kind of into that camera
-thanks and again this will talk about
-routing problems so general in the
-routing problem you have a graph and
-again
-in Paris that we also call sourcing
-fears which are just clear the florists
-in the content of each other that's why
-I want the 51 and still wanted a 42 and
-so on so what we want to do is to route
-as many of these peers as possible while
-minimizing suggestion so what do we mean
-by by routing appear throughout the pier
-we just need to connect the spear with
-the past for instance here we can decide
-if you're out s 1 2 t1s redpath so we
-can decide to route all peers or maybe a
-subset of Spears like here right s 131
-is a red path as you don't go past as we
-2 tsp green path and so on and once we
-decide on the routing the congestion is
-just the maximum load on any H is the
-maximum number of tabs that share the
-same age for instance here we have these
-two paths the Chelsea mhm and this is
-the largest you can get over all edges
-so the condition of the solution is to
-so just a few words about notation m so
-as usual in these problems the number of
-grafts where justice is denoted by n the
-number of the demon peers s21 dress
-Katie cadets k and a vertices that
-participate in the demand here's what we
-call them terminals so you can think
-about the number of terminals being
-rough the key also won't change anything
-so as we already seen we can roll all
-three pairs and get conditioned to but
-what if we already stripped was
-conditioned we cannot allow any
-congestion what do you do then then you
-can for example around two peers and get
-condition one so in routing problems you
-have these two conflicting objective
-functions you want wrote as many peers
-as possible what you also want to
-minimize the condition and in some
-locations again this structure on one of
-them you really have to you know a fix
-one of these parameters and then you try
-to be more flexible and optimize the
+in this video we'll take a look at
+undirected graphs so in general graphs
+are used to illustrate the relationships
+between objects it's something that's
+commonly used in many fields including
+discrete mathematics as well as computer
+science so the first type of graph that
+we'll look at is called a simple graph
+here we have what appear to be several
+dots that are connected to each other by
+a few lines now in graph theory each of
+these dots is properly referred to as a
+vertex or sometimes a node and in each
+of the lines are referred to as an edge
+notice that in a simple graph the only
+attributes are vertices and edges you
+don't have anything fancy like loops or
+parallel edges we'll get to this later
+we can call the set of vertices V so
+here the set V contains vertices a B C
+and D
+notice that each edge is named after the
+pair of vertices that it connects to for
+example we have an edge that connects
+vertices B and D so we refer to that
+edge as BD now since this is a simple
+undirected graph the pairs are unordered
+so if we wanted to we could have
+referred to the edge as DB instead so
+let's take a look at our original graph
+and add another edge notice that we now
+have two different edges that are both
+connected to vertices a and B this is
+called a multi graph the difference
+between this simple graph and a multi
+graph is that a multi graph allows the
+same pair of vertices to be connected by
+more than one edge and if two edges
+share the same pair of vertices we refer
+to those as parallel edges now how would
+we describe this mathematically remember
+that for the simple graph we used two
+sets one for the vertices and one for
+the edges for a multi graph instead of
+just naming the edges after the pair of
+vertices to which they are connected we
+use a function to help define the
+relationship between the set of edges
+and the vertices so our said e now
+includes new names for the edges which
+we've simply called e followed by a
+different subscript for each edge notice
+that the edge now has a corresponding
+pair of vertices
+now at first it might seem like we're
+just adding additional complexity here
+but doing it this way actually is
+necessary because it helps us
+distinguish between edges e1 + e5 if we
+just relied on naming edges after the
+pairs of vertices that they are
+connected to we'd have no way of
+distinguishing them one of the thing I
+want you to notice is that in the
+function it says that you does not equal
+V now you might be wondering why this is
+necessary hold on to that thought for a
+moment and let's go to the next type of
+graph and that for that it should make
+sense so just a quick review for a
+simple graph we have a set of vertices
+and edges but no parallel edges and no
+loops for a multi graph we have parallel
+edges but we still don't have any loops
+so now let's go ahead and add a loop now
+we have an edge that simply loops back
+on to the same vertex from where it
+started making a circle
+notice that this edge only connects to a
+single vertex we call this kind of graph
+a pseudo graph so a pseudo graph
+actually incorporates all of the
+attributes of the simple and multi graph
+but it also adds loops so let's take a
+look at the math again this actually
+looks pretty similar to a multi graph
+but one important difference is that the
+edge e six only has a single vertex now
+remember earlier when we were looking at
+a multi graph we noticed in the function
+that you does not equal V notice that
+for a pseudo graph that condition no
+longer applies this is to allow for the
+fact that in a loop both ends of the
+same edge connect to the same vertex
+now all of the graphs that I've talked
+about so far have been undirected graphs
+in a directed graph each of the edges
+will actually point it one way or the
 other
-all the other way around or maybe your
-flats alone both of these parameters in
-any case because the here is tanisha two
-parameters we naturally get two problems
-that are the classical routing problems
-the first one is the adjoint pest
-problem and the other one is conditioned
-minimization so energy is Jen path
-problem you want to route as many peers
-as possible but the past have to be
-completely a disjoint so we don't allow
-any congestion we're very strict on
-congestion and then we try to do what we
-can what we can deal with the number of
-pairs about it the other extreme is
-conditioned minimization where you want
-to route all pairs so you are very
-strict on the number of Paris wrote it
-but then you want to minimize the
-congestion so let me just briefly these
-are really the classical problem so i
-will briefly show what we know about
-them so for the condition minimization
-problem there is thus classical
-randomized rounding algorithm of
-raghavan and thomson and it gets Logan
-over Logan approximation again we need
-to roll up here so this is just the
-condition and this is a very old
-algorithm right now it's classics and we
-don't know how to improve it we also
-don't know if it's the best possible the
-Western harness approximation is roughly
-local again so this is really this is an
-open problem in a very fascinating 1m
-yep you know anything about it we
-instead looking fashion okay oh yeah so
-you can get it can get poly log K
-congestion and possible summation so now
-we switch to the design path problem
-which will be like more the central the
-focus of this talk so here we want the
-condition is Turk now condition we want
-to write as many pairs as possible so
-when the number of the demand Paris is a
-constant and then the work of Robertson
-and see more gives a polynomial time
-algorithm so they have this really long
-work on the graph minor C
-that is like 25 papers so if you go all
-the way to paper number 13 or so I think
-one of the side result that they get is
-this volatile temper pull an all time
-algorithm for solving this problem but
-when K the number of yours is not a
-constant then the problem is not be hard
-it's even NP hard to say whether or not
-you can route all cares with no
-condition so um there is a pretty simple
-root an approximation algorithm for this
-problem and this is the best algorithm
-that we know for this problem so as far
-as approximation factors though we don't
-really want better approximation factors
-than lieuten but we don't know any
-better approximation factors and so is
-it the best possible to the rism they
-say Bush miss miss my shades of
-concentrate yeah one case constant you
-can solve yeah okay okay and then I get
-this cake I'm going to show the example
-they have escaped okay so is it as
-possible so i won't think they want to
-mention is that if a very standard way
-to solve arousing problems is first cast
-it as a flow problem we're instead of
-connecting every pair with the path you
-want to route one flow unit between
-every pair so what you get is a maximum
-commodity maximal multi commodity flow
-problem where you want to route as much
-as possible between the demand fears and
-you can think about it as an LP
-relaxation of this problem because you
-can solve it using LP so so this is a
-standard way to get approximation
-algorithms first to get the flow and
-then you round it and not only the
-standard rate of doing it is the only
-way that we know how to do it for this
-routing problems okay there are some
-exceptions but on general graphs this is
-how it is done now if we look at this LP
-relaxation there is a very simple
-example that chosen to go to gap or food
-them so I'm going to show this to you
-because it's a really simple and
-constructive example and instructive I
-mean
-so we start to look great and these are
-the parents s1 instead of the t1i so 2 T
-2 and so on and now every intersection
-of this grid we replaced by this gadget
-so what is get it does is if we want you
-have to pass one going vertically not
-horizontally through this intersection
-point of a grid they have to share an
-edge so if you look at a fractional
-solution then everything I can find one
-hopeful unit is going happen to the left
-like this so in total Wilson k over to
-flow units with no congestion but if you
-look for an integral solution then you
-can see the maxim that you can get is
-one because even if you try to roll to
-the Pearson no matter how they are out
-that they have to cross and this place
-where they cross this is really going to
-share an edge and get magician too so
-this is a very simple game example it
-has alone for a very long time they show
-that they to go dig applet LPS root em
-and it feels to be a fundamental
-difficulty in solving this problem we
-basically don't know how to get rounded
-very interesting me the reasons without
-the bra and judith was kind of
-surprising is that in some cases you can
-get around this gap and get a good
-approximation and the cases are when the
-graph is well connected well connected
-means that the value of the minimum cut
-of the graph is at least look to the
-fifth set design particularly degree of
-every vertex has to be also folio a
-great week here so if this is the case
-then you can get a hold of an
-approximation for EDP and on the latex I
-the hardest approximation to know is
-roughly root log n so we are between
-lieutenant loop again and this is
-another very very interesting open
-problem so i just want to mention that
-there are some special cases in which
-the situation is much better on this
-special kid that we will also use a lot
-today is expand your graphs so in
-expanded graphs you can solve a DP well
-and there is a large number of results
-each of them was slightly different
-parameters depending on what kind of
-expanded grass or so
-things so just I'm just going to your
-site one result a freeze that says that
-if we have a strong enough expander
-constant degree expander then no matter
-how we select any collection of sourcing
-peers that only involves another log and
-vertices any such collection can be
-routed on the joint path this is a very
-very strong reload okay and there is no
-more content across street and so on
-that I don't want to get into just that
-this problem was studied a lot on these
-special cases okay so here is the
-situation on condition realization of a
-stable standing between Logan and a
-rough a local gun on EDP we stand
-between the root and and roughly root
-log n so one thing that we can ask okay
-we are kind of stuck here what if we
-hello just a little bit of congestion
-let's say we allow for too fast to share
-night no more can we get much better
-than this and you know so if you think
-about applications it's not clear that
-in every application we have to be very
-strict on one of these parameters maybe
-we need something in between maybe we
-can relax things so this is where this
-EDP was condition comes in so we want to
-get a factor alpha vaccination with
-condition see meeting of year out
-october alpha demand pairs of condition
-it must see now what is opt so
-traditionally in a diffuse condition we
-define up to be the optimum number of
-fears that can be routed with no
-congestion alternatively you can also
-define it as the optimal number of fear
-scandinavian auditors condition c and
-the result of time where the show will
-be valid for both of these definitions
-we just stick with this because this is
-how it's you should define so so if you
-think about again these two parameters
-the number of pairs routed and the
-congestion then edit and finish
-immunization they start they study the
-two extremes but if you want to study
-there what happens in the middle if you
-want to study the trade-off between
-these two parameters then this seems to
-be just the right framework to do it
-so let me know sure what is known about
-80 people condition so again if we use
-the standard randomized running
-algorithm of further one and Thompson
-they get conditioned logon / local gun
-and constant approximation well this is
-pretty high condition what if we want to
-do below this congestion so until
-recently for a very long time the only
-thing that we knew is n to the 1 over C
-approximation was conditioned see for
-instance if you want condition to this
-will give you wrote an approximation no
-better than ATP itself and then there
-was the original breakthrough from I
-guess two years ago of messy Andrews we
-showed a poly log and approximation was
-conditioned poly local again so this was
-the first algorithm that broke this
-Logan of a local again congestion of
-Roman and Thompson and got reasonable
-approximation factor Polly Logan still
-if we want a constant position you'll
-get only polynomial approximation factor
-and yes we are recently collaboration
-cooperation of the condition too and
-they improved their root an
-approximation factor to enter the 37 so
-the result i'm going to show today is a
-holy lockheed approximation was
-conditioned 14 so this gives us a
-constant foundation so this is the paper
-that is about to appear in stock and so
-i was trying to get a constant
-approximation constant position and the
-concern that came up was 14 and since
-then i worked with a shilling with a
-student from princeton and we brought
-the condition down from 14 to condition
-too so what happens is that this result
-it really builds on the main ideas from
-this result and it's very technical in
-burning the position down from 14 22
-because i'm not going to get into our
-technical details in any case today i'll
-just stick to this it just easier to
-present okay so just going back to this
-picture so we have seen here that if you
-want condition one then the integrality
-gap is root m so if we use this
-framework and you want to get better
-wrote an approximation you have to incur
-condition too so the condition 2 is they
-spend the best you can get if you go
-with what flows yes but then it might be
-that someone can a lot of your friends
-out that's right yeah mm okay and just a
-complete this picture oh then answer the
-people or not there's a long list of
-authors here anyway so so if I go for
-any see if you want to get conditioned
-see then there is locked to the one
-overseer a flip I harness approximation
-so basically if you want to get a high
-constant condition you have to get a
-boiler going to make approximation you
-cannot get a bit better than that so in
-this sense we are kind of close to
-optimal even though they're poly log
-that totally in the log is kind of a
-higher than what's here okay so this is
-the picture so now if we just allow a
-tiny bit the condition condition to the
-post definition one we can get
-dramatically better pull okay it doesn't
-even depend on them instead of poly log
-in and and there is this almost matching
-hardest approximation so um I will focus
-on this result except as i said i'll
-just show a constant congestion and and
-so as somebody here mentioned we still
-don't really know what is the truth
-about EDP so we know that if you use
-that LP relaxation you will not get
-better than no time but maybe there are
-other ways to get the better of
-oxidation here and this is a really
-interesting open question but still this
-results show that there is some
-fundamental way in which routing this
-condition one is different from routing
-was conditioned to and higher so let me
-show you how it is different selected at
-a start with some solution where I rod X
-peers some position C and I want to get
-lower congestion but still route pretty
-many of these pairs so what this results
-show is that you can still roll x over
-sea porque PSS condition too so you can
-reduce the condition all the way to to
-and the only a little sea por lo que
-fraction of the you still route see full
-you locate fractional appears but what
-if we wanted to reduce it all the way to
-one what if to wasn't enough for us then
-using exactly the same great example of
-a show before you can show that you may
-have to lose I would n factor here even
-if you start do the routing or condition
-is too so if you have some running this
-pretty low condition you can reduce it
-all the way to two but you cannot reduce
-it all the way to one if you don't want
-to lose that much in the numbers be
-routed are we supposed to see how to do
-this again how to do this sort of a
-second this one this ah so basically if
-you're out experimentation see it's like
-hearing a fractional solution where
-you're out one over C flow on each path
-so get a fractional solution of letter x
-over see em now congestion and then
-because this was all the selkie rolling
-rounding this this will give you this so
-this result gives full of heads of
-summations condition to today office
-ocean ok so now I'm going to switch to
-showing this and i'll go ahead and
-achieves cause some condition and routes
-poly log yeah and i just put a lot
-approximation so one of the ideas that
-has been wrong for a long time is that
-we know how to route well on expanders
-there are very good at brooks all girls
-floating and expanders so what we want
-to do is to have somehow turn our
-problem into a problem of routing and
-expanders so it would be good to claim
-that our graph is an expander this is of
-course not necessarily the case it would
-be also go to them like the next best
-day to kind of cut this graph up into
-pieces say that each one of these pieces
-is kind of like expander and then try to
-sell them separately we also don't know
-how to do that so what you do instead we
-define something that's a little bit
-weaker than the expansion property but
-is kind of connected and then we work
-with this property so this weaker
-expansion property is called
-yes it has been used before in a lot of
-work on the rolling problems so what is
-this ruling Katniss so let's see if we
-have a job G and these red vertices of
-the terminals remember terminals are the
-Lord you see that participate in the
-sourcing pairs so normally when we talk
-about graph expansion we sell it for any
-partition of the vertices into two
-subsets the number of edges going
-between them should be at least
-comparable to the number of vertices on
-the smaller side right stuff like that
-now for the volume goodness we just
-ignore vertices and we just look at the
-terminals so we said of the graph is
-alpha welding if for any partition AV of
-the vertices of the graph into two
-subsets the number of edges going across
-has to be at least comparable to the
-number of terminals on the smaller side
-not all the vertices so the number of it
-is going between them is at least often
-times the minimum between the number of
-terminals on each side so this is like
-expansion except that its expansion with
-respect to the terminals so if you're
-familiar this is Lake looking at
-uniforms parcel Scott or not you're an
-offense vs. cut in expander super get
-uniform on here at non uniform doesn't
-matter if you know it so this is willing
-goodness and I'm going to define the
-link goodness again in a little bit
-different setting because we use this
-later again so let's say that we have
-some subset s furnaces in this graph GM
-and we look at the set of edges that
-stick all os's red edges we even call
-them all the risk and now we want to add
-how well is s well linked with respect
-to this red edges so in this case you
-can think about eventually we'll want to
-routes and flows across this set s so in
-a way you can think about this front
-edges as being the terminals and the
-graph you can think about the professor
-to do set s and then you can ask how
-well is this graph well link to the spec
-to these terminals so the definition is
-going to be the same only the
-read pages and the graph is a graph we
-used by s so again we say that s is
-alpha well linked if for any partition
-of its vertices the number of edges
-going across its least alpha times the
-minimum of the number of the red edges
-sticking out of these two sides so in
-general this link in this parameter
-alpha today it's going to be something
-like 1 over poor little case so when I
-say things are rolling this is what I
-mean and m and the other city s is our
-focal length then for any set of demands
-that we find over these red I just let's
-say that these demands defines our
-matching you can you can roll this
-matching in service at us with a little
-with my condition ok so now over here
-described to you we have the selection
-of sourcing fears and we define this
-notion of rolling goodness it would have
-been convenient if this graph G was well
-linked for the terminals again this is
-not necessarily the case but luckily for
-us in previous world of cricket and
-Shepherd they basically reduce the
-general case to this case what they did
-is they show that for any instance you
-can take a graph G you can cut it up
-into small sub instances such that on
-the one hand each sub instance is
-willing for the terminals on the other
-hand if you so visually service and
-separately and you find this fractional
-flow and then you add them all up then
-you are pretty close to the global
-optimal solution so you did you
-graphically up into small instances each
-instance is real linked but you don't
-lose too much in the value of the
-solution so basically what this says
-forget about the statement is yourself
-that you can assume that you're given
-the gravity that is willing for the
-terminals if you know how to sew it here
-you know
-solid overall so now we hear this graph
-G it is really for the terminals where
-is it useful for us so remember our
-motivation was that we have very good
-algorithms for rolling and expanders and
-rolling goodness it's kind of like
-expansion property only expansion of
-those printed terminals so we would like
-to use these algorithms for outing and
-expanders and use them here the problem
-is that even if you're willing for the
-terminals you can be really far from
-being expander because you can imagine
-the situation where you just have a few
-terminals a huge number of non terminals
-merton internal vertices so you can
-easily make a graph holding for the
-terminals but to be far from being a
-general expander still the intuition is
-that if you are so willing so well
-connected for the terminals then through
-or inside this graph there must fit and
-expand their spending these terminals so
-this is what we want to do we want to
-turn this expanded since instead is no
-of G that spans the terminals and then
-so the routing problem on this expander
-in other words what you want to do is to
-find an expander on a subset alert
-subset of this terminals that is
-embedded inside the graph G so by
-embedding expander we mean that expanded
-vertices a map to the terminals and
-expand their edges they become pass
-inside this graph G collecting the
-terminals and once you find such a
-limiting we just want to roll itself to
-the little man PS in the expander and
-write the way when we find this real
-thing the embedding of this expander
-gives us the routing in the graph G so
-this high-level idea was for you it was
-proposed by jacory common Shefford a few
-years back they only usage more general
-term of a cross bar which is a graph
-through which you can route efficiently
-but here are the clothes were that we
-use is an expander so we'll just stick
-will expand this and we'll forget about
-the crossbars so I want if I station
-embedding the congestion
-the embedding is the maximum load on NH
-so this is a Juicery a pass inside of
-Chi we don't require a very different
-paths but we wonder congestion due to
-this pass to be pretty small so the
-bottom line here is that we started with
-this issue and path problem and it turns
-out that it's enough to just find a good
-embedding of an expander into your
-breath and then you're done so the whole
-problem of EDP boils down to being able
-to find an expander and embedded in
-Geographic spender into our graph the
-reason really really needs to we just
-call the card matching game that I'm
-going to share in the next slide so for
-the next slide just forget about the
-fact that you are trying to embed an
-expander Intergraph I'll just show you
-the game itself and then we'll see how
-this game helps us to to do this so I
-know what is this card matching game
-it's a game that's played between two
-players they cut player and dimension
-player so the gut player wants to build
-an expander and the matching player
-wants to stop the Cutler from perfect
-building the expander so they start on
-this graph that only has end vertices no
-edges and then the game is performed in
-iterations in the first situation the
-cut player compute some provision of the
-vertices of the graph into two equal
-sized subsets and the matching player
-returns any matching it once complete
-matching over these vertices the edges
-of its matching are then added to the
-graph second iteration the gut player
-computes a new partition of the vertices
-matching player returns a new matching
-again add it to the graph and so on
-until the graph here is an expander so
-what kind of car on with Ronnie have
-shown is that there is a strategy for
-the cut player such that no matter what
-the matching player does after log
-square n iterations this is going to be
-an expander
-and here and is again the number of
-vertices in this extender so the
-matching player you can assume its
-adversarial but there is an algorithm
-for the cup player to compute these cuts
-in every iteration so that after looks
-for intuitions we are done so now how is
-it useful to embedding an expander into
-a graph so let's say that we have this
-grad G is well linked for the terminals
-and now I want to define an expander
-over the same terminals and embed it
-into gym so we use the cut player to
-find a partition of the services into
-two subsets and then what I'm going to
-do is I'm going to try to find flow
-between vertices on the left and
-vertices on the right like this now just
-why I wanted to be integral flaw I want
-them to be passed now if I tell you I
-wanted to connect this vertex to that
-one this one to get one on this one to
-that one then this is like so in
-addition path problem we don't know how
-to do it but if I tell me here is a
-bunch of vertices on the left and a
-bunch of for this is on the right I want
-you to connect everyone on the left to
-somebody on the right then you can do it
-the way you can do it is this is you
-compute the maximum to a problem between
-the two sides this is like a single
-source single sink flow problem and then
-you use into Galatea flow because you
-don't care who clashed boom it's like a
-single source single sink flow problem
-so once again this path you they define
-a matching between these vertices and
-you treat us matching as the answer of
-the matching player remember that the
-matching player can be adversarial so it
-doesn't matter what we get here is good
-enough for us we just add it here so in
-the second iteration we get a new
-partition again we compute this flow
-edit here and so on so the cut mating
-game and guarantees that after locks for
-K traditions we get an expander and
-vanity to G it sir so what what what KO
-really gives us is afterwards with
-iteration to get an expander here but
-the way we found this expander gives us
-right away the embedding of the sink
-things expander into our graph
-so they won't leak this is good too so
-visuals yes yeah there is a problem with
-this solution right yeah what is the
-problem inversion right yeah so this is
-this is a good thing about the problem
-is that we get conditional books for K
-because we compute this matching socks
-for K times right every time we can
-accumulate conditions are in the end
-from the condition of Sparky and this is
-a really serious problem because it's
-kind of inherent in this algorithm the
-card matching game in in vail garden for
-the cut player the ecology computed in
-iteration it really depends on what
-happened in previous iterations you
-really have to do them one by one you
-can't do all these stocks Corky flows in
-one shot so this is a problem this is
-why we don't have these algorithms for
-ED piece how do you begin around this
-problem so at a high level the problem
-here is that in every iteration we
-compute this matchings over an hour over
-the same set of edges if it would
-somehow separate these edges and an
-average duration use a fresh subset of
-edges but we still want to be linked
-then maybe we could get around this
-problem ok so just to be clear all this
-is previous work it's just there was a
-lot of previous work to to describe ok
-I'm this will the idea around you so
-what they did was it is Rho G and if
-they wanted to split it in two lakhs
-quirky sub graphs for every sub graph
-take the same set of vertices every age
-basically select one of the sub graphs
-uniform at random and they want to make
-sure that these GI is still the link for
-the terminals so you can do that using
-techniques of kharghar only if the value
-of the minimum cut is angie is lakhs
-worth it it's easier largest answer
-another large fully log so so this is
-the steering
-that you can take these edges randomly
-each edge will randomly select one of
-the sub graphs and still all the cuts
-who are roughly present they preserve
-this world to the scenario where the min
-cut angie is fully logarithmic if it's
-not political ethnic then we basically
-know how to do that and then finally the
-uncle knew of Andrews a basically tried
-to do this and to get around this
-problem that the main card is not for
-the logarithmic so it wasn't even a
-little complicated solution and in the
-end it gave a poly log log and position
-you say some words about how yeah so the
-display it very easily just every edge
-randomly selects one of the graph one of
-the grouse it's going to belong to
-that's it this is the algorithm of
-kharghar i think you call it a graph
-skeletons that you can basically example
-the edges of the graph for some
-probability and still the cats will be
-preserved if the min cut is large enough
-ok this is wearing your stuff yes sir so
-how do we get a constant condition it's
-the first thing ok we start the game
-from the same starting point behave the
-same gravity the same collection of the
-man fears and as before we assume that
-the graph is rolling for the terminals
-so the first thing that I'm going to do
-I'm going to define embedding of
-expander in to graph a little bit
-differently that will make it a little
-easier to work with so let's say that
-they want to embed an expander of our
-subset of terminals into G so first of
-all every verdicts instead of embedding
-it as a vertex our murder as a connected
-component in G that contains that
-terminal so this is this way like this
-red fern and so on and this connected
-components they don't have to be
-discerned as long as every edge belongs
-to only constant number of them so this
-is one thing the second thing how do you
-embed edges so an edge between these two
-terminals
-it's embedded as a path from the ping
-sound artists of this conference on
-vortex of that component and again we
-want to hear a small condition so every
-edge of G may only belong to conference
-number of these components and only a
-concept number of this red pass so this
-you'll call it the constant conditional
-inning so now why is this embedding
-enough it turns out that if you find
-routing on vertex disjoint paths in the
-expander then this gives you good
-rolling here let me convince you why
-this is true so let's say there is an
-stp are in that expander and I wrote it
-on this red pass and now which one of
-these red edges it translates into this
-pass so which it is embedded in G here
-right but now you simply use the fact
-that each one of em is a connected
-component right so you can just patch
-them up in any way just choose the path
-connecting these two end points so
-together with its path inside is
-connected components it gives me a pass
-for nothing as two teeth now if I have a
-bunch of pants in X that our vertex
-disjoint not digestion but what is this
-giant and I do this kind of translation
-then i will use each one of these guys
-on once because we vertex disjoint and
-each one of these guys only ones now
-because each edge of g participates in a
-constant number of these for the
-components and a concept number of this
-red path will get a routing response on
-condition here so even this kind of
-embedding is fine you'll say just easier
-you'll see um ok so the only thing ok we
-know one further issues valley instead
-of education sprouting on the expander
-it will not be a big problem because the
-expanders that we built and we'll use
-this again a card matching game so all
-this expanders ready
-bree is bounded it's not constant it's
-fully logarithmic but that's still okay
-so we can handle such expanders ok so
-again as before the problem of solving
-biblically boils down to the problem of
-finding an expander and embedding it
-into J only we change the definition of
-expansion a little bit to make things
-easier for us ok so from now on we'll
-try to find its expander and embed it
-into G so the tool that I'm going to use
-to do it is called a massive good vertex
-upsets let me define it so let's say
-have the graph G these are my terminals
-this is a subset of vertices I want to
-tell you when is the subset considered
-good for me so this tops it is good if
-two things happen up there three things
-first of all it cannot contain any
-terminals it has to be a welding this
-edges and the third thing is that it can
-send a lot of flow to the tunnels a lot
-sk over foil ok if I find a sound like
-that I'm happy it's a good set now what
-is a good family of sets its locks qrk
-such good sets and they have to be
-disjoint ok so we have here locks for
-key sets each of them can send k over 50
-chi flow to the terminals so if you put
-the oldest close together and get lost
-working condition and they're all real
-exchange unrolling it for the edges
-coming
-so now the proof has two parts the first
-and more technical part is to show that
-you can find such a family of good
-subsets I will not show it here the
-second part is if you have this family
-of good subsets then you can embed an
-expanded geograph so this i will show
-you at a high level oh ok so let's say
-we have this family of four exceptions
-so i'm going to show you that from here
-it's pretty ok how easy that it's
-possible to get an embedding of the
-expander into your graph so you start
-with this vertex upset yeah it's
-something about there yeah the graph
-itself can take all utilities and even
-you mean a star notice is no other notes
-acceptance of itself already ok so the
-way you do so first of all the way I
-didn't say it but you do the top of
-steps where you make sure that the graph
-is a constant agree graph by replacing
-every vertex big weight so you do that
-first listen yeah you can only find it
-if you graph is constant degree but you
-can do it without loss of generality but
-even that please I can happen expander
-yourself constantly yeah we want to know
-then you can now constant degree
-expander on the terminals ok then
-distribute I don't need to find expand
-over so get a good ok so the
-pre-processing step first to ensure that
-every terminal has degree 1 by adding
-more terminals if you need second step
-if you have words to the top high degree
-then you replace them with a grid from
-here you can ok so so we have this looks
-rocky and Boo subsets and now what we
-are going to do will build a bunch of
-trees each one of these trees will
-contain one terminal and one edge from
-each one of these days
-so we want a lot of such trees here or
-poly locate trees they don't have to be
-disjoint but we want every edge to only
-participate in a constant number of such
-trees and again each stage three we
-wanted to contain and expect a terminal
-a distinct terminal and this thing edge
-from each one of these debts so the way
-we think about this if we look philip ii
-this orange terminal you think about
-this orange edge there as being the copy
-of this terminal for that set this
-orange here is the copy of signal for
-the second so on so the way we build
-them is that all these terminals are
-participating the trees in each such
-steps each set contains a copy of one of
-each search terminal again so usage
-terminal hidden age in each one of them
-okay so I want to say a few words how we
-go from here to here so if we were to
-take his verdict subsets and from Jack
-each one of them into a super node is
-the vertex then the problem of finding
-such trees is that the problem
-half-pakistani trees and now if you look
-at these flows you can turn these flows
-into a fractional solution for this
-packing of sanitary problem I don't
-expect you to see that but indeed agree
-this is what it does and we know how to
-route this fractional solution to get a
-single solution this can be done now
-unfortunately the sonorous antibiotics
-it's a subset so in general it looks
-more like packing groups and trees which
-is a much more difficult problem but
-because the subsets are were linked for
-these edges we kinda can use them to
-stimulate the super node to a limited
-extent but we can still do it so it's
-not straightforward but but you can do
-it condition box okay
-so long story i got these three is it's
-really easy to take an egg to build an
-expander and embed it into the graph let
-me show you how so first of all we'll
-only below its founder / term health and
-participate in the trees there are K
-over pull okay sighs Tommy also they are
-fine now the way we map every vertex of
-the expander this was your question I
-guess is everybody is mapped to the tree
-that is connected with Colonel so the
-blue Charlie now is mapped to blue tree
-the orange turn onto this orange tree
-and so on so the connected components
-representing every terminal is the tree
-containing the terminal and now to
-define the edges we just use the ax cut
-matching game again of KRV so they got
-player compute the partition of the
-vertices of the expander it into two
-equal size subsets what we do is we go
-to this first good set and this petition
-gives us a partition of these edges
-right because we have a copy of each
-turn out here and now because the cell
-is will linked we can connect this yes
-you can find some matches just like we
-did before and this defines amazing over
-needs they connecting these two subsets
-we added to the graph and the second
-iteration we get a second partition now
-we go to the second set again we look at
-the pollution induced on these terminals
-on these edges here find this matching
-and so on so the end the number of say
-that we have here is locked score k
-exactly the number of rounds in the k RV
-game in the cut matching game so after
-looks for generations or we build here
-is going to be an expander and here are
-these meetings of edges will give us a
-bending of this expanded into our graph
-wisconsin position so there is one
-summer point that i did mention is each
-one of the set itself our length one for
-alpha is one or a poly log k and i said
-ok we can roll instead of it was
-constant condition
-is not sure right you can only bear out
-with political condition so the way I
-get around this is something called
-grouping technique of chicken and
-Shepherd well they show is that given
-size upset you can efficiently find a
-sub set of edges a pretty large subset
-about you boost double Lincoln Estill
-oligomers become so good that if you
-want to look at this edges that you have
-selected then you can roll anything
-there was condition one sober research
-subset instead of taking on the edges
-you can run this grouping technique
-select a subset of edges which is still
-pretty large log of this edges and but
-you boost their willingness so this is
-how we get the routing inside here with
-congestion the Wisconsin condition so to
-summarize this algorithm right the first
-step is to find a good family apart
-except said something that I didn't show
-you how to do from there you build these
-trees and using these trees you and by
-the expander into GM then we just use
-one of the standard outworlders for
-outing and expanders to find ver
-technician routing on that expander and
-translate this welding into routing
-Angie so now I want to take a few
-minutes to talk about some consequences
-of this result so let us again look at
-this graph G and as you can look at the
-sourcing pairs let's say these are the
-source in fear as we want to route them
-so they all go to will return a rolling
-of sample ok fraction of the Pierces
-condition 14 and now which pr's really
-trout we really don't know we have no
-control we just found this algorithm it
-returns us you know these are the fierce
-i routed well we would like to tell it
-these are the fears I want to route and
-with like this algorithm through all
-these pairs the travel is that if I tell
-the algorithm which beer they want to
-route this is like I acid to solve the
-EDP problem itself I can do it so we
-want to meet somewhere in the middle I
-want to have a lot of control over which
-pairs do get rather than the end
-but they can't go all the way there
-because then I feel like solving the ETP
-problem so here is what we can do so
-let's say that we have this Grove g and
-the set of terminal such a GSR power
-linked what we can do is efficiently
-find a partition of the vertices of G
-into groups where Reggie group is not so
-big that is fully low-key over alpha but
-now I'm afraid to define the sourcing
-peers in any way I want as long as each
-one of these groups only participate in
-one pair so i can define the periods in
-any way I want like that and then you're
-guaranteed that the algorithm will route
-them Wisconsin position so this gives me
-freedom to tell the algorithm which pier
-they want to route but i am constrained
-in the way that they can only select one
-guy from everett Koop so yes yeah so why
-is this useful okay so there are
-applications they worked on the world it
-is very useful to know that you know you
-can tell the algorithm which things
-throughout as long as they are this
-constraint I'm going to show now the
-next application is from here you can
-very easily get some kind of a slow
-specifier so initially but this is
-useful in general for outing problems
-okay so um just a few minutes i'm going
-to show to say something about flow
-specifiers so close for so far they were
-introduced by moisture and the later
-moitra so here is there we have some
-well gee and we have a set of terminals
-and let's and appearances so sounds low
-problem over these terminals and I don't
-even know beforehand which what kind of
-flow problems i'm going to want to so
-maybe i'm going to want to solve message
-flow problems everyday problem thanks
-like that okay so the idea was is what
-if we can represent this graph G by a
-much smaller broth h so the terminals in
-age of the same isn't here so every 40
-mg belongs to H but the graph H is much
-smaller at the same time we are hoping
-the page
-also preserve all the flows in graph G
-may be approximately so the reason to do
-it is first to save time if you want to
-solve flow problems on a smaller graph
-then it will just take less time
-especially if we have to solve many many
-flow problems on this graph you just
-compute the small graph once and then
-you save time one thing another thing we
-have many algorithms that achieve some
-poly log and approximations whatever
-approximation that filling them up there
-that depends on them here so if instead
-we can solve this problem on the smaller
-graph maybe we can get also a better
-approximation in fact they do you manage
-to show some really nice black box and
-ways to get better Williams now okay so
-more formula what does it mean the view
-on page to preserve old flows we say
-that any set of demands that is
-fractionally routable here can be also
-routed in age with no condition and the
-other way is if you can roll it in H
-with no condition then you can roll it
-ng with sanitation q so this is a
-quality q sparse player so am so there
-are these three previous papers that
-showed that you can build quality look
-here below get specifier specifiers even
-if the specifier is only allowed to have
-K vertices just the terminals nobody
-else and then there's a recent book of
-mine that shows existence of course the
-coldest party fires of this size were
-seeing the photo capacity instant on the
-terminals hey this is I want to talk
-about something a little bit different
-so what is framework let's do is if we
-want to solve some flow problem on G you
-can solve a donation go back to G but
-what happens if you want to saw some
-integral routing problem like the
-decision path problem condition
-minimization problem so on we can try to
-do the same thing right first you
-compute the fractional solution the
-foreign graph G then given this let's
-parse afire you go to h and the same
-fractional solution is still good there
-so you can get
-fractional solution of the same value of
-H then I can solve the Raleigh problem
-in graph H get a jiggle solution and
-after that we'll do you want to do is to
-be able to take this integral solution
-this this collection of fats connecting
-the different pairs and take it back to
-graph G now the problem is that we're
-this proud tells us is that well given a
-fractional solution there you can get
-the fractional solution here well given
-in single solution there it doesn't tell
-us that the sensible solution exists
-here and even if it exists it doesn't
-let us find it we don't know how to find
-it so this motivates the definition of
-integral specifiers the basic i'll try
-to address this problem I want to make
-this long specifiers also work for
-integral routing problems so here what
-you want to do it is any set of demands
-that can be fractionally rounded here
-can also be frictionally rather they are
-we allow some loss of hue one in the
-condition there but this is the same as
-saying that we lose the orc you will
-lose a key one factor in their total
-demand rounded so we don't really humid
-conditions mission by that we just lose
-something on the quality of their on the
-on the amount of flow rounded on the
-other hand when we take an integral
-solution to our page we want to be able
-to go the sensible solution and grouchy
-our condition goes up only by some small
-factor future so if you take this
-building with grouping it's very easy
-from there to get this result that you
-can get integral specifier the first
-perimeter is how much you lose in the
-fractional solution going from here to
-there is pulling okay the second
-parameter which is the final congestion
-that you get is only constant factor
-loss no one selected we have a party to
-them yeah so we didn't really compute it
-out it is better it's a totally
-straightforward because the group in
-theorem it will not work with condition
-to it will be little worse maybe three
-or four but this will be a little better
-again the size of the terminal of the
-oldest first fire is the total degree
-incidental the terminals so so in a way
-thanks will now depend on K and not on
-em it's like a black box reduction that
-does it okay so the way you use it again
-you take this ramji you take optimal
-fractional solution and then you look
-for the optimal fractional solution
-graph age and you are going to the
-people of low key function in bed then
-you compute some alf approximation in
-graph age with some condition see you
-turn it into a solution that there are
-35 years with the new condition 31 seen
-in the original graph so overall you
-accumulate on a constant composition and
-was fully locating the number of beers
-routed okay so i'll end up with the open
-problems so one of the fascinating open
-problems here is condition minimization
-where we are between an upper lower
-upper bound rafi log and lower roughly
-double again so we are how to tackle
-this problem but you can ask some
-intermediate questions for instance what
-if your graph is well linked can you do
-something then or worry if instead of
-rolling all peers we only want to ride a
-constant fraction of beers so this will
-be like the other side of the spectrum
-we were looking at very small condition
-now we want to roll almost appears so we
-still don't know that now EDP problem is
-a very very fascinating problem where so
-this route and approximation is the best
-currently known and there are these
-really simple family of graphs coldwell
-with a prequel grass it for the grass
-and even on DD graphs we don't know how
-to get better than wrote an
-approximation basically the integer the
-gap of food and all also still hold here
-so this is like the simplest graph that
-we can figure out and it's it's strange
-when you have such concrete examples
-that you still can't figure out what's
-going on
-well you can start with terminals on the
-border and then maybe you can solve it
-also four terminals anywhere this is the
-same yeah i think in graph theory they
-use this more often sigrid and yeah so
-so when we saw the results for partition
-14 the power of the log is like just
-below 20 but the result to get for
-condition 2 is like lock to the 93 I
-think okay so it would be really nice to
-get some clean the tool problems to be
-cleaner algorithm that gives a better
-like power plug em and then of course
-and then you can also ask if we can get
-better integrals for surfers so stop
-here thank you really quick question
-tricks that you need to do to get from
-14 to what parts are tight so what
-happens there is that there are a few
-steps first you find this a good family
-then we build the trees and then you
-also get to roll the terminal PR series
-is run our steps first of all itself is
-more than two condition but then you add
-them they just accumulate so one of the
-most difficult things is to do all these
-three things you are shoved so the
-condition don't have unit you just have
-to be really really careful and really
-technical
-welcome back everyone we're going to be
-working on undirected graphs today so
-let's consider an example here where a
-hockey team competition with six teams
-obviously D&amp;F and the following is known
-and I won't read it out but you can see
-that ice played a few and beating them
-be also CDP and if so when we graph this
-this is a graph that where you get now
-the e the D the ABC and if these things
-here that we're shouting in right now
-they're called teams tasks towns that's
-what they could there could be anything
-at all but we know them as vertices or
-another name for a being knows vertices
-I am believe because they're they are
-known as adjacent vertices because we
-have an edge that goes from A to B ok
-now this graph we can represent it by a
-table or a matrix where we have one
-being used if there's an edge connecting
-the two vertices and a zero being used
-if there's no edge connecting the two so
-for the above this is what we get I'm
-not going to go back but there was no
-edge connecting a and I said zero there
-one for the blue a to be nothing
-connecting A to C so zero nothing
-connecting A to D and then I don't leave
-it was one edge and either if there was
-an inch then lead a 1-liter B is zero B
-to C is one then we had zero zero and B
-to F is 1 now I'll quickly fill them in
-zero and we'll go down down the column
-so 0 0 1 and 1 and then the next one is
-1 0 0 1 and the next one is 0 1 1 0 and
-the next one is 1 double 0 1 and E is 1
-triple 0 and F is 0 1
-zero-zero okay so that's the actual
-table now this is we can also do that as
-a matrix it's exactly the same except of
-course instead of being in a table we
-have it in a matrix form so again we're
-just going to quickly fill them in okay
-and all again I fill these two in and
-we'll go down again so zero deeds are
-there 1 1 and underneath the C 1 double
-O one going across and then straight
-down is 0 0 1 1 1 0 0 1 0 double 1 0 1
-double O 1 1 triple 0 and 0 1 0 0 and
-this is known as the adjacency matrix
-now if there's more than one edge
-linking to vertices then we call it a
-multiple each ok so let's have a look at
-one there's one there we've got a
-multiple edge
-hey I and so you can see that there are
-two edges that connect a and C we also
-have a loop at being excuse the loop I
-sort of couldn't get the right angle
-it's best to be a secure okay and they
-is sitting all the way by itself Lee
-with that nothing that can mix to it
-okay you realize that this is our
-selective abilities it's example
-constructor type 1 matrix corresponding
-to put the graph shine which represents
-three houses a b and c connected to
-three utilities gas water and
-electricity so there we have the graph
-but this is also called a bipartite
-graph it is called a bipartite graph
-then reason being is because we have a
-tissue
-this into two disjoint six a B and C
-being the houses mgw and the the the
-utilities so you can see that we sort of
-draw a line between them and they are
-split so all right let's say we're gonna
-be doing a matrix here by itself we
-won't do a table because the table is
-you can tell is the same so straight
-across the top of got our house is a B
-and C and we also have a utilities gwv
-and of course we need to do that along
-side and as well because we have to be
-able to show whether they connect to
-each other or not so we know that house
-a does not connect to house a so put a
-zero and house a of course does not
-connect house B or to the house C so
-zero zero zero straight across and then
-it does connect to the gas water and
-electricity so you put a one there a one
-and A one possibly of course does not
-connect any of the houses so 0 0 0 and
-then 1 1 1 again and the house sees
-exactly the same can't connect to the
-houses that will connect to the guests
-water and electricity then when we're
-looking at it from the TV side it
-changes so the utilities do connect to
-their houses so we've got 1 1 and 1 but
-the utilities don't connect to each
-other so we've got 0 0 0 and that
-belongs to all the utilities as well ok
-so we have to make sure that we do that
-properly we have to show them all along
-the top and along the side because we
-have to include every vertex
-yeah the degree of a vertex that's the
-number of edges that count from that
-vertex itself
-ok that's the degree so and we should be
-putting brackets around degree of I so
-deg brackets the I should be there and
-that should all be this I even the
-billion seen the D and they be okay so
-we need to put brackets around all of
-them you know the degree of I how many
-vertices how many edges are coming out
-of very well these four count them
-there's one two three four so the degree
-of a is four
-the ages are coming out of that one
-Blee there is one and two don't include
-the look twice there's only two out of
-City if we count them there's one two
-and three there's that's not a loop that
-- they're two different edges connecting
-ONC so we've gotta count them both a
-degree of ds2 and good old sitting out
-there all on its line sandwich of course
-is zero there's nothing that connects it
-all right
-the graph below is known as a simple
-graph there are no loops and there's no
-multiple edges now for this graph the
-sum of the degrees is equal to twice the
-number of edges and is even okay
-the sum of the degrees he's an equal to
-twice the number of edges and he's even
-so there's the son of god of the degrees
-three two two three and two and in the
-map we get twelve okay
-twelve so it's even we've worked that
-out and it's twice the number of edges
-let's count the edges one two three four
-five six twice two times six is twelve
-okay
-so for a simple graph that actually
-works out okay so be aware of that
-sometimes it's easier to quickly work
-that out if required
-all right a path a path is a series of
-vertices connected by edges a graph is
-said to be connected if there is a path
-between each pair of vertices it's got
-to be a path between each pair of
-vertices so let's have a look at an
-example there we go a circuit is a path
-which starts and finishes at the same
-vertex I could start so that's going to
-finish it I it's not to be it's going to
-finish your feet and you can't travel
-along more travel along the edges more
-than once because you can only travel
-along the edge at once so for the above
-example
-here's an example of a circuit and I'm
-starting at I I believe - C - D - B - f
-and back to a I've only travelled along
-each vertex once or go E F D and back to
-e okay but which shouldn't call break
-all the vertices a subgraph that's only
-part of a graph so we don't need to have
-all the original graph listed okay
-that's only part of it - 23i is the what
-you're doing
+unfortunately I'm running out of time
+for this video so I won't be able to go
+over those graphs today so this was just
+a basic overview of undirected graphs
+for graph theory
+I hope someone out there finds us useful
+and once again thanks for watching
+you
 should citizens in bathing power pure
 technically, the press plus you have to
 only the day of the victim as relevant
@@ -4555,177 +2532,300 @@ Thursday is CSD only bad news or
 good people Thursday
 as it has flowing double village
 Thank you
-welcome back everyone we're going to be
-working on undirected graphs today so
-let's consider an example here where a
-hockey team competition with six teams
-ABCD an F and the following is known and
-I won't read it out but you can see that
-ice played a few and bleeding them be
-also CDP and if so when we graph this
-this is a graph that where you get now
-the eat the D the ABC and if these
-things here that I'm shouting in right
-now they're called teams tasks towns
-that's what they could there could be
-anything at all but we know them as
-vertices or another name for a min nodes
-vertices I am bleep because they're
-layin owners adjacent vertices because
-we have an edge that goes from A to B ok
-now this graph we can represent it by a
-table or a matrix where we have one then
-used if there's an edge connecting the
-two vertices and the zero being used if
-there is no edge connecting the two so I
-fully above this is what will you get
-I'm looking to go back but there was no
-edge connecting alien high side 0 there
-one for the be a to be nothing
-connecting A to C side 0 nothing
-connecting A to D and then either their
-bills one edge and ADA if there was in
-each then be a 1 b 2 b is 0 bc is one
-then we had 0 0 and beta F is one now
-quickly fill them in 0 and we'll go down
-down the column so 0 0 1 and 1 and then
-the next one is 1001 and the next one is
-0 1 1 0 and the next one is one double 0
-1 and E is 1 triple 0 and f is 0 1
-00 okay so that's the actual table now
-this is we can also do that as a matrix
-it's exactly the same except of course
-instead of being in a table we have it
-in a matrix form so again we're just
-going to quickly fill them in okay and
-all again I feel these two in and we'll
-go down again so zero they'd 0 there 11
-and underneath the c1 double 0 1 going
-across and then straight down is 0 0 1 1
-1 0 0 1 0 double 101 double 0 1 1 triple
-0 and 0 1 0 0 and this is known as the
-adjacency matrix now if there's more
-than one each linking two vertices then
-we call it a multiple each okay so let's
-have a look at one there's one there
-we've got a multiple edge I and see you
-can see that there are two edges that
-connect a and C we also have a loop at
-being excuse the lupus or couldn't get
-the right angle it's supposed to be a
-circular ok and they're sitting all the
-way by itself Lee with that nothing that
-connects to it ok well and will realize
-that later on that this is an isolated
-there's no I just write that one down
-this is called also like to do ok so
-isolated abilities now it's such an
-example to school cuz subscribe to type
-1 matrix corresponding to put the graph
-shown which represents three houses a B
-and C connected to three utilities gas
-water and electricity so there we have
-the graph but this is also called a
-bipartite graph it is called a bipartite
-graph then reason being is because we
-have some petitioned this into
-to destroy sex AB&amp;C being the houses mgw
-and the the the utilities so you can see
-that we can sort of draw a line between
-them and they are split so all right so
-we're going to be doing a matrix yeah by
-itself we went into a table because the
-tables you can tell is the same so
-straight across the top we've got out
-houses AB&amp;C and we also have a utilities
-gwe and of course we need to do that
-alongside as well because we have to be
-able to show whether they connect to
-each other or not so we know that house
-a does not connect to house a so put a
-zero and how safe course does not
-connect house be or to house see so 000
-straight across and then it does connect
-to the gas water and electricity so you
-put a one there a one and A one possibly
-of course does not connect to any of the
-houses and 0 0 0 and then 1 1 1 again
-and how sees exactly the same can't
-connect to the houses that will connect
-to the guests water and electricity then
-when we're looking at it from the tility
-side it changes so the utilities do
-connect to their houses so we've got 11
-and one but the utilities don't connect
-to each other I've got zero zero zero
-and that belongs to all the utilities as
-well ok so we have to make sure that we
-do that properly we have to show them
-all along the top and on the side
-because we have to include every vertex
-with this example we're looking at the
-degree of a vertex which is the number
-of edges that come from that vertex so
-having a look now here down here we've
-got the degree of a degree a bit but we
-need brackets around the a the B the sea
-and so on so make sure that we put the
-brackets around it if it's not no
-brackets then it is incorrect with the
-degree of a we just count how many edges
-there are that's coming off it so we've
-got an edge there another one here
-another one there and another one that
-makes four so the degree of a is 44 look
-at BB has a loop-the-loop counts as two
-and then we also
-has another edge over here so the degree
-of B is three looking at see we've got
-of course one two three here so that's
-the degree of cs3 the degree of D we've
-got two lines coming out of d so we put
-two and the degree of e that sitting by
-itself there's nothing there at all so
-we put 80 all right the graph below is
-known as a simple graph there are no
-loops and there's no multiple edges now
-for this graph the sum of the degrees is
-equal to twice the number of edges and
-is even ok the son of the degrees is
-equal to twice a number of edges and
-he's even so there's the summer go to
-the degrees 3 2 2 3 and 2 and in the
-muck we get 12 okay 12 so is even we've
-worked that out and it's twice the
-number of edges let's count the edges
-123456 twice two times six is 12 ok so
-for a simple graph that actually works
-out ok so be aware of that sometimes
-it's easier to quickly work that out if
-required alright a path a path is a
-series of vertices connected by inches a
-graph is set to be connected if there is
-a path between each pair on versus ok so
-it's got to be a path between each pair
-of vertices so let's have a look at an
-example there we go a circuit is a path
-which starts and finishes at the same
-vertex so if it starts oh it's going to
-finish it i start to be it's going to
-finish it be you can't travel along more
-travel along the edges more than once
-because you can only travel along the
-edge of once so for the above example
-he's an example of a circuit and i'm
-starting at i I B to C to D
-to be 2f and back to AI vai only
-traveled along each vertex once or go e
-FD and back to e okay but which should
-incorporate all the vertices a sub graph
-that's only part of it rough so we don't
-need to have all the original graph
-listed okay that's only part of it 223 I
-easy and what you're doing
+Hello friends my name is Tushar and
+today I'm going to talk about how to
+find the cycle in an undirected graph. So
+here I have a graph and this graph
+contains a cycle so this graph should
+say that yes I contain a cycle.
+If I remove this edge here then this
+graph doesn't contain a cycle anymore so
+it should say that I do not contain a
+cycle. So there are many ways to find a
+cycle in an undirected graphs like using
+disjont sets,using DFS,using topological
+sort and a few other ways.In today's
+video I'm going to talk about couple of
+these techniques. One is using disjoint
+sets,another is using DFS to find a
+cycle in an undirected graph.Let's first
+talk about how to find a cycle in an
+undirected graph using disjoint sets. In
+another video I talked about how disjoint
+sets work and if you have not watched that
+video ,I highly recommend
+you watching that video before
+continuing on this video.So if you
+remember disjoint set supports 3
+operation makeSet,
+union and findSet. Let's see how we're
+going to use this disjoint to find a
+cycle in an undirected graph. So the idea
+is very simple. All you have to do is
+create as many sets as,as the number of
+vertices you have and then you have to
+pick an edge and you have to see both
+the ends, both the vertices of this edge
+are in the same set or in different set.
+If they're in a different set then you
+have to union those two sets together
+and if they're in the same set
+it means that there is another edge
+which unioned them together so this
+edge must be creating a cycle in the
+graph. So let's work with this example.
+So first I do is I call makeSet on
+all this 6 vertices.
+So I have A,B,C,F,E,D.
+So here I have 6,I have 6 sets so then
+I pick any edge. So let's say I picked this
+edge.
+So what I'm going to do is I'm going to
+do a findSet on A that is going to
+return me A and then I'm going to call,
+do a findSet
+on F and that is going to return me F.
+At this point both A and F are not in the
+same set it means that adding this edge
+is not going to create a cycle then what
+we do is we do a union of these two
+sets.
+So then they are together now so we'll
+have A,F and a union.
+So they are now in the same set and let's
+say the set is represented by A. Now
+let's pick another edge.
+So let's say we picked edge ED.Again we
+do a findSet on E that returns me E
+and then I do a findSet on D and that
+returns me D and again they are in the
+different sets so again adding this edge
+is not going to create a cycle. So let's
+first do and then let's do a union of
+these two sets.
+All right let's pick another edge.
+Let's say we picked edge CD. So we do a
+findSet on
+D.Let's, let's say this set is
+represented by E.
+So I do a findSet on D so that returns
+me E
+and then do a findSet on C and that
+returns me C.
+So again this set and this set is
+different.Again,
+so adding this edge is not going to
+create a cycle,so let's union them,
+so something like this and again we
+say that E represents this entire set.
+So next let's pick this edge.
+A is represented by A and B is
+represented by B.Again they are in two
+different sets.
+So adding this is not going to create a
+cycle. Let's Union these two sets.
+All right let's add edge BE.So B is
+represented by A so findSet on B
+will return A and findSet on E returns E.So
+A and E are in two different sets right
+now. So,so again this edge is not
+going to create a cycle.
+So what we're going to do is we're going
+to do a union of these two sets so we'll
+have something like this and let's say
+E represents
+my entire set.
+So finally let's add this edge BC.
+So what will happen is B is represented
+by E, when we do a findSet on B
+we get E, when we, when we do a findSet on C
+we again get E. What that means is that
+both these guys are already in the same
+set.
+It means that there must be another way
+to connect B to C and that edge is not
+this edge. So by adding this edge it
+means that you're going to create a
+cycle in the graph so this edge here
+creates a cycle in the graph and that's
+how we find out that there is a cycle in
+the graph using disjoint sets. In the
+next section let's talk about how we
+find cycle in undirected graph using DFS
+algorithm.So in DFS we'll keep a
+visited set to know which vertices we
+have already visited. So we can start
+from any
+vertex. Let's say we start from A. So first
+thing we do is we put A in the
+visited set.
+Then we explore the neighbors of A, let's
+say we explore F first so we go in the
+direction of F and we also pass A TO
+F saying that I'm coming from A and
+then F is going to explore its neighbors.
+So the first neighbor it's going to find
+is A and since it's coming from,in the
+direction of A there is no reason to
+continue in that way,direction and then
+F has no other neighbors.
+So we also visited F and then F goes
+back to A and then A explores its other
+neighbour which is B
+and again it passes A to that neighbour.
+So again first thing we do is we put B
+into the visited set. Then B explores its
+neighbours.
+So the first neighbour it encounters is A and
+since it is already coming from A
+because you passed A to b it knows that
+it doesn't need to go in that direction.
+So then it explores another neighbour. So
+let's say that neighbour was C and C is not
+in the visited set. It means that it
+can go in the direction of C. So we go
+from B to C and we pass B to,we
+pass B to C saying that this is where
+you're coming from
+and we'll also put C in the visited set.C
+will repeat the same process. C will
+explore its neighbours. So first neighbour
+it sees is B and it knows that it's
+already coming from B so there's no
+reason to go in that direction.
+So C explore its other neighbour which is
+D so we go from C to D and pass C to
+it and put D in the visited set. Then
+D will repeat the process.
+So D will not go,not go in the direction
+of C so D will explore
+E and we'll put E in the visited set
+and then E will not go in the direction of
+D.
+So what E's going to do is,it's going to try
+to go in the direction of B but what
+happened here is that B is already in a
+visited set.
+What that means was there,there must
+be another way to reach B from E which
+is this way.
+So adding this particular edge is
+going to create a cycle in the graph. So
+this is how we know that there is a
+cycle in the,in the undirected graph.
+Remember it's an undirected graph. So all
+we need to do is maintain a visited set
+and then we do a DFS and we pass the
+parent so that you know that you don't
+have to explore in that direction and
+other than that if you find any
+node which is already
+if you find any vertex which is
+already in a visited set it means
+that you found a cycle in the
+undirected graph. So in the next section
+let's look at the
+code. So let's look at the code to find
+cycle in undirected graph using
+disjoint sets. So I have a very simple graph
+here and I'm going to run this,run
+through this code using this graph as an
+example.
+So first thing we do is we create an
+object of disjoint set. Then I iterate
+through all the vertices of this graph and
+create that many sets. So I end up
+creating like 4 sets A,B,C,D. Then I
+pick one edge at a time. So let's say
+we picked an edge AC. So I find the
+representative of A,edge
+1 vertex of this edge and that is
+A and then I find the representative 2
+of the other vertices of this edge and
+that's C.
+So A and C are not same. So what we do is
+we union A and C. So A and C are now together and
+let's say they are represented by A.Then
+we go back to the top of this for loop.
+Let's take another edge,say BC.
+So what we do is we find the
+representative
+Let's say v1 is B so we find
+representative of B and that's B and
+we find representative of C and
+that's A. So again A and B are different.
+So we don't go into this if condition,
+we come here and we union these two guys
+together.
+Let's say A continues to be the
+representative of this set.
+Let's pick another edge, say CD. So we go
+back to the top of the for,for loop,we
+pick edge CD,we find the representative of
+C, that's A and then we find the
+representative 2 of D and that's D.Again
+we don't go into this if condition so we
+union this set and this set. So we end up
+having something like this.
+Now we go back to our top of the for
+loop and find edge AB.
+So we find representative of A and
+that's A and then we find
+representative of B and that's also A.
+So in this case representive1 is
+equal to representative2.
+So what we do is we instantly return true
+saying that there is a cycle in this
+graph. So basically this, adding this edge
+is going to create a cycle in this graph.
+Let's analyze space and time
+complexity. So space complexity is pretty
+simple.
+It's the total number of vertices so that
+is O(V).
+Let's analyze time complexity.
+So this for loop here is going to take
+O(V) time.
+Then if you remember,if you remember
+from disjoint sets,if the total number
+of operations are 'm' and if the total
+number of elements in the disjoint
+sets is 'n' and if 'm' is greater than
+equal to 'n' the amortized time for m
+operations is going to be O(m). In
+this case our total number of elements
+in this set is going to be n which is
+O(V) and total number of operations is
+never,is also going to be equal to V
+because number of edges we need to
+look is at max is going to be V
+because as soon as we find the Vth
+edge,as soon as,if the total number of
+vertices are V, as soon as we explore the
+Vth,the Vth number of edge
+what will happen is that edge is going to
+create a cycle in this graph. So this for
+loop at max executes V times and so
+the total number of operations is going
+to be,since you are doing findSet multiple times
+and union 1 so the total number of
+operations is going to be three 3m. So
+in the worst case the time complexity
+for this algorithm is going to be
+O(V).
+The time complexity for DFS
+algorithm is also going to be O(V) where
+V is the number of vertices and the space
+complexity for DFS algorithm
+is going to be O(V).
+So this is all I have to talk about
+finding cycle in an undirected graph. The
+link to the code is in the description
+section of the video. Please like this
+video,share this video,comment on this
+video,check out my github page and my
+facebook page.
+Thanks again for watching this video.
 Greenberg is where do that percent up
 here would know the backbone to the
 course drop the books in a bigger where
@@ -5257,6 +3357,356 @@ this baby up
 [Music]
 our goalie
 [Music]
+welcome back everyone we're going to be
+working on undirected graphs today so
+let's consider an example here where a
+hockey team competition with six teams
+ABCD an F and the following is known and
+I won't read it out but you can see that
+ice played a few and bleeding them be
+also CDP and if so when we graph this
+this is a graph that where you get now
+the eat the D the ABC and if these
+things here that I'm shouting in right
+now they're called teams tasks towns
+that's what they could there could be
+anything at all but we know them as
+vertices or another name for a min nodes
+vertices I am bleep because they're
+layin owners adjacent vertices because
+we have an edge that goes from A to B ok
+now this graph we can represent it by a
+table or a matrix where we have one then
+used if there's an edge connecting the
+two vertices and the zero being used if
+there is no edge connecting the two so I
+fully above this is what will you get
+I'm looking to go back but there was no
+edge connecting alien high side 0 there
+one for the be a to be nothing
+connecting A to C side 0 nothing
+connecting A to D and then either their
+bills one edge and ADA if there was in
+each then be a 1 b 2 b is 0 bc is one
+then we had 0 0 and beta F is one now
+quickly fill them in 0 and we'll go down
+down the column so 0 0 1 and 1 and then
+the next one is 1001 and the next one is
+0 1 1 0 and the next one is one double 0
+1 and E is 1 triple 0 and f is 0 1
+00 okay so that's the actual table now
+this is we can also do that as a matrix
+it's exactly the same except of course
+instead of being in a table we have it
+in a matrix form so again we're just
+going to quickly fill them in okay and
+all again I feel these two in and we'll
+go down again so zero they'd 0 there 11
+and underneath the c1 double 0 1 going
+across and then straight down is 0 0 1 1
+1 0 0 1 0 double 101 double 0 1 1 triple
+0 and 0 1 0 0 and this is known as the
+adjacency matrix now if there's more
+than one each linking two vertices then
+we call it a multiple each okay so let's
+have a look at one there's one there
+we've got a multiple edge I and see you
+can see that there are two edges that
+connect a and C we also have a loop at
+being excuse the lupus or couldn't get
+the right angle it's supposed to be a
+circular ok and they're sitting all the
+way by itself Lee with that nothing that
+connects to it ok well and will realize
+that later on that this is an isolated
+there's no I just write that one down
+this is called also like to do ok so
+isolated abilities now it's such an
+example to school cuz subscribe to type
+1 matrix corresponding to put the graph
+shown which represents three houses a B
+and C connected to three utilities gas
+water and electricity so there we have
+the graph but this is also called a
+bipartite graph it is called a bipartite
+graph then reason being is because we
+have some petitioned this into
+to destroy sex AB&amp;C being the houses mgw
+and the the the utilities so you can see
+that we can sort of draw a line between
+them and they are split so all right so
+we're going to be doing a matrix yeah by
+itself we went into a table because the
+tables you can tell is the same so
+straight across the top we've got out
+houses AB&amp;C and we also have a utilities
+gwe and of course we need to do that
+alongside as well because we have to be
+able to show whether they connect to
+each other or not so we know that house
+a does not connect to house a so put a
+zero and how safe course does not
+connect house be or to house see so 000
+straight across and then it does connect
+to the gas water and electricity so you
+put a one there a one and A one possibly
+of course does not connect to any of the
+houses and 0 0 0 and then 1 1 1 again
+and how sees exactly the same can't
+connect to the houses that will connect
+to the guests water and electricity then
+when we're looking at it from the tility
+side it changes so the utilities do
+connect to their houses so we've got 11
+and one but the utilities don't connect
+to each other I've got zero zero zero
+and that belongs to all the utilities as
+well ok so we have to make sure that we
+do that properly we have to show them
+all along the top and on the side
+because we have to include every vertex
+with this example we're looking at the
+degree of a vertex which is the number
+of edges that come from that vertex so
+having a look now here down here we've
+got the degree of a degree a bit but we
+need brackets around the a the B the sea
+and so on so make sure that we put the
+brackets around it if it's not no
+brackets then it is incorrect with the
+degree of a we just count how many edges
+there are that's coming off it so we've
+got an edge there another one here
+another one there and another one that
+makes four so the degree of a is 44 look
+at BB has a loop-the-loop counts as two
+and then we also
+has another edge over here so the degree
+of B is three looking at see we've got
+of course one two three here so that's
+the degree of cs3 the degree of D we've
+got two lines coming out of d so we put
+two and the degree of e that sitting by
+itself there's nothing there at all so
+we put 80 all right the graph below is
+known as a simple graph there are no
+loops and there's no multiple edges now
+for this graph the sum of the degrees is
+equal to twice the number of edges and
+is even ok the son of the degrees is
+equal to twice a number of edges and
+he's even so there's the summer go to
+the degrees 3 2 2 3 and 2 and in the
+muck we get 12 okay 12 so is even we've
+worked that out and it's twice the
+number of edges let's count the edges
+123456 twice two times six is 12 ok so
+for a simple graph that actually works
+out ok so be aware of that sometimes
+it's easier to quickly work that out if
+required alright a path a path is a
+series of vertices connected by inches a
+graph is set to be connected if there is
+a path between each pair on versus ok so
+it's got to be a path between each pair
+of vertices so let's have a look at an
+example there we go a circuit is a path
+which starts and finishes at the same
+vertex so if it starts oh it's going to
+finish it i start to be it's going to
+finish it be you can't travel along more
+travel along the edges more than once
+because you can only travel along the
+edge of once so for the above example
+he's an example of a circuit and i'm
+starting at i I B to C to D
+to be 2f and back to AI vai only
+traveled along each vertex once or go e
+FD and back to e okay but which should
+incorporate all the vertices a sub graph
+that's only part of it rough so we don't
+need to have all the original graph
+listed okay that's only part of it 223 I
+easy and what you're doing
+welcome back everyone we're going to be
+working on undirected graphs today so
+let's consider an example here where a
+hockey team competition with six teams
+obviously D&amp;F and the following is known
+and I won't read it out but you can see
+that ice played a few and beating them
+be also CDP and if so when we graph this
+this is a graph that where you get now
+the e the D the ABC and if these things
+here that we're shouting in right now
+they're called teams tasks towns that's
+what they could there could be anything
+at all but we know them as vertices or
+another name for a being knows vertices
+I am believe because they're they are
+known as adjacent vertices because we
+have an edge that goes from A to B ok
+now this graph we can represent it by a
+table or a matrix where we have one
+being used if there's an edge connecting
+the two vertices and a zero being used
+if there's no edge connecting the two so
+for the above this is what we get I'm
+not going to go back but there was no
+edge connecting a and I said zero there
+one for the blue a to be nothing
+connecting A to C so zero nothing
+connecting A to D and then I don't leave
+it was one edge and either if there was
+an inch then lead a 1-liter B is zero B
+to C is one then we had zero zero and B
+to F is 1 now I'll quickly fill them in
+zero and we'll go down down the column
+so 0 0 1 and 1 and then the next one is
+1 0 0 1 and the next one is 0 1 1 0 and
+the next one is 1 double 0 1 and E is 1
+triple 0 and F is 0 1
+zero-zero okay so that's the actual
+table now this is we can also do that as
+a matrix it's exactly the same except of
+course instead of being in a table we
+have it in a matrix form so again we're
+just going to quickly fill them in okay
+and all again I fill these two in and
+we'll go down again so zero deeds are
+there 1 1 and underneath the C 1 double
+O one going across and then straight
+down is 0 0 1 1 1 0 0 1 0 double 1 0 1
+double O 1 1 triple 0 and 0 1 0 0 and
+this is known as the adjacency matrix
+now if there's more than one edge
+linking to vertices then we call it a
+multiple each ok so let's have a look at
+one there's one there we've got a
+multiple edge
+hey I and so you can see that there are
+two edges that connect a and C we also
+have a loop at being excuse the loop I
+sort of couldn't get the right angle
+it's best to be a secure okay and they
+is sitting all the way by itself Lee
+with that nothing that can mix to it
+okay you realize that this is our
+selective abilities it's example
+constructor type 1 matrix corresponding
+to put the graph shine which represents
+three houses a b and c connected to
+three utilities gas water and
+electricity so there we have the graph
+but this is also called a bipartite
+graph it is called a bipartite graph
+then reason being is because we have a
+tissue
+this into two disjoint six a B and C
+being the houses mgw and the the the
+utilities so you can see that we sort of
+draw a line between them and they are
+split so all right let's say we're gonna
+be doing a matrix here by itself we
+won't do a table because the table is
+you can tell is the same so straight
+across the top of got our house is a B
+and C and we also have a utilities gwv
+and of course we need to do that along
+side and as well because we have to be
+able to show whether they connect to
+each other or not so we know that house
+a does not connect to house a so put a
+zero and house a of course does not
+connect house B or to the house C so
+zero zero zero straight across and then
+it does connect to the gas water and
+electricity so you put a one there a one
+and A one possibly of course does not
+connect any of the houses so 0 0 0 and
+then 1 1 1 again and the house sees
+exactly the same can't connect to the
+houses that will connect to the guests
+water and electricity then when we're
+looking at it from the TV side it
+changes so the utilities do connect to
+their houses so we've got 1 1 and 1 but
+the utilities don't connect to each
+other so we've got 0 0 0 and that
+belongs to all the utilities as well ok
+so we have to make sure that we do that
+properly we have to show them all along
+the top and along the side because we
+have to include every vertex
+yeah the degree of a vertex that's the
+number of edges that count from that
+vertex itself
+ok that's the degree so and we should be
+putting brackets around degree of I so
+deg brackets the I should be there and
+that should all be this I even the
+billion seen the D and they be okay so
+we need to put brackets around all of
+them you know the degree of I how many
+vertices how many edges are coming out
+of very well these four count them
+there's one two three four so the degree
+of a is four
+the ages are coming out of that one
+Blee there is one and two don't include
+the look twice there's only two out of
+City if we count them there's one two
+and three there's that's not a loop that
+- they're two different edges connecting
+ONC so we've gotta count them both a
+degree of ds2 and good old sitting out
+there all on its line sandwich of course
+is zero there's nothing that connects it
+all right
+the graph below is known as a simple
+graph there are no loops and there's no
+multiple edges now for this graph the
+sum of the degrees is equal to twice the
+number of edges and is even okay
+the sum of the degrees he's an equal to
+twice the number of edges and he's even
+so there's the son of god of the degrees
+three two two three and two and in the
+map we get twelve okay
+twelve so it's even we've worked that
+out and it's twice the number of edges
+let's count the edges one two three four
+five six twice two times six is twelve
+okay
+so for a simple graph that actually
+works out okay so be aware of that
+sometimes it's easier to quickly work
+that out if required
+all right a path a path is a series of
+vertices connected by edges a graph is
+said to be connected if there is a path
+between each pair of vertices it's got
+to be a path between each pair of
+vertices so let's have a look at an
+example there we go a circuit is a path
+which starts and finishes at the same
+vertex I could start so that's going to
+finish it I it's not to be it's going to
+finish your feet and you can't travel
+along more travel along the edges more
+than once because you can only travel
+along the edge at once so for the above
+example
+here's an example of a circuit and I'm
+starting at I I believe - C - D - B - f
+and back to a I've only travelled along
+each vertex once or go E F D and back to
+e okay but which shouldn't call break
+all the vertices a subgraph that's only
+part of a graph so we don't need to have
+all the original graph listed okay
+that's only part of it - 23i is the what
+you're doing
 so I'm John Connor and this is a very
 long title talk about how to solve max
 flow and some of its generalizations in
@@ -7553,412 +6003,691 @@ beyond the scope of our course as the
 basic language we've outlined above will
 be surveys for our introduction to
 network theory
-in this video we're gonna talk about a
-different family of graphical models
-called undirected graphical models so
-we'll start by defining what I mean by
-an undirected graphical model and I'll
-give you a the more formal term for the
-the types that we're gonna look at which
-is something called a Markov random
-field and we will discuss then what the
-independence of some assumptions are
-that are encoded in Markov random fields
-then finally we'll talk about the
-relationship between Markov random
-fields and Bayesian networks that we've
-seen previously in fact we'll ask about
-ask ourselves whether Bayesian networks
-are just instances of MRFs
-so as a quick review this is the slide I
-showed you a couple of videos ago about
-Bayesian networks and in a Bayesian
-network you have nodes representing
-variables and edges representing
-conditional probability tables between
-variables and the rule was that you have
-a conditional probability table for
-every single node that that is
-conditioned on its parents so one thing
-to note here is that the the edges in
-the Bayesian network graph are directed
-right there's there's an arrow there's a
-notion of a parent and a child but one
-thing that comes up when you when you
-have this construction is that these
-networks have to be a cyclic so this is
-an example of a cyclic Bayes net and
-it's invalid or it doesn't really make
-sense there there's you know some way
-that it can make sense but it doesn't
-mean anything particularly useful so the
-joint probability according to the the
-rule of interpreting a Bayes net here is
-that it's the probability of B given a
-the probability of C given B and the
-probability of a given C right it's the
-product or it factorizes the joint
-probability into this this form and if
-you do some combinations of you know the
-conditional probabilities you end up
-with a joint probability of B and C
-given a times a given C and then you end
-up finally with the joint probability of
-a B and C
-given see which doesn't make too much
-sense but then you can do the same for
-the same transformation to get this
-again same expression with with a B or C
-in the conditional which only makes
-sense in quotes if P of a P of B and P
-of C are 1 and that's that that's not
-useful right that would imply that we
-can only write down a probability that's
-that's always 1 so a lot of weird stuff
-happens if we have cycles in our Bayes
-Nets so all meaningful Bayes nets are
-directed acyclic graphs so if we want to
-think about the relationships between
-different variables that may exist in
-cycles then we have to think about
-undirected graphical models and it has
-to take on a different form because we
-saw just from the previous slide that if
-this were a cycle and a Bayes net then
-it doesn't make sense so the in an
-undirected graphical model we say that
-the edges represent potential functions
-between variables so there's just some
-function in some factor in the
-factorized probability distribution
-between variables and in general the the
-formula is that if you give a graph as
-an undirected graphical model where the
-nodes again represent the variables but
-the edges represent something else the
-way we interpret that is that it means
-the probability distribution the joint
-probability distribution of the
-variables in the graph factorize into
-individual clique potential functions
-right so potential function
-corresponding to each cleek of variables
-where we mean clique in the graph theory
-sense as defined here or not from the
-Wikipedia article on queex
-which is or which says that a clique is
-a subset of the graph where every Tues
-distinct vertices in the clique are
-adjacent so going back to the picture
-you know the cliques in this graph
-you're like they're actually just the
-particular edge pairs so
-a B BC B D and D are the clicks now this
-could be slightly different and we could
-if we change the structure as a graph we
-would end up with something different so
-if we added an edge between D and E C we
-would end up with or these clicks were
-no longer be the maximal Gleeks and we'd
-actually have this triangle here would
-be one click B BC D would be a click and
-then CDE would be another click so you
-could also write this out as as this as
-a potential function between a and B a
-potential function between BC and D and
-a potential function between C D and E
-and one very general class of these
-undirected graphical models is the is
-one a class of models called Markov
-random fields so in a Markov random
-field we have certain independence
-properties that obey what are known as
-Markov properties so the most general
-form of this is that in the graphical
-model in the graph representing the
-probability distribution any two subsets
-of variables s and T are conditionally
-independent giving given a separating
-subset you can think of this as a as a
-wall of variables between s and T so
-that there's no way to get between s and
-T without going through that wall so our
-more formally slightly more formally all
-paths between s and T must travel
-through the separating subset so an
-example of this would be you know if we
-if I we consider the two subsets s and T
-where s is just a node a and T is the
-note C then we can think about all the
-paths that go between a and C so the
-paths between a and C well there's ABC
-which looks like that
-and then there's another one which is a
-B EC a B D EC which looks like this and
-if you want to find a separating subset
-that that blocks both of these pads
-there's a couple options or three
-options actually there's B and E would
-block both of these paths B and D would
-also bought flock both of these paths
-and also B D and E all together it would
-also block the paths so these are the
-separating subsets so if you're if
-you're if you observe these variable
-values then that makes s and T
-independent conditional and
-conditionally independent so this basic
-property is the most general form but
-there's other rules of thumb that that
-can be derived from this general general
-Markov property which is one is that any
-two non adjacent variables are
-conditionally independent given all
-other variables right so you can see
-that you know once you're is once you
-see all the other variables any non
-adjacent variables you know that the
-rest of the variables must act as a
-separating subset for those two non
-adjacent variables a second corollary is
-that any variable is conditionally
-independent of all the other variables
-given its neighbors and this should be
-is reminiscent of something we saw with
-the Bayes nets and in fact it is another
-form of a Markov blanket right the
-Markov blanket in a Markov random field
-is essentially much simpler to think
-about than in a Bayes net right in a
-Bayes net we had the proud of the the
-strange fact that that the parents of
-your children are also part of your
-Markov blanket now in a Markov random
-field the Markov blanket is just
-characterized by anything that you're
-connected to so one important thing to
-think about is what the relationship is
-between bayesian networks and MRFs our
-Markov random fields and we can look at
-a few structures and think about how
-they relate so if we just have two
-variables connected through an edge in a
-Bayes net we have something a
-probability distribution that factorizes
-into the probability of a and then the
-probability of B given and in a Markov
-random field this this doesn't factorize
-at all is actually just
-single potential function so in this
-case it's actually everything is nice
-because this table can capture anything
-right we can we can represent any
-function of a and B with this fee
-function so converting a single edge to
-a pairwise cleek potential is easy but
-now if we consider a slightly more
-complicated scenario where we have a
-chain of variables linked through a
-directed edges the Bayesian network
-probability is the joint probability of
-these three variables is probability of
-a time's the probability of B given a
-time's the probability of C given B and
-the Markov random field factorization
-looks like this right we have two
-potential functions for the edge cliques
-one for each right one for a B and one
-for BC and you can think about it for a
-minute and you can see whether or not we
-can fit these you know the upstairs
-equation into the downstairs equation by
-setting fee the fees to some appropriate
-values and the answer in the if you
-think about it you'll you'll realize
-that you can and one way to do it
-there's there's actually many ways to do
-it one way to do it is just to set the
-the potential function between a and B
-to the joint probability of a and B and
-then the potential function between B
-and C to the conditional probability
-between C and B and it's important to
-note here that the parameterization is
-not unique here but the bottom line is
-that chains are easy to we can we can
-take a chain structured Bayesian network
-and just plug it right into a Markov
-random field formulation okay so let's
-look at some other structures now this
-is not a chain this is a Bayesian
-network where a is the parent and it
-points down to B and Z so the
-probability distribution here once again
-we can just read off the edges it's the
-probability of a and then the joint has
-then the conditional probability of B
-given a and C given a
-and the Markov random field
-factorization of a similarly structured
-graph would look like this right where
-we have a potential function for the a/b
-edge and a potential function for the AC
-edge and you can think about it again
-let's think about it so can we can we do
-this can we write down a definition for
-fee a B and fee a AC that mimic the
-probability distribution above and we
-can one way we can do it is to write
-that V ay B is going to be equal to the
-joint probability of a and B so P P a P
-of a and P of B given a and then AC we
-can set it to again the the conditional
-probability this time of C given a right
-it's a little different from the chain
-but it's but it's a similar in form and
-one interesting thing here in this case
-it's a little bit easier to see that
-there's this is clearly not a unique
-this is not a unique solution because we
-could easily put the P of a in the AC
-term right now we have in the a B term
-so the a B potential function has the
-has P of a times P of B given a but we
-could have put that downstairs and it
-would have been the same equation so
-there's a minor typo here just ignore
-the comma in the in the Markov random
-field equation here so but the bottom
-line is that shared parents is also an
-easy case right we can always just we
-can essentially just just encode
-directly encode the potential functions
-or the the the Bayesian net edge
-functions as potential functions in a
-Markov random fueled okay so I showed
-you a bunch of easy cases but now this
-case may or may not be so easy so this
-is different from the previous slide
-because instead of having one parent and
-two children we have two parents in one
-child right a and B are the parents of
-see in this picture so there's a shared
-child between the variable a and B so
-the the Bayes net probability here is
-the P of a
-times P of B times P of C given a and B
-given both of the parents both of the
-incoming variables and the market random
-fueled factorization ends up looking
-very similar to what we had before it's
-just the potential function between a
-and C and a potential function between B
-and C and we can think about this to
-again ask ourselves can we write down
-some fee functions that mimic the the
-probability above but we can also think
-about some other more general properties
-here so one of the things that we we
-talked about in the in the class
-discussion and in the videos was the
-idea that when we have this situation
-where we have a shared child that the
-the variables are actually become
-dependent on each other when that when
-the child variable is observed all right
-so a and B are dependent given C this is
-the famous explaining away effect of
-probability so if we run that X so we
-can run this exercise upstairs where we
-say okay look what happens if we observe
-C and we know from the from what we
-studied about bayesian networks that
-well if we observe C a and B are
-dependent on each other but now if we
-look at the Markov random field the
-undirected graphical model on the bottom
-if we observe C then a and B are
-separated there like C is the set the
-separating subsets between a and B which
-means that a and B are independent given
-C so these contradict each other these
-these two statements about the
-probability distribution exactly
-disagree with each other so this can't
-be correct or there can't be a way to
-write down a few functions or fee
-functions here the two fee functions
-that mimic the probability distribution
-above so here's how we do it the way we
-have to do this kind of thing is we have
-to what do something called moralizing
-the parents and it all comes from the
-family tree analogy and it's basically
-saying that if you have
-two shared children you have to connect
-them to make it a more moral connection
-it's is kind of a outdated analogy but
-but it's um it's how people think about
-this in the field of machine learning so
-right the idea is if a and B share C as
-a child then a and B has to be connected
-in the Markov random field which means
-we get a new potential function
-essentially or it could equivalently
-mean that we have to then write down a a
-click function for the ABC click and
-that fixes the independence problem
-right now now a and B are dependent
-given C but there is also something lost
-here so the that's basically the whole
-story for converting a Bayes net into a
-Markov random field and and the the main
-twist that makes it slightly more
-challenging than then just directly
-reading off the edge potentials from the
-Bayes net is that you have to moralize
-all the co-parents all the nodes that
-share a common and a child variable and
-but one of the things that you lose when
-you do that is you lose the marginal
-independence of the parents remember if
-we go back to the the the Bayes net we
-can see that the a and B if we don't
-observe C are they're independent of
-each other but in the Markov random
-field a a and B are always dependent on
-each other no matter what so we lose
-some something we lose some information
-but by this conversion and that gives us
-a hint that the relationship between the
-class of all Bayes Nets in the class of
-all Markov random fields or equivalently
-the class of directed graphical models
-and in the class of undirected graphical
-models are different but overlapping
-classes right and one doesn't subsume
-the other and and it that's a common
-misconception which is that a lot of
-times is easy to think about you know
-since we can convert a Bayes net to an
-mr and mrs we think that oh and mr MRFs
-encompass all days nets but that's not
-true we lose something when we make that
-conversion
-so to summarize I showed you so this was
-this video I guess was a brief
-introduction to undirected graphical
-models specifically Markov random fields
-I talked about the independence
-consequences of the Markov random field
-factorization scheme and we talked about
-whether bayesian networks are MRFs and
-the answer is no MRFs are also not
-bayesian networks it doesn't it doesn't
-work either way but you can convert to
-reasonably equivalent formulations all
-right so so far I've only shown you you
-know the definitions here and in the
-next video we'll talk about inference V
-owes an algorithm called belief
-propagation
+hi welcome to the video on graph theory
+my name is Hera Shani and today I am
+going to continue the topic I had
+started in the lecture 1 of graph theory
+and then in the first lecture I had
+given you some introduction about graph
+and I told you the definition of grass
+whatever vertices and edges and I had
+discussed what is self loop multi edges
+and one theorem that says that sum of
+degrees of all the vertices is twice the
+number of edges okay I had given you an
+example also improved that it is true in
+the end today's video I will discuss
+simple graph quality graphs we will
+graph what are these and after that
+we'll see some theorems okay so so what
+is simple graph y de Graaff and sugar
+simple graph is one which does not have
+which does not have self loop and multi
+edges okay simple graph
+gnarrk have self loop and
+it does not have self loop and mighty
+edges and the graph which contains multi
+edges but not self loop is known as
+multi claw
+okay the graph which contains mighty
+edges and does not contain self loop is
+known as multi graph and the graph which
+contains self loop as well as multi
+edges is known as pseudo graph okay I
+had told you in the last video that what
+is a self loop and multi edges self loop
+is that the edge which comes from the
+same node and goes in the same node
+which comes out and comes in in the same
+node that edge which starts from the
+same node and goes to the same node is
+known as self loop and multi edges when
+they are more than one what is one edges
+in between two nodes then that type of
+edges is known as mighty edges so simple
+graph does not contain self loop as well
+as multi edges party graph contains
+multi edges and pseudo graph does not
+contain self loop I'm sorry
+pseudo graph contains self loop as well
+as multi edges so by diagram if you want
+to see
+this circle is inside this circle and
+this circle is inside the bigger circuit
+and this one is simple graph and this
+one is multigraph and the outer one is
+pseudo graph so what I mean to say that
+every simple graph is multi graph as
+well as Hilda graph every simple graph
+is multi graph as well a pseudo graph
+and every mighty graph is pseudo graph
+might reverse is not true how is it
+possible when in the simple graph you
+have my my changes and that job has
+become bartylla
+then simple zap it has multi graph as
+well as my self loop then that will that
+graph will become pseudo Graham but
+reverse is not true okay every simple
+graph is multi graph as well as pseudo
+graph marty graph is multi graph is
+pseudo rap but reverse is not true so
+let me read this and you and we will
+proceed further
+now let's take an example this graph is
+given which are having five vertices no
+a vertex one vertex to vertex three four
+five and let's find out what are the
+degrees of each node so degree of vertex
+one degree of vertex two degree of
+vertex three degree of vertex four
+degree of vertex
+five what is the degree of vertex one it
+is one two three four you all know very
+well that what is degree how we find
+degree the number of edges incident on
+that vertex is known as its degree so
+what is the degree of vertex one if it
+is one two and three four because of
+self-loop we will always count this
+degree 2 so it is 2 here one is coming
+and one it is going this is going what's
+coming because since it action is not
+given so we count it always twice in
+case of degree but when we count for the
+number of edges will count it as one so
+the degree of vertex one is for degree
+of vertex two is five degree of vertex
+three is five degree of vertex four is
+three degree of vertex v is one two
+three again here it is a self-loop so
+what we will count it as a two and one
+is this so number which is incident on
+that point x 5 is 3 now we'll count will
+add it sum of all the degrees what will
+be 16 + 4 xx and now find out number of
+edges here total number of inches
+Rodell number of edges 1 + 3 4 4 plus 2
+6 plus 1 7 8 and the self-loop this one
+is Vonage 9 and this one is 1 8 10
+self-loop in case of edges self-loop is
+counted once ok please make a point of
+it that self-loop is counted as a one
+edge in case of self-loop but in km when
+we have to find the degree of that
+vertex then you have to count it as a
+twice okay
+twice over 2 also what is the total
+number of edges 10 and somehow degrees
+of all the vertices are 20 so in that
+theorem I had told you that
+what is some our degrees of all the
+vertices it will it will always be twice
+the number of edges see here it is 10
+and it is 20 I had shown you one one
+example earlier also in the last video
+ok so let's move on to other examples
+another important property of graph
+theory is that the number of vertices of
+odd degree number of vertices of odd
+degree will always be even what it means
+that the vertices which are having odd
+degree the number of vertices which are
+having odd degree will always be will
+means how many number of vertices will
+have can have or degree either it can be
+to either it can be for idle it can be
+six either it can be a means it is we
+are not talking about the deal vertices
+which are having even degree we are
+talking just about that those vertex
+which are having odd degree those who
+are the total number of are Texas whose
+degrees is or should always be even
+should always be even in number means
+you can have any vertex any edges any
+number of edges but what it is telling
+that the vertex which are having all
+degrees should always be even in number
+in the last diagram also you have seen
+now you have if you have where you have
+written in your notes see in that page
+that dog vertex is whose degrees are odd
+are four and five four five two three
+only the vertex number one was having
+degree poor but the vertex two three
+four five has even daily sorry
+only the vertex one has even degree but
+the two three four five four vertexes
+have big odd degree what was the degree
+three
+degree of vertex one degree of vertex
+two degree of vertex three degree of
+vertex for it me a vertex v what it was
+it was I think for this last fine isn't
+it so whatever which are the vertex
+which has having odd degree this one
+this one this one this one how many are
+there for this is having even degree but
+it is only one vertex whose degree is
+even but the vertex is whose degree is
+or a four so how we can prove it also it
+is like that the sum of degrees of
+vertex which are are having even degree
+and the sum of degrees of wanted which
+are having odd degree total number of
+sum of total sum any sum of all the
+vertical degrees of all the vertices is
+what twice the number of edges twice
+means it is even now the degree sum of
+the degrees of the vertex which are
+having event degree I am separating it
+as a this and these are the sum of the
+degrees of all the vertices which are
+having odd degree oh let me subtract
+this this from this
+Oh what will be the sum of degrees of
+particles which are having odd degree it
+will be even a minus event
+so
+some of these are worth texas which are
+having or degree should we even okay I
+am subtracting this from this this is
+the event number this will be also be
+event number because it s degrees are
+even and the sum of all the even number
+will be always even and here it is
+slicer number of Ages it is event so if
+n minus even will always give event even
+number so sum of degrees of all the
+vertices should be even and the degrees
+of all the vertices which are odd should
+be even for this the number of vortexes
+should be even because if you add many
+even numbers and one odd number the
+number will make it odd suppose three
+this is odd number and these are all
+even number what will be the result
+result will be odd
+I'm not I'm just finding whether it will
+be odd or even and suppose I am writing
+three three to two to four what will be
+the result even so the degrees which are
+having odd degree the vertexes which are
+having odd degree should be even in
+number two odd numbers we can make it
+number even but one odd number can never
+make the sum even this so many even
+numbers but one odd number will make
+them number some odd but we want the sum
+to be even therefore the number of
+vertices whose degrees are art should be
+always in if any number the number of
+what this is of odd degree will always
+be even okay okay
+now another important thing is that we
+have to know what is degree sequence
+degree sequence apparently arranged the
+arrangement of sequence of degrees in
+non ascending order or non descending
+order is known as degree sequence okay
+the arrangement of degree sequence of
+degrees in non ascending order or non
+descending order is known as degree
+sequence suppose both these two graphs
+are given this one and this one now you
+know right down the degrees of each
+vertex the degree of this one exists to
+degree of this vertex is 2 if you have
+this vertex is 3 in degree of this
+vertex is 1 degree of this vertex is 3
+in degree of this vertex is 1 so what
+are the degree is 2 2 3 3 1 1 let let us
+write it in a non ascending order then
+what will be that first we write 3 then
+3 then 2 then 2 after that one this is
+known as degree sequence
+now let's light this degree sequence of
+this graph its degree is 1 if Sigma is 2
+it's degree is 3 as degree is 2 degrees
+when its degree is 1 ok so what will be
+the degree sequence of this graph
+now in turn ascending order 3 2 2 1 1 1
+okay so we'll use this degree sequence
+in finding whether the simple graph
+exists or not there is a theorem known
+as heaven hikami theorem I will discuss
+it just now I realizing you just pause
+the video and note it down I'm
+addressing it
+now the procedure I was telling have a
+heck of a procedure it says that I told
+you that if this procedure is used to
+find that with a simple graph exists or
+not given a DNA sequence up you are
+given degree sequence and you have to
+find that the simple graph exists or not
+with these degree signals here I have
+written this I am getting out and you
+what you're going to do you you just
+write it down in your notes and we will
+proceed I explain you this thing's for
+and we will see lot of examples based on
+this I hope you understand hell hikami
+procedure it is used to fight whether a
+given simple graph is valid or not for
+that given degree sequence it is used to
+find whether a simple graph is valid or
+not for the given degree signal for this
+you have half you are given degree
+signals and you have to find that
+whether a simple graph exists or valid
+or not
+so what there are some steps first step
+is put the degree sequence in non
+ascending order in first step what you
+have to do put the degree sequence in an
+ascending order and remove the highest
+degree from that sequence in that
+sequence what you have to choose the
+highest degree and let it is okay we
+name it as K subtract one from next K
+increase and we have what we have to do
+in the next step in first step you have
+to send arrange it in a darkness in
+order then second step remove the
+highest degree and error let it rest K
+third step you have to subtract one from
+next K increase next K entries after
+removing first the highest rate entry
+you have to subtract one from all the
+next game please K is what the highest
+degree and then what am going to have to
+fire undo we have to repeat this step
+one two three and stop even
+then we stop only when we find any of
+these conditions we'll fill in the first
+fourth first part says that if we get
+all zero entries then we can say that
+that simple graph exists if we get all
+zero entries then we have to do what we
+can say that simple graph exists first
+point next one will say that if we get
+at least one negative entry if we get
+any any one entry also negative then we
+can say that simple graph does not exist
+and the Third Point says that if not
+enough degrees or entries simple graph
+does not exist in 2nd and 3rd both case
+cases this says that if not enough
+degrees are there not enough means if K
+entries are not there after removing
+highest degree which is K there are
+there should be at least K entries and
+you have to subtract one from each of
+this K entries but you are not enough
+you are not having nm degree or increase
+then simple graph does not exist in both
+the cases if you get any negative entry
+then also simple graph does not exist if
+you get large enough you are not getting
+enough degrees and have degree Smith not
+care degrees then the also simple graph
+does not exist and if you get all the 0
+entries then the simple graph exists and
+if any of these conditions null does not
+satisfy what you have to do you have to
+repeat the steps 1 2 3 ok let's see some
+examples
+I will you just what you do just posit a
+pause the video and note it down and we
+will proceed further to the examples
+but no
+now let us take some example of degree
+sequence and let's check it whether the
+simple graph exists or not
+okay so these are degree sequences are
+given first of all check that the degree
+sequence should be in on ascending order
+first step and on ascending order if it
+is given in your Mon Cindy what it is
+okay if it is not given on ascending
+order make it not ascending okay so this
+is already not ascending order now the
+second step is you have to see that how
+many how many degrees are odd or degrees
+are base and this two two two two two
+degrees are odd this one in this one so
+since it is two which is even so it is
+of K now you'll see which is highest
+degree this one we move this highest
+degree and let it it is as K okay in the
+next step what we have to do we have to
+subtract one from the next K increase is
+what three next K in this this one this
+one this one we have to subtract one
+from each of them so what will be that
+we have removed this one okay so we have
+removed this one and let it escape so
+now we have to subtract one from
+remaining three increase the many K
+increases three increased so the when we
+will subtract 2y from two it will become
+while when you subtract one from one it
+will become 0 when we subtract one
+problems from zero it will become minus
+one and what it is zero okay so now in
+the last step we have to check if all
+the degrees have become zero then simple
+graph is reached but it will all the
+degrees had not become zero in the next
+step if any one of the entry has become
+negative then simple graph does not
+exist since it is negative so simple
+graph does not exist here okay here see
+what we have to do remove it is in non
+ascending order six five four three
+three one okay then find out how many
+degrees are odd this is art this is art
+this is art this is art how many degrees
+one two three four four degrees are odd
+for this even so it is okay what do you
+have know that the degrees which are
+having odd should be even in number so
+here it is if any number so it's okay
+now we move the highest our degree and
+that it is K we have removed it okay now
+what we have to do subtract one from
+that remaining six increase how many
+injuries are left here one two three
+four five
+only five entries are there but we'll
+have what we have to do you had to do
+subtract one from the C remaining six
+entries so there are not enough degrees
+and one of the condition it is says that
+if you are not having nm degrees then
+also the simple graph does not exist
+here negative entry
+simple trap does not exist
+here
+not enough degrees
+so safer graph does not exist
+let's see the third one it is it in
+ascend on ascending order
+No so first of all put it in now arrange
+it in a non ascending order so it will
+become fine three two one zero five
+three two one zero
+now remove the highest degree highest
+degrees highest degree is five let it be
+five K will be five and one more thing
+you have to check whether the degrees
+which are having odd degree number of
+vertices number of devotees liver
+disease degrees which are having odd
+degree and how many so here this one is
+odd this one is odd this one is odd one
+two three
+odd degrees
+number of all degrees party says
+whatever what it is three which is odd
+in number but you know from the theorem
+that the number or degrees vertices
+should be even then also simple graph
+does not exist
+okay from here also you can check if K
+is five we have to subtract one from the
+next five increase next K increase K is
+worth five and but here only four
+degrees are remaining so there are also
+not enough degrees and also number of
+odd number of odd degree vertices are
+odd which should be even so both way you
+can say that simple graph does not exist
+okay let us see some more examples
+so now let's see some more examples here
+degree sequences are given and again we
+have to find whether the simple graph
+exists or not okay so question number
+one is the degree sequences are 7 6 5 4
+4 3 2 1
+first of all it is in non ascending
+order it is ok let's check how many
+degrees are or this one this one this
+one this one 1 2 3 4 which is if any
+number that is also okay next point
+remove the highest degree
+this one is highest degree and let as
+you say that it is K here is 7 what we
+have to do in the next step we have to
+subtract 1 from the next 7 increase 1 2
+3 4 5 6 7 1 2 3 4 5 6 7 so what will be
+the after subtraction what will be the
+increase we will subtract 1 from each of
+them it will become 5 4 3 3 2 1 0 now
+again see it is in non ascending order
+and the odd degree is non ascending
+order again now
+highest degree is 5 so we have to do in
+the next step what we have do we have to
+repeat the all the steps there are what
+the procedure says that if all the zeros
+has come or any one of the entries has
+become negative or there are not enough
+deal is there all entries are not become
+0 any one of them are not negative and
+are not enough indeed there are in our
+degree we have subtracted so we have to
+repeat the steps again so for repetition
+what we have to do we have to remove one
+highest degree 8 highest degree and now
+K has become 5 and what do you have to
+do in the next step we have to subtract
+one from the remaining five remaining
+five entries what will be the value now
+3 2 2 1 0 and this is already 0 we have
+to subtract 1 from the 5 entries
+remaining five entries only from here
+next 5 entries not any next 5 entry so
+we have subtracted 1 from the next 500
+and 0 will be same now in the next step
+what you have to do we have to find now
+all other entries has not become 0 and
+not any any of them is not also negative
+and enough degrees are there so what you
+have to do we have to repeat the
+procedure for now K will become excuse
+me 3 am now now what we have to do
+subtract 1 from the remain x3 entries
+next 3 in phase are 2 2 1 so when we
+subtract 1 from these entries it will
+become 1 it will become 1 it will become
+0 and 0 0 will remain as it is after
+subtracting 1 from these degrees 3
+degree 3 entries remaining and next 3
+entries the so we are getting 1 1 0 0 0
+so it is not a 0 and not any entry is
+not negative and enough degrees are
+there so we can say that we have to
+repeat the say stay all steps again so
+in the next step what we have to do we
+have to remove the highest degree from
+this entries and which is 1 and what we
+have to do in the next step we have to
+subtract 1 from the next one entry 1
+from the next one entry so what we are
+getting 0 and this 0 will be copied else
+as it is so all that it is have become
+now 0 when we are when we get all the
+degree is 0 it means the simple graph
+exists so for the first case you note it
+down and by pausing the video you note
+it down ok note it down and then after
+that I am erasing this and solve the
+next problem
+in this second one what I am to do
+so--here simple graph exist in this one
+this is in non ascending water already
+non descending order and also find out
+how many degrees are odd
+so the degree that from this one and
+this one means how many degrees are
+there one and two so two degrees are odd
+which is a very number therefore it is
+okay and now if follow the procedure
+what we have to do it is in non
+ascending order then in the main the
+next step remove the highest degree and
+let it is here now in the next step what
+we have to do we have to subtract one
+from the next six increase next six
+increase is what this one from here till
+here so it will become 5 5 5 2 2 1 &amp; 2
+will be as it is now what we see it is
+not our 0 no degrees no entries negative
+and there are enough degrees so we have
+to do repeat the step again so it is in
+non descending order
+in the next step what we have to do we
+have to remove the highest degree and
+ever say it is okay now our case 5 and
+what you have to do now subtract 1 from
+the remaining five remaining 5 means
+next 5 I am up air if it am saying by
+mistake I have said remaining it is next
+5 so we have to do 1 2 3 4 5 we have to
+subtract one from here
+four four one one zero and this is to
+hear not all entries are zero knowing in
+two is negative and LF degrees are there
+so we have to do repeat the steps we
+cannot find we cannot say at this point
+that the simple graph exists or not
+so we'll repeat the same procedure first
+of all identity non ascending order
+since it is not in a non ascending order
+so we have to arrange it for for this is
+not - this little bit this is not 1 this
+will be 2 1 1 0 now it is it not a
+sending order now remove the highest
+degree and assume it is that ok now case
+for what we have to do we have to
+subtract one from the next for entry so
+it will become 3 1 it will resemble
+because the 0 + 0 is already here not
+all that not not all the ingredients
+become 0
+no entry is negative so and enough
+degrees out there what we have to do we
+have to repeat the process procedure
+again so it is in non ascending water
+already
+the word note don't need to arrange it
+and the next step what we have to do we
+have to remove the highest degree and
+let it is K so working in the next step
+what do you have to do you have to
+subtract one from the next three
+increase so it will become zero it will
+become minus one it will
+what we see here there are negative
+interest so in the simple gap does not
+exist okay simple graph does not exist
+now you see this question part here you
+have to find whether the simple graph
+exists or not first of all see it is a
+non ascending order it's okay how many
+degrees are on this one this one so
+there are two degrees which are all so
+it is okay because the number of degrees
+which are odd is even now what we have
+to do
+remove the highest degree and as you say
+it is K now in the in the next step what
+we have to do subtract one from the
+remaining next seven degrees seven
+increase one two three four five six
+seven four five six seven seven in
+breeze are there so we have to subtract
+one from the index seven increase so it
+will become 5 5 3 3 2 1 1 not all the
+increase has become 0 any other entries
+has not become negative and there are
+enough degrees so in that we have to
+repeat the all the steps it is in non
+ascending order it's okay we have to
+remove the highest degree highest entry
+and let's say it is K now next 5 entries
+we have to subtract one from the next 5
+entries so we have to subtract one here
+it will become 4 2 2 1 0 and H 1 now
+this increases all the edges are not
+become 0 not any am going to you has
+become negative nothing against any of
+the entries so in the next step and I
+have degrees so we have to repeat the
+steps
+again so what is the next step we have
+to arrange it acknowledged sending order
+for 2 2 1 1 0 in the next step what we
+have to do
+remove the highest degree let us say it
+is K and next and what we have to do
+subtract 1 from the next 4 entries it is
+1 1 0 0 0 all the entries have not
+become 0 and any of the degrees is not
+negative and adapting these are there so
+we have to what we have to do we have to
+repeat the steps so we have to arrange
+it in an ascending order it is already
+non ascending order you have to
+understand we have to you remove the
+highest degree and say it is K now in
+the next step what we have to do we have
+to subtract one from the next one entry
+it will become 0 and use 0 0 is already
+here we have to subtract 1 from the next
+one entry early because here K is 1 so
+it has become 0 and the all that remain
+all entries it is already 0 and so it
+has become all 0 when the entries has
+become all 0 then we can say that simple
+graph exists okay
+you haven't had cami theorem says that
+is all the entries becomes 0 then simple
+graph exist okay so I am realizing it
+you just pause the video and not it done
+okay
+so here simple glass exist here simple
+graph exists here does not exist you
+exist and in this one who is let's check
+it it is given it is already non
+ascending order and so first step is we
+have to remove the highest degree and
+say it is K now in the next step what
+you have to do we have to subtract one
+from the next K in peace next K entries
+next cared entries but we are only
+having 7 entry is here 1 2 3 4 5 6 7 and
+what we have to do in the procedure says
+that we have to subtract 1 from the next
+8 it increase because since here highest
+degree is 8 but you are having only 7
+degrees are not enough degree so we can
+say that it is in the simple graph does
+not exist also let's check some modern
+points that the how many degrees are or
+1 2 3 4 yes ok but we are not having
+enough degree so we catch not enough
+degrees so we can say that simple graph
+does not exist
+okay so that's all for today if you like
+my video don't forget to hit the like
+button and subscribe to my channel if
+you have any query write it in the
+comments section and you can ask me any
+related problems also all the topics you
+are not getting and not understanding
+and if you have a dad that also just
+write it down okay thank you

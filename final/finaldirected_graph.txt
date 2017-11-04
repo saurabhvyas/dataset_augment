@@ -342,200 +342,92 @@ now in our next lesson we will discuss
 ways of creating and storing graph in
 computer's memory this is it for this
 lesson thanks for watching
-for the last of our craft demonstrations
-we're going to take a look at Dijkstra's
-algorithm and we're going to apply
-Dijkstra's algorithm to a directed
-weighted graph first step we're going to
-start out at a and we're going to figure
-out where we can get to from a that's
-better than what we've already got now
-again all of these are infinite to start
-out with so anything is going to be an
-improvement over that so we take a look
-at all the edges originating at a we
-have an edge from A to B it cost 20 well
-20 is better than infinity so we have a
-new lowest cost path from A to B and
-that's cost 20 and that's from vertex a
-we have another one from A to G that's
-cost 90 knots also from a and we have
-another one from a to D and that's 80
-and it also originates at vertex a and
-all of the remainder are going to be
-infinity because we have no path
-standing those vertices yet in the next
-step we're going to take a look at the
-lowest cost path of all the ones we have
-so far we have 80 90 a lot of infinities
-but we have a 20 so 20 is the best we've
-done so far so we're going to pick that
-as our lowest cost path and we're going
-to say that that one is now complete so
-in our next round we're going to start
-out the search at the place where that
-lowest cost path has taken us which is B
-now B we already know the lowest cost
-path is 20 but we're going to see where
-else we can get to from B that we
-haven't been to before
-well B only has one edge originating and
-that takes us to vertex F and we haven't
-been to F before so its cost is
-currently infinity so the cost to get to
-F via B is just 10 more than whatever
-the cost was to get to B so in other
-words 20 plus 10 is 30
-and that's a pacifier be everything else
-is unchanged so we're just going to copy
-it down
-in the next round we're going to take a
-look at all of the pads we have so far
-excluding the one that we've already
-picked and we're going to find the
-lowest-cost path well in this case it's
-the newest one that we've added which is
-32 F so f is going to be our starting
-point for the next round now we have two
-edges originating from f1 which takes us
-from F to C at a cost of 10 now that's
-10 plus the cost we have already of
-getting to F 30 so 30 plus 10 is 40 to
-get C 40 is better than infinity so we
-have a path to C cost of 40 and it comes
-from F we also have an edge from F to D
-now the cost of that edge is 40 now 40
-plus the cost of a 2 B 2 F is a total of
-30 plus 40 70 now our path currently 2 D
-is cost 80 70 is an improvement so we'll
-take 70 instead and that's via F and
-nothing else changes so 20 from a still
-no way to get to e 30 from b 90 from a
-and still no path to H either in the
-next round we're going to pick the
-lowest cost path of all the ones we
-haven't completed yet and that's this
-one over here so our path vertex C at
-cost of 40 so C is going to be our
-starting point for the next round
-now there's several edges originating at
-sea one takes us back to F it cost 50
-now that would give us a total cost of
-well 42 C plus 50 more is a total of 90
-now 90 is not better than 30 which is of
-course what we'd expect because we've
-already found the lowest cost half but
-we do have one from C to H and that's in
-addition to the cost of getting to see
-in the first place which was 40 so 40
-plus 20 is 60 60 is a big improvement
-over infinity so we'll take that one
-pass to H cost of 60 coming from C we
-also have an edge from C to D at a cost
-of 10 now 10 plus the cost to get to sea
-of 40 is a total of 50 which gives us a
-path from A to B - f - C - D of cost 50
-which is less than the cost of the path
-we have so far so we have another
-improvement 50 to get to D via C instead
-and that's the only change so everything
-else gets copied down
-and that's still the best path to be and
-that's still the best past path to see
-and that's still the best path to F but
-if we of what we've got left this path
-to D is now the lowest cost path the
-week so we finally settled on path to D
-that's going to be the best that we can
-get so that's at a cost of 50 so now
-let's take a look at where we can get to
-from vertex D from vertex D you get to
-vertex G at a cost of well 50 to get to
-D in the first place plus 20 from D to G
-grand total of 70 70 to get to G well
-that's an improvement over the direct
-route from A to G which was 90 so 70 is
-better than 90 so we pick 70 instead and
-that's via D but that's the only new
-path we have that's the only edge we
-have originating into D so everything
-else just gets copied down once again
-and we're already done with this one and
-this one and this one this one so now
-our next lowest cost path is this one
-2h at a cost of 60 so we're going to
-pick that for the next round and we're
-going to start exploring paths starting
-from vertex H now vertex H is very
-interesting because there is no edges
-originating there so there's nothing
-more we can do all we're going to do is
-say that everything stays the same as
-was before by copying everything down
-and all the finished paths are still
-finished kind of the remaining
-unfinished paths the lowest-cost one is
-this one over here it costs 70 so we're
-going to mark that one is finished and
-we're going to add that vertex G and
-we're going to take a look at all the
-edges starting from G now there's only
-one edge originating a G that takes us
-back to a at a cost to 20 grand total of
-90 to do a round-trip back to a but we
-weren't trying to do a round-trip in the
-first place so that adds no new
-information everything just gets copied
-down
-all of these are complete which leaves
-us with one last value which is e has a
-value of infinity now in this case value
-of infinity tells us that there's no
-path to he at all and in fact if we take
-a look at the vertex E we can see of
-course if there are no edges leading
-into E which means that there is not
-going to be any way of getting there and
-having the value infinity left over as
-our result shows us that there is in
-fact no path to e so we can mark it is
-done that's the best path we can get
-none at all
-and now our Dijkstra's algorithm finding
-the lowest cost paths from a to all the
-other vertices in a graph is complete
-hello friends welcome back in this
-tutorial we will study about the
-adjacency matrix of a digraph the
-adjacency matrix of a digraph having n
-vertices is up and cross and binary
-matrix in which entry at at row and jth
-column is 1 if and only if there is an
-arc from vertex a to vertex G each
-diagonal entry in the adjacency matrix
-of a digraph is 0 for example see this
-diagraph this is the adjacency matrix of
-this diagraph order of this matrix is 4
-cross 4 because there are 4 vertices in
-diagraph ndaya graph there is an arc
-from vertex 1 to vertex 2 therefore in
-adjacency matrix of this diagraph entry
-at first row and second column is 1
-similarly there is an arc from vertex 1
-to vertex 4 therefore in adjacency
-matrix the entry at first row and fourth
-column is 1 there is an arc from vertex
-2 to vertex 3 therefore in adjacency
-matrix the entry at second row and third
-column is 1 there is an arc from vertex
-3 to what X 1 they
-for in adjacent C matrix the ant react
-third row and first column is one there
-is an arc from vertex four to vertex 3
-therefore in adjacency matrix the ant
-react
-fourth row and third column is one thank
-you very much
+in this presentation we're going to look
+at diagraphs and relations so consider
+the problem T is the set comprised of
+the sets a and B a B and a B and C R is
+a relation to find on T as follows X or
+Y if X is a subset of Y where x and y
+are elements of T draw the relationship
+diagraph of RNs and state whether or not
+r is reflexive symmetric or transitive
+so what we're going to do is draw the
+diagraph and go from there so first off
+we have the four vertices here now it's
+very important to realize that we have
+four distinct vertices here for each of
+these subsets for each of these sets so
+this is vertex one this here is vertex 2
+this here is vertex 3 and this here is
+vertex 4 and there we have them there
+now R is a relation defined on T as
+follows X are Y if X is a subset of Y
+just to be clear that means subset now
+consider first off let's do consider the
+example a a is a subset of a and B so
+we'll have an edge going from 8 a and B
+and also a is a subset of ABC so it is
+going to have an edge going there
+also a is a subset of itself so it is
+going to be a age going there like that
+that leads back on a and in fact for
+every vertex it is there's going to be
+such a loop
+okay because everything every set is a
+subset of itself now let's look at B
+here as well B is a subset of a B so
+narrow and pointing in that direction
+and B is a subset of a B and C so again
+an arrow pointing in that direction a
+and B is a subset of a B and C and that
+accounts for all the relations I'm going
+to change the color a bit actually just
+to make it a bit more easier to look at
+so I'm going to make the vertices green
+so the next question is are these
+relations reflexive well in each case we
+have to check out the following those X
+or X hold for example is something a
+subset of itself and as I just stays
+there previously that all in all three K
+in all four cases we have a the size
+being a subset of itself we have these
+arrows pointing back towards themselves
+so yes it is reflexive so that's the
+first question done now the next
+question is is it symmetric well if it's
+symmetric and we would have initially X
+or Y and symmetric
+if Y are X now let's consider what this
+means here if X is a subset of Y that it
+would symmetric if Y is a subset of X
+now in that case that does not hold
+because for example a is a subset of B
+or C a is a subset of a and B but a and
+B is not a subset of a so it is not
+symmetric and in this particular
+instance so that is the second one it's
+not a symmetric lastly we're asked to
+determine if it's transitive
+so transitive works on the following
+basis so we have X or Y and Y are z 4
+vertices x y&amp;z it is transitive
+if
+we could start say X or Z now in this
+case yes it is transit why would I say
+that
+for example a is a subset of ABC but we
+can also say as far as the following a
+is a subset of ABC or is a subset of a
+and B which itself is a subset of ABC so
+it actually works in that basis as well
+just to be clear about that
+letting a correspond to X Y correspond
+to a B and that correspond to ABC X is a
+related to Y because what X is a subset
+of Y and cars more furthermore X is
+related to Z because X is a subset of Z
+and that concludes our presentation
 all right and welcome back to our next
 module in the power bi custom visuals
 course and this module we're going to be
@@ -927,6 +819,1537 @@ alright so that is it for the force
 graph I hope you guys enjoyed this one
 and we look forward to showing you our
 next custom visual
+so we now turn our attention to a very
+interesting and important class of
+graphs called directed acyclic graphs or
+DAGs so to motivate this class of graphs
+let's look at a problem where we have a
+bunch of tasks to perform with some
+constraints suppose we are going on a
+foreign trip then of course we need a
+passport we need to buy a ticket we
+require a visa probably we want to buy
+some travel insurance we probably need
+some foreign exchange as well and
+perhaps you want to buy some gifts for
+our hosts now these tasks are dependent
+on each other in certain ways without a
+passport you cannot buy a ticket
+nor can you buy any travel insurance for
+the visa you need both the ticket and
+the insurance to be available and
+without a visa the bank will not give
+you foreign exchange and finally you
+would not like to buy gifts for your
+hosts unless the trip is confirmed so
+unless you have all these things
+including the visa in hand you do not
+want to invest in the gift so our goal
+is that given these constraints in what
+sequence should we perform these six
+operations getting a passport buying a
+ticket getting insurance getting a visa
+buying foreign exchange and buying gifts
+for our hosts what sequence should we do
+it so that whenever we want to approach
+a task the constraints that are required
+for that task are satisfied so as you
+would expect we will model this using a
+graph in this graph the vertices will be
+the tasks and then we will have an edge
+pointing from t1 to t2 if t1 must come
+before t2 in other words t2 depends on
+t1 you cannot do t2 unless t1 has been
+completed so as an example getting a
+passport must come before buying
+netiquette so t1 is getting a passport
+t2 could be getting a T similarly
+you must by have a visa before you buy
+foreign exchange right so there will be
+an edge from getting a visa to buying
+foreign exchange
+so if we look at the constraints that we
+wrote this is the graph that we had
+right so we add a constraint which says
+you need a passport to buy a ticket you
+need a passport to buy insurance you
+need both a ticket and insurance to get
+a visa so there are two constraints
+pointing to visa then you need a visa to
+buy foreign exchange and finally you
+said we will buy a gift only if the trip
+is confirmed and at some point at this
+stage when all these operations are done
+we can assume the trip is confirmed
+because nothing is blocking us getting
+on the plane right so this is a graph
+that we have and now our goal is to
+sequence these six operations in such a
+way that whenever we want to perform a
+task whatever it depends on is already
+been done so we can see that you need a
+passport to do anything so we always
+need to start with getting a passport
+now there is no dependency between
+buying a ticket and buying insurance as
+per the constraints we have so far so
+after a passport you can either buy a
+ticket first and then buy insurance or
+you can buy insurance first and then buy
+a ticket so there is a different
+ordering possible which does not violate
+the constraints on the other hand for a
+visa you need both so visa must come
+after both ticket and insurance but
+again having done your visa then there
+is no constraint between buying the
+foreign exchange and buying gifts so you
+could do the foreign exchange before the
+gift or the good for the foreign
+exchange so there are in this particular
+example there are two possible ways of
+reordering the ticket and the insurance
+and there are two possible ways of
+reordering the gifts on the foreign
+exchange so overall there are four
+different sequences which are compatible
+with these constraints so this class of
+graph is an important class and it has
+two important features one is of course
+it is directed because these
+dependencies are from one task to
+another task it is not a symmetric
+dependency and there are no cycles so if
+you add a cycle it would mean that a
+group of tasks depend on each other so
+there is no way to start because each
+task depends on something else in the
+cycle so you have to break the cycle
+somewhere in order to get started but
+you can't break it anywhere because each
+task depends on something else in the
+cycle right so this graph will have
+directions on the edges and there cannot
+be any
+in this graph so we call such a graph a
+directed acyclic graph and so a directed
+acyclic graph is just a directed graph
+in which there is no directed path from
+any vertex back to itself so if I start
+at any vertex V it should not be the
+case that I can follow a sequence of
+directed edges in the same direction and
+somehow come back to B so this should
+not be there so they should not be any
+cycle we abbreviate the named directed
+acyclic graph as back so very often for
+simplicity we will call these graphs
+bags so the problem that we had
+addressed in our example is that we are
+given a set of tasks and we want to
+write them out in a sequence which
+respects the constraints the constraints
+are nothing but the edges so in general
+we are given the set of vertices these
+are our tasks abstractly 1 to n and we
+want to rewrite out 1 to N in a such a
+way that the constraints are respected
+what this means is that we will write
+out a sequence of numbers which is a
+permutation of 1 to N in such a way that
+whenever there is any constraint of the
+form JK that is that there is an edge JK
+then in the enumeration that we have
+performed J must come before K right so
+it cannot be that we have to do before K
+according to our Penn State but in the
+sequence that we produce K happens
+before G so that the C the order of
+vertices in the final sequence must
+respect the constraints given by the
+deck so for various reasons this is
+known as topologically sorting the deck
+so the first observation is that if the
+directed graph had a cycle then you will
+not be able to topologically order it
+because if it had a cycle then for
+instance supposing J and K are vertices
+on the cycle then you will have a path
+from J to K and apart from K to G now it
+is easy to see that the topological
+ordering constraint extend two paths
+that is if I have J before K as an edge
+I know that J must appear before K in
+the final sequence also it was the path
+from J to K then there is a sequence of
+dependencies from J to K so J must
+appear before T now if I have a cycle it
+says that Jamis come before
+and Kay must come before J so there is
+no way to break this this dichotomy so
+we will end up with a situation where we
+cannot order this set of tasks to
+respect the constraints so the graph has
+cycles then it is clear that there is no
+toka logical order impossible so what we
+claim however is that for DAGs
+that is if there is no cycle that graph
+is actually a cyclic then we can always
+order it topologically so the strategy
+is to order the vertices as follows you
+first list all the vertices which have
+no dependencies in our earlier example
+the vertex which had no dependencies was
+getting a passport we did not need to do
+anything before getting a passport so we
+can do that first now once we have
+knocked off the dependency you see any
+vertex which all its dependencies are
+now satisfied and then we can numerate
+that so we can systematically list out
+vertices with no incoming edges then
+vertices all of those incoming edges
+have already been accounted for around
+enumeration and so on so to formalize
+this notion we introduce some
+terminology so recall that for an
+undirected graph we use the term degree
+of V to refer to the number of vertices
+connected to me so if we is connected by
+an edge to four vertices then we would
+say that the degree of V is 4 now since
+we have a directed graph we have
+directions on these edges we have some
+edges which are coming in and some edges
+which are going out so we separate out
+the degree into the in degree and the
+out degree so the in degree is a number
+of edges pointing in to be directed into
+V the out degree of V is the number of
+edges pointing out of so our first claim
+is that every dag has at least one
+vertex within degree 0 in terms of our
+example the vertex within degree 0 is
+something which has no dependencies
+nothing it does not depend on anything
+with nothing pointing into it now how do
+we prove this well supposing we start
+with any vertex V such that it has in
+degree greater than 0 since it is in
+something pointing into it then it must
+have some
+edge coming into it so let us call that
+v2 now supposing this does not have in
+degree zero then it must also have
+something pointing into it so then I get
+a third vertex so in this way if I keep
+finding that the vertices I am
+encountering have in degree greater than
+zero
+eventually I must enumerate all the
+vertices in my graph now if there is
+still not the case that the N through
+vertex
+if there are n vertices the nth Witek
+still does not mean degree zero then it
+must have an incoming edge but that
+cannot be from a new vertex so it must
+point from one of the existing vertices
+which I have already seen before right
+so therefore if I have a continuous
+sequence of vertices all of which are
+pointing to each the previous one with
+in degree not equal to zero then I will
+end up with a cycle but this is a
+contradiction because we have an acyclic
+graph right so in any directed acyclic
+graph they must be at least one vertex
+within degree 0 which corresponds to a
+task with no dependencies from where we
+can start our enumeration of the tasks
+so this is a more elaborate version of
+the algorithm that we described earlier
+so we pick a vertex within degree 0
+recall that such a vertex has no
+dependencies now we enumerate it because
+it now has its available for enumeration
+and then we delete it from the graph so
+when we delete a vertex within degree 0
+from a graph so supposing we have a dag
+like this then so supposing we pick this
+one and we delete it then clearly what
+remains is a dad because it is still
+directed and we have not introduced any
+cycle so it was already IA cyclic and by
+deleting an edge we cannot introduce a
+cycle so clearly incident so we can
+apply the same criterion this new dak
+must also have at least 1 degree with
+vertex within degree 0 so we can
+numerate that and keep going right so we
+keep enumerated vertices within degrees
+0 until the dag becomes empty each end
+vertex will enumerate we will delete
+from the tack so let us apply the
+strategy to this tack
+so we first begin by labeling every
+vertex by its in degree so in red we
+have indicated the integrative every
+vertex so for instance one and two have
+no incoming edges so they are in degree
+zero vertex three has two edges coming
+in so it hasn't agreed to vertex eight
+has four edges coming into it as in
+degree four and so on now we have to
+pick a vertex of in degree zero
+enumerate it and eliminate it so we have
+a choice between one and two so let's
+suppose we start with one so we start
+with one we eliminate it and now when we
+eliminate it we also eliminate the edges
+going out of it so the edge is coming in
+two three four and five will reduce by
+one because the vertex one is gone so
+they're just coming in to them reduced
+by one they're in degrees also reduced
+by one so what happens when we eliminate
+one is that we enumerated and we reduce
+the in degrees of three four and five
+from 2 1 1 2 1 0 0 so recall that before
+that the in degrees were 2 1 and 1 now
+these edges which are coming in to them
+have been deleted right so when we
+delete this we also delete the incoming
+edges so now we have 1 0 0 now we have 3
+choices to the original one which are
+ending 0 and we have now two new
+vertices 4 &amp; 5 which correspond to tasks
+if you want to call them whose
+prerequisites have been completed so
+task 1 was a prerequisite only
+prerequisite for for task 1 was the only
+prerequisite for 5 it has been completed
+so 4 &amp; 5 are now available so we can
+choose any of 2 4 &amp; 5 it doesn't matter
+so let's suppose we choose 4 then again
+these two edges will go so this will
+reduce to 1 and this will reduce to 3 so
+we can do that we eliminate 4 and reduce
+the in degree of 6 from 2 to 1 till
+degree of 8 from 4 to 3
+now perhaps minton decide to eliminate
+thus 2 so when you do for us to then the
+in degree of 3 reduces and the in degree
+of 8 again reduces so notice that 8
+still has to pending in 2 requirements
+namely 5 &amp; 7 so it cannot be done yet
+but 3 &amp; 5 are available so perhaps I do
+5 so now it's less 1 and now I have no
+choice the only tasks with in degree 0
+is
+three so then I do three so now I can
+see that this is actually a the way it
+is drawn is just a sequence I must do
+three before six six before seven seven
+before eight so I have no choice at this
+point
+I must enumerate it as three then six
+and seven and then finally eight at this
+point my graph is empty and I have
+obtained a sequence of vertices which is
+a valid topological ordering because
+every pair of vertices which occur as an
+edge in my original graph is ordered so
+that the source of the edge appears
+before the target ovh so let's look at
+some pseudocode for the algorithm which
+we just executed by hand so in this
+particular algorithm we first start by
+computing the in degree so in order to
+compute the in degree we need to find
+out how many for a vertex I we need to
+find out how many J satisfy the property
+that AJ I is equal to one because this
+corresponds to an edge from J to I so in
+an adjacency matrix this corresponds to
+looking at the column containing I
+because in the column containing I we
+will have entries of the form a 1 I 8 2
+I and so on right so we will have these
+entries and we want to scan all of these
+and then add up all the ones so we start
+by setting integral equal to 1 in degree
+I equal to 0 and then for every row J we
+add AJ I
+so it's either 0 or 1 and so we
+therefore collect all the incoming edges
+which point into is the in degree of L
+now we start a humidity so we know this
+is a dad so we know there is at least
+one J within degree 0 at every point so
+we choose any such J ok choose a J which
+has in degrees 0 enumerated and when we
+enumerate we want to eliminate it from
+the graph rather than going and actually
+modifying the graph itself we will just
+work with in degree as a kind of
+approximate version of that modified
+graph so we first set the integral to
+minus 1 for this particular vertex so
+minus 1 means it cannot be in the graph
+because you cannot have minus 1 it is
+fine you can have at least 0 edges or
+more right so this will effectively
+means that J is not going to be
+considered henceforth and now for every
+outgoing edge from jail so wherever we
+have J pointing to K we want to be
+increment this because we are going to
+eliminate the sage baby eliminating J we
+eliminate the sage so for every K from 1
+to n we scan all the outgoing neighbors
+of J and if JK is an edge a JK is 1 we
+reduce the in degree of K by 1 so what
+is the complexity of the algorithm is
+fairly easy to see that for this
+adjacency matrix representation is N
+squared as we saw initializing the in
+degree itself takes time N squared right
+because we have 1 outer loop from 1 to n
+and then for each outer loop we have an
+inner loop from 1 to n so this is an N
+square and then if we when we enumerate
+the vertices again we have an outer loop
+which will enumerate every vertex once
+ok and then for the inner loop we have
+to enumerate or check all its neighbors
+and in decrement it so we have 2 n
+square roots and therefore this whole
+thing takes order n square now we can as
+we saw with BFS and DFS and if we use an
+adjacency list we can be a little more
+clever and we can bring down this time
+to linear from n square we can bring it
+down to order n + n so how do we do this
+well we have these lists right so we
+have lists
+say 1 2 and for each of these we have a
+list of its neighbors so if you go
+through this as we said each edge in
+this now this is a directed graph so
+each edge is represented only once if
+there's an edge from I to J it will
+appear as an entry J in the list for I
+right so if you scan these lists every
+time you see a J we know there is an
+edge pointing into J and we will
+increment so we start off by setting all
+the in degrees to 0 we scan all the
+lists and every time you see an entry in
+a list we increment its in degree so in
+one scan of the list that is in time
+order n we can find the in degrees now
+we have the list of in degrees so we can
+put all the in degree Burton C's into a
+queue this makes it easy to find which
+vertex to enumerate next ok so at the
+end of the scan we have done an order M
+scan to find all the in degrees now in
+an
+can we can put all the zero degree
+vertices into a queue now we can do the
+rest pretty much as we did before we
+enumerate the first vertex in the queue
+and then we go to its list which is now
+explicitly available to us in this
+adjacency list is outgoing neighbors
+decrement it's in degree and if any of
+those in degrees become 0 we can add it
+to the queue so we know its it is to be
+processed now so this becomes overall it
+takes order M time two scans in this
+takes order n time to start the queue of
+and then this is a loop of order n where
+across all the updates we will overall
+update the in degrees order n times so
+it is order n plus L so here is the
+corresponding pseudocode okay so the
+first step is to initialize the in
+degree to 0 for every vertex in our
+graph then we go through all the edges
+so we do this by looking at each edge a
+since a list for each vertex we look at
+each neighbor IJ in the adjacency this
+and we for each of these we increment
+the in degree of J because we are
+looking at edges pointing into J not
+pointing out of height so this is
+pointing into J will come in different
+lists but as and when we encounter them
+for each of them will account for them
+and add one to it now we go through the
+list one more time a list of vertices
+and every time you see an integral 1 0
+we add I to the queue and now we do this
+loop till the queue becomes empty we
+know there's at least one at every point
+remember as long as the graph a tag is
+not empty we know there is at least one
+in degree I vertex into your vertex
+within degree I is 0 so they must be it
+must be in the queue because we added
+them all originally to the queue and
+each one we generate we will add to the
+truth so as long as the queue is not
+empty we take off the first element of
+the queue then we look at its adjacency
+list decrement the degrees of all those
+vertices and if any of them happens to
+now become in degrees 0 we added to the
+so this becomes now a linear
+implementation of topological sort using
+adjacency list and a queue to process
+the elements because the problem with
+the reason why we need this queue is
+that otherwise if we have to scan all
+the vertices every time to determine
+whether a vertex has become in degrees
+zero then that becomes an order n scan
+within this so it becomes order n square
+again so we need the queue to make sure
+that we don't spend time trying to
+identify the next vertex to enumerate we
+don't have to go through all the
+vertices and check the in degrees when
+we see the N degree zero we put it in
+the queue so automatically it will come
+out without having to do any further
+check so it gets absorbed in this order
+M work that we are doing
+welcome to our 26th video with data
+structures and algorithms let's do an
+example of breadth-first search so we
+have our graph here it's a little longer
+than this okay so same same graph as we
+used for depth-first search we're going
+to need a queue to to do this and so we
+are going to denote that we're going to
+DQ from this left side and we'll NQ from
+the right side or into the right side
+you'll see what I mean
+as we go along so we're just going to
+start from one okay and we'll do things
+numerically okay in order so we're going
+to start here and the first thing we're
+going to do is we're going to mark this
+as 0 the distance from our starting
+point is 0 so far right so 1 is 0
+distance away from itself if that helps
+so let's draw our queue at first okay
+it's empty at first and we're going to
+NQ 1 right so let's put one in the queue
+okay and there we go
+now what we do is we pop or not pop
+that's the stack we DQ 1 and we will NQ
+its adjacency list so 2 and 6 and like I
+said we're going to do it in that order
+numerical order so the next thing that
+we have on here is 2 and 6 okay now we
+have to write let's look at 2 so the
+distance as well it will increase right
+so this is 1 and this is 1 right there
+one node away from the starting point so
+2 is up next in the queue so we're going
+to DQ 2 and we will NQ its adjacency
+list which consists of 10 so now we have
+6 and 10 you can kind of see how it's
+how the queue is moving along and this
+is a distance of 2 right away from
+that's a starting point so keep going
+here actually I need to be drawing these
+as well so we're going to draw that we
+took this path right here all right we
+also have searched this path so far just
+this one edge also this edge right we've
+searched okay so now six is up next in
+the queue so let's take six
+let's dq6 and we will NQ its adjacency
+list all right which is nine and eleven
+so here right we have a distance of two
+in a distance of two so now we have ten
+at the front of the queue we have nine
+and we have eleven okay so let's do that
+okay and we're good so far
+next up is ten let's do Q 10 and push on
+it's a days adjacency list so we've got
+nine eleven and thirteen has now been in
+queued okay and that is a distance of
+three away next up is nine
+let's DQ 9 and NQ 12 this is a distance
+of three so now our queue looks like
+this 12 all right next one is 11 so
+let's DQ xi and we will NQ 14 this is a
+distance of three away so we have 13 12
+and 14
+okay now 13 is up next
+so let's DQ 13 and NQ 15 which is now a
+distance of 4 12 14 and 15
+all right next is 12 and when we DQ 12
+10 has already been discovered so we are
+not going to end give anything we're
+just going to take this off the queue so
+now our key looks like this 14 and 15
+okay next up is 14 right so we DQ 14 and
+15 is already on the queue right it's
+already been discovered so we just DQ it
+and that's it so 15 is now in the queue
+and so we DQ 15 and we NQ 18 right which
+is the distance of five so now 18 is in
+the queue and with DQ 18 and 17 is here
+that's a distance of 6 so 17 is now in
+the queue so when we DQ 17 right there's
+nothing that's going to be include so
+our queue is empty now so we are done
+with our search from the first node ok
+we still have other things going on that
+have not been discovered yet so we need
+to go to the next node
+it's 2 now 2 has already been discovered
+so we're not going to start there
+anymore right we're done with that one
+so let's try the next one 3 has not been
+discovered yet you'd see that it's using
+colors that the color would be white
+right it has not been discovered yet so
+we're going to have a new starting point
+here with a distance of 0 and we were
+going to put that into our queue right
+so now 3 is in the queue let's DQ that
+and we will push or we will NQ its
+adjacency list this is both a distance
+of 1 right so we have 5 and 8 I could
+put into the queue when we pop when we
+when we DQ 5
+it has no adjacency list right it's
+empty so we just DQ it and that's it we
+have 8 here right same thing here
+it's adjacency list has 10 but 10 has
+already been discovered so now we DQ a
+and there's nothing in the queue so we
+finished up with our search from node 3
+now let's search from the next node
+which is node 4 so 4 has not yet been
+discovered so let's give it a distance
+of 0 we've got 4 in the queue and when
+we dequeue this right we have 6 and 7 6
+has already been discovered so we're
+just going to in queue 7 so 7 will be in
+the queue and when we dq7 we check its
+adjacency list it's there's a 9 there
+it's already been discovered right we'd
+have a color of black or yeah it would
+have a color of black in this case so we
+DQ 7 and our queue is empty now you
+start from 8 8 has already been
+discovered so we're good 9 discovered 10
+discovered 11 12 13 14 15 and 16 so 16
+is our next one right so we in queue 16
+okay and when we DQ 16 14 has already
+been discovered right its adjacency list
+so we do nothing so that's there and we
+have finished our breadth-first search
+welcome to our 25th video with data
+structures and algorithms let's do an
+example with depth-first search of
+graphs so our legend over here it just
+tells us what color each node is going
+to be so if there's nothing next to it
+right the color means that it's white so
+all of these are white there's no
+numbers out here on the outside if
+there's a number and a slash then that
+means it's gray and if it's a number and
+a slash and another number then that
+means that it's black and this would be
+discovery time right D and this would be
+finished time F so let's start at one go
+let's start here and we're going to go
+in order of the numbers okay as we
+search through this so for one we have
+two paths we're going to choose this one
+first right because we're going to go in
+order like I said so let's take this
+path or actually sorry one so discovery
+time one is one and this also means that
+it's gray
+can you see a slash so let's take this
+path and we've discovered this at time
+to slash now there's only one path from
+here so let's take that draw all these
+lines okay and we've discovered node ten
+at time three so let's keep going
+there's only one path out of ten so this
+is a time for out of 13 there's only one
+path so let's take that time five we
+discovered this it's the fifth thing
+that we've discovered and then we'll
+take the only path from 15 to 18
+discovered at time 6 and then again the
+only path from 18 is to 17 and this is
+at time 7 now there's nowhere to go
+all right there's no other paths so you
+have finished this at time 8
+we'll go back to the last note there's
+there's no other paths out of this so
+this is finished at time nine same thing
+up here time ten is finished back up to
+13 time 11
+let's scroll up no more out of 10 so
+this is the finished at time 12 same
+thing with two time thirteen and one has
+another path so let's take that so we're
+going to take this path and we've
+discovered six at time fourteen now
+there's two paths again remember we're
+going to go in order so nine comes
+before eleven so let's take this path
+nine was discovered at time fifteen okay
+the only path out of nine is to twelve
+here discovered at time sixteen and this
+path goes to ten but it's already been
+discovered right it's a black node so
+we're done there's nothing else to do so
+this is finished at time seventeen go
+back to nine finished at time eighteen
+go back to six there's another path so
+let's take that path okay I discovered
+at time 19 just scroll down okay
+let's take the only path 14 discovered
+at time 20 and this path here right the
+only path out of 14 is to 15 and this
+has already been discovered so this is
+finished at time 21 let's go back up
+finished at time 22 we'll go back up to
+6 this is finished at time 23 we'll go
+back to node 1 there's no more paths out
+of 1 so we have finished searching from
+node 1 at time 24 now we go to the next
+node right - it's already a black node
+so we're done with that one
+let's go to node 3 and start discovering
+here
+so this is discovered at time 25 and
+again we're going to go in order so
+let's go here right discovered a time 26
+is node 5 no paths out of 5 so finished
+at time 27 back here let's take the
+other path from 3 to 8 discovered at
+time 28 and the only path out of 8
+points to 10 which has already been
+discovered right it's already finished
+so this one is now finished at time 29
+and node 3 is finished at time 30 so I
+would finish with that let's go to the
+next node which is node 4 this has been
+discovered at time 31 now all right
+because it's white already there's no
+number there we would take 6 first but 6
+has already been discovered so let's
+take 7 discovered at time 32 it points
+to 9 right which is already been
+discovered so this is finished at time
+33 and then time 34 4 is finished so
+let's see let's go to the next one 5 has
+already been discovered 6 has already
+been discovered 7 8 9 10 scroll down 11
+12 13 14 15 all those that are
+discovered 16 has not been discovered so
+this is time 35 and it only has one path
+out to 14 which has already been
+discovered so this is done at time 36 we
+go to 17 that's already been discovered
+18 has already been discovered and we
+have completed our search
+hello friends welcome back in this
+tutorial we will study about the
+adjacency matrix of a digraph the
+adjacency matrix of a digraph having n
+vertices is up and cross and binary
+matrix in which entry at at row and jth
+column is 1 if and only if there is an
+arc from vertex a to vertex G each
+diagonal entry in the adjacency matrix
+of a digraph is 0 for example see this
+diagraph this is the adjacency matrix of
+this diagraph order of this matrix is 4
+cross 4 because there are 4 vertices in
+diagraph ndaya graph there is an arc
+from vertex 1 to vertex 2 therefore in
+adjacency matrix of this diagraph entry
+at first row and second column is 1
+similarly there is an arc from vertex 1
+to vertex 4 therefore in adjacency
+matrix the entry at first row and fourth
+column is 1 there is an arc from vertex
+2 to vertex 3 therefore in adjacency
+matrix the entry at second row and third
+column is 1 there is an arc from vertex
+3 to what X 1 they
+for in adjacent C matrix the ant react
+third row and first column is one there
+is an arc from vertex four to vertex 3
+therefore in adjacency matrix the ant
+react
+fourth row and third column is one thank
+you very much
+hello friends my name is Tushar and today
+i'm going to talk about how to detect a
+cycle in a directed graph. In another
+video, I talked about how to detect a
+cycle in undirected graph. Today, we're
+going to talk about directed graph. So
+the idea is to use a depth first search.
+While doing a depth first search, we're going
+to maintain three sets: a white set, a
+gray set and a black set. White set has
+all the vertices which have not been
+visited at all
+Gray set has all the vertices which are
+being visited right now and black set
+has all the vertices which have totally
+been visited meaning that all its
+children have also been visited.
+so while doing depth first search, if we
+encounter a vertex in a gray set, it means
+that we found a cycle.
+Why? because when a vertex is in gray set,
+it means that its neighbors, or its
+neighbor's neighbors or somebody in that
+hierarchy is still being explored and
+that vertex found a path back to the
+vertex in the gray set, indicating that
+there's a presence of a cycle.
+So next let's try to apply this
+algorithm on this graph here.
+So first thing we do is we put all the
+vertices in this white set here, then
+we're going to continue to do depth first
+search till either we find a cycle in this
+graph or we have moved all the verttices 
+from white set to black set. if
+all the vertices have been moved to black
+set, it means that there is no cycle in
+this graph. So let's start from any
+random vertex, so let's say we start
+from vertex 1, so first thing we do is, we
+move this vertex to gray set and
+also in this DFS map, i am going to
+indicate that one got introduced by null
+because there is no parent of one because
+one is a start point. Then we're going to
+to explore neighbors of one. So one neighbor
+of one is two. Two is not there in the black
+set
+Two is not there in the gray set
+but two is in the white set so then
+we're going to take two out of the white
+set and then add it into the gray set
+because now we're going to explore two and
+also indicate here that two got
+introduced by one. So now we're going to
+explore neighbors of two. One neighbor of two
+is three. Three is not in the black set. It means
+that it's not visited. Three is not in the
+gray set, so there's no cycle yet
+but three is in the white set, so again we're
+going to move three from white set to
+gray set, indicate that three got
+introduced by Two and explore neighbors of
+three. Three has no more neighbors it
+means that three is totally explored.
+which means that we can move three from
+gray set to black set.
+remember black set has all the vertices 
+which are totally visited.
+now we're going to go back from three to
+two and explore other neighbors of two but
+has two more neighbors to be explored.
+so we're going to move two from gray set
+to black set and go back to one. One has one
+more neighbor three to be explored but three is
+already in the Black set. It means that
+there is no reason to visit three again
+so one doesn't viist three and at this
+point
+one has no more neighbors to be explored so
+we'll move one to black set. Now at this
+point we are done doing the DFS starting
+with one so we have to go back to the
+to the white set and see
+that white set is still not empty
+so pick another random vertex in the
+white set. So let's say you picked four
+and now we're able to do our DFS around
+four, so we're going to move four from
+white set to gray set
+so now we'll explore neighbors of four.
+so first we're going to say that four
+got introduced by null because in DFS
+four doesn't have a parent
+so one neighbor of four is one but one is
+already in the black set. So we're not
+going to explore one again
+so we're going to explore other neighbor
+of four. So another neighbor of four is five
+so five is not in the black set, five is not
+in the gray set but five is in the
+white set.
+so again we're going to move five to gray set
+because now we'll explore five and here i am
+going to say that five got introduced by
+four. Now
+one neighbor of five is six. Six is not in black
+set, six is not in gray set, six is in white set
+so we're going to move six from
+white set to gray set and say that
+six got introduced by five and now we're going
+to explore neighbors of six. One neighbor
+of six is four. Four is not in the
+black set but four is in gray set
+it means that we found a cycle in
+this graph. So to figure out that what is
+that cycle, we can retrace our steps back.
+So we know that 6 5 4, so edge 64 is in the
+cycle then we go to six and see who
+introduced six. So six got introduced by
+five, so edge 56 is in the cycle and then
+we're going to check who introduced five and
+five was introduced by four so edge
+45 is in the cycle and four is the point at
+which we stopped, so this here is
+indicating our cycle. Four to five, five to
+six and six back to four. So now for
+suppose that we did not have this edge 64
+if we did not have this edge 64, in that case
+what would happen was that six would
+have no more neighbors to be explored, so we
+would move six here and then five would have
+no neighbors to be explored, so we move five to
+black set and then four would have no
+neighbors to be explored, so we would move four
+to black set and in that case we will not
+find any cycle. So if this edge six to four
+does not exist
+this graph should return false because
+there is no cycle and if this edge 64
+exists then this graph has a
+cycle and it should return true.
+The time complexity for this algorithm
+is O(E+V) and the space complexity
+is O(V). So next let's look at the code
+for this algorithm.
+main function here is hasCycle, it
+takes in a graph. First thing we do is
+we initialize whiteSet, graySet and
+blackSet. Then we're going to add all
+the vertices to white set. So white set
+here has all the five vertices.
+then while the whiteSet size is greater
+than zero, it is greater than zero
+we are going to take any random vertex
+from the whiteSet, so let's say we got
+one.
+So in DFS now we're going to go into
+DFS with current as one and passing
+whiteSet, graySet and blackSet.
+So in the DFS first thing we do is we
+move the current which is one from
+whiteSet to graySet because now
+we're going to explore one. You're
+going to get neighbors of one so. one neighbor
+of one is two. So two is not in the black
+set so first thing we check is two in
+the blackSet and it's not which
+means that two can be explored
+Two is not in the graySet which means
+that we haven't found a cycle
+yet.
+Then we're going to go into the DFS and
+check and explore two.
+So again we go into the recursion, this
+with value neighbor and neighbor is two
+so we come back to the top here
+so first thing again we do is we move two
+from whiteSet to graySet, then we're
+going to explore neighbors of two.
+So two has no neighbors
+so what we're going to do is we're done
+exploring two. So we're going to move two
+from graySet to blackSet.
+so two moves to black set and then
+we're going to return false
+so when we go back in recursion, we reach to
+the point here where we went to the
+recursion to the two and now the current
+is one
+so if DFS, so since we got false from two
+it means that there is no cycle with
+two involved so we're going to go back
+to the top of the for loop and again
+current here is one and now one has no more
+neighbors to be explored
+so we come out of the for loop and we're
+going to move one from graySet to blackSet
+and one is also going to return false.
+so this returns false to this DFS here.
+So again since this is false, so we
+don't go into this if condition and
+then we're going to go back to the top
+of this while loop. Now the
+whiteSet still has three more elements to go
+so again we're going to randomly pick
+another element. let's say we picked four
+so then our current becomes four and
+we're again going to go into
+the DFS with four and see if we can
+find cycle with four as a starting point.
+so here first thing we do is we move four
+from whiteSet to graySet
+so here four moved from white to gray and
+then we're going to explore neighbors of four
+one neighbor of four is one, so we come to
+this if condition but one is already in
+a blackSet so we do nothing about one
+and continue and look for another
+neighbor, so another neighbor of four is five.
+Five is not there in the black set, five is
+not there in the graySet so
+now we're going to explore five
+and to do that, we go into the DFS. So now
+our current is five. So first thing to do
+is move five from whiteSet to graySet.
+so this is what happens and then now we're
+going to explore neighbors of five. So one
+neighbor of five is six and six is not in
+blackSet, six is not in graySet so again
+we're going to do a DFS with six as the
+current so we go back to the top of this
+function. First thing we do is we
+move six from whiteSet to graySet
+so that's what happens here and now we're
+going to explore neighbors of six. One
+neighbor of six is four. So four is not in
+blackSet but four is in graySet. Four
+here is in graySet which means that
+we found a cycle because four was being
+explored. So this returns true immediately
+so what this means that it returns true.
+so six returns true to its calling
+function and six was called from five so five
+we return to the point here and this is
+true so five returns true to its
+calling function and five was called
+from four, so we come to this point where
+current is four and this since this is
+true so four returns true to its
+calling function which was here, so we
+come to this point and since this is
+true
+this returns true. So since this graph has
+a cycle it returns true saying that this
+has cycle. So this is all I have to talk
+about this algorithm, link to this
+code, Java code and Python
+code is in the description section of
+the video. Please like this video comment
+on this video, check out my facebook page
+and check out my github link. Thanks
+again for watching this video.
+hey what's everyone thanks for checking
+out this tutorial today I'm going to
+show you how to do a forced layout graph
+in d3 now these types of graphs are
+probably a bit different than things
+like line charts and bar charts and the
+usual ways that you visualize data so I
+wanted to just break this down for you
+as simply as I possibly can so I'm going
+to switch over to my browser now and
+I'll walk you through this okay so here
+on cloud9 IDE I have my environment and
+it's just the HTML environment if you've
+never set one up before you can just go
+create an account at c9i oh it's free
+you can sign in with github and all that
+there's other ways to do it but this is
+just a way I like to teach because it
+kind of takes away the environment
+configuration and worries about that so
+just simple web stuff so the first thing
+to do in this example is just kind of
+setup our HTML document so put in my
+doctype HTML set up my charset utf-8 I'm
+going to actually put in some styling
+info later we could have done this but I
+just want to not have to come back and
+type it so the way that force layouts
+work is that they have kind of two
+things nodes and links and a node is
+something that's represents an entity
+like a row of your data so if you have a
+CSV file every row essentially could be
+or probably is going to be a node for
+you then you have links and ways that
+they connect so that's what we're going
+to draw and I'm going to add of two
+different style options here so the
+first one is just a class of node and
+with that I'm going to put in a fill of
+this kind of light gray and I'll give it
+a stroke of white and a stroke with
+of two pixels so you can set up whatever
+you want these are just some kind of
+examples here and then the next one is
+the link so the line between them so
+here we're going to do stroke and we'll
+just do kind of a dark gray pound 777
+and stroke width of two pixels as well
+so again you can play with that change
+it however you want all right I'm just
+going to save this quickly as demo
+simple layout dot HTML okay cool
+all right so we got my style info now I
+need to actually kind of build some
+stuff so I'll create my body tag and I'm
+going to reference d3 here so I just do
+a script source equals and it's
+whack-whack d3.js org slash D 3v3 minjae
+s by the way version 4 is almost here if
+it isn't already by the time this posts
+so get ready for that I'm going to have
+some stuff coming out on that because it
+is quite different than how D 3 version
+3 works so I want to make sure you guys
+have everything you need to kind of
+convert it and all that and I'm kind of
+digesting all the changes right now
+there's quite quite a big list ok so now
+we're going to set up our variables are
+so width will just do 640 for this
+example height 480 and links so remember
+there's two things here there's the
+links and the nodes and the way I like
+to do this is to basically just have one
+data set because while I'm just going to
+show you how to punch it in and type the
+data in manually often what you'll have
+is a CSV file in I'll even point you to
+an example here some other code I have
+that demonstrates that but for right now
+what we're going to do first is just set
+up the links and then we'll tease out of
+that the nodes and remember the nodes
+are the rows and the links actually are
+the 4 from and the two the source and
+the target is what it comes out to be
+and that tells d3 in our layout how to
+draw stuff between one node and the
+other okay so for links this is going to
+be an array so just set it up there and
+somehow my autocomplete got turned off
+in my environment so a lot of extra
+typing all right so I'm going to set up
+some
+source and I'm going to do some fun game
+of throwing stuff let's do the Baratheon
+x'
+and the target here would be the
+Lannisters and close that out and
+basically rinse and repeat let's do I
+don't know maybe four of these five of
+these let's actually just do three for
+now so let's see a Baratheon and then
+Stark and then how about lannister and
+stark Baratheon and Lannister Baratheon
+stark okay so we can kind of play with
+that so there you go so I've got just a
+couple example there's just three nodes
+essentially that it'd be drawn with
+links then from there what I want to do
+is actually set up my notes so I'm going
+to just create a simple variable of our
+nodes basically give it a blank node so
+there's really nothing in there then I
+need to parse things out so here's where
+it actually is some code that has to
+parse out what are in the links and
+create the nodes from that this is a
+little snippet I found on one of Mike
+Bosse socks examples so I'm going to put
+an O there parse links to nodes and
+we're just going to do link stuff for
+each so it gives us a little loop here
+and inside there we'll have a callback
+function with the link so we're going to
+reference it that way and what do I need
+one more these guys and then that guy
+again without autocomplete that sucks so
+link dots or so we're going to take the
+source from our links array above and
+then we're going to do something we're
+going to say nodes and then link dot
+source so we're essentially going to add
+that right because this is going to give
+us that link that name Baratheon and
+Lannister or nodes link dot source
+equals name linked source so if we have
+the same one repeated we're not going to
+get extra nodes so this is just a little
+kind of clever snippet here to add them
+and not duplicate them now we're going
+to link target so for each target in our
+a list we do nodes and do link dot
+target so now if you weren't in the
+source but you were in the target we're
+going to add you as well and basically
+rinse and repeat the same stuff we did
+before so nodes link target yeah I could
+type pressures on when you're filming
+and that equals link that target as well
+so basically the idea there again is
+that if these already exist update them
+or you know it's good don't worry about
+it otherwise Adam so that's how we're
+going to actually parse out our links
+into our nodes so we have both of our
+data structures and d3 wants to kind of
+different data structures here of course
+you could have things more complex but I
+like to keep them simple because there's
+enough complexity in how this stuff
+works to begin with so I want to keep it
+as simple as possible now we just need
+to add our SVG to our body so this is
+when we actually start to do the d3
+stuff and we're going to do var SVG
+equals D 3 dot select body dot append
+SVG so this gives us our place to draw
+stuff instead of some attributes width
+is the width that we specified above
+height is the height that we specified
+above good to go okay now let's create
+our force layout so we get to use the
+force and if you watch my Pluralsight
+course I abuse that term so apologies in
+advance so we set up d3 layout for so
+this is the actual constructor that
+creates it and then we need to specify
+all the parameters so the first one is
+size give it an array of width comma
+height then nodes now this is where we
+actually pass in our data set so you'll
+see a lot of examples online where they
+just pass in a separate data set but
+here because we created it a little bit
+differently we're actually going to
+devalue 'z and nodes so inside of the
+nodes array basically the values that
+are in there and they're just each just
+like the links one kind of a flat data
+set the links are good we just pass
+those directly in so we specified the
+nodes and the links
+now we have something here called on tik
+and this is when the force layout
+renders and then you do something in it
+I like drag something around or even
+just hovering or clicking or anything
+any of those things that happen this
+this function will execute here so you
+need to specify that so then we have
+link distance and I just put 300 here
+link distance is how far apart the nodes
+are in my course I go deeper into things
+like charge and gravity and link
+strength and all these other things but
+for now just don't worry about it let's
+just keep it simple and then we actually
+have to tell it starts this is a like
+you know how the actual layout starts to
+render so we've got our fourth layout
+now we've got now that that's created we
+need to add our links and then our nodes
+so we'll do VAR link equals SVG dot
+select all and we're going to do dot
+link we haven't added in yet but if we
+did we would get them then we pass in
+our data so data and we got our links
+enter this is what actually binds the
+data in that links array to the SVG it's
+kind of one of the main things about d3
+then we're going to append a line
+there's other ways to do this like if
+you wanted a curved line which is common
+you actually have to append a path which
+is a way to draw different types of
+shapes or different kind of polygons in
+d3 or an SVG rather so you could do that
+there separately and there's other
+examples online as well as my course I
+go deeper into it for here though let's
+just add it like that then we're going
+to add a class of link so this way we
+get our CSS styling okay cool so links
+are set up now it's the nodes turns
+nodes this turns is so node equals SVG
+dot select all similar to what we did
+before this time dot node dot data and
+here it's actually me force dot nodes
+it's just an easier way to reference it
+because the nodes are already in the
+forest layout enters to bind it and now
+we're going to append this time a circle
+so we're giving a getting a SVG circle
+out of this
+specify the class of node and I'm also
+going to specify the radius here so the
+how big the actual circles are I'm do
+the width of the SVG times 0.03 you can
+adjust that and of course that could be
+more dynamic all right good to go
+now we need to create our tick function
+so what actually happens when something
+in the individual do function tick you
+get this eeper ammeter which has things
+like the position and all that kind of
+jazz we're actually not going to really
+use that but it's just good to have in
+case you want to modify this so we need
+to specify for the node the C X and the
+C Y so the C X is the relative x
+position of the node so we'll have a
+function here and this is part of the d3
+stuff as well and in that function we're
+going to return the actual D dot X all
+right got that one then oops
+autocomplete decided to start working
+now we'll specify the C Y and sim as
+before function except we're going to do
+return D Y all right that's good for our
+nodes with the exception of call and
+we're going to add forced drag so with
+this one that's actually going to let us
+drag things around in the VIS which is
+really cool it's part of the fun stuff
+with forced layouts it's funny - I may
+be I'm the only one that talks about
+four slats being fun but they're just
+they seem really cool ways to visualize
+data and they kind of tell stories in a
+different way so I like them for that
+reason so now for the links as things
+dragged around what we're going to have
+to do is actually adjust their starting
+and ending positions and because a link
+is a line and it has two points
+essentially an x1 and a y1 think back to
+your calculus days using your your
+calculator there and in your college
+class so basically similar to above with
+some exceptions so we're going to do
+return d source x
+and I'm actually just going to copy this
+save some typing and so x1 and y1 is the
+beginning and so it's going to be
+sourced x and y and then x2 and y2 are
+the ending points so it's going to be
+instead of source it's going to be
+target
+close out our script tag and we should
+be good to go let me just go ahead and
+save this bad boy and hit preview don't
+we got an error where is it this is kind
+of nice because I get to show you how I
+troubleshoot errors I opened it up in a
+new tab there and then I hit inspect and
+it'll give me the JavaScript console
+oops I had an extra parenthesis there on
+line 37 so back over here let me go I
+don't think I have the line numbers on
+there we go I see and if I did I would
+have known that was Nair okay cool so I
+messed something up there let's take a
+look I'm missing that guy save that
+render it here now and the other thing
+that I had to fix here was it's not
+links dot source it's linked out source
+because that's the function we're
+referencing and up above I had to add
+this for my doctype okay so if you cut
+those errors good for you
+and here we go I'll refresh the page now
+and bam there you have it so a really
+simple way to draw a force layout
+remember the basic steps are you get
+your data and again you can use a CSV
+and I'll put a link down there you can
+look at another example you parse out
+that data into the nodes then you add us
+Viji
+you build your forest layout passing in
+the links and the nodes then you add the
+links in the nodes themselves
+interestingly enough if I were to swap
+these out so if I were to cut that guy
+and paste him above the other one and
+save it now and refresh notice how the
+links are on top of the nodes
+it's literally like that because of how
+its drawn because it's inside of an SVG
+window kind of the first things that you
+know are drawn to kind of like layers on
+top of the other one so there's not
+something like a z-index or a CSS
+property or something you can set there
+it's just how it's actually rendered or
+how the code is written here okay so
+then add your links add your nodes and
+then do the tick function this is again
+is what lets me drag it around and have
+it up
+date and see how the the everything
+stays in sync as it goes that's kind of
+the deal there alright I hope you've
+enjoyed this tutorial and come back for
+more I'll have a lot more d3 stuff
+coming out on my blog as well as I have
+a course specifically on force layouts
+on Pluralsight coming out soon
+hello friends and welcome to geeks or
+geeks in this tutorial we are going to
+cover cycle detection in a directed
+graph using node coloring technique so
+the problem statement is that we are
+given a directed graph and we have to
+check whether it contains a cycle or not
+we need to just print
+true if there are one or more cycle or a
+false if there are none let's break down
+the problem statement further and
+understand what do we mean by few key
+word used here in our previous videos on
+cycle detection we have covered these
+keywords so let's quickly see what they
+mean first it says that the graph is a
+directed one so what is a directed graph
+here we see a directed and an undirected
+graph the edge of a directed graph is
+having a direction from one node to
+another while the edge of undirected
+graph is directionless next term we used
+was a cycle cycle is basically a closed
+path where we have a sequence of nodes
+starting and ending on the same node
+here we have an acyclic and a cyclic
+graph in cyclic graph we have a cycle as
+if we start from 0 we come back to it
+after going through node 1 and 2 however
+in this a cyclic graph if we start from
+0 it goes to 1 then 2 and then there is
+no path that lead back to the node 0
+that is in this graph we do not have a
+cycle let's now look at the solution to
+the problem statement in this approach
+we will use node coloring technique and
+depth-first search if you are not aware
+of DFS traversal you can go through the
+tutorial that we have covered earlier so
+the basic idea that we will use here is
+first
+we will color all nodes into three
+colors white gray and black white color
+nodes would be the one which are
+unrelated or unprocessed gray color node
+would be the one that are being visited
+or processed in other words we can say
+those nodes whose descendants are being
+processed finally the black nodes would
+be the visited nodes one whose all
+descendents are processed this was the
+coloring technique now if while doing
+DFS we get an edge from current vertex
+to agree vertex then we see we have a
+cycle and this edge as a back edge a
+package is an edge that is from a node
+to itself or from a node to its ancestor
+node the presence of that edge
+determines the presence of a cycle this
+is the cyclic graph that we are going to
+use forever algorithm we will also
+require these three sets the unvisited
+white set the under process grace it and
+the visited black set initially all
+nodes are unvisited so they will be in
+the white set these start over DFS from
+node zero we put this node into our
+reset and start processing its
+descendant nodes the neighbor of zero
+are 1 and 3 since none of them are in
+gray set we choose one we put one into
+our gray set the neighbors of one are
+two and three both of which are in white
+set we chose two and put it from white
+to gray set now since there are no
+neighbors of node
+be say it to be explored and put it from
+three to black said this to in black set
+means that it has been visited now we go
+back to note one one of its neighbor to
+is in black set and the other neighbor
+three is in bite said the chose three
+and put it into our gray set now we see
+neighbors of three zero and four are its
+neighbor but we see that zero is
+increase at two since both current node
+three and its neighbor zero are in gray
+set we see that this is the back edge
+and that we have found a cycle here our
+algorithm would stop let's assume that
+this edge was not there so the only
+neighbor of three would have been four
+we would therefore go ahead and put node
+four into gray set now at node 4 we have
+a self loop and while covering this edge
+we can say that this is again in gray
+set and that we have found a cycle let's
+look at the implementation of this
+algorithm this is the code snippet taken
+from geeks or geeks we start by
+initializing the color of all nodes as
+white and then for all the nodes that
+are white we call our DFS function if it
+returns true we say that we have a cycle
+else we see that there are none now this
+is the TFS function that finds a back
+edge it takes a node and the color array
+it marks the current node color to gray
+it then checks all the neighbor of this
+current node if any of it has grey color
+then it returns true if neighbor
+is not processed and while recursing we
+have a Bacchus then also it returns true
+if all descendant of current vertex are
+explored we mark it as black and also
+return false let's now look at the
+complexity of this code the code will
+run in Big O of v plus e this is same as
+we have in depth-first search here V are
+the number of vertices and E are the
+number of edges with this we come to an
+end of this tutorial if you have any
+doubts or suggestions please leave them
+in the comment section below thanks for
+watching
 hello friends my name is Tushar and
 today we're going to talk about how to
 find all simple cycles in a directed
@@ -1525,982 +2948,6 @@ out my facebook page facebook.com to
 sharra 25 and check out my github link 8
 sub-commission peace interview wiki
 thanks again for watching this video
-welcome to our 26th video with data
-structures and algorithms let's do an
-example of breadth-first search so we
-have our graph here it's a little longer
-than this okay so same same graph as we
-used for depth-first search we're going
-to need a queue to to do this and so we
-are going to denote that we're going to
-DQ from this left side and we'll NQ from
-the right side or into the right side
-you'll see what I mean
-as we go along so we're just going to
-start from one okay and we'll do things
-numerically okay in order so we're going
-to start here and the first thing we're
-going to do is we're going to mark this
-as 0 the distance from our starting
-point is 0 so far right so 1 is 0
-distance away from itself if that helps
-so let's draw our queue at first okay
-it's empty at first and we're going to
-NQ 1 right so let's put one in the queue
-okay and there we go
-now what we do is we pop or not pop
-that's the stack we DQ 1 and we will NQ
-its adjacency list so 2 and 6 and like I
-said we're going to do it in that order
-numerical order so the next thing that
-we have on here is 2 and 6 okay now we
-have to write let's look at 2 so the
-distance as well it will increase right
-so this is 1 and this is 1 right there
-one node away from the starting point so
-2 is up next in the queue so we're going
-to DQ 2 and we will NQ its adjacency
-list which consists of 10 so now we have
-6 and 10 you can kind of see how it's
-how the queue is moving along and this
-is a distance of 2 right away from
-that's a starting point so keep going
-here actually I need to be drawing these
-as well so we're going to draw that we
-took this path right here all right we
-also have searched this path so far just
-this one edge also this edge right we've
-searched okay so now six is up next in
-the queue so let's take six
-let's dq6 and we will NQ its adjacency
-list all right which is nine and eleven
-so here right we have a distance of two
-in a distance of two so now we have ten
-at the front of the queue we have nine
-and we have eleven okay so let's do that
-okay and we're good so far
-next up is ten let's do Q 10 and push on
-it's a days adjacency list so we've got
-nine eleven and thirteen has now been in
-queued okay and that is a distance of
-three away next up is nine
-let's DQ 9 and NQ 12 this is a distance
-of three so now our queue looks like
-this 12 all right next one is 11 so
-let's DQ xi and we will NQ 14 this is a
-distance of three away so we have 13 12
-and 14
-okay now 13 is up next
-so let's DQ 13 and NQ 15 which is now a
-distance of 4 12 14 and 15
-all right next is 12 and when we DQ 12
-10 has already been discovered so we are
-not going to end give anything we're
-just going to take this off the queue so
-now our key looks like this 14 and 15
-okay next up is 14 right so we DQ 14 and
-15 is already on the queue right it's
-already been discovered so we just DQ it
-and that's it so 15 is now in the queue
-and so we DQ 15 and we NQ 18 right which
-is the distance of five so now 18 is in
-the queue and with DQ 18 and 17 is here
-that's a distance of 6 so 17 is now in
-the queue so when we DQ 17 right there's
-nothing that's going to be include so
-our queue is empty now so we are done
-with our search from the first node ok
-we still have other things going on that
-have not been discovered yet so we need
-to go to the next node
-it's 2 now 2 has already been discovered
-so we're not going to start there
-anymore right we're done with that one
-so let's try the next one 3 has not been
-discovered yet you'd see that it's using
-colors that the color would be white
-right it has not been discovered yet so
-we're going to have a new starting point
-here with a distance of 0 and we were
-going to put that into our queue right
-so now 3 is in the queue let's DQ that
-and we will push or we will NQ its
-adjacency list this is both a distance
-of 1 right so we have 5 and 8 I could
-put into the queue when we pop when we
-when we DQ 5
-it has no adjacency list right it's
-empty so we just DQ it and that's it we
-have 8 here right same thing here
-it's adjacency list has 10 but 10 has
-already been discovered so now we DQ a
-and there's nothing in the queue so we
-finished up with our search from node 3
-now let's search from the next node
-which is node 4 so 4 has not yet been
-discovered so let's give it a distance
-of 0 we've got 4 in the queue and when
-we dequeue this right we have 6 and 7 6
-has already been discovered so we're
-just going to in queue 7 so 7 will be in
-the queue and when we dq7 we check its
-adjacency list it's there's a 9 there
-it's already been discovered right we'd
-have a color of black or yeah it would
-have a color of black in this case so we
-DQ 7 and our queue is empty now you
-start from 8 8 has already been
-discovered so we're good 9 discovered 10
-discovered 11 12 13 14 15 and 16 so 16
-is our next one right so we in queue 16
-okay and when we DQ 16 14 has already
-been discovered right its adjacency list
-so we do nothing so that's there and we
-have finished our breadth-first search
-hello friends my name is Tushar and today
-i'm going to talk about how to detect a
-cycle in a directed graph. In another
-video, I talked about how to detect a
-cycle in undirected graph. Today, we're
-going to talk about directed graph. So
-the idea is to use a depth first search.
-While doing a depth first search, we're going
-to maintain three sets: a white set, a
-gray set and a black set. White set has
-all the vertices which have not been
-visited at all
-Gray set has all the vertices which are
-being visited right now and black set
-has all the vertices which have totally
-been visited meaning that all its
-children have also been visited.
-so while doing depth first search, if we
-encounter a vertex in a gray set, it means
-that we found a cycle.
-Why? because when a vertex is in gray set,
-it means that its neighbors, or its
-neighbor's neighbors or somebody in that
-hierarchy is still being explored and
-that vertex found a path back to the
-vertex in the gray set, indicating that
-there's a presence of a cycle.
-So next let's try to apply this
-algorithm on this graph here.
-So first thing we do is we put all the
-vertices in this white set here, then
-we're going to continue to do depth first
-search till either we find a cycle in this
-graph or we have moved all the verttices 
-from white set to black set. if
-all the vertices have been moved to black
-set, it means that there is no cycle in
-this graph. So let's start from any
-random vertex, so let's say we start
-from vertex 1, so first thing we do is, we
-move this vertex to gray set and
-also in this DFS map, i am going to
-indicate that one got introduced by null
-because there is no parent of one because
-one is a start point. Then we're going to
-to explore neighbors of one. So one neighbor
-of one is two. Two is not there in the black
-set
-Two is not there in the gray set
-but two is in the white set so then
-we're going to take two out of the white
-set and then add it into the gray set
-because now we're going to explore two and
-also indicate here that two got
-introduced by one. So now we're going to
-explore neighbors of two. One neighbor of two
-is three. Three is not in the black set. It means
-that it's not visited. Three is not in the
-gray set, so there's no cycle yet
-but three is in the white set, so again we're
-going to move three from white set to
-gray set, indicate that three got
-introduced by Two and explore neighbors of
-three. Three has no more neighbors it
-means that three is totally explored.
-which means that we can move three from
-gray set to black set.
-remember black set has all the vertices 
-which are totally visited.
-now we're going to go back from three to
-two and explore other neighbors of two but
-has two more neighbors to be explored.
-so we're going to move two from gray set
-to black set and go back to one. One has one
-more neighbor three to be explored but three is
-already in the Black set. It means that
-there is no reason to visit three again
-so one doesn't viist three and at this
-point
-one has no more neighbors to be explored so
-we'll move one to black set. Now at this
-point we are done doing the DFS starting
-with one so we have to go back to the
-to the white set and see
-that white set is still not empty
-so pick another random vertex in the
-white set. So let's say you picked four
-and now we're able to do our DFS around
-four, so we're going to move four from
-white set to gray set
-so now we'll explore neighbors of four.
-so first we're going to say that four
-got introduced by null because in DFS
-four doesn't have a parent
-so one neighbor of four is one but one is
-already in the black set. So we're not
-going to explore one again
-so we're going to explore other neighbor
-of four. So another neighbor of four is five
-so five is not in the black set, five is not
-in the gray set but five is in the
-white set.
-so again we're going to move five to gray set
-because now we'll explore five and here i am
-going to say that five got introduced by
-four. Now
-one neighbor of five is six. Six is not in black
-set, six is not in gray set, six is in white set
-so we're going to move six from
-white set to gray set and say that
-six got introduced by five and now we're going
-to explore neighbors of six. One neighbor
-of six is four. Four is not in the
-black set but four is in gray set
-it means that we found a cycle in
-this graph. So to figure out that what is
-that cycle, we can retrace our steps back.
-So we know that 6 5 4, so edge 64 is in the
-cycle then we go to six and see who
-introduced six. So six got introduced by
-five, so edge 56 is in the cycle and then
-we're going to check who introduced five and
-five was introduced by four so edge
-45 is in the cycle and four is the point at
-which we stopped, so this here is
-indicating our cycle. Four to five, five to
-six and six back to four. So now for
-suppose that we did not have this edge 64
-if we did not have this edge 64, in that case
-what would happen was that six would
-have no more neighbors to be explored, so we
-would move six here and then five would have
-no neighbors to be explored, so we move five to
-black set and then four would have no
-neighbors to be explored, so we would move four
-to black set and in that case we will not
-find any cycle. So if this edge six to four
-does not exist
-this graph should return false because
-there is no cycle and if this edge 64
-exists then this graph has a
-cycle and it should return true.
-The time complexity for this algorithm
-is O(E+V) and the space complexity
-is O(V). So next let's look at the code
-for this algorithm.
-main function here is hasCycle, it
-takes in a graph. First thing we do is
-we initialize whiteSet, graySet and
-blackSet. Then we're going to add all
-the vertices to white set. So white set
-here has all the five vertices.
-then while the whiteSet size is greater
-than zero, it is greater than zero
-we are going to take any random vertex
-from the whiteSet, so let's say we got
-one.
-So in DFS now we're going to go into
-DFS with current as one and passing
-whiteSet, graySet and blackSet.
-So in the DFS first thing we do is we
-move the current which is one from
-whiteSet to graySet because now
-we're going to explore one. You're
-going to get neighbors of one so. one neighbor
-of one is two. So two is not in the black
-set so first thing we check is two in
-the blackSet and it's not which
-means that two can be explored
-Two is not in the graySet which means
-that we haven't found a cycle
-yet.
-Then we're going to go into the DFS and
-check and explore two.
-So again we go into the recursion, this
-with value neighbor and neighbor is two
-so we come back to the top here
-so first thing again we do is we move two
-from whiteSet to graySet, then we're
-going to explore neighbors of two.
-So two has no neighbors
-so what we're going to do is we're done
-exploring two. So we're going to move two
-from graySet to blackSet.
-so two moves to black set and then
-we're going to return false
-so when we go back in recursion, we reach to
-the point here where we went to the
-recursion to the two and now the current
-is one
-so if DFS, so since we got false from two
-it means that there is no cycle with
-two involved so we're going to go back
-to the top of the for loop and again
-current here is one and now one has no more
-neighbors to be explored
-so we come out of the for loop and we're
-going to move one from graySet to blackSet
-and one is also going to return false.
-so this returns false to this DFS here.
-So again since this is false, so we
-don't go into this if condition and
-then we're going to go back to the top
-of this while loop. Now the
-whiteSet still has three more elements to go
-so again we're going to randomly pick
-another element. let's say we picked four
-so then our current becomes four and
-we're again going to go into
-the DFS with four and see if we can
-find cycle with four as a starting point.
-so here first thing we do is we move four
-from whiteSet to graySet
-so here four moved from white to gray and
-then we're going to explore neighbors of four
-one neighbor of four is one, so we come to
-this if condition but one is already in
-a blackSet so we do nothing about one
-and continue and look for another
-neighbor, so another neighbor of four is five.
-Five is not there in the black set, five is
-not there in the graySet so
-now we're going to explore five
-and to do that, we go into the DFS. So now
-our current is five. So first thing to do
-is move five from whiteSet to graySet.
-so this is what happens and then now we're
-going to explore neighbors of five. So one
-neighbor of five is six and six is not in
-blackSet, six is not in graySet so again
-we're going to do a DFS with six as the
-current so we go back to the top of this
-function. First thing we do is we
-move six from whiteSet to graySet
-so that's what happens here and now we're
-going to explore neighbors of six. One
-neighbor of six is four. So four is not in
-blackSet but four is in graySet. Four
-here is in graySet which means that
-we found a cycle because four was being
-explored. So this returns true immediately
-so what this means that it returns true.
-so six returns true to its calling
-function and six was called from five so five
-we return to the point here and this is
-true so five returns true to its
-calling function and five was called
-from four, so we come to this point where
-current is four and this since this is
-true so four returns true to its
-calling function which was here, so we
-come to this point and since this is
-true
-this returns true. So since this graph has
-a cycle it returns true saying that this
-has cycle. So this is all I have to talk
-about this algorithm, link to this
-code, Java code and Python
-code is in the description section of
-the video. Please like this video comment
-on this video, check out my facebook page
-and check out my github link. Thanks
-again for watching this video.
-welcome to our 25th video with data
-structures and algorithms let's do an
-example with depth-first search of
-graphs so our legend over here it just
-tells us what color each node is going
-to be so if there's nothing next to it
-right the color means that it's white so
-all of these are white there's no
-numbers out here on the outside if
-there's a number and a slash then that
-means it's gray and if it's a number and
-a slash and another number then that
-means that it's black and this would be
-discovery time right D and this would be
-finished time F so let's start at one go
-let's start here and we're going to go
-in order of the numbers okay as we
-search through this so for one we have
-two paths we're going to choose this one
-first right because we're going to go in
-order like I said so let's take this
-path or actually sorry one so discovery
-time one is one and this also means that
-it's gray
-can you see a slash so let's take this
-path and we've discovered this at time
-to slash now there's only one path from
-here so let's take that draw all these
-lines okay and we've discovered node ten
-at time three so let's keep going
-there's only one path out of ten so this
-is a time for out of 13 there's only one
-path so let's take that time five we
-discovered this it's the fifth thing
-that we've discovered and then we'll
-take the only path from 15 to 18
-discovered at time 6 and then again the
-only path from 18 is to 17 and this is
-at time 7 now there's nowhere to go
-all right there's no other paths so you
-have finished this at time 8
-we'll go back to the last note there's
-there's no other paths out of this so
-this is finished at time nine same thing
-up here time ten is finished back up to
-13 time 11
-let's scroll up no more out of 10 so
-this is the finished at time 12 same
-thing with two time thirteen and one has
-another path so let's take that so we're
-going to take this path and we've
-discovered six at time fourteen now
-there's two paths again remember we're
-going to go in order so nine comes
-before eleven so let's take this path
-nine was discovered at time fifteen okay
-the only path out of nine is to twelve
-here discovered at time sixteen and this
-path goes to ten but it's already been
-discovered right it's a black node so
-we're done there's nothing else to do so
-this is finished at time seventeen go
-back to nine finished at time eighteen
-go back to six there's another path so
-let's take that path okay I discovered
-at time 19 just scroll down okay
-let's take the only path 14 discovered
-at time 20 and this path here right the
-only path out of 14 is to 15 and this
-has already been discovered so this is
-finished at time 21 let's go back up
-finished at time 22 we'll go back up to
-6 this is finished at time 23 we'll go
-back to node 1 there's no more paths out
-of 1 so we have finished searching from
-node 1 at time 24 now we go to the next
-node right - it's already a black node
-so we're done with that one
-let's go to node 3 and start discovering
-here
-so this is discovered at time 25 and
-again we're going to go in order so
-let's go here right discovered a time 26
-is node 5 no paths out of 5 so finished
-at time 27 back here let's take the
-other path from 3 to 8 discovered at
-time 28 and the only path out of 8
-points to 10 which has already been
-discovered right it's already finished
-so this one is now finished at time 29
-and node 3 is finished at time 30 so I
-would finish with that let's go to the
-next node which is node 4 this has been
-discovered at time 31 now all right
-because it's white already there's no
-number there we would take 6 first but 6
-has already been discovered so let's
-take 7 discovered at time 32 it points
-to 9 right which is already been
-discovered so this is finished at time
-33 and then time 34 4 is finished so
-let's see let's go to the next one 5 has
-already been discovered 6 has already
-been discovered 7 8 9 10 scroll down 11
-12 13 14 15 all those that are
-discovered 16 has not been discovered so
-this is time 35 and it only has one path
-out to 14 which has already been
-discovered so this is done at time 36 we
-go to 17 that's already been discovered
-18 has already been discovered and we
-have completed our search
-hey what's everyone thanks for checking
-out this tutorial today I'm going to
-show you how to do a forced layout graph
-in d3 now these types of graphs are
-probably a bit different than things
-like line charts and bar charts and the
-usual ways that you visualize data so I
-wanted to just break this down for you
-as simply as I possibly can so I'm going
-to switch over to my browser now and
-I'll walk you through this okay so here
-on cloud9 IDE I have my environment and
-it's just the HTML environment if you've
-never set one up before you can just go
-create an account at c9i oh it's free
-you can sign in with github and all that
-there's other ways to do it but this is
-just a way I like to teach because it
-kind of takes away the environment
-configuration and worries about that so
-just simple web stuff so the first thing
-to do in this example is just kind of
-setup our HTML document so put in my
-doctype HTML set up my charset utf-8 I'm
-going to actually put in some styling
-info later we could have done this but I
-just want to not have to come back and
-type it so the way that force layouts
-work is that they have kind of two
-things nodes and links and a node is
-something that's represents an entity
-like a row of your data so if you have a
-CSV file every row essentially could be
-or probably is going to be a node for
-you then you have links and ways that
-they connect so that's what we're going
-to draw and I'm going to add of two
-different style options here so the
-first one is just a class of node and
-with that I'm going to put in a fill of
-this kind of light gray and I'll give it
-a stroke of white and a stroke with
-of two pixels so you can set up whatever
-you want these are just some kind of
-examples here and then the next one is
-the link so the line between them so
-here we're going to do stroke and we'll
-just do kind of a dark gray pound 777
-and stroke width of two pixels as well
-so again you can play with that change
-it however you want all right I'm just
-going to save this quickly as demo
-simple layout dot HTML okay cool
-all right so we got my style info now I
-need to actually kind of build some
-stuff so I'll create my body tag and I'm
-going to reference d3 here so I just do
-a script source equals and it's
-whack-whack d3.js org slash D 3v3 minjae
-s by the way version 4 is almost here if
-it isn't already by the time this posts
-so get ready for that I'm going to have
-some stuff coming out on that because it
-is quite different than how D 3 version
-3 works so I want to make sure you guys
-have everything you need to kind of
-convert it and all that and I'm kind of
-digesting all the changes right now
-there's quite quite a big list ok so now
-we're going to set up our variables are
-so width will just do 640 for this
-example height 480 and links so remember
-there's two things here there's the
-links and the nodes and the way I like
-to do this is to basically just have one
-data set because while I'm just going to
-show you how to punch it in and type the
-data in manually often what you'll have
-is a CSV file in I'll even point you to
-an example here some other code I have
-that demonstrates that but for right now
-what we're going to do first is just set
-up the links and then we'll tease out of
-that the nodes and remember the nodes
-are the rows and the links actually are
-the 4 from and the two the source and
-the target is what it comes out to be
-and that tells d3 in our layout how to
-draw stuff between one node and the
-other okay so for links this is going to
-be an array so just set it up there and
-somehow my autocomplete got turned off
-in my environment so a lot of extra
-typing all right so I'm going to set up
-some
-source and I'm going to do some fun game
-of throwing stuff let's do the Baratheon
-x'
-and the target here would be the
-Lannisters and close that out and
-basically rinse and repeat let's do I
-don't know maybe four of these five of
-these let's actually just do three for
-now so let's see a Baratheon and then
-Stark and then how about lannister and
-stark Baratheon and Lannister Baratheon
-stark okay so we can kind of play with
-that so there you go so I've got just a
-couple example there's just three nodes
-essentially that it'd be drawn with
-links then from there what I want to do
-is actually set up my notes so I'm going
-to just create a simple variable of our
-nodes basically give it a blank node so
-there's really nothing in there then I
-need to parse things out so here's where
-it actually is some code that has to
-parse out what are in the links and
-create the nodes from that this is a
-little snippet I found on one of Mike
-Bosse socks examples so I'm going to put
-an O there parse links to nodes and
-we're just going to do link stuff for
-each so it gives us a little loop here
-and inside there we'll have a callback
-function with the link so we're going to
-reference it that way and what do I need
-one more these guys and then that guy
-again without autocomplete that sucks so
-link dots or so we're going to take the
-source from our links array above and
-then we're going to do something we're
-going to say nodes and then link dot
-source so we're essentially going to add
-that right because this is going to give
-us that link that name Baratheon and
-Lannister or nodes link dot source
-equals name linked source so if we have
-the same one repeated we're not going to
-get extra nodes so this is just a little
-kind of clever snippet here to add them
-and not duplicate them now we're going
-to link target so for each target in our
-a list we do nodes and do link dot
-target so now if you weren't in the
-source but you were in the target we're
-going to add you as well and basically
-rinse and repeat the same stuff we did
-before so nodes link target yeah I could
-type pressures on when you're filming
-and that equals link that target as well
-so basically the idea there again is
-that if these already exist update them
-or you know it's good don't worry about
-it otherwise Adam so that's how we're
-going to actually parse out our links
-into our nodes so we have both of our
-data structures and d3 wants to kind of
-different data structures here of course
-you could have things more complex but I
-like to keep them simple because there's
-enough complexity in how this stuff
-works to begin with so I want to keep it
-as simple as possible now we just need
-to add our SVG to our body so this is
-when we actually start to do the d3
-stuff and we're going to do var SVG
-equals D 3 dot select body dot append
-SVG so this gives us our place to draw
-stuff instead of some attributes width
-is the width that we specified above
-height is the height that we specified
-above good to go okay now let's create
-our force layout so we get to use the
-force and if you watch my Pluralsight
-course I abuse that term so apologies in
-advance so we set up d3 layout for so
-this is the actual constructor that
-creates it and then we need to specify
-all the parameters so the first one is
-size give it an array of width comma
-height then nodes now this is where we
-actually pass in our data set so you'll
-see a lot of examples online where they
-just pass in a separate data set but
-here because we created it a little bit
-differently we're actually going to
-devalue 'z and nodes so inside of the
-nodes array basically the values that
-are in there and they're just each just
-like the links one kind of a flat data
-set the links are good we just pass
-those directly in so we specified the
-nodes and the links
-now we have something here called on tik
-and this is when the force layout
-renders and then you do something in it
-I like drag something around or even
-just hovering or clicking or anything
-any of those things that happen this
-this function will execute here so you
-need to specify that so then we have
-link distance and I just put 300 here
-link distance is how far apart the nodes
-are in my course I go deeper into things
-like charge and gravity and link
-strength and all these other things but
-for now just don't worry about it let's
-just keep it simple and then we actually
-have to tell it starts this is a like
-you know how the actual layout starts to
-render so we've got our fourth layout
-now we've got now that that's created we
-need to add our links and then our nodes
-so we'll do VAR link equals SVG dot
-select all and we're going to do dot
-link we haven't added in yet but if we
-did we would get them then we pass in
-our data so data and we got our links
-enter this is what actually binds the
-data in that links array to the SVG it's
-kind of one of the main things about d3
-then we're going to append a line
-there's other ways to do this like if
-you wanted a curved line which is common
-you actually have to append a path which
-is a way to draw different types of
-shapes or different kind of polygons in
-d3 or an SVG rather so you could do that
-there separately and there's other
-examples online as well as my course I
-go deeper into it for here though let's
-just add it like that then we're going
-to add a class of link so this way we
-get our CSS styling okay cool so links
-are set up now it's the nodes turns
-nodes this turns is so node equals SVG
-dot select all similar to what we did
-before this time dot node dot data and
-here it's actually me force dot nodes
-it's just an easier way to reference it
-because the nodes are already in the
-forest layout enters to bind it and now
-we're going to append this time a circle
-so we're giving a getting a SVG circle
-out of this
-specify the class of node and I'm also
-going to specify the radius here so the
-how big the actual circles are I'm do
-the width of the SVG times 0.03 you can
-adjust that and of course that could be
-more dynamic all right good to go
-now we need to create our tick function
-so what actually happens when something
-in the individual do function tick you
-get this eeper ammeter which has things
-like the position and all that kind of
-jazz we're actually not going to really
-use that but it's just good to have in
-case you want to modify this so we need
-to specify for the node the C X and the
-C Y so the C X is the relative x
-position of the node so we'll have a
-function here and this is part of the d3
-stuff as well and in that function we're
-going to return the actual D dot X all
-right got that one then oops
-autocomplete decided to start working
-now we'll specify the C Y and sim as
-before function except we're going to do
-return D Y all right that's good for our
-nodes with the exception of call and
-we're going to add forced drag so with
-this one that's actually going to let us
-drag things around in the VIS which is
-really cool it's part of the fun stuff
-with forced layouts it's funny - I may
-be I'm the only one that talks about
-four slats being fun but they're just
-they seem really cool ways to visualize
-data and they kind of tell stories in a
-different way so I like them for that
-reason so now for the links as things
-dragged around what we're going to have
-to do is actually adjust their starting
-and ending positions and because a link
-is a line and it has two points
-essentially an x1 and a y1 think back to
-your calculus days using your your
-calculator there and in your college
-class so basically similar to above with
-some exceptions so we're going to do
-return d source x
-and I'm actually just going to copy this
-save some typing and so x1 and y1 is the
-beginning and so it's going to be
-sourced x and y and then x2 and y2 are
-the ending points so it's going to be
-instead of source it's going to be
-target
-close out our script tag and we should
-be good to go let me just go ahead and
-save this bad boy and hit preview don't
-we got an error where is it this is kind
-of nice because I get to show you how I
-troubleshoot errors I opened it up in a
-new tab there and then I hit inspect and
-it'll give me the JavaScript console
-oops I had an extra parenthesis there on
-line 37 so back over here let me go I
-don't think I have the line numbers on
-there we go I see and if I did I would
-have known that was Nair okay cool so I
-messed something up there let's take a
-look I'm missing that guy save that
-render it here now and the other thing
-that I had to fix here was it's not
-links dot source it's linked out source
-because that's the function we're
-referencing and up above I had to add
-this for my doctype okay so if you cut
-those errors good for you
-and here we go I'll refresh the page now
-and bam there you have it so a really
-simple way to draw a force layout
-remember the basic steps are you get
-your data and again you can use a CSV
-and I'll put a link down there you can
-look at another example you parse out
-that data into the nodes then you add us
-Viji
-you build your forest layout passing in
-the links and the nodes then you add the
-links in the nodes themselves
-interestingly enough if I were to swap
-these out so if I were to cut that guy
-and paste him above the other one and
-save it now and refresh notice how the
-links are on top of the nodes
-it's literally like that because of how
-its drawn because it's inside of an SVG
-window kind of the first things that you
-know are drawn to kind of like layers on
-top of the other one so there's not
-something like a z-index or a CSS
-property or something you can set there
-it's just how it's actually rendered or
-how the code is written here okay so
-then add your links add your nodes and
-then do the tick function this is again
-is what lets me drag it around and have
-it up
-date and see how the the everything
-stays in sync as it goes that's kind of
-the deal there alright I hope you've
-enjoyed this tutorial and come back for
-more I'll have a lot more d3 stuff
-coming out on my blog as well as I have
-a course specifically on force layouts
-on Pluralsight coming out soon
-hey guys Samir let's with my body may
-it's another week in another visual and
-this week we have the force directed
-graph which as a name implies a great
-visual to display graphs that is the
-relationships between entities so let's
-take a look at the data what we have
-here is a dataset shows us the
-relationship between people maybe the
-number of emails that they send to each
-other so you can see there from the two
-and in the number of emails were sent
-and maybe we can make it a bit larger so
-it's bit easier to see and I'm going to
-use this text size hopefully that we
-have here now it's so much better I love
-that property here we go they can see
-here the number of emails that what
-we're going to do is we want to change
-its we're going to actually use the full
-circuit graph to see the relationship so
-I'm just want to click on it and now we
-have it you can see here the
-relationships and can see the strength
-you can see two things you can see when
-I'm home over it I can see the person
-that I'm that is in the focus is going
-to be highlighted in the relationship
-with other people
-and it's the width of the line
-represents the strength of the
-relationship so very very easy to use it
-simply drag the front throughout the to
-drag their strengths and you have their
-the chart ready to go a few tricks here
-that you must be aware of look again at
-the table the front and the two should
-have generally the same type of entity
-you don't do from sales person to
-product because they will not be able to
-create a graph out of this it has to be
-now same kind of entity between the two
-columns the values can be anything else
-you want now a few more tricks here so
-because this is a power bi visual it
-kind of plays along nicely with the
-other visuals so I can for example take
-the the front person here maybe apply
-the chiclet visual and I could go and
-say hey show me this area and it said to
-it lanced and LaRon and I have a chart
-that is smaller another way to treat the
-chart is to actually trim it by this by
-the strength of the relationship and
-here you might want to use a trick so
-let's go back to you to our table
-understand what we're going to do you so
-using here the bag
-is a regular column that just represents
-the values I created here a calculated
-column you can see here the strength
-column here completely here's a kind of
-a more complicated expression we'll see
-it in a moment but it's a it's a it's a
-more complicated expression and what it
-does it's going to look at the size
-value property it's loaded term it
-depending on the value of the property
-is going to turn some of those values to
-blank so let's see it in action so when
-you see here I have here the size the
-size field here I'm going to turn it
-into a chiclet they made me make it a
-little bit horizontal so it's good get
-it horizontal now it's nice and tight
-and this one here what we're going to do
-is well let's see well see the effect I
-want to drag here their strength drug it
-in table and you can see that it shows
-all the you know what let me just also
-look at all the people I can see now all
-the rows in the table but when I go and
-and choose are small some of the rows
-have been trimmed show they show blank
-you can see it here right and and if I
-remove the value those rows will
-actually completely disappear so I want
-to do it here we move the value and
-those rows are now completely disappear
-media will show me more people and with
-more strength and if I go too large
-all the relationship will show up so
-I'll just treat with a calculated
-measure that we have here and the effect
-is actually pretty nice because I if I
-have especially if I have small real
-estate let's go and make it a small real
-estate and I go and convert it to a
-graph visual and see it's coming very
-tight I'd even say hey trim down this
-the weak relationship and go too small
-and now we can have you know more space
-more room to work with it so it's just a
-nice trick to use here the beauty of it
-is those visuals is working beautifully
-with the rest of the visual on the
-screen so that's the fourth paragraph
-for you that's a vision of the week
-thank you and see you next week
 hi I'm Joe James in this video we are
 going to apply Dijkstra's algorithm to
 this directed graph now just as a
@@ -3609,89 +4056,165 @@ terry nopa Baxy hall of the goal
 technical lining 10 max 2012 sin
 team overall did German carnation
 the index is true alicia sticking this
-in this presentation we're going to look
-at diagraphs and relations so consider
-the problem T is the set comprised of
-the sets a and B a B and a B and C R is
-a relation to find on T as follows X or
-Y if X is a subset of Y where x and y
-are elements of T draw the relationship
-diagraph of RNs and state whether or not
-r is reflexive symmetric or transitive
-so what we're going to do is draw the
-diagraph and go from there so first off
-we have the four vertices here now it's
-very important to realize that we have
-four distinct vertices here for each of
-these subsets for each of these sets so
-this is vertex one this here is vertex 2
-this here is vertex 3 and this here is
-vertex 4 and there we have them there
-now R is a relation defined on T as
-follows X are Y if X is a subset of Y
-just to be clear that means subset now
-consider first off let's do consider the
-example a a is a subset of a and B so
-we'll have an edge going from 8 a and B
-and also a is a subset of ABC so it is
-going to have an edge going there
-also a is a subset of itself so it is
-going to be a age going there like that
-that leads back on a and in fact for
-every vertex it is there's going to be
-such a loop
-okay because everything every set is a
-subset of itself now let's look at B
-here as well B is a subset of a B so
-narrow and pointing in that direction
-and B is a subset of a B and C so again
-an arrow pointing in that direction a
-and B is a subset of a B and C and that
-accounts for all the relations I'm going
-to change the color a bit actually just
-to make it a bit more easier to look at
-so I'm going to make the vertices green
-so the next question is are these
-relations reflexive well in each case we
-have to check out the following those X
-or X hold for example is something a
-subset of itself and as I just stays
-there previously that all in all three K
-in all four cases we have a the size
-being a subset of itself we have these
-arrows pointing back towards themselves
-so yes it is reflexive so that's the
-first question done now the next
-question is is it symmetric well if it's
-symmetric and we would have initially X
-or Y and symmetric
-if Y are X now let's consider what this
-means here if X is a subset of Y that it
-would symmetric if Y is a subset of X
-now in that case that does not hold
-because for example a is a subset of B
-or C a is a subset of a and B but a and
-B is not a subset of a so it is not
-symmetric and in this particular
-instance so that is the second one it's
-not a symmetric lastly we're asked to
-determine if it's transitive
-so transitive works on the following
-basis so we have X or Y and Y are z 4
-vertices x y&amp;z it is transitive
-if
-we could start say X or Z now in this
-case yes it is transit why would I say
-that
-for example a is a subset of ABC but we
-can also say as far as the following a
-is a subset of ABC or is a subset of a
-and B which itself is a subset of ABC so
-it actually works in that basis as well
-just to be clear about that
-letting a correspond to X Y correspond
-to a B and that correspond to ABC X is a
-related to Y because what X is a subset
-of Y and cars more furthermore X is
-related to Z because X is a subset of Z
-and that concludes our presentation
+for the last of our craft demonstrations
+we're going to take a look at Dijkstra's
+algorithm and we're going to apply
+Dijkstra's algorithm to a directed
+weighted graph first step we're going to
+start out at a and we're going to figure
+out where we can get to from a that's
+better than what we've already got now
+again all of these are infinite to start
+out with so anything is going to be an
+improvement over that so we take a look
+at all the edges originating at a we
+have an edge from A to B it cost 20 well
+20 is better than infinity so we have a
+new lowest cost path from A to B and
+that's cost 20 and that's from vertex a
+we have another one from A to G that's
+cost 90 knots also from a and we have
+another one from a to D and that's 80
+and it also originates at vertex a and
+all of the remainder are going to be
+infinity because we have no path
+standing those vertices yet in the next
+step we're going to take a look at the
+lowest cost path of all the ones we have
+so far we have 80 90 a lot of infinities
+but we have a 20 so 20 is the best we've
+done so far so we're going to pick that
+as our lowest cost path and we're going
+to say that that one is now complete so
+in our next round we're going to start
+out the search at the place where that
+lowest cost path has taken us which is B
+now B we already know the lowest cost
+path is 20 but we're going to see where
+else we can get to from B that we
+haven't been to before
+well B only has one edge originating and
+that takes us to vertex F and we haven't
+been to F before so its cost is
+currently infinity so the cost to get to
+F via B is just 10 more than whatever
+the cost was to get to B so in other
+words 20 plus 10 is 30
+and that's a pacifier be everything else
+is unchanged so we're just going to copy
+it down
+in the next round we're going to take a
+look at all of the pads we have so far
+excluding the one that we've already
+picked and we're going to find the
+lowest-cost path well in this case it's
+the newest one that we've added which is
+32 F so f is going to be our starting
+point for the next round now we have two
+edges originating from f1 which takes us
+from F to C at a cost of 10 now that's
+10 plus the cost we have already of
+getting to F 30 so 30 plus 10 is 40 to
+get C 40 is better than infinity so we
+have a path to C cost of 40 and it comes
+from F we also have an edge from F to D
+now the cost of that edge is 40 now 40
+plus the cost of a 2 B 2 F is a total of
+30 plus 40 70 now our path currently 2 D
+is cost 80 70 is an improvement so we'll
+take 70 instead and that's via F and
+nothing else changes so 20 from a still
+no way to get to e 30 from b 90 from a
+and still no path to H either in the
+next round we're going to pick the
+lowest cost path of all the ones we
+haven't completed yet and that's this
+one over here so our path vertex C at
+cost of 40 so C is going to be our
+starting point for the next round
+now there's several edges originating at
+sea one takes us back to F it cost 50
+now that would give us a total cost of
+well 42 C plus 50 more is a total of 90
+now 90 is not better than 30 which is of
+course what we'd expect because we've
+already found the lowest cost half but
+we do have one from C to H and that's in
+addition to the cost of getting to see
+in the first place which was 40 so 40
+plus 20 is 60 60 is a big improvement
+over infinity so we'll take that one
+pass to H cost of 60 coming from C we
+also have an edge from C to D at a cost
+of 10 now 10 plus the cost to get to sea
+of 40 is a total of 50 which gives us a
+path from A to B - f - C - D of cost 50
+which is less than the cost of the path
+we have so far so we have another
+improvement 50 to get to D via C instead
+and that's the only change so everything
+else gets copied down
+and that's still the best path to be and
+that's still the best past path to see
+and that's still the best path to F but
+if we of what we've got left this path
+to D is now the lowest cost path the
+week so we finally settled on path to D
+that's going to be the best that we can
+get so that's at a cost of 50 so now
+let's take a look at where we can get to
+from vertex D from vertex D you get to
+vertex G at a cost of well 50 to get to
+D in the first place plus 20 from D to G
+grand total of 70 70 to get to G well
+that's an improvement over the direct
+route from A to G which was 90 so 70 is
+better than 90 so we pick 70 instead and
+that's via D but that's the only new
+path we have that's the only edge we
+have originating into D so everything
+else just gets copied down once again
+and we're already done with this one and
+this one and this one this one so now
+our next lowest cost path is this one
+2h at a cost of 60 so we're going to
+pick that for the next round and we're
+going to start exploring paths starting
+from vertex H now vertex H is very
+interesting because there is no edges
+originating there so there's nothing
+more we can do all we're going to do is
+say that everything stays the same as
+was before by copying everything down
+and all the finished paths are still
+finished kind of the remaining
+unfinished paths the lowest-cost one is
+this one over here it costs 70 so we're
+going to mark that one is finished and
+we're going to add that vertex G and
+we're going to take a look at all the
+edges starting from G now there's only
+one edge originating a G that takes us
+back to a at a cost to 20 grand total of
+90 to do a round-trip back to a but we
+weren't trying to do a round-trip in the
+first place so that adds no new
+information everything just gets copied
+down
+all of these are complete which leaves
+us with one last value which is e has a
+value of infinity now in this case value
+of infinity tells us that there's no
+path to he at all and in fact if we take
+a look at the vertex E we can see of
+course if there are no edges leading
+into E which means that there is not
+going to be any way of getting there and
+having the value infinity left over as
+our result shows us that there is in
+fact no path to e so we can mark it is
+done that's the best path we can get
+none at all
+and now our Dijkstra's algorithm finding
+the lowest cost paths from a to all the
+other vertices in a graph is complete
