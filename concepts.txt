@@ -8,3 +8,24 @@ directed graph
 weighted graphs
 transpose
 matrix
+breadth-first search
+minimum-spanning-tree
+shortest-paths algorithm
+source vertex
+breadth-first tree
+adjacency-list
+shortest-path distance
+monotonically increasing
+predecessor subgraph
+tree edges
+depth-first search
+predecessor subgraph
+depth-first trees
+tree edges
+discovery time
+finishing time
+parenthesis structure
+White-path theorem
+Back edges
+Forward edges
+Cross edges 
