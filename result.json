@@ -1,71 +1,38 @@
 {
  "kind": "youtube#searchListResponse",
- "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/1UYNVJIn3FEuihQb13lFhlYMO8M\"",
+ "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/7ybSVYNeg0ERMGORoPBQUVTD_Cc\"",
  "nextPageToken": "CBkQAA",
  "regionCode": "IN",
  "pageInfo": {
-  "totalResults": 287,
+  "totalResults": 239,
   "resultsPerPage": 25
  },
  "items": [
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/QCKf2GavRy-4Qu0_3aNNA5MefR8\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/8jJjhFHc0iecYMIgVpWWmHuB-ug\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "WtfGRS1BsBI"
+    "videoId": "AfYqN3fGapc"
    },
    "snippet": {
-    "publishedAt": "2014-04-18T23:32:32.000Z",
-    "channelId": "UCu1fBW1SePAXwOl_8qqWqhQ",
-    "title": "Graphs Adjacency Lists and Matrices",
-    "description": "In this video, I show you how we can represent a Directed Graph data structure with two different methods, Adjacency Lists and Adjacency Matrices.",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/WtfGRS1BsBI/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/WtfGRS1BsBI/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/WtfGRS1BsBI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "zooce",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/3phSONHJB10hUFEOTiI-tnhwB44\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "k1wraWzqtvQ"
-   },
-   "snippet": {
-    "publishedAt": "2016-10-24T11:41:58.000Z",
+    "publishedAt": "2014-09-16T13:02:07.000Z",
     "channelId": "UClEEsT7DkdVO_fkrBw0OTrA",
-    "title": "Graph Representation part 03 - Adjacency List",
-    "description": "See complete series on data structures here: http://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P In this lesson, we have talked ...",
+    "title": "Data structures: Properties of Graphs",
+    "description": "See complete series on data structures here: http://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P In this lesson, we have ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/k1wraWzqtvQ/default.jpg",
+      "url": "https://i.ytimg.com/vi/AfYqN3fGapc/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/k1wraWzqtvQ/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/AfYqN3fGapc/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/k1wraWzqtvQ/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/AfYqN3fGapc/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
@@ -76,100 +43,67 @@
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/n4JFVNHm-Bu93se1wRlUVOcNeiw\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/j3MV3WGYCpkR0gOjSnxUIsP-TqI\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "SXkqUvHRgRA"
+    "videoId": "82zlRaRUsaY"
    },
    "snippet": {
-    "publishedAt": "2017-03-16T11:11:57.000Z",
-    "channelId": "UC2ue0PuRZwRHPfp2rQfQpdw",
-    "title": "Graphs using Adjacency Lists | Code in Java",
-    "description": "This video is a step by step tutorial on how to code Graphs data structure using adjacency List representation in Java using Eclipse. Source Code ...",
+    "publishedAt": "2015-04-18T15:00:00.000Z",
+    "channelId": "UCutCcajxhR33k9UR-DdLsAQ",
+    "title": "Graph Theory Overview",
+    "description": "Follow along with the course eBook: https://goo.gl/hhChUL See the full course: http://complexitylabs.io/courses In this lecture, we start to lay down some of our ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/SXkqUvHRgRA/default.jpg",
+      "url": "https://i.ytimg.com/vi/82zlRaRUsaY/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/SXkqUvHRgRA/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/82zlRaRUsaY/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/SXkqUvHRgRA/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/82zlRaRUsaY/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "nischay malhan",
+    "channelTitle": "Complexity Labs",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/HwiBjR0HIeaGMGhZR3UmGkaxOyU\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/gonY_q8t46B1ez5JKylpxvd4I9s\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "imYq0rFJlHc"
+    "videoId": "mVWn8k49mAQ"
    },
    "snippet": {
-    "publishedAt": "2013-10-28T16:26:15.000Z",
-    "channelId": "UCeoF_5Kw0YyWOqhAbQGrxJQ",
-    "title": "Using Adjacency Lists in Graph Theory (Discrete Maths)",
-    "description": "www.Stats-Lab.com | Graph Theory | Adjacency Lists.",
+    "publishedAt": "2016-06-20T16:16:40.000Z",
+    "channelId": "UC4EX8zLiBUalk704IX_zu1Q",
+    "title": "Graph Theory in Data Structure(Hindi, English) with Example",
+    "description": "Graph Theory in Data Structure(Hindi, English) with Example for students of IP University Delhi and Other Universities, Engineering, MCA, BCA, B.Sc, M.Sc ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/imYq0rFJlHc/default.jpg",
+      "url": "https://i.ytimg.com/vi/mVWn8k49mAQ/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/imYq0rFJlHc/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/mVWn8k49mAQ/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/imYq0rFJlHc/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/mVWn8k49mAQ/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Dragonfly Statistics",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/5Hit3MrBOHMvMk1hWL70W8lPASs\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "bs2er-CleeI"
-   },
-   "snippet": {
-    "publishedAt": "2017-03-28T21:20:58.000Z",
-    "channelId": "UC2ue0PuRZwRHPfp2rQfQpdw",
-    "title": "Graphs using Adjacency Lists | Code in Python",
-    "description": "This video is a step by step tutorial on how to code Graphs data structure using adjacency List representation in Python. Source Code ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/bs2er-CleeI/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/bs2er-CleeI/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/bs2er-CleeI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "nischay malhan",
+    "channelTitle": "Easy Engineering Classes",
     "liveBroadcastContent": "none"
    }
   },
@@ -208,133 +142,463 @@
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/gxZ_HOgFvSH2KxFpsSdwpVpv9Nc\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/nU2_6v08fHXrIc3xkbRaBIzoigI\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "cjsxFr6RIG0"
+    "videoId": "aGj1Q3ECUSg"
    },
    "snippet": {
-    "publishedAt": "2016-05-04T13:53:56.000Z",
-    "channelId": "UCbk2n7x62jQTwBwdlPGWNxg",
-    "title": "Converting Various Formats into Adjacency Lists for Gephi",
-    "description": "The social network data sets you find online often aren't in the format you need for the analysis tool you are using. There generally aren't converters that will ...",
+    "publishedAt": "2017-05-23T02:39:36.000Z",
+    "channelId": "UCiDq5JtTRG6Yaa1tX4KHJng",
+    "title": "05   Undirected Graphs   Connected Components",
+    "description": "",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/cjsxFr6RIG0/default.jpg",
+      "url": "https://i.ytimg.com/vi/aGj1Q3ECUSg/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/cjsxFr6RIG0/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/aGj1Q3ECUSg/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/cjsxFr6RIG0/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/aGj1Q3ECUSg/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "jengolbeck",
+    "channelTitle": "Anass El Adraoui",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/yIbdrJfujDu4RlirRAEF-wVvaWM\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/KbuW1uwGwoAJZvFrRHjbesaWxRk\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "HmQR8Xy9DeM"
+    "videoId": "7uc1FdMJeqU"
    },
    "snippet": {
-    "publishedAt": "2010-11-12T23:35:54.000Z",
-    "channelId": "UCFe6jenM1Bc54qtBsIJGRZQ",
-    "title": "Graph Theory - An Introduction!",
-    "description": "Graph Theory - An Introduction! In this video, I discuss some basic terminology and ideas for a graph: vertex set, edge set, cardinality, degree of a vertex, ...",
+    "publishedAt": "2014-04-14T07:36:29.000Z",
+    "channelId": "UCRX6j_Y9O1UXKg1cCkbxDOA",
+    "title": "undirected graphs",
+    "description": "Module 5: Networks. Review of basic definitions of undirected graphs.",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/HmQR8Xy9DeM/default.jpg",
+      "url": "https://i.ytimg.com/vi/7uc1FdMJeqU/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/HmQR8Xy9DeM/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/7uc1FdMJeqU/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/HmQR8Xy9DeM/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/7uc1FdMJeqU/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "patrickJMT",
+    "channelTitle": "VCE Further Maths",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/QEcWIItmgsICwsndPPXYH3kYeQg\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/DK2BVA_iZW7Y6-yujzwLj4Gj51w\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "mQEv1QxaIuM"
+    "videoId": "iaBEKo5sM7w"
    },
    "snippet": {
-    "publishedAt": "2016-03-19T06:58:34.000Z",
-    "channelId": "UCu4ztYtW-Bg1KIfcLAULtVQ",
-    "title": "Chapter 53 Adjacency List Representation of Graph in Data Structure Hindi",
-    "description": "Like, Comments, Share and SUBSCRIBE.",
+    "publishedAt": "2013-02-17T18:52:48.000Z",
+    "channelId": "UCo7nlq2MgsmITlb0JTxuZ9w",
+    "title": "Depth First Search Algorithm",
+    "description": "This is one of the important Graph traversal technique. DFS is based on stack data structure. Analysis: The time complexity of DFS using Adjacency list is O(V + ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/mQEv1QxaIuM/default.jpg",
+      "url": "https://i.ytimg.com/vi/iaBEKo5sM7w/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/mQEv1QxaIuM/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/iaBEKo5sM7w/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/mQEv1QxaIuM/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/iaBEKo5sM7w/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Data Structure by Saurabh Shukla Sir",
+    "channelTitle": "Go GATE IIT",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/MyicOVfh391g7yK9W15g0VGVWQU\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/68mahG4zjd-oDPusxAu-2LOIvS0\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "63VV1xOwJNg"
+    "videoId": "CnuMOVo3ViM"
    },
    "snippet": {
-    "publishedAt": "2016-03-09T07:34:58.000Z",
-    "channelId": "UCu4ztYtW-Bg1KIfcLAULtVQ",
-    "title": "Chapter 52 Representation of Graph in Data Structure hindi",
-    "description": "Like, Comments, Share and SUBSCRIBE Visit www.mysirg.com for all FREE lectures.",
+    "publishedAt": "2016-05-31T16:09:18.000Z",
+    "channelId": "UCJ35rp81wkV39pVgNgphqMw",
+    "title": "DISCRETE MATHEMATICS- GRAPH THEORY LEC- 3",
+    "description": "DISCRETE MATHEMATICS- GRAPH THEORY LEC- 3 FOR STUDENTS OF BCA , MCA AND CBSE NET COMPUTER SCIENCETHIS VIDEO TELLS YOU ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/63VV1xOwJNg/default.jpg",
+      "url": "https://i.ytimg.com/vi/CnuMOVo3ViM/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/63VV1xOwJNg/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/CnuMOVo3ViM/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/63VV1xOwJNg/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/CnuMOVo3ViM/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Data Structure by Saurabh Shukla Sir",
+    "channelTitle": "GATE and NET Computer Science video-lec",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/DsJSJVnK2uLUjqFoUvie5eeZ8Ss\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "rspFC527aYA"
+   },
+   "snippet": {
+    "publishedAt": "2014-12-08T22:54:25.000Z",
+    "channelId": "UCW1C2xOfXsIzPgjXyuhkw9g",
+    "title": "An Almost-Linear-Time Algorithm for Approximate Max Flow in Undirected Graphs, and its Multicom...",
+    "description": "Jon Kelner, Massachusetts Institute of Technology Fast Algorithms via Spectral Methods http://simons.berkeley.edu/talks/jon-kelner-2014-12-01.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/rspFC527aYA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/rspFC527aYA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/rspFC527aYA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Simons Institute",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/ke0bjCv3XcM_KsFyFILgTXIC0r0\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "n_t0a_8H8VY"
+   },
+   "snippet": {
+    "publishedAt": "2015-08-01T04:02:18.000Z",
+    "channelId": "UCZLJf_R2sWyUtXSKiKlyvAw",
+    "title": "Cycle in Undirected Graph Graph Algorithm",
+    "description": "Cycle in undirected graph using DFS and disjoint sets. https://www.facebook.com/tusharroy25 ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/n_t0a_8H8VY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/n_t0a_8H8VY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/n_t0a_8H8VY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Tushar Roy - Coding Made Simple",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/C1mxsSE2Bj_VDIyXR3ejuH1G4Ow\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "iBQkZdPHlCs"
+   },
+   "snippet": {
+    "publishedAt": "2015-11-07T02:03:15.000Z",
+    "channelId": "UCleP-FrLBsyu33GUShi3XaQ",
+    "title": "Undirected Graphical Models",
+    "description": "Virginia Tech Machine Learning.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/iBQkZdPHlCs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/iBQkZdPHlCs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/iBQkZdPHlCs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Bert Huang",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/Y2KmEiTnunRHC5bptvXB1Pn4adc\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "jMWKQElCOcs"
+   },
+   "snippet": {
+    "publishedAt": "2017-05-17T03:32:01.000Z",
+    "channelId": "UCYlBcA-4FnMkPoQJQSXENPg",
+    "title": "DM-48-Connected components problem",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/jMWKQElCOcs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/jMWKQElCOcs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/jMWKQElCOcs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "GATE CS LECTURES BY GATE BOOK",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/EkJq9xFUSGMaLSmnZRRg5cEIFLk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "y_TcGwX-cYE"
+   },
+   "snippet": {
+    "publishedAt": "2016-07-30T09:22:55.000Z",
+    "channelId": "UCc5FkTYiWH5L3Gk5IyW6Rmw",
+    "title": "136. Directed and Undirected Graph (Hindi)",
+    "description": "Please Subscribe Channel Like, Share and Comment Visit : www.geekyshows.com.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/y_TcGwX-cYE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/y_TcGwX-cYE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/y_TcGwX-cYE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Geeky Shows",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/YiEVfpNKCt7c0UFX1Yxu2jkM0wo\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "U_Or-HcmFkw"
+   },
+   "snippet": {
+    "publishedAt": "2016-05-29T17:30:57.000Z",
+    "channelId": "UCJ35rp81wkV39pVgNgphqMw",
+    "title": "DISCRETE MATHEMATICS - GRAPH THEORY . PROBLEMS BASED ON GRAPH THEORY. LEC - 2",
+    "description": "DISCRETE MATHEMATICS - GRAPH THEORY . PROBLEMS BASED ON GRAPH THEORY. LEC - 2 THIS VIDEO TELLS YOU THE TYPES OF GRAPH AND ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/U_Or-HcmFkw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/U_Or-HcmFkw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/U_Or-HcmFkw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "GATE and NET Computer Science video-lec",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/4cPxi4CJzTYjQ3p0ZtCjJrqYOYc\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "ZIIpZASD8OA"
+   },
+   "snippet": {
+    "publishedAt": "2016-08-04T13:41:06.000Z",
+    "channelId": "UC8aRaZ6_0weiS50pvCmo0pw",
+    "title": "An Almost-Linear-Time Algorithm for Approximate Max Flow in Undirected Graphs... - Jonathan Kelner",
+    "description": "Jonathan Kelner Massachusetts Institute of Technology February 24, 2014 In this talk, I will describe a new framework for approximately solving flow problems in ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ZIIpZASD8OA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ZIIpZASD8OA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ZIIpZASD8OA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Institute for Advanced Study",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/0Eb0U_6UNJX7tSrop10s3VBP-HY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "hk5rQs7TQ7E"
+   },
+   "snippet": {
+    "publishedAt": "2008-09-24T09:12:01.000Z",
+    "channelId": "UC640y4UvDAlya_WOj5U4pfA",
+    "title": "Lecture - 25 Data Structures for Graphs",
+    "description": "Lecture Series on Data Structures and Algorithms by Dr. Naveen Garg, Department of Computer Science and Engineering ,IIT Delhi. For more details on NPTEL ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/hk5rQs7TQ7E/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/hk5rQs7TQ7E/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/hk5rQs7TQ7E/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "nptelhrd",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/4BcVkgRqrnM8IsUb72lBbeaGmqs\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "QRq6p9s8NVg"
+   },
+   "snippet": {
+    "publishedAt": "2013-02-17T19:10:48.000Z",
+    "channelId": "UCo7nlq2MgsmITlb0JTxuZ9w",
+    "title": "Breadth First Search Algorithm",
+    "description": "This is one of the important Graph traversal technique. BFS is based on Queue data structure. Analysis: The time complexity of BFS using Adjacency list is O(V + ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/QRq6p9s8NVg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/QRq6p9s8NVg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/QRq6p9s8NVg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Go GATE IIT",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/9hsLUcSfE6CXb71EllCUZWi05dQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "-9I7J2UTC-Q"
+   },
+   "snippet": {
+    "publishedAt": "2014-12-01T14:15:57.000Z",
+    "channelId": "UCjemse4CoLsKcVMaCZONDJg",
+    "title": "Directed graph",
+    "description": "Directed graph.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/-9I7J2UTC-Q/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/-9I7J2UTC-Q/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/-9I7J2UTC-Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "jonmcire",
     "liveBroadcastContent": "none"
    }
   },
@@ -373,331 +637,100 @@
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/eTYYZhokTjaDJb2OdUbR495rf8s\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/XuCFBG4e-bkzlBKwmlwBZ0delDQ\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "9C2cpQZVRBA"
+    "videoId": "4Ih3UhVuEtw"
    },
    "snippet": {
-    "publishedAt": "2015-02-20T11:49:30.000Z",
-    "channelId": "UClEEsT7DkdVO_fkrBw0OTrA",
-    "title": "Graph Representation part 02 - Adjacency Matrix",
-    "description": "See complete series on data structures here: http://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P In this lesson, we have talked ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/9C2cpQZVRBA/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/9C2cpQZVRBA/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/9C2cpQZVRBA/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "mycodeschool",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/H0saOKcXSoMeZfNq09MmXA62S3g\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "HDUzBEG1GlA"
-   },
-   "snippet": {
-    "publishedAt": "2016-04-16T18:47:38.000Z",
-    "channelId": "UC4Xt-DUAapAtkfaWWkv4OAw",
-    "title": "Python: 2 Ways to Represent Graphs",
-    "description": "Two main ways of representing graph data structures are explained: using Adjacency Lists, and an Adjacency Matrix. This video also shows how to implement ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/HDUzBEG1GlA/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/HDUzBEG1GlA/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/HDUzBEG1GlA/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Joe James",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/9MXtvAflaa8FW-2OcR4OyFjEkg0\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "qeqWGnEyFs0"
-   },
-   "snippet": {
-    "publishedAt": "2015-12-15T00:30:51.000Z",
-    "channelId": "UCFzEy0ATbrnX8wb6u3A5B6g",
-    "title": "Rubik's Cube Graph",
-    "description": "This material was created or adapted from material created by MIT faculty member Erik Demaine, Professor. Copyright C 2005 Erik Demaine. See terms and ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/qeqWGnEyFs0/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/qeqWGnEyFs0/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/qeqWGnEyFs0/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Online Learning",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/ZcRYF-oNAnQd0-Wsk1cixtroo4Y\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "cFu2Z2mF1cQ"
-   },
-   "snippet": {
-    "publishedAt": "2017-03-19T19:28:55.000Z",
-    "channelId": "UCheN_8wt6HZ9ifdBblY6FBg",
-    "title": "Basic Graph Theory Concept and Depth First Search(DFS) Algorithm with JAVA Code",
+    "publishedAt": "2017-01-27T19:39:04.000Z",
+    "channelId": "UCH4s4ek5zqNvct5oy9_jd_g",
+    "title": "9   1   Graphs and Minimum Cuts 16 min",
     "description": "",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/cFu2Z2mF1cQ/default.jpg",
+      "url": "https://i.ytimg.com/vi/4Ih3UhVuEtw/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/cFu2Z2mF1cQ/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/4Ih3UhVuEtw/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/cFu2Z2mF1cQ/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/4Ih3UhVuEtw/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "kShah All",
+    "channelTitle": "Stanford Algorithms",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/JK4dAnTDGYTjNdR6ZXVDOHOHi6k\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/tUb4HbFboZWtktEAMowMV9MnIUo\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "_cuhmxi14mc"
+    "videoId": "x0RKKsg0B5o"
    },
    "snippet": {
-    "publishedAt": "2014-04-19T00:07:11.000Z",
-    "channelId": "UCu1fBW1SePAXwOl_8qqWqhQ",
-    "title": "Disjoint Sets - Union Operation",
-    "description": "In this video, I show you how the Disjoint Set data structure works.",
+    "publishedAt": "2017-03-24T15:09:33.000Z",
+    "channelId": "UCXEnJBeaJx3P87A_UfZpd0Q",
+    "title": "08A Directed & Undirected Networks",
+    "description": "In this video, I'll talk about directed and undirected networks. ---------------------------------------- Smart Energy Operations Research Lab (SEORL): ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/_cuhmxi14mc/default.jpg",
+      "url": "https://i.ytimg.com/vi/x0RKKsg0B5o/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/_cuhmxi14mc/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/x0RKKsg0B5o/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/_cuhmxi14mc/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/x0RKKsg0B5o/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "zooce",
+    "channelTitle": "Yong Wang",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/8jJjhFHc0iecYMIgVpWWmHuB-ug\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/P6__AxHKKOVvxjBohTsMKl9MGC8\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "AfYqN3fGapc"
+    "videoId": "adXd7cUHWw4"
    },
    "snippet": {
-    "publishedAt": "2014-09-16T13:02:07.000Z",
-    "channelId": "UClEEsT7DkdVO_fkrBw0OTrA",
-    "title": "Data structures: Properties of Graphs",
-    "description": "See complete series on data structures here: http://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P In this lesson, we have ...",
+    "publishedAt": "2015-02-23T20:56:55.000Z",
+    "channelId": "UCBVCi5JbYmfG3q5MEuoWdOw",
+    "title": "Connected Components - Intro to Algorithms",
+    "description": "This video is part of an online course, Intro to Algorithms. Check out the course here: https://www.udacity.com/course/cs215.",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/AfYqN3fGapc/default.jpg",
+      "url": "https://i.ytimg.com/vi/adXd7cUHWw4/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/AfYqN3fGapc/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/adXd7cUHWw4/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/AfYqN3fGapc/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/adXd7cUHWw4/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "mycodeschool",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/uwSPDrPj3DrX0DAlWnUri-CTYhI\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "1qEKb2dsuxs"
-   },
-   "snippet": {
-    "publishedAt": "2016-12-27T17:59:44.000Z",
-    "channelId": "UClgRi4lVULldpEXuWVW5w3Q",
-    "title": "Graphs-Adjacency List Representation in C (part 1)",
-    "description": "This video describes the Adjacency List Representation of Graphs. In the next video,C-Code has been described for it's Representation. Here's the Link ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/1qEKb2dsuxs/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/1qEKb2dsuxs/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/1qEKb2dsuxs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "himanshu jhamb",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/EVfeCwuU49UZ4gNB4rt9Surxnoc\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "c8P9kB1eun4"
-   },
-   "snippet": {
-    "publishedAt": "2016-04-27T05:44:58.000Z",
-    "channelId": "UCSX3MR0gnKDxyXAyljWzm0Q",
-    "title": "Graph Data Structure 1. Terminology and Representation (algorithms)",
-    "description": "This is the first in a series of videos about the graph data structure. It mentions the applications of graphs, defines various terminology associated with graphs, ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/c8P9kB1eun4/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/c8P9kB1eun4/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/c8P9kB1eun4/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Kevin Drumm",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/G0egEAr973va9SFxg0Qn-NLvHCs\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "p_MFcWeabKQ"
-   },
-   "snippet": {
-    "publishedAt": "2017-06-04T15:49:31.000Z",
-    "channelId": "UC9Gyk36mOzKWPnKd5pfqc2w",
-    "title": "Cut vertex in a graph",
-    "description": "A school course in computer science.",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/p_MFcWeabKQ/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/p_MFcWeabKQ/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/p_MFcWeabKQ/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Shri Ram Programming Academy",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/vj8lXcx8HlVhzDp5nxqvCSGvMQc\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "2guA5uMEmZQ"
-   },
-   "snippet": {
-    "publishedAt": "2008-04-02T22:35:34.000Z",
-    "channelId": "UCK6vXsCPyNkpUJjrkP1GI4Q",
-    "title": "Graph Implementations",
-    "description": "Graph ADT how-to - representing a graph as an: - Adjacency Matrix - Adjacency List This video is distributed under the Creative Commons Attribution 2.5 ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/2guA5uMEmZQ/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/2guA5uMEmZQ/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/2guA5uMEmZQ/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "distanceedjohn",
+    "channelTitle": "Udacity",
     "liveBroadcastContent": "none"
    }
   },
@@ -736,100 +769,67 @@
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/XVS-dFnlFrrAQmANX2yFSiTxUxk\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/1I3pPKpBb9k78JVstdmqU87z8xI\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "L0C_D68E1Q0"
+    "videoId": "LC608fvb1cQ"
    },
    "snippet": {
-    "publishedAt": "2014-10-29T18:10:29.000Z",
-    "channelId": "UCVNhleH4a-CbGR7gsj8ED9A",
-    "title": "Week 3: Gephi - An Introduction Tour",
-    "description": "Dragan Gasevic gives an introductory tour of Gephi for week 3 of DALMOOC.",
+    "publishedAt": "2017-05-23T02:37:06.000Z",
+    "channelId": "UCiDq5JtTRG6Yaa1tX4KHJng",
+    "title": "03   Undirected Graphs   Depth First Search",
+    "description": "",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/L0C_D68E1Q0/default.jpg",
+      "url": "https://i.ytimg.com/vi/LC608fvb1cQ/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/L0C_D68E1Q0/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/LC608fvb1cQ/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/L0C_D68E1Q0/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/LC608fvb1cQ/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Data Analytics and Learning MOOC",
+    "channelTitle": "Anass El Adraoui",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/hg4gL4XFEjljInzuMG9jbElKXWI\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/QGTHxVs-07M-j7VXZSxEk0fCHwQ\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "yXx15KamNR0"
+    "videoId": "thLQYBlz2DM"
    },
    "snippet": {
-    "publishedAt": "2014-02-22T17:26:39.000Z",
-    "channelId": "UCZSfwNcYIpqO8B9wnBg4HWA",
-    "title": "Programming Interview: Graph Representation using Adjacency List in C++ STL Vector List (1)",
-    "description": "This video lecture is produced by S. Saurabh. He is B.Tech from IIT and MS from USA. How will you represent a graph using adjacency list using C++ STL vector ...",
+    "publishedAt": "2017-07-24T15:30:01.000Z",
+    "channelId": "UC0RhatS1pyxInC00YKjjBqQ",
+    "title": "Bridges in a Graph | GeeksforGeeks",
+    "description": "Find Complete Code at GeeksforGeeks Article: http://www.geeksforgeeks.org/bridge-in-a-graph/ Soundtrack: Oxygen Garden by Chris Zabriskie This video is ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/yXx15KamNR0/default.jpg",
+      "url": "https://i.ytimg.com/vi/thLQYBlz2DM/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/yXx15KamNR0/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/thLQYBlz2DM/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/yXx15KamNR0/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/thLQYBlz2DM/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "saurabhschool",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/LLnO_S1NMYHn9Gxa30mdNb4wuGg\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "ya-R_75BrLA"
-   },
-   "snippet": {
-    "publishedAt": "2016-08-06T06:50:14.000Z",
-    "channelId": "UCFWCFYvqnAMT-jcCqTp_SlA",
-    "title": "Sparse Matrix(2d-array): Linked List Representation",
-    "description": "Please Like and Subscribe.",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/ya-R_75BrLA/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/ya-R_75BrLA/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/ya-R_75BrLA/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "University Academy- Formerly-IP University CSE/IT",
+    "channelTitle": "GeeksforGeeks",
     "liveBroadcastContent": "none"
    }
   }
