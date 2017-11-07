@@ -1,500 +1,302 @@
 {
  "kind": "youtube#searchListResponse",
- "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/7ybSVYNeg0ERMGORoPBQUVTD_Cc\"",
- "nextPageToken": "CBkQAA",
+ "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/oESnwjFyjY7pkNhxAG1aBxma_Ho\"",
+ "nextPageToken": "CDEQAA",
  "regionCode": "IN",
  "pageInfo": {
-  "totalResults": 239,
-  "resultsPerPage": 25
+  "totalResults": 104,
+  "resultsPerPage": 49
  },
  "items": [
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/8jJjhFHc0iecYMIgVpWWmHuB-ug\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/XtNet9g4U12SXqiO77Wv7QyDxjw\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "AfYqN3fGapc"
+    "videoId": "4u754QUyZZI"
    },
    "snippet": {
-    "publishedAt": "2014-09-16T13:02:07.000Z",
-    "channelId": "UClEEsT7DkdVO_fkrBw0OTrA",
-    "title": "Data structures: Properties of Graphs",
-    "description": "See complete series on data structures here: http://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P In this lesson, we have ...",
+    "publishedAt": "2012-05-15T14:04:15.000Z",
+    "channelId": "UCjbU8YFYBZAHAIVxY-OBaAQ",
+    "title": "Quantum Algorithms for the k-distinctness Problem - Aleksandrs Belovs",
+    "description": "University of Latvia PhD student, Aleksandrs Belovs lectures on quantum algorithms for the k-distinctness problem during the \"Recent Progress in Quantum ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/AfYqN3fGapc/default.jpg",
+      "url": "https://i.ytimg.com/vi/4u754QUyZZI/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/AfYqN3fGapc/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/4u754QUyZZI/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/AfYqN3fGapc/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/4u754QUyZZI/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "mycodeschool",
+    "channelTitle": "Institute for Quantum Computing",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/j3MV3WGYCpkR0gOjSnxUIsP-TqI\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/szsofUB49ldHzxXo_54uGhvDB6k\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "82zlRaRUsaY"
+    "videoId": "GLuQnhYXC9s"
    },
    "snippet": {
-    "publishedAt": "2015-04-18T15:00:00.000Z",
-    "channelId": "UCutCcajxhR33k9UR-DdLsAQ",
-    "title": "Graph Theory Overview",
-    "description": "Follow along with the course eBook: https://goo.gl/hhChUL See the full course: http://complexitylabs.io/courses In this lecture, we start to lay down some of our ...",
+    "publishedAt": "2012-05-15T14:06:23.000Z",
+    "channelId": "UCjbU8YFYBZAHAIVxY-OBaAQ",
+    "title": "Quantum algorithm for deciding st-connectivity - Ben Reichardt",
+    "description": "IQC Faculty member Ben Reichardt lectures on quantum algorithms for deciding st-connectivity during the \"Recent Progress in Quantum Algorithms\" conference.",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/82zlRaRUsaY/default.jpg",
+      "url": "https://i.ytimg.com/vi/GLuQnhYXC9s/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/82zlRaRUsaY/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/GLuQnhYXC9s/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/82zlRaRUsaY/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/GLuQnhYXC9s/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Complexity Labs",
+    "channelTitle": "Institute for Quantum Computing",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/gonY_q8t46B1ez5JKylpxvd4I9s\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/X5_-obqzqF6GkPXeVFMigOpDZHY\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "mVWn8k49mAQ"
+    "videoId": "Nw99mIDzQPg"
    },
    "snippet": {
-    "publishedAt": "2016-06-20T16:16:40.000Z",
-    "channelId": "UC4EX8zLiBUalk704IX_zu1Q",
-    "title": "Graph Theory in Data Structure(Hindi, English) with Example",
-    "description": "Graph Theory in Data Structure(Hindi, English) with Example for students of IP University Delhi and Other Universities, Engineering, MCA, BCA, B.Sc, M.Sc ...",
+    "publishedAt": "2012-05-15T14:01:58.000Z",
+    "channelId": "UCjbU8YFYBZAHAIVxY-OBaAQ",
+    "title": "Recent Progress in Quantum Algorithms Conference — Waterloo, April 2012",
+    "description": "One of the main goals of Quantum Computation is to design novel methods for speeding up computations by taking advantage of the surprising effects of ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/mVWn8k49mAQ/default.jpg",
+      "url": "https://i.ytimg.com/vi/Nw99mIDzQPg/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/mVWn8k49mAQ/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/Nw99mIDzQPg/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/mVWn8k49mAQ/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/Nw99mIDzQPg/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Easy Engineering Classes",
+    "channelTitle": "Institute for Quantum Computing",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/aLN7oaJ_6wDFJjCXZ76sERqcXSw\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/f5p2zLPZSN0diDjv-iN3e_7R6Ic\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "gXgEDyodOJU"
+    "videoId": "1sQRSmHtC64"
    },
    "snippet": {
-    "publishedAt": "2014-09-02T11:25:00.000Z",
-    "channelId": "UClEEsT7DkdVO_fkrBw0OTrA",
-    "title": "Data structures: Introduction to graphs",
-    "description": "See complete series on data structures here: http://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P In this lesson, we have ...",
+    "publishedAt": "2013-05-16T11:38:45.000Z",
+    "channelId": "UCh1FFMxOpPg8Yzl0DookL0w",
+    "title": "Aleksandrs Belovs \"Proving lower bounds for quantum algorithms\"",
+    "description": "Aleksandrs Belovs (Latvijas Universitāte) referāts \"Proving lower bounds for quantum algorithms\". Proving lower bounds on the query complexity of ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/gXgEDyodOJU/default.jpg",
+      "url": "https://i.ytimg.com/vi/1sQRSmHtC64/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/gXgEDyodOJU/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/1sQRSmHtC64/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/gXgEDyodOJU/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/1sQRSmHtC64/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "mycodeschool",
+    "channelTitle": "Latvijas Universitāte",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/nU2_6v08fHXrIc3xkbRaBIzoigI\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/Qfg74syyUL7_UihFiJoR-_Z4hVA\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "aGj1Q3ECUSg"
+    "videoId": "N9BuArGFqjU"
    },
    "snippet": {
-    "publishedAt": "2017-05-23T02:39:36.000Z",
-    "channelId": "UCiDq5JtTRG6Yaa1tX4KHJng",
-    "title": "05   Undirected Graphs   Connected Components",
+    "publishedAt": "2012-05-15T14:07:58.000Z",
+    "channelId": "UCjbU8YFYBZAHAIVxY-OBaAQ",
+    "title": "Quantum query complexity: Adversaries, polynomials and direct product theorems - Jérémie Roland",
+    "description": "Jérémie Roland of QuIC (Centre for Quantum Information and Communication, University of Brussels) lectures on quantum query complexity: Adversaries, ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/N9BuArGFqjU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/N9BuArGFqjU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/N9BuArGFqjU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Institute for Quantum Computing",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/pLqEUWUdbauUV4MU1xrWka4lrtE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "3Sl_nFQbLQA"
+   },
+   "snippet": {
+    "publishedAt": "2016-07-23T16:18:43.000Z",
+    "channelId": "UC_Oao2FYkLAUlUVkBfze4jg",
+    "title": "5   3   Collaborative Filtering 20 52",
     "description": "",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/aGj1Q3ECUSg/default.jpg",
+      "url": "https://i.ytimg.com/vi/3Sl_nFQbLQA/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/aGj1Q3ECUSg/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/3Sl_nFQbLQA/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/aGj1Q3ECUSg/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/3Sl_nFQbLQA/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Anass El Adraoui",
+    "channelTitle": "Mining Massive Datasets",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/KbuW1uwGwoAJZvFrRHjbesaWxRk\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/SrOuM9D2dzg0Pe2lddi8mTFGSSI\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "7uc1FdMJeqU"
+    "videoId": "4s4ZuHL4jcA"
    },
    "snippet": {
-    "publishedAt": "2014-04-14T07:36:29.000Z",
-    "channelId": "UCRX6j_Y9O1UXKg1cCkbxDOA",
-    "title": "undirected graphs",
-    "description": "Module 5: Networks. Review of basic definitions of undirected graphs.",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/7uc1FdMJeqU/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/7uc1FdMJeqU/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/7uc1FdMJeqU/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "VCE Further Maths",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/DK2BVA_iZW7Y6-yujzwLj4Gj51w\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "iaBEKo5sM7w"
-   },
-   "snippet": {
-    "publishedAt": "2013-02-17T18:52:48.000Z",
-    "channelId": "UCo7nlq2MgsmITlb0JTxuZ9w",
-    "title": "Depth First Search Algorithm",
-    "description": "This is one of the important Graph traversal technique. DFS is based on stack data structure. Analysis: The time complexity of DFS using Adjacency list is O(V + ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/iaBEKo5sM7w/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/iaBEKo5sM7w/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/iaBEKo5sM7w/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Go GATE IIT",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/68mahG4zjd-oDPusxAu-2LOIvS0\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "CnuMOVo3ViM"
-   },
-   "snippet": {
-    "publishedAt": "2016-05-31T16:09:18.000Z",
-    "channelId": "UCJ35rp81wkV39pVgNgphqMw",
-    "title": "DISCRETE MATHEMATICS- GRAPH THEORY LEC- 3",
-    "description": "DISCRETE MATHEMATICS- GRAPH THEORY LEC- 3 FOR STUDENTS OF BCA , MCA AND CBSE NET COMPUTER SCIENCETHIS VIDEO TELLS YOU ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/CnuMOVo3ViM/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/CnuMOVo3ViM/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/CnuMOVo3ViM/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "GATE and NET Computer Science video-lec",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/DsJSJVnK2uLUjqFoUvie5eeZ8Ss\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "rspFC527aYA"
-   },
-   "snippet": {
-    "publishedAt": "2014-12-08T22:54:25.000Z",
-    "channelId": "UCW1C2xOfXsIzPgjXyuhkw9g",
-    "title": "An Almost-Linear-Time Algorithm for Approximate Max Flow in Undirected Graphs, and its Multicom...",
-    "description": "Jon Kelner, Massachusetts Institute of Technology Fast Algorithms via Spectral Methods http://simons.berkeley.edu/talks/jon-kelner-2014-12-01.",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/rspFC527aYA/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/rspFC527aYA/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/rspFC527aYA/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Simons Institute",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/ke0bjCv3XcM_KsFyFILgTXIC0r0\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "n_t0a_8H8VY"
-   },
-   "snippet": {
-    "publishedAt": "2015-08-01T04:02:18.000Z",
-    "channelId": "UCZLJf_R2sWyUtXSKiKlyvAw",
-    "title": "Cycle in Undirected Graph Graph Algorithm",
-    "description": "Cycle in undirected graph using DFS and disjoint sets. https://www.facebook.com/tusharroy25 ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/n_t0a_8H8VY/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/n_t0a_8H8VY/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/n_t0a_8H8VY/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Tushar Roy - Coding Made Simple",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/C1mxsSE2Bj_VDIyXR3ejuH1G4Ow\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "iBQkZdPHlCs"
-   },
-   "snippet": {
-    "publishedAt": "2015-11-07T02:03:15.000Z",
-    "channelId": "UCleP-FrLBsyu33GUShi3XaQ",
-    "title": "Undirected Graphical Models",
-    "description": "Virginia Tech Machine Learning.",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/iBQkZdPHlCs/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/iBQkZdPHlCs/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/iBQkZdPHlCs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Bert Huang",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/Y2KmEiTnunRHC5bptvXB1Pn4adc\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "jMWKQElCOcs"
-   },
-   "snippet": {
-    "publishedAt": "2017-05-17T03:32:01.000Z",
-    "channelId": "UCYlBcA-4FnMkPoQJQSXENPg",
-    "title": "DM-48-Connected components problem",
+    "publishedAt": "2012-05-08T18:01:10.000Z",
+    "channelId": "UCTljjqqK572JIKdQXTZUyvg",
+    "title": "Multiplying Binomials Using a Matrix",
     "description": "",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/jMWKQElCOcs/default.jpg",
+      "url": "https://i.ytimg.com/vi/4s4ZuHL4jcA/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/jMWKQElCOcs/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/4s4ZuHL4jcA/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/jMWKQElCOcs/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/4s4ZuHL4jcA/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "GATE CS LECTURES BY GATE BOOK",
+    "channelTitle": "StricklerWMS",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/EkJq9xFUSGMaLSmnZRRg5cEIFLk\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/uD84H_R3LEQf00XbDo41eEyG7yE\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "y_TcGwX-cYE"
+    "videoId": "wjVue0uySQo"
    },
    "snippet": {
-    "publishedAt": "2016-07-30T09:22:55.000Z",
-    "channelId": "UCc5FkTYiWH5L3Gk5IyW6Rmw",
-    "title": "136. Directed and Undirected Graph (Hindi)",
-    "description": "Please Subscribe Channel Like, Share and Comment Visit : www.geekyshows.com.",
+    "publishedAt": "2015-11-27T10:23:57.000Z",
+    "channelId": "UCJsfNFNOZN-0l9I3bRiimVg",
+    "title": "Logical Framework Approach",
+    "description": "The result of the Logical Framework Approach (LFA) is a Project Planning Matrix (PPM), which shows the interrelation of the four hierarchical levels – overall ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/y_TcGwX-cYE/default.jpg",
+      "url": "https://i.ytimg.com/vi/wjVue0uySQo/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/y_TcGwX-cYE/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/wjVue0uySQo/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/y_TcGwX-cYE/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/wjVue0uySQo/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Geeky Shows",
+    "channelTitle": "iTStudy Hungary Kft.",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/YiEVfpNKCt7c0UFX1Yxu2jkM0wo\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/SydoK0hJtK7yGgRG9WqmwBmk970\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "U_Or-HcmFkw"
+    "videoId": "d0ADMmWPnig"
    },
    "snippet": {
-    "publishedAt": "2016-05-29T17:30:57.000Z",
-    "channelId": "UCJ35rp81wkV39pVgNgphqMw",
-    "title": "DISCRETE MATHEMATICS - GRAPH THEORY . PROBLEMS BASED ON GRAPH THEORY. LEC - 2",
-    "description": "DISCRETE MATHEMATICS - GRAPH THEORY . PROBLEMS BASED ON GRAPH THEORY. LEC - 2 THIS VIDEO TELLS YOU THE TYPES OF GRAPH AND ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/U_Or-HcmFkw/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/U_Or-HcmFkw/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/U_Or-HcmFkw/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "GATE and NET Computer Science video-lec",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/4cPxi4CJzTYjQ3p0ZtCjJrqYOYc\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "ZIIpZASD8OA"
-   },
-   "snippet": {
-    "publishedAt": "2016-08-04T13:41:06.000Z",
+    "publishedAt": "2016-10-12T15:49:31.000Z",
     "channelId": "UC8aRaZ6_0weiS50pvCmo0pw",
-    "title": "An Almost-Linear-Time Algorithm for Approximate Max Flow in Undirected Graphs... - Jonathan Kelner",
-    "description": "Jonathan Kelner Massachusetts Institute of Technology February 24, 2014 In this talk, I will describe a new framework for approximately solving flow problems in ...",
+    "title": "Canonical depth-three Boolean...and matrix rigidity - Oded Goldreich",
+    "description": "A Celebration of Mathematics and Computer Science Celebrating Avi Wigderson's 60th Birthday October 5 - 8, 2016 More videos on http://video.ias.edu.",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/ZIIpZASD8OA/default.jpg",
+      "url": "https://i.ytimg.com/vi/d0ADMmWPnig/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/ZIIpZASD8OA/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/d0ADMmWPnig/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/ZIIpZASD8OA/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/d0ADMmWPnig/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
@@ -505,331 +307,1321 @@
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/0Eb0U_6UNJX7tSrop10s3VBP-HY\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/nY2XQAMUtq-JUnQxaHFED-fRb90\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "hk5rQs7TQ7E"
+    "videoId": "ci4DNbQKeG8"
    },
    "snippet": {
-    "publishedAt": "2008-09-24T09:12:01.000Z",
-    "channelId": "UC640y4UvDAlya_WOj5U4pfA",
-    "title": "Lecture - 25 Data Structures for Graphs",
-    "description": "Lecture Series on Data Structures and Algorithms by Dr. Naveen Garg, Department of Computer Science and Engineering ,IIT Delhi. For more details on NPTEL ...",
+    "publishedAt": "2016-01-29T18:03:41.000Z",
+    "channelId": "UCSxsi2uNwmewgetIeveu8pQ",
+    "title": "Quantum graph",
+    "description": "Quantum graph In mathematics and physics, a quantum graph is a linear, network-shaped structure of vertices connected by bonds (or edges) with a differential ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/hk5rQs7TQ7E/default.jpg",
+      "url": "https://i.ytimg.com/vi/ci4DNbQKeG8/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/hk5rQs7TQ7E/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/ci4DNbQKeG8/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/hk5rQs7TQ7E/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/ci4DNbQKeG8/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "nptelhrd",
+    "channelTitle": "WikiAudio",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/4BcVkgRqrnM8IsUb72lBbeaGmqs\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/EpXLF03EmyfI9-bZn7HXKnoIwZQ\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "QRq6p9s8NVg"
+    "videoId": "IecbEbWdtBM"
    },
    "snippet": {
-    "publishedAt": "2013-02-17T19:10:48.000Z",
-    "channelId": "UCo7nlq2MgsmITlb0JTxuZ9w",
-    "title": "Breadth First Search Algorithm",
-    "description": "This is one of the important Graph traversal technique. BFS is based on Queue data structure. Analysis: The time complexity of BFS using Adjacency list is O(V + ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/QRq6p9s8NVg/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/QRq6p9s8NVg/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/QRq6p9s8NVg/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "Go GATE IIT",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/9hsLUcSfE6CXb71EllCUZWi05dQ\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "-9I7J2UTC-Q"
-   },
-   "snippet": {
-    "publishedAt": "2014-12-01T14:15:57.000Z",
-    "channelId": "UCjemse4CoLsKcVMaCZONDJg",
-    "title": "Directed graph",
-    "description": "Directed graph.",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/-9I7J2UTC-Q/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/-9I7J2UTC-Q/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/-9I7J2UTC-Q/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "jonmcire",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/0pdacH1isZPWQ6s3n51weMifiQg\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "ZdY1Fp9dKzs"
-   },
-   "snippet": {
-    "publishedAt": "2015-01-24T16:26:50.000Z",
-    "channelId": "UClEEsT7DkdVO_fkrBw0OTrA",
-    "title": "Graph Representation part 01 - Edge List",
-    "description": "See complete series on data structures here: http://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P In this lesson, we have ...",
-    "thumbnails": {
-     "default": {
-      "url": "https://i.ytimg.com/vi/ZdY1Fp9dKzs/default.jpg",
-      "width": 120,
-      "height": 90
-     },
-     "medium": {
-      "url": "https://i.ytimg.com/vi/ZdY1Fp9dKzs/mqdefault.jpg",
-      "width": 320,
-      "height": 180
-     },
-     "high": {
-      "url": "https://i.ytimg.com/vi/ZdY1Fp9dKzs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-     }
-    },
-    "channelTitle": "mycodeschool",
-    "liveBroadcastContent": "none"
-   }
-  },
-  {
-   "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/XuCFBG4e-bkzlBKwmlwBZ0delDQ\"",
-   "id": {
-    "kind": "youtube#video",
-    "videoId": "4Ih3UhVuEtw"
-   },
-   "snippet": {
-    "publishedAt": "2017-01-27T19:39:04.000Z",
-    "channelId": "UCH4s4ek5zqNvct5oy9_jd_g",
-    "title": "9   1   Graphs and Minimum Cuts 16 min",
+    "publishedAt": "2015-11-14T18:13:10.000Z",
+    "channelId": "UCzz-DKNFoRY4wpqxIEEiv2g",
+    "title": "Quantum Correlation: an Graph Theory Approach",
     "description": "",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/4Ih3UhVuEtw/default.jpg",
+      "url": "https://i.ytimg.com/vi/IecbEbWdtBM/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/4Ih3UhVuEtw/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/IecbEbWdtBM/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/4Ih3UhVuEtw/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/IecbEbWdtBM/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Stanford Algorithms",
+    "channelTitle": "Hu Li",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/tUb4HbFboZWtktEAMowMV9MnIUo\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/6oic5Ce-5I085c20wx_4ifADPKs\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "x0RKKsg0B5o"
+    "videoId": "onSyW44OnxA"
    },
    "snippet": {
-    "publishedAt": "2017-03-24T15:09:33.000Z",
-    "channelId": "UCXEnJBeaJx3P87A_UfZpd0Q",
-    "title": "08A Directed & Undirected Networks",
-    "description": "In this video, I'll talk about directed and undirected networks. ---------------------------------------- Smart Energy Operations Research Lab (SEORL): ...",
+    "publishedAt": "2013-05-30T19:03:33.000Z",
+    "channelId": "UCEhBM2x5MG9-e_JSOzU068w",
+    "title": "Math for Game Developers - Updated Bullet Collisions Part 2 (Matrix Inversions)",
+    "description": "wherein we develop an inverse matrix that will take us from global back to local coordinate spaces, so that we can do our bullet collisions with axis aligned ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/x0RKKsg0B5o/default.jpg",
+      "url": "https://i.ytimg.com/vi/onSyW44OnxA/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/x0RKKsg0B5o/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/onSyW44OnxA/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/x0RKKsg0B5o/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/onSyW44OnxA/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Yong Wang",
+    "channelTitle": "Jorge Rodriguez",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/P6__AxHKKOVvxjBohTsMKl9MGC8\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/zadiUy0q26TvxfLNpn1-uGlMqdI\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "adXd7cUHWw4"
+    "videoId": "9ldWOGCKPmQ"
    },
    "snippet": {
-    "publishedAt": "2015-02-23T20:56:55.000Z",
-    "channelId": "UCBVCi5JbYmfG3q5MEuoWdOw",
-    "title": "Connected Components - Intro to Algorithms",
-    "description": "This video is part of an online course, Intro to Algorithms. Check out the course here: https://www.udacity.com/course/cs215.",
+    "publishedAt": "2016-02-11T04:53:21.000Z",
+    "channelId": "UCCUr096WDp86n62CXBeHlQw",
+    "title": "Application of graph theoretic quantum system modelling to complex systems_132 Dr Vishal Sahni",
+    "description": "Project Name:Quantum and Nano Computing Virtual centre Project Investigator: Dr. Vishal Sahni (DEI)",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/adXd7cUHWw4/default.jpg",
+      "url": "https://i.ytimg.com/vi/9ldWOGCKPmQ/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/adXd7cUHWw4/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/9ldWOGCKPmQ/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/adXd7cUHWw4/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/9ldWOGCKPmQ/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Udacity",
+    "channelTitle": "Vidya-mitra",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/4QYGZimkMYVmTwKeV3lMIBpPfFs\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/8kL94ExsC3q8vob29sVQfY00EJ0\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "eEQ00TKw1Ww"
+    "videoId": "Evv5yDZ5MoI"
    },
    "snippet": {
-    "publishedAt": "2013-05-31T23:39:08.000Z",
-    "channelId": "UC3QLHt6mHfmg4x_h2am7ecg",
-    "title": "Graphs - Types and Representation",
-    "description": "This video introduces graphs, used in computing to store and manipulate networks--of people, computers, cities, etc. The lesson goes over the different kinds of ...",
+    "publishedAt": "2016-08-28T19:01:07.000Z",
+    "channelId": "UCzzX3aRVSwbibplmiwJ3ujg",
+    "title": "LECTURE 19 DATASTRUCTURES GRAPHS AN INTRODUCTION ADJACENCY LIST AND MATRICES PART 2 IN HINDI",
+    "description": "DATASTRUCTURES GRAPHS AN INTRODUCTION ADJACENCY LIST AND MATRICES.",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/eEQ00TKw1Ww/default.jpg",
+      "url": "https://i.ytimg.com/vi/Evv5yDZ5MoI/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/eEQ00TKw1Ww/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/Evv5yDZ5MoI/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/eEQ00TKw1Ww/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/Evv5yDZ5MoI/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Sesh Venugopal",
+    "channelTitle": "LearnForIndians",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/1I3pPKpBb9k78JVstdmqU87z8xI\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/5Xu6lrJATUc2Iq5tDnOb-Pe8h6E\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "LC608fvb1cQ"
+    "videoId": "EseGFaS-Hak"
    },
    "snippet": {
-    "publishedAt": "2017-05-23T02:37:06.000Z",
-    "channelId": "UCiDq5JtTRG6Yaa1tX4KHJng",
-    "title": "03   Undirected Graphs   Depth First Search",
+    "publishedAt": "2015-06-02T20:57:28.000Z",
+    "channelId": "UC4zEZnN27ENtoOhHAZv17mg",
+    "title": "Boolean Logic Matrix",
+    "description": "The Boolean Logic Matrix accepts gate signals on each of its axes. A logic operation is performed and a processed signal output at the XY coordinates of the ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/EseGFaS-Hak/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/EseGFaS-Hak/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/EseGFaS-Hak/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Brendan Byrne",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/RqvtS_ALkc7iH035-ncJu5gXEbE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "cukg_78VuoE"
+   },
+   "snippet": {
+    "publishedAt": "2015-05-20T10:23:40.000Z",
+    "channelId": "UCCUr096WDp86n62CXBeHlQw",
+    "title": "Graph theoretic quantum_85 Ms Dayal Pyari Srivastava",
+    "description": "Project Name:Quantum and Nano Computing Virtual centre Project Investigator: Dr. Vishal Sahni (DEI)",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/cukg_78VuoE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/cukg_78VuoE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/cukg_78VuoE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Vidya-mitra",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/p4h2og1shkdK_w2fxLDghbsebeU\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Ma1KqIHw1w0"
+   },
+   "snippet": {
+    "publishedAt": "2016-01-31T01:45:49.000Z",
+    "channelId": "UCfw8ePdku7dWV-Nu94YJvsA",
+    "title": "Quantum graph Top  #5 Facts",
     "description": "",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/LC608fvb1cQ/default.jpg",
+      "url": "https://i.ytimg.com/vi/Ma1KqIHw1w0/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/LC608fvb1cQ/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/Ma1KqIHw1w0/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/LC608fvb1cQ/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/Ma1KqIHw1w0/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "Anass El Adraoui",
+    "channelTitle": "Rishika Janaki",
     "liveBroadcastContent": "none"
    }
   },
   {
    "kind": "youtube#searchResult",
-   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/QGTHxVs-07M-j7VXZSxEk0fCHwQ\"",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/pcBYTx4Zj8V7B95uWUWs30uh4aA\"",
    "id": {
     "kind": "youtube#video",
-    "videoId": "thLQYBlz2DM"
+    "videoId": "kaS7OFAm-6M"
    },
    "snippet": {
-    "publishedAt": "2017-07-24T15:30:01.000Z",
-    "channelId": "UC0RhatS1pyxInC00YKjjBqQ",
-    "title": "Bridges in a Graph | GeeksforGeeks",
-    "description": "Find Complete Code at GeeksforGeeks Article: http://www.geeksforgeeks.org/bridge-in-a-graph/ Soundtrack: Oxygen Garden by Chris Zabriskie This video is ...",
+    "publishedAt": "2015-10-06T17:11:08.000Z",
+    "channelId": "UCWR9jfDYZXNBP8kirwFaqQw",
+    "title": "Mark Zhandry: Quantum Query Solvability: A Refinement of Quantum Query Complexity and Applications",
+    "description": "Mark Zhandry (Stanford University) Quantum Query Solvability: A Refinement of Quantum Query Complexity and Applications QuICS Workshop on the Frontiers ...",
     "thumbnails": {
      "default": {
-      "url": "https://i.ytimg.com/vi/thLQYBlz2DM/default.jpg",
+      "url": "https://i.ytimg.com/vi/kaS7OFAm-6M/default.jpg",
       "width": 120,
       "height": 90
      },
      "medium": {
-      "url": "https://i.ytimg.com/vi/thLQYBlz2DM/mqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/kaS7OFAm-6M/mqdefault.jpg",
       "width": 320,
       "height": 180
      },
      "high": {
-      "url": "https://i.ytimg.com/vi/thLQYBlz2DM/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/kaS7OFAm-6M/hqdefault.jpg",
       "width": 480,
       "height": 360
      }
     },
-    "channelTitle": "GeeksforGeeks",
+    "channelTitle": "QuICS",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/SMl-uiV-A97Idt-PbEbMl1_8aOo\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "qRoAInXxgtc"
+   },
+   "snippet": {
+    "publishedAt": "2016-01-25T03:00:16.000Z",
+    "channelId": "UCIxhvE4rZl9tMmiusLBOM9Q",
+    "title": "GraphDayTexas 2016 Talks: Dr. Marko A. Rodriguez Quantum Processes in Graph Computing",
+    "description": "Dr. Marko A. Rodriguez talks about modeling quantum processes using graph computing.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/qRoAInXxgtc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/qRoAInXxgtc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/qRoAInXxgtc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Global Data Geeks",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/pj4aB7vBQsi6g_D2Z_C5t0CEulo\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "OdsKfWBjvqw"
+   },
+   "snippet": {
+    "publishedAt": "2013-05-23T03:01:50.000Z",
+    "channelId": "UCVNQER2qys9kHQEhST1i62Q",
+    "title": "Chemistry-Chemical equilibrium(rate of chemical reactions)-Lesson (2)-Hesham Allam",
+    "description": "Rate of chemical reactions graphs illustrating them with many examples.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/OdsKfWBjvqw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/OdsKfWBjvqw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/OdsKfWBjvqw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Hesham Allam",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/o0BBe5mK4bVBPr89TW3_iXJ7MGE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "iCaMKH0OEOk"
+   },
+   "snippet": {
+    "publishedAt": "2015-09-13T05:23:39.000Z",
+    "channelId": "UC_2iCm3U4JZivSkuukfwpZw",
+    "title": "MATRIX FRAME for front gates",
+    "description": "The MATRIX FRAME is a plug and play system which can be easily installed in every organization without the need of replacing proximity tags or complex ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/iCaMKH0OEOk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/iCaMKH0OEOk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/iCaMKH0OEOk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "MATRIX SMART CABINET",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/7m0Ly13KVgDvhdIJygh2gWSlymo\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Dka96mKnm9U"
+   },
+   "snippet": {
+    "publishedAt": "2017-09-06T02:45:33.000Z",
+    "channelId": "UCe3HfH-xCEDGU-XrOhMzgkA",
+    "title": "Exclusivity graphs from quantum graph states – and mixed graph generalisations",
+    "description": "Discrete Math 세미나 Exclusivity graphs from quantum graph states – and mixed graph generalisations / Matthew G. Parker (University of Bergen, Norway) ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Dka96mKnm9U/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Dka96mKnm9U/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Dka96mKnm9U/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Mathnet Korea",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/Fsk49lyIXSCBqJu0nGaRCfP9Rdw\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "cwKzidG6SUU"
+   },
+   "snippet": {
+    "publishedAt": "2016-03-15T08:32:32.000Z",
+    "channelId": "UCPhLx9zU8BCdZuG0wIa_S3Q",
+    "title": "Lower bounds on the size of semidefinite programming relaxations (2)",
+    "description": "Speaker: James R. Lee, University of Washington, USA This is the second in a four-part lecture series delivered at the National University of Singapore in ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/cwKzidG6SUU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/cwKzidG6SUU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/cwKzidG6SUU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Centre for Quantum Technologies",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/ggIWkkJvlSqFSVFWolRj_1bwKOI\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "B5unvnMvQ-4"
+   },
+   "snippet": {
+    "publishedAt": "2015-10-27T02:10:17.000Z",
+    "channelId": "UCiHKl8-dJedayGe3fQ2wbzQ",
+    "title": "Stacey Jeffery - Quantum homomorphic encryption for circuits of low T-gate complexity",
+    "description": "Contributed Talk 8 by Stacey Jeffery at 5th International Conference on Quantum Cryptography (QCrypt 2015) in Hitotsubashi Hall, Tokyo, September 29th, 2015 ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/B5unvnMvQ-4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/B5unvnMvQ-4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/B5unvnMvQ-4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "QCrypt 2015",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/aKNJpsf-H1VnSGjKuq8hp0iTuyc\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "os2Bu4DVLkg"
+   },
+   "snippet": {
+    "publishedAt": "2012-05-01T16:29:01.000Z",
+    "channelId": "UC7qaZ5pg0l0cDKb1y4yhHRQ",
+    "title": "Terry Rudolph: \"Quantum computing and matrix permanents\"",
+    "description": "Speaker: Terry Rudolph (Imperial College London) Title: Quantum computing and matrix permanents Event: Quantum Physics and Logic 2008 (July 2008, ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/os2Bu4DVLkg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/os2Bu4DVLkg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/os2Bu4DVLkg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "OxfordQuantumVideo",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/JU2U5Hg4z2Y1taMa8tt215PD8p0\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "FqsNgJm_eLE"
+   },
+   "snippet": {
+    "publishedAt": "2012-06-04T12:29:22.000Z",
+    "channelId": "UCjbU8YFYBZAHAIVxY-OBaAQ",
+    "title": "The Academic Challenge for Quantum Computation - Dr. Christopher Monroe",
+    "description": "IQC scientific advisor Dr. Christopher Monroe, professor at the University of Maryland discusses the academic challenge facing quantum computation.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/FqsNgJm_eLE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/FqsNgJm_eLE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/FqsNgJm_eLE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Institute for Quantum Computing",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/AY-PG7v2gIi5dBrFcew7Bf95CTo\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "RQw3_MXEitM"
+   },
+   "snippet": {
+    "publishedAt": "2011-11-01T20:10:47.000Z",
+    "channelId": "UCjbU8YFYBZAHAIVxY-OBaAQ",
+    "title": "Authentication - Stacey Jeffery - QCSYS 2011",
+    "description": "IQC Masters student Stacey Jeffery lectures on the concepts and importance of authentication in crypto systems.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/RQw3_MXEitM/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/RQw3_MXEitM/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/RQw3_MXEitM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Institute for Quantum Computing",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/8pUuzKr7Gzs5S3M1_eY9LGRLSsw\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "pKpgGcrKvUA"
+   },
+   "snippet": {
+    "publishedAt": "2015-10-27T02:28:54.000Z",
+    "channelId": "UCiHKl8-dJedayGe3fQ2wbzQ",
+    "title": "Dominique Unruh - Non-interactive zero-knowledge proofs in the quantum random oracle model",
+    "description": "Contributed Talk 9 by Dominique Unruh at 5th International Conference on Quantum Cryptography (QCrypt 2015) in Hitotsubashi Hall, Tokyo, September 29th, ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/pKpgGcrKvUA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/pKpgGcrKvUA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/pKpgGcrKvUA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "QCrypt 2015",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/sTdk3Vcyosx9ud1Q0DRO06PqL9c\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "luusJuDeHSI"
+   },
+   "snippet": {
+    "publishedAt": "2015-01-14T20:12:07.000Z",
+    "channelId": "UCB330N22EXjq81Kr0UH7HLQ",
+    "title": "Multiplication Facts",
+    "description": "My class has some tips for becoming a \"Multiplication Master!\"",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/luusJuDeHSI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/luusJuDeHSI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/luusJuDeHSI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Karen Mensing",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/wo_rNuxEJxm_uDX3meKVWaDUFvU\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "GdRLoT-mANk"
+   },
+   "snippet": {
+    "publishedAt": "2016-02-16T19:34:56.000Z",
+    "channelId": "UCzmk-rGeX1siWh6tUx6IJ2Q",
+    "title": "Jan 11 Andris Ambainis.\"Separations in query complexity based on pointer functions\" (Part 1)",
+    "description": "QIP 2016, Banff, 10-16 January 2016 Plenary Talk Date: 11 Jan 2016 Title: \"Separations in query complexity based on pointer functions\" Authors: Andris ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/GdRLoT-mANk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/GdRLoT-mANk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/GdRLoT-mANk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Iqst Ucalgary",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/46mKvnNDC43hh4-F-JtSdxBfn9E\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Zc2-Lpsy7OI"
+   },
+   "snippet": {
+    "publishedAt": "2015-05-01T01:32:38.000Z",
+    "channelId": "UCDNFXjmv8e4CGIAjq_z9SvA",
+    "title": "SSSS Final Project Video",
+    "description": "CS51 Final Project - Shamir's Secret Sharing Scheme April 29, 2015 Jonathan Penney Jared Faucher.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Zc2-Lpsy7OI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Zc2-Lpsy7OI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Zc2-Lpsy7OI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "jpenney28",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/lq_k6MO4MoG_0SOoFLkIwfdxCII\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "uljeNBBEMQk"
+   },
+   "snippet": {
+    "publishedAt": "2013-05-06T13:04:02.000Z",
+    "channelId": "UC35zUUM68FyMnwUcI81I8wQ",
+    "title": "Upper and Lower Bounds: Dividing",
+    "description": "How to divide with upper and lower bounds. Combining upper and lower bounds in the denominator and numerator. Featuring mass, density and volume, ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/uljeNBBEMQk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/uljeNBBEMQk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/uljeNBBEMQk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "BespokeEducation",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/zzDMIe62icDdWlunBSW6Sn47hlk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "26d8pQzrg9U"
+   },
+   "snippet": {
+    "publishedAt": "2016-02-16T23:53:45.000Z",
+    "channelId": "UCzmk-rGeX1siWh6tUx6IJ2Q",
+    "title": "Jan 13 Stacey Jeffery.\"Quantum homomorphic encryption for circuits of low T-gate complexity\" (Part1)",
+    "description": "QIP 2016, Banff, 10-16 January 2016 Date: Jan 13 2016 Authors: Anne Broadbent and Stacey Jeffery Title: Quantum homomorphic encryption for circuits of low ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/26d8pQzrg9U/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/26d8pQzrg9U/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/26d8pQzrg9U/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Iqst Ucalgary",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/pE2qdZ8PCmzMAcHvPKfYNjSukdM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "dXS3M8fhRII"
+   },
+   "snippet": {
+    "publishedAt": "2014-05-01T21:35:39.000Z",
+    "channelId": "UCW1C2xOfXsIzPgjXyuhkw9g",
+    "title": "Walking Graph States: General Ansatz for Non-equilibrium Density Operators of Quantum Chains",
+    "description": "Tomaz Prosen, University of Ljubljana Tensor Networks and Simulations http://simons.berkeley.edu/talks/tomaz-prosen-2014-04-23.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/dXS3M8fhRII/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/dXS3M8fhRII/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/dXS3M8fhRII/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Simons Institute",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/amVnkaN__zpY60tUSELCHhWlkMQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Of4NKYsN0Yg"
+   },
+   "snippet": {
+    "publishedAt": "2015-06-11T07:34:03.000Z",
+    "channelId": "UC8LRMfue8TUns7RA-Vny-QQ",
+    "title": "Frédéric R. - Témoignage d'un client débutant de Perceval Finance",
+    "description": "Frédéric R., trader débutant, vient de finir ses formations au sein de Perceval Finance et profite du service La Salle des Marchés afin d'être suivi et de ne pas ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Of4NKYsN0Yg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Of4NKYsN0Yg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Of4NKYsN0Yg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Perceval Finance Conseil",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/3K2MSqMdiv7wIJfZZEcYbFDgrOc\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "8Vtzx58MRJQ"
+   },
+   "snippet": {
+    "publishedAt": "2015-09-30T03:20:46.000Z",
+    "channelId": "UCamA4oUImdGhkDv5lEnroMg",
+    "title": "Xtreme Binary Matrix",
+    "description": "OUR UNIQUE BINARY SYSTEM.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/8Vtzx58MRJQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/8Vtzx58MRJQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/8Vtzx58MRJQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Xtreme Evolution",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/LYpX0F5eKoMxacvJTKCvbHNhjZE\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "lqiYsmAkzDc"
+   },
+   "snippet": {
+    "publishedAt": "2011-11-01T17:46:54.000Z",
+    "channelId": "UCjbU8YFYBZAHAIVxY-OBaAQ",
+    "title": "Public Key Schemes - Stacey Jeffery - QCSYS 2011",
+    "description": "IQC Masters student Stacey Jeffery lectures on the concepts and applications of public key schemes.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/lqiYsmAkzDc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/lqiYsmAkzDc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/lqiYsmAkzDc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Institute for Quantum Computing",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/y_ka_gVk04ubQzT3fZe_L7DhR9Y\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Vq59mlYunKA"
+   },
+   "snippet": {
+    "publishedAt": "2013-01-16T19:33:08.000Z",
+    "channelId": "UC03JkcIx6jNK5IviHK6dT2A",
+    "title": "War and the Leviathan State | Robert Higgs",
+    "description": "The first full-scale war revisionism conference in the post Cold War epoch. Presented at the Ludwig von Mises Institute, Auburn, Alabama, May 1994.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Vq59mlYunKA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Vq59mlYunKA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Vq59mlYunKA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "LibertyInOurTime",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/J1d37YJRf92__bqMibiSJe1Sgvg\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "5Hqs1raUduY"
+   },
+   "snippet": {
+    "publishedAt": "2016-02-16T22:45:48.000Z",
+    "channelId": "UCzmk-rGeX1siWh6tUx6IJ2Q",
+    "title": "Jan12 Andris Ambainis.Forrelation: A Problem that Optimally Separates Quantum from Classical Comp..",
+    "description": "QIP 2016, Banff, 10-16 January 2016 Date: Jan 12 2016 Title: \"Forrelation: A Problem that Optimally Separates Quantum from Classical Computing\" Authors: ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/5Hqs1raUduY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/5Hqs1raUduY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/5Hqs1raUduY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Iqst Ucalgary",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/CIsSBfzfMJY9C7-dnnUEHAMRQMk\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "uRYwTc1Em8E"
+   },
+   "snippet": {
+    "publishedAt": "2012-05-31T06:15:57.000Z",
+    "channelId": "UCAzVE1csErV_ufPIkZo3t6A",
+    "title": "7 - Boolean Logic",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/uRYwTc1Em8E/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/uRYwTc1Em8E/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/uRYwTc1Em8E/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "JHU Matlab",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/tvjam5dmosy9W3LwF3oT_8jSBRM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "A139fuVuYlw"
+   },
+   "snippet": {
+    "publishedAt": "2015-09-15T21:44:55.000Z",
+    "channelId": "UCs1ESicNNgio3qeVOPYTpiw",
+    "title": "Collision Masters - Alley",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/A139fuVuYlw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/A139fuVuYlw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/A139fuVuYlw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "HomeRun Creative Services",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/Rw-ks5oCa5NSCZQF7kaHlGqdM2g\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "eaIcUEKdPtk"
+   },
+   "snippet": {
+    "publishedAt": "2015-03-07T02:19:46.000Z",
+    "channelId": "UCVajdVg1ptZr_QA6AvL0oYA",
+    "title": "Manifestation contre un prof de math",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/eaIcUEKdPtk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/eaIcUEKdPtk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/eaIcUEKdPtk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "TOP BEST VINES",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/wE5meyBIzlWSVuAw-Jx9uZxUVFQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "2HKCeXJXI58"
+   },
+   "snippet": {
+    "publishedAt": "2013-03-08T16:12:34.000Z",
+    "channelId": "UCwYC0Ph6W_6ft06BY0AMOEA",
+    "title": "University Rennes 1 - Interview with Frédéric Renouard",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/2HKCeXJXI58/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/2HKCeXJXI58/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/2HKCeXJXI58/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "EIT Digital Master School",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/IQgaTRHumahpcET9rDA5QY_vQX4\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "a84qLPJUV7k"
+   },
+   "snippet": {
+    "publishedAt": "2014-01-06T16:17:28.000Z",
+    "channelId": "UCc3KjPYmwnb7kasks9tPxTA",
+    "title": "9) Upper and Lower bounds",
+    "description": "9) Upper and Lower bounds.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/a84qLPJUV7k/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/a84qLPJUV7k/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/a84qLPJUV7k/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Oli Trussell",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/32B--WUahZKWDYylNqKawyHPLto\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "D7s4MXAIcsI"
+   },
+   "snippet": {
+    "publishedAt": "2015-05-10T14:00:01.000Z",
+    "channelId": "UCMlVBgkW-X982aGlDgMLGZg",
+    "title": "Collision Masters",
+    "description": "My Website: http://threesixteenfilms.com https://twitter.com/raymondrahner https://facebook.com/raymondrahnerfilms https://instagram.com/raymondrahn3r ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/D7s4MXAIcsI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/D7s4MXAIcsI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/D7s4MXAIcsI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Raymond Rahner",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/PH9ZVWFcoOJUoAwDlFDIyyXL4wQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "6PMG76MnJfg"
+   },
+   "snippet": {
+    "publishedAt": "2011-04-25T22:24:40.000Z",
+    "channelId": "UCY8jDqi-AsmocBDcDs0ltfw",
+    "title": "Decoherence and the emergence of classicality, Steve Weinstein",
+    "description": "We consider the claim that decoherence explains the emergence of classicality in quantum systems, and conclude that it cannot. We show that, given a universe ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/6PMG76MnJfg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/6PMG76MnJfg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/6PMG76MnJfg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Western University",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/04Xa872nXpDWWE1BTLZMISCwSbQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "svMHNTMmeSE"
+   },
+   "snippet": {
+    "publishedAt": "2012-09-17T14:31:50.000Z",
+    "channelId": "UC2SkFysGa2TopHPwXzBBLKw",
+    "title": "Continuous-Time Quantum Walk",
+    "description": "http://demonstrations.wolfram.com/ContinuousTimeQuantumWalk The Wolfram Demonstrations Project contains thousands of free interactive visualizations, with ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/svMHNTMmeSE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/svMHNTMmeSE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/svMHNTMmeSE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "wolframmathematica",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/LOB5lri9MCX585H2HWbrR_hFUTo\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "er-BN-bjZmI"
+   },
+   "snippet": {
+    "publishedAt": "2016-02-16T23:32:28.000Z",
+    "channelId": "UCzmk-rGeX1siWh6tUx6IJ2Q",
+    "title": "Jan 13 Stacey Jeffery.\"Quantum homomorphic encryption for circuits of low T-gate complexity\" (Part2)",
+    "description": "QIP 2016, Banff, 10-16 January 2016 Date: Jan 13 2016 Authors: Anne Broadbent and Stacey Jeffery Title: Quantum homomorphic encryption for circuits of low ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/er-BN-bjZmI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/er-BN-bjZmI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/er-BN-bjZmI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Iqst Ucalgary",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/ef-YC4GkLeOnMYlTkBmGq1YlHpM\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "zsmw8MyatI4"
+   },
+   "snippet": {
+    "publishedAt": "2014-05-29T20:19:43.000Z",
+    "channelId": "UC-iImxovAACdogbDn3jVQfw",
+    "title": "2014 PHP Programming - Using Boolean Expressions in If Statements part 1 of 2",
+    "description": "I created this video with the YouTube Video Editor ( http://adf.ly/beomy ) In this video, I talk about boolean expressions, the various types of binary comparison ...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/zsmw8MyatI4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/zsmw8MyatI4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/zsmw8MyatI4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "InstructionVideos",
     "liveBroadcastContent": "none"
    }
   }
